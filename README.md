@@ -4,11 +4,9 @@ Welcome to Metatron UI/UX Guide
 Publish
 ---
 - 기존 퍼블(Original) <https://metatron-app.github.io/metatron-uiux/origin/html/@index.html>
+<img width="300px" src="/guide/images/white.png" alt="White" title="White Thema"/>
 - 테마 작업중(Dark Thema) <https://metatron-app.github.io/metatron-uiux/dark/html/@index.html>
-
-<img style="float:left;width:40%;height:300px;" src="/guide/images/white.png" alt="White" title="White Thema"/>
-<img style="float:left;width:40%;height:300px;" src="/guide/images/dark.png" alt="Dark" title="Dark Thema"/>
-
+<img width="300px" src="/guide/images/dark.png" alt="Dark" title="Dark Thema"/>
 
 Introduction to Metatron UI/UX
 ---
