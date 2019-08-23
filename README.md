@@ -1,4 +1,4 @@
-Welcome to Metatron UI Guide
+Welcome to Metatron UI/UX Guide
 ==================================
 
 Publish
@@ -6,6 +6,7 @@ Publish
 - 기존 퍼블(Original) <https://metatron-app.github.io/metatron-uiux/origin/html/@index.html>
 - 테마 작업중(Dark Thema) <https://metatron-app.github.io/metatron-uiux/dark/html/@index.html>
 
+![Dark Thema](/guide/images/dark.png)
 
 Introduction to Metatron UI Components
 ---
