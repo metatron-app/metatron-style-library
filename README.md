@@ -6,7 +6,13 @@ Publish
 - 기존 퍼블(Original) <https://metatron-app.github.io/metatron-uiux/origin/html/@index.html>
 - 테마 작업중(Dark Thema) <https://metatron-app.github.io/metatron-uiux/dark/html/@index.html>
 
+![White Thema](/guide/images/white.png)
 ![Dark Thema](/guide/images/dark.png)
+
+
+Introduction to Metatron UI/UX
+---
+- 테마 변경 방법
 
 Introduction to Metatron UI Components
 ---
@@ -19,7 +25,6 @@ Introduction to Metatron UI Components
 - Loading
 - Table
 - More Button
-
 
 How to contribute to Metatron
 ---
