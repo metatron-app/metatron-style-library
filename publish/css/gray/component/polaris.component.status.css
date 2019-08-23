@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/**************************************************************
+  component Status
+**************************************************************/
+.component-status {display:inline-block; position:relative;}
+.component-status .txt-label {display:block; min-width:75px; padding:1px 8px 2px 8px; border:1px solid transparent; font-size:12px; line-height:17px; font-weight:bold; text-align:center; border-radius:4px; box-sizing:border-box;}
+
+.component-status.type-checkbox {cursor:pointer;}
+.component-status.type-checkbox > input {position:absolute; left:0; top:0; width:1px; height:1px; opacity:0;}
+.component-status.type-checkbox .txt-label:before {}
+
+
+.component-status.type-all .txt-label {border:1px solid #fff; color:#fff;}
+.component-status.type-abnormal .txt-label {border:1px solid #ff687a; color:#ff687a;}
+.component-status.type-danger .txt-label {border:1px solid #e9a73c; color:#e9a73c;}
+.component-status.type-normal .txt-label {border:1px solid #8cfd57; color:#8cfd57;}
+.component-status.type-prepared .txt-label {border:1px solid #b2b7c7; color:#b2b7c7;}
+
+.component-status.type-all input[type="checkbox"] + .txt-label {border:1px solid rgba(255, 255, 255, 0.2); color:#fff;}
+.component-status.type-abnormal input[type="checkbox"] + .txt-label {border:1px solid rgba(255, 104, 122, 0.2);; color:#ff687a;}
+.component-status.type-danger input[type="checkbox"] + .txt-label {border:1px solid rgba(233, 167, 60, 0.2); color:#e9a73c;}
+.component-status.type-normal input[type="checkbox"] + .txt-label {border:1px solid rgba(140, 253, 87, 0.2); color:#8cfd57;}
+.component-status.type-prepared input[type="checkbox"] + .txt-label {border:1px solid rgba(178, 183, 199, 0.2); color:#b2b7c7;}
+
+
+.component-status input + .txt-label {min-width:inherit; padding:0 8px 0 8px; font-size:10px;}
+.component-status.type-all:hover > input + .txt-label {border:1px solid rgba(255, 255, 255, 0.5); color:#fff;}
+.component-status.type-abnormal:hover > input + .txt-label {border:1px solid rgba(255, 104, 122, 0.5); color:#ff687a;}
+.component-status.type-danger:hover > input + .txt-label {border:1px solid rgba(233, 167, 60, 0.5); color:#e9a73c;}
+.component-status.type-normal:hover > input + .txt-label {border:1px solid rgba(140, 253, 87, 0.5); color:#8cfd57;}
+.component-status.type-prepared:hover > input + .txt-label {border:1px solid rgba(178, 183, 199, 0.5); color:#b2b7c7;}
+
+.component-status.type-all > input:checked + .txt-label {border-color:#fff; color:#fff;}
+.component-status.type-abnormal > input:checked + .txt-label {border-color:#ff687a; color:#ff687a;}
+.component-status.type-danger > input:checked + .txt-label {border-color:#e9a73c; color:#e9a73c;}
+.component-status.type-normal > input:checked + .txt-label {border-color:#8cfd57; color:#8cfd57;}
+.component-status.type-prepared > input:checked + .txt-label {border-color:#b2b7c7; color:#b2b7c7;}
+
+.component-status.type-abnormal input + .txt-label:before {background-position:-10px 0;}
+.component-status.type-danger input + .txt-label:before {background-position:-20px 0;}
+.component-status.type-normal input + .txt-label:before {background-position:-30px 0;}
+.component-status.type-prepared input + .txt-label:before {background-position:-40px 0;}
+.component-status input + .txt-label:before {display:inline-block; position:relative; top:-1px; width:9px; height:9px; margin-right:4px; background:url(../../../images/anm/icon_status_check.png) no-repeat; content:''; vertical-align:middle; opacity:0.2;}
+.component-status:hover input + .txt-label:before {opacity:0.5;}
+.component-status input:checked + .txt-label:before {opacity:1;}
+
+
+

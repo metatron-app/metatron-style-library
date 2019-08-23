@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body class="thema-black">
+<div class="ddp-pop-meta-detail">
+    <!-- popup -->
+    <div class="ddp-box-meta">
+        <a href="javascript:" class="ddp-btn-close"></a>
+
+        <!-- top -->
+        <div class="ddp-pop-top">
+            <!-- title -->
+            <div class="ddp-ui-title">
+                <span class="ddp-box-tag-value ddp-datasource">Database</span>
+                <span class="ddp-label-title">세일즈 데이터</span>
+                <!-- info -->
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-wrap-info">
+                    <em class="ddp-icon-info"></em>
+                    <div class="ddp-box-layout4 type-info">
+                        <a href="javascript:" class="ddp-icon-close"></a>
+                        <div class="ddp-data-title">
+                            Information
+                        </div>
+                        <div class="ddp-data-det">
+                            <table class="ddp-table-pop">
+                                <colgroup>
+                                    <col width="130px">
+                                    <col width="">
+                                </colgroup>
+                                <tbody>
+                                <tr>
+                                    <th>Data type</th>
+                                    <td>Datasource (My file)</td>
+                                </tr>
+                                <tr>
+                                    <th>Size</th>
+                                    <td>3.12 MB
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Data Range</th>
+                                    <td>yyyy-MM-dd ~ yyyy-MM-dd</td>
+                                </tr>
+                                <tr>
+                                    <th>Segment Granularity</th>
+                                    <td>DAY</td>
+                                </tr>
+                                <tr>
+                                    <th>Query Granularity</th>
+                                    <td>None</td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- //info -->
+                <em class="ddp-icon-control-fav ddp-selected"></em>
+                <div class="ddp-data-name">
+                    by <span class="ddp-txt-name">Admin</span>
+                    <em class="ddp-icon-control-fav "></em>
+                </div>
+            </div>
+            <!-- //title -->
+            <!-- right -->
+            <div class="ddp-right">
+                <a href="javascript:" class="ddp-btn-pop ">Edit data</a>
+                <a href="javascript:" class="ddp-btn-pop ddp-bg-black"><em class="ddp-icon-add2"></em>Make workbook</a>
+            </div>
+            <!-- //right -->
+
+        </div>
+        <!-- //top -->
+
+
+        <div class="ddp-detail-contents">
+            <!-- tab -->
+            <div class="ddp-wrap-tab">
+                <ul class="ddp-ui-tab ddp-clear">
+                    <li class="">
+                        <a href="javascript:">Oveview</a>
+                    </li>
+                    <li class="">
+                        <a href="javascript:">Columns</a>
+                    </li>
+                    <li class="ddp-selected">
+                        <a href="javascript:">Sample Data</a>
+                    </li>
+                    <li class="">
+                        <a href="javascript:">Lineage</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- //tab -->
+            <div class="ddp-wrap-tab-contents">
+                <div class="ddp-ui-tab-contents type-sampledata">
+                    <!-- info -->
+                    <div class="ddp-box-synch type-info">
+                        <div class="ddp-txt-synch">
+                            <em class="ddp-icon-info"></em>
+                            2019-12-12 00:00:00 The data structure has changed.
+                        </div>
+                        <a href="javascript:" class="ddp-btn-info-close"></a>
+                    </div>
+                    <!-- //info -->
+                    <div class="ddp-data-details ddp-ui-preview-contents ">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- //popup -->
+    <script>
+        $(function(){
+            $('.ddp-pop-select').click(function(){
+                $(this).addClass('ddp-selected');
+                var $popselectTop = $(this).offset().top;
+                var $popselectLeft = $(this).offset().left;
+                var $popHeight = $(this).find('.ddp-pop-fix').outerHeight();
+                $(this).find('.ddp-pop-fix').css('top',$popselectTop + 25);
+                $(this).find('.ddp-pop-fix').css('left',$popselectLeft);
+                if($(this).offset().top > $(window).outerHeight()/2){
+                    $(this).find('.ddp-pop-fix').css('top',$popselectTop - $popHeight);
+                }
+            });
+
+        })
+    </script>
+</div>
+
+</body>
+</html>

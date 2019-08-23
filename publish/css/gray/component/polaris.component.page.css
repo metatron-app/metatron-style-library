@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/**************************************************************
+  component Table
+**************************************************************/
+.thema-black .ddp-ui-page {overflow:hidden;}
+.thema-black .ddp-ui-page a.ddp-btn-prev,
+.thema-black .ddp-ui-page a.ddp-btn-next {display:inline-block; width:22px; height:22px; background:url(../../../images/anm/btn_page2.png) no-repeat;}
+.thema-black .ddp-ui-page a.ddp-btn-prev.ddp-disabled:hover {background-position:left top;}
+.thema-black .ddp-ui-page a.ddp-btn-next,
+.thema-black .ddp-ui-page a.ddp-btn-next.ddp-disabled:hover {background-position:-23px top;}
+.thema-black .ddp-ui-page a.ddp-btn-prev:hover,
+.thema-black .ddp-ui-page a.ddp-btn-next:hover {background-position-y:-23px;}
+.thema-black .ddp-ui-page span.ddp-data-page {color:#bec4d4;}
+
+.thema-black ul.ddp-list-typebasic li a .ddp-icon-plus {}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+/**************************************************************
+  component Layout popup
+**************************************************************/
+.thema-black .ddp-btn-widget {background-color: #1a78dd;}
+.thema-black .ddp-wrap-popup2 {border-radius:2px; border-color:transparent; background-color:#fff; box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.5);}
+.thema-black .ddp-wrap-popup2 .data-nodata {padding:10px 10px 10px 10px;color:#838897; font-size:12px;}
+.thema-black ul.ddp-list-popup li a {color:#4a515c;}
+.thema-black ul.ddp-list-popup li a:hover {background-color:#dbf5ff !important; color:#4a515c !important;}
+
+
+.thema-black ul.ddp-list-popup li a em.ddp-icon-check {background:url(../../../images/anm/icon_selected.png) no-repeat; background-position:-12px top;}
+.thema-black ul.ddp-list-popup li.ddp-selected a em.ddp-icon-check {background-position-x:-24px;}
+

@@ -1,0 +1,1345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/anm/import.anomaly.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body>
+<div class="ddp-type-contents ddp-resize2 ddp-type2 thema-black">
+
+    <!-- 닫기 버튼 -->
+    <a href="javascript:" class="ddp-btn-close"></a>
+    <!-- //닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2">
+            <!--<em class="ddp-icon-newlink2"></em>-->
+            Create an alarm rule
+            <span class="ddp-txt-info">Please select data and apply filters</span>
+            <em class="ddp-bg-order-line4-type2"></em>
+        </div>
+    </div>
+    <!-- contents in  -->
+    <div class="ddp-type-contents-in popup-select-measure">
+        <div class="ddp-popup-add-condition">
+            <!-- filter -->
+            <script>
+                $(function(){
+                    $('.list-selecting-filter li a').click(function(){
+                        $(this).parent().find('.sub-filter').show();
+                        $(this).parent().siblings().find('.sub-filter').hide();
+                        $(this).parent().addClass('is-selected');
+                        $(this).parent().siblings().removeClass('is-selected');
+                    });
+                    function subFilterHeight(){
+                        var $boxFilterHeight = $('.anm-box-filter').outerHeight();
+                        var $boxFilterTopHeight = $('.filter-top').outerHeight();
+                        var $boxFilterSub = $boxFilterHeight - $boxFilterTopHeight
+
+                        $('.sub-filter').css('height', $boxFilterSub-100);
+                    }subFilterHeight();
+                    $(window).resize(function(){
+                        subFilterHeight();
+
+                    })
+                })
+            </script>
+            <div class="anm-box-filter">
+                <div class="filter-top">
+                    <div class="label-title">
+                        <!-- detail 아이콘 -->
+                        <div class="ddp-ui-detail ddp-hover-tooltip type-bottom-right ddp-fright">
+                            <a href="javascript:" class="btn-show-detail"></a>
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-top"></em>
+                                Details
+                            </div>
+                        </div>
+                        <!-- //detail 아이콘 -->
+
+                        <span class="data-label">Data set_EQPID ALL</span>
+
+                    </div>
+                </div>
+                <!-- selecting filter -->
+                <div class="wrap-selecting-filter" >
+                    <ul class="list-selecting-filter">
+                        <li class="is-selected">
+                            <a href="javascript:">
+                                <span class="txt-title">Data</span>
+                                <span class="data-num">3 Measures</span>
+                            </a>
+                            <!-- sub -->
+                            <div class="sub-filter">
+                                <!-- setting -->
+                                <div class="ui-setting anm-row">
+                                    <!-- search -->
+                                    <div class="ddp-form-search ">
+                                        <input type="text" placeholder="Search">
+                                        <em class="ddp-icon-search"></em>
+                                        <em class="ddp-btn-search-close"></em>
+                                    </div>
+                                </div>
+                                <!-- //setting -->
+                                <!-- 클릭시 is-selected 추가 -->
+                                <div class="wrap-data-list is-selected">
+                                    <div class="label-filter type-measure is-selected">
+
+                                        <em class="icon-value-view"></em>
+                                        Measure
+                                        <a href="javascript:" class="btn-value-create"></a>
+                                    </div>
+                                    <ul class="list-filter list-type">
+                                        <li class="">
+                                            <em class="icon-chart-area type-cross"></em>
+                                            <!-- setting -->
+                                            <div class="ui-value-setting">
+                                                <!-- 툴팁 있을때 -->
+                                                <div class="ddp-hover-tooltip">
+                                                    <a href="javascript:" class="btn-value"></a>
+                                                    <div class="ddp-ui-tooltip-info ddp-down">
+                                                        <em class="ddp-icon-view-top"></em>
+                                                       "profit" + 1
+                                                     </div>
+                                                </div>
+                                                <!-- //툴팁 있을때 -->
+                                                <a href="javascript:" class="btn-value"></a>
+                                                <a href="javascript:" class="btn-set-del"></a>
+
+                                            </div>
+                                            <!-- //setting -->
+                                            <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-calen"></em> Yearvfrbte
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                            <!-- setting -->
+                                            <div class="ui-value-setting ">
+                                                <a href="javascript:" class="btn-value is-selected"></a>
+                                                <a href="javascript:" class="btn-set-del is-selected"></a>
+
+                                            </div>
+                                            <!-- //setting -->
+                                            <em class="icon-chart-area type-split"></em>
+
+                                            <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-local"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                            <em class="icon-chart-area type-filter"></em>
+                                            <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-sharp"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-account"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-maplink"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-tf"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-float"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-int"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-latitude"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-longitude"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-measure-array"></em> YearvfrbtenhcvsefvesYearvfrbtenhcvsefvesthnYearvfrbtenhcvsefvesthnthn
+                                           </span>
+
+                                        </li>
+
+                                    </ul>
+
+                                    <!-- page -->
+                                    <div class="wrap-page">
+                                        <div class="ddp-ui-page ">
+                                            <a href="#" class="ddp-btn-prev "></a>
+                                            <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                            <a href="#" class="ddp-btn-next "></a>
+                                        </div>
+                                    </div>
+                                    <!-- //page -->
+
+
+                                </div>
+                                <!-- 클릭시 is-selected 추가 -->
+                                <div class="wrap-data-list is-selected">
+                                    <div class="label-filter type-dimension">
+                                        <em class="icon-value-view"></em>
+                                        Dimension
+                                    </div>
+                                    <ul class="list-filter list-type">
+                                        <li class="">
+                                            <!-- setting -->
+                                            <div class="ui-value-setting ">
+                                                <a href="javascript:" class="btn-split is-selected"></a>
+                                                <a href="javascript:" class="btn-filter is-selected"></a>
+                                            </div>
+                                            <!-- //setting -->
+                                            <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-calen"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                            <!-- setting -->
+                                            <div class="ui-value-setting ">
+
+
+                                                <a href="javascript:" class="btn-split "></a>
+                                                <a href="javascript:" class="btn-filter "></a>
+                                                <a href="javascript:" class="btn-customer"></a>
+                                                <a href="javascript:" class="btn-set-del"></a>
+                                            </div>
+                                            <!-- //setting -->
+                                            <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-local"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-sharp"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-account"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-maplink"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-tf"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-float"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-int"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-latitude"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-longitude"></em> Yearvfrbtenhcvsefvesthn
+                                           </span>
+
+                                        </li>
+                                        <li>
+                                             <span class="list-typevalue">
+                                               <em class="ddp-icon-dimension-array"></em> YearvfrbtenhcvsefvesYearvfrbtenhcvsefvesthnYearvfrbtenhcvsefvesthnthn
+                                           </span>
+
+                                        </li>
+
+                                    </ul>
+                                    <!-- page -->
+                                    <div class="wrap-page">
+                                        <div class="ddp-ui-page ">
+                                            <a href="#" class="ddp-btn-prev "></a>
+                                            <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                            <a href="#" class="ddp-btn-next "></a>
+                                        </div>
+                                    </div>
+                                    <!-- //page -->
+                                </div>
+                            </div>
+                            <!-- //sub -->
+                        </li>
+                        <li class="">
+                            <a href="javascript:">
+                                <span class="txt-title">Training interval </span>
+                                <span class="data-num">3 Hour</span>
+                            </a>
+                            <!-- sub -->
+                            <div class="sub-filter">
+                                <div class="anm-interval-option ddp-clear">
+
+
+                                    <div class="ddp-wrap-edit3 ddp-type " >
+                                        <label class="ddp-label-type">Granularity</label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            <!-- select box -->
+                                            <!-- 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-type-selectbox ">
+                                                <span class="ddp-txt-selectbox">Minute</span>
+                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //select box -->
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+                                </div>
+
+                                <div class="anm-interval-calen ddp-clear">
+                                    <!-- select box -->
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ">
+                                        <span class="ddp-txt-selectbox">Last</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="javascript:">
+                                                    Last
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //select box -->
+                                    <input type="text" class="ddp-input-typebasic ddp-disabled" value="3" readonly="readonly">
+                                    <!-- select box -->
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-disabled">
+                                        <span class="ddp-txt-selectbox">Hour</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="javascript:">
+                                                    Hour
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //select box -->
+                                    <div class="anm-interval-dateinfo">
+                                        <!-- disabled 시 ddp-disabled 추가 -->
+                                        <div class="ddp-wrap-dateinfo ddp-disabled">
+                                            <div class="ddp-ui-dateinfo">
+                                                <span class="ddp-txt-date">from</span>
+                                                <div class="ddp-box-dateinfo ddp-clear">
+                                                    <input type="text" class="ddp-input-type ddp-full" value="2016-01-10" readonly="readonly">
+                                                </div>
+                                            </div>
+
+                                            <div class="ddp-ui-dateinfo ddp-to">
+                                                <span class="ddp-txt-date">to</span>
+                                                <div class="ddp-box-dateinfo ddp-clear">
+                                                    <input type="text" class="ddp-input-type ddp-full" value="2016-01-10" readonly="readonly">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                            <!-- //sub -->
+                        </li>
+                    </ul>
+                </div>
+                <!-- //selecting filter -->
+            </div>
+            <!-- //filter -->
+            <!-- total -->
+            <div class="component-total-score">
+                <!-- total core -->
+                <div class="ui-total-core">
+                    <!-- wrap total core -->
+                    <div class="wrap-total-core">
+                        <!--  new chart -->
+                        <div class="wrap-new-chart">
+                            <!-- label -->
+                            <div class="ui-label">
+                                New Chart
+
+                                <div class="box-toggle">
+                                    <div class="btn-toggle is-selected ">
+                                        <a href="javascript:">
+                                            <em class="icon-graph-seperate"></em>
+
+                                        </a>
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            Seperate
+                                        </div>
+
+                                    </div>
+                                    <!-- toggle -->
+                                    <div class="btn-toggle">
+                                        <a href="javascript:">
+                                            <em class="icon-graph-merge"></em>
+
+                                        </a>
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            Merge
+                                        </div>
+
+                                    </div>
+
+                                    <!-- //toggle -->
+                                </div>
+                            </div>
+
+                            <!-- //label -->
+                            <div class="wrap-chart-shelf">
+                                <div class="view-chart-shelf slider-shelf">
+                                    <!-- shelf -->
+                                    <div class="ui-chart-shelf">
+                                        <em class="icon-chart-area type-cross"></em>
+                                        <div class="wrap-box-shelf">
+                                            <!-- guide -->
+                                            <div class="box-guide">
+                                                <div class="data-shelf">
+                                                    <span class="txt-aggregate">Aggregate</span> or <span class="txt-count">Distinct Count</span>
+                                                </div>
+                                                <div class="data-shelf">
+                                                    <span class="data-state">None</span>
+                                                </div>
+                                            </div>
+                                            <!-- //guide -->
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">SUM
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    Wafer
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+
+                                            <!-- box shelf -->
+                                            <div class="box-shelf">
+                                                <!-- 클릭시 is-selected 추가 -->
+                                                <span class="txt-value type-selectbox">CNT
+                                                    <!-- popup -->
+                                                    <div class="ddp-wrap-popup2 type-measure" style="display:;">
+                                                        <div class="popup-label">Aggregate</div>
+                                                        <ul class="ddp-list-popup">
+                                                            <li class="ddp-selected">
+                                                                <a href="#">
+                                                                    Sum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Average
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Count
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Median
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Minimum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Maximum
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                    Percentile¼
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+                                                             <li>
+                                                                <a href="#">
+                                                                   Percentile¾
+                                                                    <em class="ddp-icon-check"></em>
+                                                                </a>
+                                                            </li>
+
+                                                        </ul>
+                                                     </div>
+                                                    <!-- //popup -->
+                                                </span>
+                                                <span class="txt-shelf">
+                                                    step
+                                                </span>
+                                                <a href="javascript:" class="btn-shelf-del"></a>
+
+
+                                            </div>
+                                            <!-- //box shelf -->
+                                        </div>
+
+                                    </div>
+                                    <!-- //shelf -->
+                                    <!-- button -->
+                                    <div class="slider-page">
+                                        <a href="javascript:" class="btn-slider-prev"></a>
+                                        <a href="javascript:" class="btn-slider-next"></a>
+                                    </div>
+                                    <!-- //button -->
+                                </div>
+                                <div class="view-chart-shelf">
+
+                                    <!-- shelf -->
+                                    <div class="ui-chart-shelf type-split">
+                                        <em class="icon-chart-area type-split"></em>
+                                        <!-- guide -->
+                                        <div class="box-guide">
+                                            <div class="data-shelf">
+                                                <span class="txt-split">Split by</span>
+                                            </div>
+                                            <div class="data-shelf">
+                                                <span class="data-state">None</span>
+                                            </div>
+                                        </div>
+                                        <!-- //guide -->
+                                        <!-- box shelf -->
+                                        <div class="box-shelf">
+                                            <span class="txt-value type-split">SPLT </span>
+                                            <span class="txt-shelf">
+                                                Category
+                                            </span>
+                                            <a href="javascript:" class="btn-shelf-del"></a>
+
+                                        </div>
+                                        <!-- //box shelf -->
+
+                                        <!-- box shelf -->
+                                        <div class="box-shelf">
+                                            <span class="txt-value type-dst">DST </span>
+                                            <span class="txt-shelf">
+                                                Category
+                                            </span>
+                                            <a href="javascript:" class="btn-shelf-del"></a>
+
+                                        </div>
+                                        <!-- //box shelf -->
+                                    </div>
+                                    <!-- //shelf -->
+                                    <!-- filter -->
+                                    <div class="ui-shelf-filter slider-shelf">
+
+                                        <!-- shelf -->
+                                        <div class="ui-chart-shelf ">
+                                            <em class="icon-chart-area type-filter"></em>
+                                            <div class="wrap-box-shelf">
+                                                <!-- guide -->
+                                                <div class="box-guide">
+                                                    <div class="data-shelf">
+                                                        <span class="txt-filter">Filter</span>
+                                                    </div>
+                                                    <div class="data-shelf">
+                                                        <span class="data-state">None</span>
+                                                    </div>
+                                                </div>
+                                                <!-- //guide -->
+
+                                                <!-- box shelf -->
+                                                <div class="box-shelf">
+                                                    <span class="txt-value type-filter">FLTR </span>
+                                                    <span class="txt-shelf">
+                                                        Category
+                                                    </span>
+                                                    <a href="javascript:" class="btn-shelf-del"></a>
+
+                                                </div>
+                                                <!-- //box shelf -->
+                                                <!-- box shelf -->
+                                                <div class="box-shelf">
+                                                    <span class="txt-value type-filter">FLTR </span>
+                                                    <span class="txt-shelf">
+                                                        Category
+                                                    </span>
+                                                    <a href="javascript:" class="btn-shelf-del"></a>
+
+                                                </div>
+                                                <!-- //box shelf -->
+                                                <!-- box shelf -->
+                                                <div class="box-shelf">
+                                                    <span class="txt-value type-filter">FLTR </span>
+                                                    <span class="txt-shelf">
+                                                        Category
+                                                    </span>
+                                                    <a href="javascript:" class="btn-shelf-del"></a>
+
+                                                </div>
+                                                <!-- //box shelf -->
+                                                <!-- box shelf -->
+                                                <div class="box-shelf">
+                                                    <span class="txt-value type-filter">FLTR </span>
+                                                    <span class="txt-shelf">
+                                                        Category
+                                                    </span>
+                                                    <a href="javascript:" class="btn-shelf-del"></a>
+
+                                                </div>
+                                                <!-- //box shelf -->
+                                                <!-- box shelf -->
+                                                <div class="box-shelf">
+                                                    <span class="txt-value type-filter">FLTR </span>
+                                                    <span class="txt-shelf">
+                                                        Category
+                                                    </span>
+                                                    <a href="javascript:" class="btn-shelf-del"></a>
+
+                                                </div>
+                                                <!-- //box shelf -->
+                                                <a href="javascript:" class="btn-shelf-add"></a>
+                                            </div>
+                                        </div>
+                                        <!-- //shelf -->
+                                        <!-- button -->
+                                        <div class="slider-page">
+                                            <a href="javascript:" class="btn-slider-prev"></a>
+                                            <a href="javascript:" class="btn-slider-next"></a>
+                                        </div>
+                                        <!-- //button -->
+                                    </div>
+                                    <!-- //filter -->
+                                    <script>
+                                        //slider
+                                        $(function(){
+                                            function filterShelf(){
+                                                var $chartShelfWidth =$('.view-chart-shelf').outerWidth();
+
+                                                var $filterShelfWidth = $chartShelfWidth -  $('.ui-chart-shelf.type-split').outerWidth();
+                                                $('.ui-shelf-filter').css('width',$filterShelfWidth);
+
+                                                $('.slider-shelf').each(function() {
+                                                    var $dataChartWidth = $(this).find('.ui-chart-shelf').outerWidth();
+                                                    var $sliderShelfWidth = $(this).outerWidth();
+                                                    if ($dataChartWidth >= $sliderShelfWidth){
+                                                        $(this).find('.slider-page').show();
+                                                        $(this).find('.wrap-box-shelf').addClass('type-slider');
+                                                    }
+                                                    if ($dataChartWidth < $sliderShelfWidth){
+                                                        $(this).find('.slider-page').hide();
+                                                        $(this).find('.wrap-box-shelf').removeClass('type-slider');
+                                                    }
+
+                                                    var moveWidth = $dataChartWidth-$sliderShelfWidth;
+                                                    var moveSpeed = 1500;
+                                                    var movePause = false; // 일시정지 flag
+
+                                                    $(this).find('.btn-slider-next').mouseover(function(){
+                                                        movePause=false;
+                                                        var $shelfItems = $(this).parent().parent().find('.wrap-box-shelf');
+                                                            $shelfItems.animate({marginLeft:-moveWidth-45},{duration:moveSpeed,step:function(){
+                                                                if(movePause==true){
+                                                                    $(this).stop();
+                                                                }
+                                                            }
+                                                        });
+                                                    });
+
+                                                    $(this).find('.btn-slider-prev').mouseover(function(){
+                                                        movePause=false;
+                                                        var $shelfItems = $(this).parent().parent().find('.wrap-box-shelf');
+                                                        $shelfItems.animate({marginLeft:0},{duration:moveSpeed,step:function(){
+                                                            if(movePause==true){
+                                                                $(this).stop();
+                                                            }
+                                                        }
+                                                        });
+                                                    });
+
+                                                    //stop
+                                                    $(this).find('.btn-slider-next').mouseout(function(){
+                                                        movePause=true;
+                                                    });
+                                                    $(this).find('.btn-slider-prev').mouseout(function(){
+                                                        movePause=true;
+                                                    });
+
+                                                });
+
+                                            }filterShelf();
+                                            $(window).resize(function(){
+                                                filterShelf();
+                                            });
+                                        })
+                                    </script>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                        <!--  //new chart -->
+
+                        <!-- merge -->
+                        <div class="graph-merge" style="display:;">
+                            <!-- setting -->
+                            <div class="graph-setting">
+                                <div class="txt-title txt-normal">
+                                    Merge(3)
+                                </div>
+                                <!-- mark -->
+                                <div class="graph-mark">
+                                    <div class="ddp-ui-page">
+                                        <a href="#" class="ddp-btn-prev"></a>
+                                        <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                        <a href="#" class="ddp-btn-next"></a>
+                                    </div>
+                                    <a href="javascript:" class="btn-mark is-disabled"><em class="icon-mark-r" style="background-color:#fc79ac;"></em>SUM_WaSUM_WaferSUM_WaferSUM_Waferfer</a>
+                                    <a href="javascript:" class="btn-mark "><em class="icon-mark-r" style="background-color:#fc79ac;"></em>SUM_WSUM_Waferafer</a>
+                                    <a href="javascript:" class="btn-mark "><em class="icon-mark-r" style="background-color:#fc79ac;"></em>CNT_step</a>
+                                    <a href="javascript:" class="btn-mark "><em class="icon-mark-r" style="background-color:#fc79ac;"></em>SUM_WSUM_Waferafer</a>
+                                    <a href="javascript:" class="btn-mark "><em class="icon-mark-r" style="background-color:#fc79ac;"></em>SUM_WSUM_Waferafer</a>
+
+                                </div>
+                                <!-- //mark -->
+                            </div>
+                            <!-- //setting -->
+                            <div class="box-merge-graph" style="top:80px;">
+                                그래프영역
+
+                            </div>
+                            <div class="chart-area2" style="top:411px">chart</div>
+                        </div>
+                        <!-- //merge -->
+                        <!-- seperate -->
+                        <div class="graph-seperate" style="display:none;">
+                            <div class="graph-part">
+                                <!-- box graph -->
+                                <div class="box-graph">
+                                    <div class="txt-title txt-normal">
+                                        Desk_SUM_Wafer
+                                    </div>
+                                    <div class="box-pin-tooltip  " style="position:fixed; left:450px; top:350px;">
+                                        <div class="data-chart-date">2018.12.25	15:10</div>
+                                        <div class="data-chart-num">Desk_SUM_Wafer: 340</div>
+
+                                    </div>
+
+                                </div>
+                                <!-- //box graph -->
+                                <!-- box graph -->
+                                <div class="box-graph">
+                                    <div class="txt-title txt-normal">
+                                        Desk_CNT_Step
+                                    </div>
+
+                                </div>
+                                <!-- //box graph -->
+                            </div>
+
+                            <div class="graph-part">
+                                <!-- box graph -->
+                                <div class="box-graph">
+                                    <div class="txt-title txt-normal">
+                                        Desk_CNT_Step
+                                    </div>
+
+                                </div>
+                                <!-- //box graph -->
+                            </div>
+                            <div class="chart-area2">
+                                chart
+                            </div>
+                        </div>
+                        <!-- //seperate -->
+                    </div>
+                    <!-- //wrap total core -->
+                </div>
+                <!-- //total core -->
+            </div>
+            <!-- //total -->
+
+        </div>
+
+
+    </div>
+    <!-- //contents in  -->
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="javascript:" class="ddp-btn-type-popup">Previous</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">Next</a>
+    </div>
+    <!-- //buttons -->
+
+</div>
+
+
+</body>
+</html>

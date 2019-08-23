@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/**************************************************************
+  component tooltip
+**************************************************************/
+.ddp-hover-tooltip {display:inline-block; position:relative; }
+.ddp-hover-tooltip.type-bottom-left .ddp-ui-tooltip-info {top:100%; left:-10px; right:initial; margin-top:5px;}
+.ddp-hover-tooltip.type-bottom-right .ddp-ui-tooltip-info {top:100%; right:-10px; left:initial; margin-top:5px;}
+.ddp-hover-tooltip.type-top-left .ddp-ui-tooltip-info {top:inherit; bottom:100%; left:-10px; right:initial; margin-bottom:5px;}
+.ddp-hover-tooltip.type-top-right .ddp-ui-tooltip-info {top:inherit; bottom:100%; right:-10px; left:initial; margin-bottom:5px;}
+
+
+
+
+
+
+
+
+
+
+

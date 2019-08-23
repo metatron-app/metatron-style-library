@@ -1,0 +1,194 @@
+@charset "utf-8";
+
+/**************************************************************
+  component button
+**************************************************************/
+.thema-black a.ddp-btn-type-popup{border: 1px solid #2abcef; color:#2abcef;}
+.thema-black a.ddp-btn-type-popup:hover {border-color:#5d5baf; }
+.thema-black a.ddp-btn-type-popup.ddp-disabled {border:1px solid #7f7ce1;opacity:0.5; cursor:no-drop;}
+
+.thema-black a.ddp-btn-type-popup.ddp-bg-black {border:solid 1px #2abcef; background-color:#2abcef; color:#fff;}
+.thema-black a.ddp-btn-type-popup.ddp-bg-black:hover {border-color:#2abcef; background-color:#3ccdff; color:#fff;}
+.thema-black a.ddp-btn-type-popup.ddp-bg-black.ddp-disabled {border:solid 1px #2abcef; background-color:#2abcef;}
+
+.thema-black a.ddp-btn-pop {border-color:#2abcef; color:#2abcef;font-weight:normal;}
+.thema-black a.ddp-btn-pop:hover {border-color: #3ccdff; color:#3ccdff;}
+.thema-black a.ddp-btn-pop.ddp-disabled,
+.thema-black a.ddp-btn-pop.ddp-disabled:hover {opacity:0.6; cursor:no-drop; border-color:#7f7ce1;}
+
+.thema-black a.ddp-btn-pop.ddp-bg-black {border-color:#2abcef; background-color:#2abcef; font-weight:normal; color:#fff;}
+.thema-black a.ddp-btn-pop.ddp-bg-black:hover {color:#fff; border-color:#3ccdff; background-color:#3ccdff;}
+.thema-black a.ddp-btn-pop.ddp-bg-black.ddp-disabled,
+.thema-black a.ddp-btn-pop.ddp-bg-black.ddp-disabled:hover {opacity:0.6; cursor:no-drop; border-color:#3ccdff; background-color:#3ccdff;}
+
+.thema-black a.ddp-btn-pop.ddp-bg-black2 {border:none; background-color:#293a63; color:#fff;}
+.thema-black a.ddp-btn-pop.ddp-bg-black2:hover {background-color:#5d5baf;}
+.thema-black a.ddp-btn-pop.ddp-bg-black2.ddp-disabled,
+.thema-black a.ddp-btn-pop.ddp-bg-black2.ddp-disabled:hover {background-color:#4e4d72; color:#7b7aa3; cursor:no-drop;}
+
+.btn-form-delete {display:inline-block; position:relative; width:30px; height:30px; background:none; cursor:pointer;}
+.btn-form-delete:before {display:block; position:absolute; left:50%; top:50%; width:11px; height:12px; margin:-6px 0 0 -6px; background:url(../../../images/anm/icon_cut.png) no-repeat; content:'';}
+.btn-form-delete:hover:before {background-position-x:-12px;}
+
+.btn-form-info {display:inline-block; width:12px; height:12px; background:url(../../../images/anm/icon_info2.png) no-repeat; vertical-align:middle;}
+.btn-form-info:hover {background-position:-13px top;}
+
+.btn-form-option {display:inline-block; width:12px; height:13px; background:url(../../../images/anm/icon_detail.png) no-repeat; background-position:left -21px; vertical-align:middle;}
+.btn-form-option:hover {background-position-x:-13px;}
+
+
+.btn-add-condition {display:inline-block; font-size:11px; color:#1978dd;}
+.btn-add-condition:hover {color:#7f7ce1 !important; text-decoration:underline;}
+.link-show {color:#838897; font-size:12px;}
+.link-show:hover {color:#fff;}
+.link-show:before {display:Inline-block; width:6px; height:4px; margin-right:5px; background:url(../../../images/anm/icon_list_view.png) no-repeat; background-position:left -10px; content:''; vertical-align:middle;}
+.link-show:hover:before {background-position-x:-7px;}
+
+.link-show.is-selected:before {transform:rotate(180deg)}
+
+.btn-load {color:#2abcef; font-size:14px;}
+.btn-load:hover {color:#7f7ce1 !important; text-decoration:underline;}
+
+.btn-gray-s {padding:5px; width:81px;font-size:10px; color:#fff;  text-align:center;line-height:12px; border-radius:2px; background-color:#545a6a; box-sizing:border-box;}
+.btn-gray-s:hover {background-color:#7f7ce1;}
+.btn-gray-s.is-disabled {background-color:#545a6a !important; opacity:0.3; cursor:no-drop;}
+
+/**************************************************************
+  component Icon button
+**************************************************************/
+.thema-black .btn-del {display:inline-block; position:relative; width:30px; height:30px;}
+.thema-black .btn-del.btn-type {width:20px; height:20px;}
+.thema-black .btn-del:before {display:inline-block; position:absolute; top:50%; left:50%; margin:-6px 0 0 -5px; width:11px; height:12px;background:url(../../../images/anm/icon_cut.png) no-repeat; content:'';}
+.thema-black .btn-del:hover:before {background-position-x:-12px;}
+
+.thema-black .btn-edit {display:inline-block; position:relative; width:30px; height:30px;}
+.thema-black .btn-edit.btn-type {width:20px; height:20px;}
+.thema-black .btn-edit:before {display:inline-block; position:absolute; top:50%; left:50%; margin:-6px 0 0 -6px; width:11px; height:11px;background:url(../../../images/anm/icon_edit.png) no-repeat; content:'';}
+.thema-black .btn-edit:hover:before {background-position-x:-12px;}
+
+.thema-black .btn-edit-confirm {background-color:#1972d0;}
+.thema-black .btn-edit-confirm:hover{background-color:#3ccdff;}
+
+.thema-black .btn-edit-rollback {border-color:#9aa4bc; background-color:#9aa4bc;}
+.thema-black .btn-edit-rollback:hover {background-color:#6e7a97};
+
+.thema-black .btn-show-detail {display:Inline-block; width:17px; height:18px; background:url(../../../images/anm/btn_show_detail.png) no-repeat;}
+.thema-black .btn-show-detail:hover {background-position-x:-18px;}
+
+.thema-black .ddp-ui-sort a.ddp-icon-sort {display:inline-block; width:16px; height:15px; background:url(../../../images/anm/icon_sort.png) no-repeat;}
+.thema-black .ddp-ui-sort a.ddp-icon-sort:hover {background-position-x:-16px;}
+
+.thema-black .ddp-ui-sort.ddp-disabled:before {position:absolute; top:0; left:0; right:0; bottom:0; cursor:no-drop; content:''}
+.thema-black .ddp-ui-sort.ddp-disabled a.ddp-icon-sort {background-position-x:-33px; cursor:no-drop;}
+
+
+.toggle-sort {color:#838897; font-size:12px;}
+.toggle-sort:hover {color:#7f7ce1 !important;}
+.toggle-sort .icon-sort {display:inline-block; width:10px; height:9px; margin-right:5px; vertical-align:middle; background:url(../../../images/anm/icon_sort_s.png) no-repeat; background-position-y:-10px}
+
+.toggle-sort.type-des .icon-sort {background-position:left top;}
+.toggle-sort:hover .icon-sort {background-position-x:-11px;}
+
+/**************************************************************
+  component 더보기 button
+**************************************************************/
+.thema-black .ddp-box-add-link {position:relative; background:#3b3f4d; border-color:#545a6a; }
+
+.thema-black .ddp-box-add-link span.ddp-link-type {color:#a0aabe;}
+.thema-black .ddp-box-add-link:hover span.ddp-link-type {color:#fff; }
+
+.thema-black .ddp-box-add-link.ddp-disabled {border:1px solid #4a4f5c; background-color:#3b3f4d;}
+.thema-black .ddp-box-add-link.ddp-disabled:before {background:none;}
+.thema-black .ddp-box-add-link.ddp-disabled span.ddp-link-type,
+.thema-black .ddp-box-add-link.ddp-disabled:hover span.ddp-link-type {color:#646b78;}
+/**************************************************************
+  component array button
+**************************************************************/
+.thema-black em.ddp-icon-array-default2:before,
+.thema-black em.ddp-icon-array-asc2:before,
+.thema-black em.ddp-icon-array-des2:before {background:url(../../../images/anm/icon_array.png) no-repeat;}
+.thema-black em.ddp-icon-array-des2:before {background-position:left -5px;}
+
+/**************************************************************
+  component add link
+**************************************************************/
+.thema-black .link-add {
+    display: inline-block;
+    color: #c2c0ff;
+    font-size: 11px;
+}
+.thema-black .link-add:hover {text-decoration:underline; color:#c2c0ff;}
+
+/**************************************************************
+  component icon button
+**************************************************************/
+.thema-black .ddp-btn-icon {display:inline-block; padding:9px 15px; border-radius:4px; background-color:#1972d0; font-size:13px; color:#fff; text-align:center;}
+.thema-black .ddp-btn-icon .ddp-icon-create {display:inline-block; width:10px; height:10px; margin-right:6px; background:url(../../../images/anm/icon_btn_create.png) no-repeat; vertical-align:middle;}
+.thema-black .ddp-btn-icon:hover {background-color:#5d5baf;}
+.thema-black .ddp-btn-icon.ddp-disabled,
+.thema-black .ddp-btn-icon.ddp-disabled:hover {background-color:#7f7ce1; opacity:0.5; cursor:no-drop;}
+
+/**************************************************************
+  component edit button
+**************************************************************/
+.btn-edit-rollback {position:relative; display:inline-block; width:30px; height:30px; border-radius:3px; border:1px solid #7f7ce1; box-sizing:border-box;}
+.btn-edit-confirm {position:relative; display:inline-block; width:30px; height:30px; border-radius:3px; background-color:#7f7ce1;}
+.btn-edit-rollback:before,
+.btn-edit-confirm:before {display:inline-block; position:absolute; top:50%; left:50%; background:url(../../../images/anm/icon_edit_control.png) no-repeat; content:''; }
+.btn-edit-rollback:before{width:13px; height:14px; margin:-7px 0 0 -7px;}
+.btn-edit-confirm:before {width:14px; height:12px; margin:-6px 0 0 -7px;background-position-x:-14px;}
+
+/**************************************************************
+  toggle button
+**************************************************************/
+.box-toggle {display:inline-block; float:left; }
+.box-toggle a {position:relative; display:inline-block; float:left; position:relative; width:36px; height:36px; color:#4c505f; font-size:12px; line-height:36px; text-align:center; font-weight:bold;}
+.box-toggle .btn-toggle {position:relative; float:left; background-color:#252833;}
+.box-toggle .btn-toggle:first-of-type {border-radius:5px 0 0 5px;}
+.box-toggle .btn-toggle:last-of-type {border-radius:0 5px 5px 0;}
+.box-toggle .btn-toggle.is-selected {background-color:#535767; }
+.box-toggle .btn-toggle.is-selected a {color:#fff;}
+.box-toggle a em.icon-all-alarm,
+.box-toggle a em.icon-person-alarm {display:inline-block; position:absolute; top:50%; left:50%; margin:-5px 0 0 -5px; width:10px; height:10px; background:url(../../../images/anm/icon_alarm_switch.png) no-repeat;}
+.box-toggle a em.icon-person-alarm {background-position:left -11px;}
+.box-toggle .btn-toggle:hover a {color:#fff;}
+.box-toggle .btn-toggle:hover em.icon-all-alarm,
+.box-toggle .btn-toggle:hover em.icon-person-alarm,
+.box-toggle .btn-toggle.is-selected em.icon-all-alarm,
+.box-toggle .btn-toggle.is-selected em.icon-person-alarm{background-position-x:-11px;}
+.box-toggle .btn-toggle:hover {background-color:#7f7ce1;}
+
+.box-toggle a em.icon-graph-seperate,
+.box-toggle a em.icon-graph-merge {display:inline-block; position:absolute; top:50%; left:50%; background:url(../../../images/anm/icon_graph_type.png) no-repeat;}
+.box-toggle a em.icon-graph-seperate {width:13px; height:15px; margin:-8px 0 0 -6px; }
+.box-toggle a em.icon-graph-merge {width:15px; height:15px; margin:-8px 0 0 -8px;background-position:left -16px;}
+.box-toggle .btn-toggle:hover a em.icon-graph-seperate {background-position-x:-14px;}
+.box-toggle .btn-toggle:hover a em.icon-graph-merge {background-position-x:-16px;}
+.box-toggle .btn-toggle.is-selected em.icon-graph-seperate {background-position-x:-14px;}
+.box-toggle .btn-toggle.is-selected em.icon-graph-merge  {background-position-x:-16px;}
+
+
+.box-toggle .btn-toggle .ddp-ui-tooltip-info {display:none;position:absolute; top:100%; left:0; margin-top:5px;}
+.box-toggle .btn-toggle:hover .ddp-ui-tooltip-info {display:block;}
+.box-toggle .btn-toggle .ddp-ui-tooltip-info .ddp-icon-view-top {margin:0; left:13px;}
+
+
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option a.ddp-btn-toggle {width:auto; min-width:80px; padding:7px 7px 8px 7px; background-color:#4b4f5c; color:#fff; font-size:12px; box-sizing:border-box;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option a.ddp-btn-toggle.ddp-selected {background-color:#82889c; color:#fff; font-size:12px;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-box-calen {width:123px; background:none; border:1px solid #5f6473;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-ui-calen .ddp-input-typebasic.ddp-data-calen {padding:6px 0 7px 0; border:none; background:none; text-align:center;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-ui-calen {width:auto;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-ui-calen .btn-confirm {display:inline-block; width:30px; height:30px; margin-left:6px;background:url(../../../images/anm/btn_confirm.png) no-repeat;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-ui-calen .btn-confirm:hover {background-position-x:-31px;}
+.thema-black .ddp-wrap-edit .ddp-ui-edit-option .ddp-ui-calen .btn-confirm.is-disabled {background-position-x:-62px; cursor:no-drop;}
+
+/**************************************************************
+  round add button
+**************************************************************/
+.btn-round-add {display:inline-block; width:24px; height:24px;  background:url(../../../images/anm/btn_round_add.png) no-repeat; }
+.btn-round-add:hover {background-position-x:-25px;}
+.btn-round-add.is-disabled {background-position-x:-50px; cursor:no-drop;}
+
+
+
+

@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body class="thema-black">
+<!-- 미리보기 팝업 -->
+<div class="ddp-pop-preview ddp-type" style="display:;">
+    <!-- top -->
+    <div class="ddp-ui-top">
+        <div class="ddp-data-name">
+            스캔 데이터량
+        </div>
+        <em class="ddp-btn-popup-close"></em>
+    </div>
+    <!-- //top -->
+    <!-- cpmtemts -->
+
+    <div class="ddp-ui-preview-contents ddp-more-table">
+        <div class="ddp-ui-gridhead2">
+            <!-- table -->
+            <table class="ddp-table-form ddp-table-type3">
+                <colgroup>
+                    <col width="*">
+                    <col width="18%">
+                    <col width="18%">
+                    <col width="10%">
+                    <col width="13%">
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th class="ddp-txt-center">
+                            Query
+                        </th>
+                        <th>
+                            Query Time
+                        </th>
+                        <th>
+                            User
+                        </th>
+                        <th>
+                            Result
+                        </th>
+                        <th>
+                            Row Count
+                            <em class="ddp-icon-array-default2"></em>
+                            <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                            <em class="ddp-icon-array-des2" style="display:none;"></em>
+                        </th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="ddp-ui-gridbody2">
+
+            <!-- table -->
+            <table class="ddp-table-form ddp-table-type3" style="table-layout:fixed;">
+                <colgroup>
+                    <col width="*">
+                    <col width="18%">
+                    <col width="18%">
+                    <col width="10%">
+                    <col width="13%">
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <td class="ddp-logdetail">
+                          <!-- logdetail -->
+                          <!-- 클릭시 ddp-selected 추가 -->
+                          <div class="ddp-wrap-logdetail " style="display:">
+                              <a href="javascript:" class="ddp-btn-detail"></a>
+                              <div class="ddp-pop-logdetail">
+                                  <div class="ddp-logdetal-contents">
+                                      Select * from aaa where a.tSelect * from aaa where a.tSelect * from aaa where a.tSelect * from aaa where a.t Select * from aaa whe
+                                      re a.tSelect * from aaa where a.tSelect * from aaa where a.tSelect * from aaa where a.t Select * from aaaere a.tSelect * from aaa where a.tSelect * from aaa where a.t Select * from aaa
+                                  </div>
+                                  <!-- buttons -->
+                                  <div class="ddp-log-buttons">
+
+                                      <a href="javascript:" class="ddp-link-copy">Copy to clipboard</a>
+                                      <a href="#" class="ddp-btn-line">Close</a>
+
+                                  </div>
+                                  <!-- //buttons -->
+                              </div>
+                          </div>
+                          <!-- //pop -->
+                            <span class="ddp-data-logdet"><span>SelSelectSelectect</span></span>
+
+                        </td>
+                        <td>
+                            YYYY-MM-DD hh:mm:ss
+                        </td>
+                        <td>
+                            John Smith
+                        </td>
+                        <td>
+                            <span class="ddp-data-state ddp-success">SUCCESS</span>
+                        </td>
+                        <td>
+                            432
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="ddp-logdetail">
+                            <!-- logdetail -->
+                            <!-- 클릭시 ddp-selected 추가 -->
+                            <div class="ddp-wrap-logdetail " style="display:">
+                                <a href="javascript:" class="ddp-btn-detail"></a>
+                                <div class="ddp-pop-logdetail">
+                                    <div class="ddp-logdetal-contents">
+                                        Select
+                                    </div>
+                                    <!-- buttons -->
+                                    <div class="ddp-log-buttons">
+
+                                        <a href="javascript:" class="ddp-link-copy">Copy to clipboard</a>
+                                        <a href="#" class="ddp-btn-line">Close</a>
+
+                                    </div>
+                                    <!-- //buttons -->
+                                </div>
+                            </div>
+                            <!-- //pop -->
+                            <span class=" ddp-data-logdet ddp-long"><span>SeSele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3Sele3le3</span></span>
+
+                        </td>
+                        <td>
+                            YYYY-MM-DD hh:mm:ss
+                        </td>
+                        <td>
+                            John Smith
+                        </td>
+                        <td>
+                            <span class="ddp-data-state ddp-fail">FAIL</span>
+                        </td>
+                        <td>
+                            432
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <!--// table -->
+
+        </div>
+        <!-- 더보기 -->
+        <div class="ddp-box-add-link">
+            <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+        </div>
+        <!-- //더보기 -->
+
+    </div>
+    <!-- //cpmtemts -->
+</div>
+<!-- //미리보기 팝업 -->
+<script>
+    $(function(){
+        logDetail();
+        function logDetail(){
+            // log detail
+            $('.ddp-logdetail').each(function(){
+              var $logdet = $(this).find('.ddp-data-logdet span').outerWidth();
+              var $logtd = $(this).outerWidth()
+                if($(this).outerWidth()-30 <= $(this).find('.ddp-data-logdet span').outerWidth()){
+                   $(this).find('.ddp-wrap-logdetail').show();
+
+                }
+                else {
+                   $(this).find('.ddp-wrap-logdetail').hide();
+                }
+            });
+
+        };
+      $(window).resize(function(){
+            logDetail();
+        });
+        // detail 버튼 클릭시
+        $('.ddp-wrap-logdetail').each(function(){
+            var $this = $(this);
+            $this.find('.ddp-btn-detail').click(function(){
+                $this.addClass('ddp-selected');
+            });
+            $this.find('.ddp-btn-line').click(function(){
+                $this.removeClass('ddp-selected');
+            });
+        });
+    });
+</script>
+</body>
+</html>

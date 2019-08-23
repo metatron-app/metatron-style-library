@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/**************************************************************
+  component checkbox
+**************************************************************/
+/*.thema-black .ddp-label-checkbox .ddp-txt-checkbox,
+.thema-black .ddp-label-checkbox .ddp-txt-checkbox {color:#fff !important;}*/
+.thema-black .ddp-label-checkbox i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox i.ddp-icon-checkbox {background:url(../../../images/anm/icon_checkbox.png) no-repeat;}
+.thema-black .ddp-label-checkbox input[type="checkbox"]:checked + i.ddp-icon-checkbox + .ddp-txt-checkbox,
+.thema-black .ddp-label-radio input[type="radio"]:checked + i.ddp-icon-radio + .ddp-txt-radio {font-weight:normal;}
+.thema-black .ddp-label-checkbox input[type="checkbox"]:checked + i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox input[type="checkbox"]:checked + i.ddp-icon-checkbox{background-position:-12px top;}
+.thema-black .ddp-label-checkbox:hover i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox:hover i.ddp-icon-checkbox {background-position:left -12px;}
+.thema-black .ddp-label-checkbox:hover input[type="checkbox"]:checked + i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox:hover input[type="checkbox"]:checked + i.ddp-icon-checkbox{background-position:-12px -12px;}
+.thema-black .ddp-label-checkbox.ddp-disabled:after,
+.thema-black .ddp-ui-checkbox.ddp-disabled:after{display:inline-block; position:absolute; top:0; left:0; right:0; bottom:0; z-index:1;}
+
+.thema-black .ddp-label-checkbox input[type="checkbox"]:disabled + .ddp-icon-checkbox + .ddp-txt-checkbox {color:#525665 !important;}
+.thema-black .ddp-label-checkbox input[type="checkbox"]:disabled + i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox.ddp-disabled i.ddp-icon-checkbox {background-position:left -24px;}
+.thema-black .ddp-label-checkbox.ddp-disabled input[type="checkbox"]:checked + i.ddp-icon-checkbox,
+.thema-black .ddp-ui-checkbox.ddp-disabled input[type="checkbox"]:checked + i.ddp-icon-checkbox{background-position:-12px -24px;}
+
+.thema-black .ddp-ui-checkbox {display:inline-block; width:12px; height:12px;}
+
+/**************************************************************
+  component checkbox mark
+**************************************************************/
+.check-mark {cursor:pointer;}
+.check-mark .txt-mark {display:inline-block; padding:4px 6px;border-radius:3px; background-color:#373a44; color:#fff; font-size:10px;}
+.check-mark .icon-mark {display:inline-block; margin-right:4px; width:8px; height:8px; border-radius:50%;}
+.check-mark input {display:none;}
+.check-mark input[type="checkbox"] +  span.txt-mark {background-color:#2b2e37; color:#494e5e;}
+.check-mark input[type="checkbox"]:checked + .txt-mark {color:#fff;}
+.check-mark input[type="checkbox"] +  span.txt-mark .icon-mark {background-color:#494e5e;}
+
+.check-mark input[type="checkbox"]:checked + span.txt-mark .icon-mark.type-major {background-color:#ea9e1f;}
+.check-mark input[type="checkbox"]:checked + span.txt-mark .icon-mark.type-moderate {background-color:#73c31b;}
+.check-mark input[type="checkbox"]:checked + span.txt-mark .icon-mark.type-critical {background-color:#f8533b;}
+.check-mark input[type="checkbox"]:checked + span.txt-mark .icon-mark.type-low {background-color:#58b5da;}
+.check-mark input[type="checkbox"] + span.txt-mark:hover {background-color:#1e2129;}
+
+
+/**************************************************************
+  component radio
+**************************************************************/
+.thema-black .ddp-label-radio i.ddp-icon-radio,
+.thema-black .ddp-ui-radio i.ddp-icon-radio {background:url(../../../images/anm/icon_radio.png) no-repeat;}
+.thema-black .ddp-label-radio:hover i.ddp-icon-radio,
+.thema-black .ddp-ui-radio:hover i.ddp-icon-radio{background-position:-24px top;}
+.thema-black .ddp-label-radio input[type="radio"]:checked + i.ddp-icon-radio,
+.thema-black .ddp-ui-radio input[type="radio"]:checked + i.ddp-icon-radio {background-position:-12px top;}
+.thema-black .ddp-label-radio input[type="radio"]:disabled + i.ddp-icon-radio,
+.thema-black .ddp-ui-radio input[type="radio"]:disabled + i.ddp-icon-radio {background-position:-36px top;}
+
+
+
+
+
+
+
+
+

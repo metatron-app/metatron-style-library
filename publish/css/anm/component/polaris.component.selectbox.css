@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/**************************************************************
+  component selectbox (thema black)
+**************************************************************/
+.thema-black .ddp-type-selectbox {border-color:#9297a6; background-color:transparent; }
+.thema-black .ddp-type-selectbox:hover,
+.thema-black .ddp-type-selectbox.ddp-selected {border-color:#fff;}
+.thema-black .ddp-type-selectbox span.ddp-txt-selectbox {/*color:#fff; */font-size:12px;}
+.thema-black .ddp-type-selectbox:hover:after,
+.thema-black .ddp-type-selectbox.ddp-selected:after{background-position-x:-32px;}
+.thema-black .ddp-type-selectbox ul.ddp-list-selectbox {right:inherit; min-width:100%; white-space:nowrap; border-radius:2px; border:1px solid #fff; background-color:#474c5a;}
+.thema-black .ddp-type-selectbox ul.ddp-list-selectbox li a {color:#fff;}
+.thema-black .ddp-type-selectbox ul.ddp-list-selectbox li a:hover {background-color:#5f6473;}
+.thema-black .ddp-type-selectbox.ddp-disabled,
+.thema-black .ddp-type-selectbox.ddp-disabled:hover {border-color:#9297a6; opacity:0.3;}
+.thema-black .ddp-type-selectbox.ddp-disabled:hover:after{background-position-x:0px;}
+.thema-black .ddp-type-selectbox.ddp-disabled:before {background:none;}
+
+/**************************************************************
+  component selectbox
+**************************************************************/
+.anm-form-selectbox {display:inline-block; position:relative; }
+.anm-form-selectbox .txt-select {display:inline-block; position:relative; padding:7px 40px 8px 12px; border-radius:5px; background-color:#252833; color:#fff; font-size:12px;cursor:pointer;}
+.anm-form-selectbox .txt-select:after{display:inline-block; position:absolute; top:50%; right:8px; margin-top:-2px;width:7px; height:4px; background:url(../../../images/icon_select.png) no-repeat; background-position:-8px top; content:''; }
+.anm-form-selectbox .ddp-wrap-popup2 {display:none; position:absolute; top:100%; left:0; min-width:100%;}
+.anm-form-selectbox.is-selected .ddp-wrap-popup2 {display:block;}
+
+
+/**************************************************************
+  component select status
+**************************************************************/
+.box-select-status {position:relative; display:inline-block; padding:2px 0 2px 0;min-width:64px; height:18px; border-radius:11px; font-size:10px; color:#fff; font-weight:bold; text-align:center;box-sizing:border-box;}
+.box-select-status.type-num {min-width:93px;}
+.box-select-status.type-critical {background-color:#f8533b;}
+.box-select-status.type-major {background-color:#fbb700;}
+.box-select-status.type-moderate {background-color:#83bf47;}
+.box-select-status.type-low {background-color:#58b5da;}
+
+.box-select-status.type-confirm.type-critical {border:1px solid #f8533b; background:none; color:#f8533b;}
+.box-select-status.type-confirm.type-major  {border:1px solid #fbb700; background:none; color:#fbb700;}
+.box-select-status.type-confirm.type-moderate  {border:1px solid #83bf47; background:none; color:#83bf47;}
+.box-select-status.type-confirm.type-low {border:1px solid #58b5da; background:none; color:#58b5da;}
+
+.box-select-status .ddp-wrap-popup2 {display:none; position:absolute; top:100%; left:0; min-width:110px;margin-top:4px; letter-spacing:0px;}
+.box-select-status .ddp-wrap-popup2 ul.ddp-list-popup li a {font-size:12px; font-weight:normal;}
+.box-select-status.type-selectbox {width:82px; cursor:pointer;}
+.box-select-status.type-selectbox:after {display:inline-block; position:relative; top:-2px;width:7px; height:4px; margin-left:12px;background:url(../../../images/icon_select.png) no-repeat; background-position:-32px top; content:'';}
+
+.box-select-status.type-selectbox.is-selected .ddp-wrap-popup2 {display:block;}
+
+.box-select-status.type-critical.type-selectbox:hover {background-color:#ba3c29;}
+.box-select-status.type-major.type-selectbox:hover {background-color:#bd8a00;}
+.box-select-status.type-moderate.type-selectbox:hover  {background-color:#619031;}
+.box-select-status.type-low.type-selectbox:hover {background-color:#40829c;}
+
+
+
+.box-select-status.type-critical.is-selected:hover {background-color:#f8533b;}
+.box-select-status.type-major.is-selected:hover {background-color:#fbb700;}
+.box-select-status.type-moderate.is-selected:hover {background-color:#83bf47;}
+.box-select-status.type-low.is-selected:hover {background-color:#58b5da;}
+
+
+
+

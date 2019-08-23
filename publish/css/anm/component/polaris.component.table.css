@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+/**************************************************************
+  component Table
+**************************************************************/
+.thema-black .ddp-ui-contents-list .ddp-ui-option span.ddp-data-total {color:#fff;}
+/*.thema-black .ddp-wrap-viewtable {background-color:#3b3f4d;}*/
+.thema-black .ddp-box-viewtable,
+.thema-black table.ddp-table-form tbody tr:nth-child(odd) td,
+.thema-black table.ddp-table-form tbody tr.ddp-selected td {background-color:transparent;}
+
+/*.thema-black table.ddp-table-form {border-bottom:1px solid #3b3f4d; border-left:1px solid #545a6a; border-right:1px solid #545a6a; background-color:#3b3f4d;}*/
+.thema-black table.ddp-table-form tbody tr td {color:#fff; box-sizing:border-box;}
+.thema-black table.ddp-table-form tbody tr td:first-of-type {padding-left:10px;}
+.thema-black table.ddp-table-form thead tr th {padding:6px 10px; background-color:#2c3754; border:none; color:#7e8aa5; line-height:19px;}
+.thema-black table.ddp-table-form tbody tr td {font-size:14px; border-bottom:1px solid #474c5a;}
+.thema-black table.ddp-table-form tbody tr:hover td {background-color:#2f323d;}
+
+.thema-black table.ddp-table-form tbody tr.ddp-selected td {padding:11px 10px 11px 10px; background-color:#2f323d; border-top:2px solid #2abcef; border-bottom:2px solid #2abcef; box-sizing:border-box;}
+.thema-black table.ddp-table-form tbody tr.ddp-selected td:first-of-type { border-left:2px solid #2abcef;}
+.thema-black table.ddp-table-form tbody tr.ddp-selected td:last-of-type {border-right:2px solid #2abcef;}
+/*.thema-black table.ddp-table-form tbody tr.ddp-selected td:before {position:absolute; top:0; left:0; right:0; bottom:0; border-bottom:2px solid #7f7ce1; border-top:2px solid #7f7ce1; content:'';}*/
+/*.thema-black table.ddp-table-form tbody tr.ddp-selected td:first-of-type:before {border-left:2px solid #7f7ce1}*/
+/*.thema-black table.ddp-table-form tbody tr.ddp-selected td:last-of-type:before {border-right:2px solid #7f7ce1}*/
+.thema-black table.ddp-table-select tbody tr.ddp-selected td:last-of-type:after {width:16px; height:12px; background:url(../../../images/anm/icon_select2.png) no-repeat;}
+
+.thema-black table.ddp-table-form tbody tr td .ddp-txt-long.type-flex {display:inline-block; max-width:100%;}
+.thema-black table.ddp-table-form tbody tr td .ddp-txt-long.type-flex .tag-new {float:right; position:relative; top:1px; padding:1px 5px; margin-left:6px; background-color:#7f7ce1; border-radius:3px; color:#fff; font-size:10px; text-align:center; font-weight:normal;}
+
+.thema-black table.ddp-table-type3 tbody tr td:first-of-type {border-left:none;}
+.thema-black table.ddp-table-type3 tbody tr td:last-of-type {border-right:none;}
+.thema-black table.ddp-table-type3 tbody tr td {background:none;}
+
+.thema-black .ddp-box-add-link3 {background:none; border-color:#474c5a;}
+.thema-black .ddp-box-add-link3 span.ddp-link-type {color:#a0aabe;}
+.thema-black .ddp-box-add-link3:hover span.ddp-link-type {color:#fff;}
+
+.thema-black table.ddp-table-form tr td .btn-del {display:none; position:absolute; top:50%; right:6px; margin-top:-15px; z-index:10;}
+.thema-black table.ddp-table-form tr:hover td .btn-del {display:block;}
+
+.thema-black .ddp-box-viewtable {border:solid 1px #474c5a;}
+.thema-black .ddp-box-viewtable table.ddp-table-form {border:none; border-bottom:1px solid #3b3f4d;}
+.thema-black .ddp-box-viewtable .ddp-ui-gridhead {background-color:#474c5a; border-bottom:none;}
+
+.thema-black table.ddp-table-listview tbody tr td {color:#fff;}
+.thema-black table.ddp-table-listview tbody tr:nth-child(odd) td {background:#4d5261;}
+.thema-black table.ddp-table-listview tbody tr:nth-child(even) td {background:#474c5a;}
+
+/**************************************************************
+  component Table Flex
+**************************************************************/
+.component-flex {display:inline-block; max-width:100%; color:#a0aabe; line-heihgt:18px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden;}
+.component-flex .txt-type {float:right; height:18px; margin:0 0 0 5px; padding:0 5px; background-color:#1972d0; line-height:18px; font-size:10px; color:#fff; border-radius:3px;}
+.component-flex .txt-title {position:relative; top:2px; font-size:14px;}
+.component-flex .txt-title > em {color:#fff;}
+.thema-black table.ddp-table-listview tbody tr td em[class*="ddp-icon-type-"] {position:relative; left:0; top:0; margin:0;}
+.thema-black em[class*="ddp-icon-type-"] {background:url(../../../images/anm/icon_valuetype.png) no-repeat;}

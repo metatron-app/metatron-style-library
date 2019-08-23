@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/**************************************************************
+  component input
+**************************************************************/
+.thema-black input {color:#fff;}
+.thema-black input::-webkit-input-placeholder {color: #9297a6;}
+.thema-black input:-moz-placeholder {color: #9297a6;}
+.thema-black input::-moz-placeholder {color: #9297a6;}
+.thema-black input:-ms-input-placeholder {color: #9297a6;}
+.thema-black input.ddp-input-type {/*border-bottom: solid 1px #5f6473; */background-color:transparent; font-size:12px; color:#fff;}
+
+.thema-black .ddp-input-typebasic {border:solid 1px #9297a6; background:none;}
+.thema-black .ddp-input-typebasic.ddp-disabled {opacity:0.3; background:none;}
+input.ddp-input-typebasic:read-only:focus{border:solid 1px #9297a6;}
+/*.anm-component-calen {}*/
+/*.anm-component-calen .anm-ui-calen {position:relative; padding-left:38px;}*/
+/*.anm-component-calen .anm-ui-calen + .anm-ui-calen {margin-top:4px;}*/
+/*.anm-component-calen .anm-ui-calen .anm-label-calen {position:absolute; top:6px; left:0; width:30px; padding-right:8px; color:#b4bacb; text-align:right; letter-spacing:-1px;}*/
+/*.anm-component-calen .anm-ui-calen .anm-box-calen{border-radius:2px; border:1px solid #9297a6;}*/
+/*.anm-component-calen .anm-ui-calen .anm-box-calen input.anm-input-calen {display:block; width:100%; padding:6px 10px 7px 10px; box-sizing:border-box; background:none; border:none; color: rgba(255, 255, 255, 0.99); font-size:12px;}*/
+/*.anm-component-calen .anm-ui-calen .anm-box-calen input.anm-input-calen.anm-time {border-left:1px solid #9297a6;}*/
+
+.thema-black input.ddp-input-type.ddp-full {width:100%}
+
+
+
+
+

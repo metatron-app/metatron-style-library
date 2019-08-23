@@ -1,0 +1,247 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+</head>
+<body class="thema-black">
+
+<div class="ddp-type-contents">
+    <!-- 닫기 버튼 -->
+    <a href="#" class="ddp-btn-close"></a>
+    <!-- 닫기 버튼 -->
+    <div class="ddp-ui-name2 ddp-type3">
+        Create a data source(DB)
+        <em class="ddp-bg-order-line5-type"></em>
+    </div>
+    <!-- import -->
+    <div class="ddp-type-contents-in">
+        <span class="ddp-txt-info">Please set data connection</span>
+        <!-- dp connection -->
+        <div class="ddp-ui-dbconnect">
+            <!-- db type -->
+            <div class="ddp-ui-db-type">
+                <!-- SELECTBOX -->
+                <!-- 선택시 ddp-selected 추가 -->
+                <div class="ddp-type-selectbox">
+                    <span class="ddp-txt-selectbox">Load a data connection</span>
+                    <ul class="ddp-list-selectbox ddp-selectdown">
+                        <li>
+                            <a href="#">
+                                1
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                2
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                3
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- //SELECTBOX -->
+                <label class="ddp-label-type">DB Type</label>
+                <ul class="ddp-list-db-type">
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-oracle"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li class="ddp-selected">
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-mysql"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-postgre"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-hive"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-presto"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-phoenix"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-tibero"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-stage"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-amazon"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <!--
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-sqlserver"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <em class="ddp-icon-hover"></em>
+                            <em class="ddp-img-green"></em>
+                            <span class="ddp-bg-selected"><em class="ddp-icon-select"></em></span>
+                        </a>
+                    </li>-->
+
+                </ul>
+            </div>
+            <!-- //db type -->
+            <!-- db connect 설정 -->
+
+            <div class="ddp-ui-db-option">
+                <!-- edit -->
+                <div class="ddp-wrap-edit2">
+                    <label class="ddp-label-type">Ingestion type</label>
+                    <div class="ddp-inline">
+                        <label class="ddp-label-radio">
+                            <input type="radio">
+                            <i class="ddp-icon-radio"></i>
+                            <span class="ddp-txt-radio">Ingested data</span>
+                        </label>
+                        <label class="ddp-label-radio">
+                            <input type="radio">
+                            <i class="ddp-icon-radio"></i>
+                            <span class="ddp-txt-radio">Linked data</span>
+                        </label>
+
+                    </div>
+
+                </div>
+                <!-- //edit -->
+                <div class="ddp-clear">
+                    <!-- edit -->
+                    <!-- 필수 일때 ddp-error 추가 -->
+                    <div class="ddp-wrap-edit2 ddp-col-8 ddp-error">
+                        <label class="ddp-label-type">Host</label>
+                        <input type="text" class="ddp-input-type" placeholder="Host">
+                        <!-- error -->
+                        <span class="ddp-ui-error">
+                            필수 입력
+                        </span>
+                        <!-- error -->
+                    </div>
+                    <!-- //edit -->
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit2 ddp-col-4">
+                        <label class="ddp-label-type">Port</label>
+                        <input type="text" class="ddp-input-type" placeholder="Port">
+                    </div>
+                    <!-- //edit -->
+                </div>
+
+                <!-- edit -->
+                <div class="ddp-wrap-edit2">
+                    <label class="ddp-label-type">SD</label>
+                    <input type="text" class="ddp-input-type" placeholder="이름을 입력하세요">
+                </div>
+                <!-- //edit -->
+
+
+                <div class="ddp-clear">
+                    <div class="ddp-col-6">
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit2 ">
+                            <label class="ddp-label-type">User Name</label>
+                            <input type="text" class="ddp-input-type" placeholder="이름을 입력하세요">
+                        </div>
+                        <!-- //edit -->
+                    </div>
+
+
+                    <div class="ddp-col-6">
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit2 ">
+                            <label class="ddp-label-type">Password</label>
+                            <input type="password" class="ddp-input-type" placeholder="이름을 입력하세요">
+                        </div>
+                        <!-- //edit -->
+                    </div>
+                </div>
+                <!-- 검증 -->
+                <div class="ddp-ui-buttons">
+                    <a href="#" class="ddp-btn-type4">test</a>
+
+                    <div class="ddp-ui-message ddp-ui-info">
+                        <span class="ddp-data-error2"> Invalid Connection Invalid ConnectionInvalid ConnectionInvalid ConnectionInvalid ConnectionInvalid ConnectionInvalid ConnectionInvalid ConnectionInvalid Connection</span>
+                    </div>
+                </div>
+                <!-- //검증 -->
+            </div>
+            <!-- //db connect 설정 -->
+            <div class="ddp-ui-db-option2 ">
+                <label class="ddp-label-checkbox">
+                    <input type="checkbox">
+                    <i class="ddp-icon-checkbox"></i>
+                    <span class="ddp-txt-checkbox">Save as a new data connection</span>
+                </label>
+                <div class="ddp-wrap-error-type">
+                    <input type="text" class="ddp-input-typebasic" placeholder="Enter name of a new data connection">
+                </div>
+
+            </div>
+
+        </div>
+        <!-- //dp connection -->
+
+        <!-- buttons -->
+        <div class="ddp-ui-buttons2">
+            <a href="#" class="ddp-btn-type-popup">Cancel</a>
+            <a href="#" class="ddp-btn-type-popup ddp-bg-black ">Next</a>
+        </div>
+        <!-- //buttons -->
+
+    </div>
+    <!-- //import -->
+</div>
+
+</body>
+</html>

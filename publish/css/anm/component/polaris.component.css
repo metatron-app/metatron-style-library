@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/**************************************************************
+  discovery component
+**************************************************************/
+body.thema-black {background-color:#f4f6fc;}
+.thema-black .ddp-ui-top-info {background-color:#1f2942;}
+.thema-black .ddp-ui-top-info .ddp-ui-title span.ddp-data-title {color:#fff;}
+.thema-black .ddp-box-tag.ddp-workbook, 
+.thema-black .ddp-ui-top-info .ddp-ui-title span.ddp-data-detail {color:#7e8aa5;}
+
+.thema-black .ddp-lnb-dashboard {background-color: #37425B;}
+.thema-black .ddp-wrap-tab-dashboard .ddp-ui-setting {background-color: #37435b}
+.thema-black .ddp-lnb-dashboard {background-color:#37435b;border-right:none;}
+.thema-black .ddp-lnb-dashboard .ddp-ui-toptitle {border-right:none;border-bottom-color:#131b30;background-color:#37435b;}
+
+.thema-black a.ddp-link-board-add {background-color: #009ad0;}
+.thema-black .ddp-wrap-naviarea{background-color:#1f2942;}
+.thema-black .ddp-ui-board-filter {background-color:#131b30;}
+
+.thema-black .ddp-ui-board-filter .ddp-btn-slider {background-color:#131b30;}
+
+.thema-black .ddp-ui-widget,
+.thema-black .ddp-ui-board-filter a.ddp-btn-reset,
+.thema-black .ddp-ui-board-filter .ddp-wrap-right{background-color:#1f2942;}
+.thema-black .ddp-box-widget{border-color:#1f2942;background-color:#131b30;}
+
+.thema-black .ddp-div-table{background-color:#131b30;}
+.thema-black .ddp-wrap-graph-kpi{border:none;}
+.thema-black .ddp-view-data-kpi{border-top:none;}
+
+.thema-black .ddp-wrap-editboard .ddp-ui-boardside-menu {border-left-color:#040b1d;background-color:#37435b;}
+.thema-black .ddp-wrap-editboard .ddp-ui-boardside-contents {border-left-color:#040b1d;background-color:#37435b;}
+
+.thema-black .ddp-wrap-presentation {background:#131b30;}
+.thema-black .ddp-ui-board-title{background-color:#1f2942;border-bottom:1px solid #040b1d;}
+.thema-black .ddp-ui-board-title span.ddp-data-name {color:#fff;}
+
+.thema-black .ddp-ui-grid-form table.ddp-table-grid-list tr.ddp-selected td {color:#2abcef;font-weight:bold;background-color:#fff;}
+
+.thema-black ul.ddp-list-board-listview li.ddp-selected a span.ddp-data-name {color:#fff;}
+.thema-black ul.ddp-list-tab2 li.ddp-selected a {color:#30beee;}
+.thema-black .ddp-lnb-dashboard .ddp-ui-toptitle span.ddp-data-name em.ddp-box-tag,
+.thema-black .ddp-lnb-dashboard .ddp-ui-toptitle span.ddp-data-name {color:#fff;}
+.thema-black .ddp-ui-navibuttons a.ddp-btn-line3 {color:#fff;border:1px solid #2abcef;background-color:#2abcef;}
+.thema-black .ddp-ui-page2 a.ddp-icon-page.ddp-selected {background-color:#2dccff;}
+
+.thema-black .ddp-association .ddp-box-data .ddp-box-name{border-color:#2abcef;background-color:#edfbff;}
+.thema-black .ddp-association .ddp-box-data .ddp-bar{background-color:rgba(29, 147, 255, 0.2);}
+.thema-black .ddp-association .ddp-box-data .ddp-box-name:before {background-color:rgba(29, 147, 255, 0.2);}
+.thema-black .ddp-wrap-drop-search ul.ddp-list-selectbox2 .ddp-txt-search {color:#2abcef;}
+.thema-black ul.ddp-list-popup li.ddp-selected > a {color:#2abcef !important;}
+
+.thema-black ul.ddp-list-chart-type li.ddp-selected a em[class*="ddp-img-graph-"]:before {background-color:rgba(29, 147, 255, 0.2);;border: 2px solid #2dccff;}
+.thema-black ul.ddp-list-layer-option li a .ddp-data-result.ddp-type {color:#2abcef;}
+
+.thema-black .ddp-ui-typebasic .ddp-ui-dropdown ul.ddp-list-typebasic.ddp-view li.ddp-selected a {background:rgba(42, 188, 239, 0.7);}
+
+.thema-black .ddp-layout-popuptype .ddp-ui-popup .ddp-ui-popup-title span.ddp-txt-title-name {z-index:999;}
+
+/*.thema-black .ddp-type-contents.ddp-resize2 > .ddp-ui-buttons2, 
+.thema-black .ddp-type-contents.ddp-resize2 > .ddp-ui-buttons,
+.thema-black .ddp-type-contents.ddp-resize2 .ddp-icon-name,
+.thema-black .ddp-type-contents,
+.thema-black .ddp-layout-popuptype .ddp-ui-popup,
+.thema-black .ddp-box-popup,
+.thema-black .ddp-wrap-popup .ddp-ui-popup,
+.thema-black .ddp-ui-popup-contents,
+.thema-black .ddp-ui-layout-popup .ddp-box-popup.ddp-popup-type,
+.thema-black .ddp-ui-preview-contents {background-color: #f4f6fc;}*/
+
+.thema-black .ddp-type-contents .ddp-ui-name2 {color:#293a63;}
+.thema-black .ddp-type-contents.ddp-resize2.ddp-type2 .ddp-icon-name .ddp-txt-info {color:#515776;}
+.thema-black .ddp-box-page {background-color:#2c3754;border:none;}
+.thema-black .ddp-box-page .ddp-page-num a,
+.thema-black .ddp-type-selectbox span.ddp-txt-selectbox {color:#7e8aa5;}
+.thema-black .ddp-box-grid-detail {background:#303c59;}
+.thema-black .component-total-score .wrap-total-core {background-color:#131b30;}
+.thema-black .ddp-label-checkbox span.ddp-txt-checkbox {color:#fff;}
+.thema-black .ddp-box-grid-detail {background-color:#303c59;}

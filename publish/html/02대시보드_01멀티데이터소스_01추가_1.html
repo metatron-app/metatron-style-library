@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <!-- multydatasource js --->
+    <script type="text/javascript" src="../js/multidata/vis.js"></script>
+
+</head>
+<body class="thema-black">
+
+<div class="ddp-type-contents ddp-resize ddp-type">
+    <!-- 닫기 버튼 -->
+    <a href="javascript:" class="ddp-btn-close"></a>
+    <!-- //닫기 버튼 -->
+    <div class="ddp-ui-name2 ddp-type3">
+        Create a dashboard
+        <span class="ddp-txt-info">Add datasources</span>
+        <em class="ddp-bg-order-line2-type2"></em>
+    </div>
+    <div class="ddp-type-contents-in">
+        <!-- contents -->
+        <div class="ddp-box-popupcontents3 ddp-type-multidata">
+
+            <!-- mutidata -->
+            <div class="ddp-ui-multidata">
+
+                <div class="ddp-view-multidata">
+                    <!-- 참고 -->
+                    <script>
+                        $(function(){
+                            $('.ddp-add-datasource').click(function(){
+                                $('.ddp-ui-add').hide();
+                                $('#mynetwork').show();
+                            });
+                        });
+                    </script>
+                    <!-- //참고 -->
+                    <!-- add button -->
+                    <div class="ddp-wrap-add">
+                        <div class="ddp-ui-add">
+                            <a href="javascript:" class="ddp-add-datasource" onclick="addNode()">
+                                <em class="ddp-icon-add"></em>Add datasource
+                            </a>
+                            <div class="ddp-txt-det">시각화 할 데이터소스를 추가하고 관계를 설정해 주세요</div>
+                        </div>
+                        <!-- //add button -->
+
+                        <!-- network -->
+                        <div id="mynetwork" style="display:"></div>
+                        <!-- //network -->
+                    </div>
+                </div>
+            </div>
+            <!-- //mutidata -->
+        </div>
+        <!-- //contents -->
+    </div>
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="javascript:" class="ddp-btn-type-popup ">취소</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ddp-disabled">다음</a>
+    </div>
+    <!-- //buttons -->
+</div>
+
+
+<!-- multydatasource option js --->
+
+<!--<script type="text/javascript">-->
+
+    <!--function startNetwork() {-->
+
+        <!--// create an array with nodes-->
+        <!--nodes = [-->
+            <!--{id: 1, label: '1'},-->
+            <!--{id: 2, label: 'DS n'},-->
+            <!--{id: 3, label: 'Node 3'},-->
+            <!--{id: 4, label: 'Node 4'},-->
+            <!--{id: 5, label: 'Node 5'}-->
+        <!--];-->
+
+        <!--// create an array with edges-->
+        <!--var edges = new vis.DataSet([-->
+            <!--{from: 1, to: 3, label: 'delete'},-->
+            <!--{from: 1, to: 2},-->
+            <!--{from: 2, to: 4},-->
+            <!--{from: 2, to: 5}-->
+
+        <!--]);-->
+
+        <!--// create a network-->
+        <!--var container = document.getElementById('mynetwork');-->
+        <!--var data = {-->
+            <!--nodes: nodes,-->
+            <!--edges: edges-->
+        <!--};-->
+        <!--var options = {-->
+            <!--interaction:{hover:true},-->
+            <!--manipulation:{-->
+                <!--enabled:true-->
+            <!--},-->
+            <!--nodes : {-->
+                <!--size:2,-->
+
+                <!--borderWidth:1,-->
+                <!--shadow:true,-->
+                <!--shape:'circle',-->
+                <!--widthConstraint:110,-->
+
+                <!--color: {-->
+                    <!--border:'#fff',-->
+                    <!--background: '#fff',-->
+                    <!--highlight: {-->
+                        <!--border: '#666eb2',-->
+                        <!--background: '#f0f4ff'-->
+                    <!--},-->
+                    <!--hover :{-->
+                        <!--border: '#666eb2',-->
+                        <!--background: '#f0f4ff'-->
+                    <!--}-->
+                <!--},-->
+                <!--font:{-->
+                    <!--size:16-->
+                <!--},-->
+                <!--labelHighlightBold:false-->
+            <!--},-->
+            <!--edges: {-->
+                <!--width:40,-->
+                <!--color:{-->
+                    <!--color:'#d0d1d8',-->
+                    <!--highlight:'#c1cef1',-->
+                    <!--hover: '#b7b9c2',-->
+                    <!--inherit: 'from',-->
+                    <!--opacity:1.0-->
+                <!--},-->
+                <!--font:{-->
+                    <!--color: '#343434',-->
+                    <!--size:12-->
+                <!--},-->
+                <!--smooth:false,-->
+                <!--length : 200-->
+            <!--}-->
+        <!--};-->
+        <!--network = new vis.Network(container, data, options);-->
+
+    <!--}-->
+
+
+    <!--startNetwork();-->
+<!--</script>-->
+<!-- multydatasource option js --->
+</body>
+</html>
