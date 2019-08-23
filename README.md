@@ -11,7 +11,7 @@ UI Publishing
 
 Introduction to Metatron UI/UX
 ---
-- 테마 변경 방법
+- 테마 변경 방법 [GNB 이슈 진행중](https://github.com/metatron-app/metatron-discovery/issues/2388)
 
 Introduction to Metatron UI Components
 ---
