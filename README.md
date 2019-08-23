@@ -3,8 +3,8 @@ Welcome to Metatron UI Guide
 
 Publish
 ---
-- 기존 퍼블(Original) <https://metatron-app.github.io/metatron-design/origin/html/@index.html>
-- 테마 작업중(Dark Thema) <https://metatron-app.github.io/metatron-design/dark/html/@index.html>
+- 기존 퍼블(Original) <https://metatron-app.github.io/metatron-uiux/origin/html/@index.html>
+- 테마 작업중(Dark Thema) <https://metatron-app.github.io/metatron-uiux/dark/html/@index.html>
 
 
 Introduction to Metatron UI Components
