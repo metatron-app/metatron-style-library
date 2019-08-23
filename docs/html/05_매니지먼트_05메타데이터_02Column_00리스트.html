@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body>
+    <!-- header -->
+    <div class="ddp-layout-header">
+        <!-- lnb -->
+        <!-- menu 클릭시 ddp-selected 추가 -->
+        <div class="ddp-layout-lnb">
+            <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+            <ul class="ddp-list-lnb">
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                            <ul class="ddp-list-submenu">
+                                <!-- 선택시 : ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                            <ul class="ddp-list-submenu">
+                                <li>
+                                    <a href="javascript:">
+                                        <!-- new 일때 ddp-new -->
+                                        <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                        <em class="ddp-icon-afav"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- //sub -->
+                    </div>
+
+                </li>
+                <!-- 클릭시 ddp-selected 추가 -->
+                <li class="ddp-selected">
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- //lnb -->
+        <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+        <div class="ddp-ui-headright">
+            <a href="javascript:" class="ddp-btn-search"></a>
+            <!-- photo -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-wrap-myinfo">
+                <a href="javascript:" class="ddp-data-photo">
+                    <img src="../images/img_photo.png" />
+                </a>
+                <!-- my info -->
+                <div class="ddp-ui-sub-myinfo">
+                    <div class="ddp-wrap-data">
+                        <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                        <!--<span class="ddp-data-team">전략 2팀</span>-->
+                        <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                    </div>
+
+                    <ul class="ddp-list-sub-myinfo">
+                        <li><a href="javscript:">사용자 정보 관리</a></li>
+                        <li><a href="javscript:">로그아웃</a></li>
+                    </ul>
+                </div>
+                <!-- //my info -->
+            </div>
+            <!-- //photo -->
+
+        </div>
+
+    </div>
+    <!-- //header -->
+
+
+    <!-- contents -->
+    <div class="ddp-layout-contents">
+        <em class="ddp-bg-back"></em>
+        <div class="ddp-ui-contents-in ddp-scroll">
+            <!-- top -->
+            <div class="ddp-ui-contents-top">
+                <div class="ddp-ui-title">
+                    Meta Data
+                </div>
+
+                <!-- tab -->
+                <ul class="ddp-list-top-tab">
+                    <li>
+                        <a href="#">Meta Data</a>
+                    </li>
+                    <li class="ddp-selected">
+                        <a href="#">Column Dictionary</a>
+                    </li>
+                    <li>
+                        <a href="#">Code Table</a>
+                    </li>
+                    <li>
+                        <a href="#">Catalog</a>
+                    </li>
+                </ul>
+                <!-- //tab -->
+
+            </div>
+            <!-- //top -->
+
+
+            <<div class="ddp-ui-contents-list">
+                <div class="ddp-wrap-option">
+                    <!-- option -->
+                    <div class="ddp-ui-option ddp-clear">
+
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit">
+                            <label class="ddp-label-type">PerformedStartTime</label>
+
+                            <!-- edit option -->
+                            <div class="ddp-ui-edit-option">
+                                <a href="#" class="ddp-btn-toggle ddp-all ddp-selected">All</a>
+                                <a href="#" class="ddp-btn-toggle ddp-today">Today</a>
+                                <a href="#" class="ddp-btn-toggle ddp-last">Last 7 days</a>
+
+                                <div class="ddp-ui-calen ddp-clear">
+                                    <div class="ddp-box-calen">
+                                        <input type="text" id="calen1" class="ddp-input-typebasic ddp-data-calen" value="2017-30-30">
+                                        <!--<input type="text" id="time1" class="ddp-input-typebasic ddp-data-time" value="00:00">-->
+                                    </div>
+
+                                    <span class="ddp-bar">~</span>
+                                    <div class="ddp-box-calen">
+                                        <input type="text" id="calen2" class="ddp-input-typebasic ddp-data-calen" value="2017-30-30">
+                                        <!--<input type="text" id="time2" class="ddp-input-typebasic ddp-data-time" value="00:00">-->
+                                    </div>
+                                </div>
+                                <a href="#" class="ddp-btn-line-s">적용</a>
+                                <script src='../js/jquery/rome.js'></script>
+                                <script>
+                                    rome(calen1,{ time: false });
+                                    rome(time1, { date: false });
+
+                                    rome(calen2,{ time: false });
+                                    rome(time2, { date: false });
+                                </script>
+                            </div>
+                            <!-- //edit option -->
+
+                        </div>
+                        <!-- //edit -->
+
+                        <div class="ddp-ui-rightoption">
+                            <a href="#" class="ddp-link-reset"><em class="ddp-btn-reset3"></em>초기화</a>
+
+                        </div>
+                    </div>
+                    <!-- //option -->
+
+
+                    <!-- option -->
+                    <div class="ddp-ui-option ddp-optiontype ddp-clear">
+                        <!-- 검색 -->
+                        <div class="ddp-form-search ddp-fleft">
+                            <em class="ddp-icon-search"></em>
+                            <input type="text" placeholder="Search by model name, requester name or ID">
+                            <em class="ddp-btn-search-close"></em>
+                        </div>
+                        <!-- //검색 -->
+                        <!-- right -->
+                        <div class="ddp-ui-rightoption">
+                            <span class="ddp-data-total">There are <strong>4</strong> model lists</span>
+                            <span class="ddp-list-option ddp-pad0">
+                                <!-- 클릭시 ddp-selected 추가 -->
+
+                                <div class="ddp-ui-sort type-option ddp-selected">
+                                    <a href="javascript:" class="ddp-icon-sort"></a>
+                                    <!-- hover -->
+                                    <div class="ddp-ui-tooltip-info">
+                                        <em class="ddp-icon-view-top"></em>
+                                        정렬순서
+                                    </div>
+                                    <!-- //hover -->
+                                    <!-- popup -->
+                                    <div class="ddp-wrap-popup2">
+                                        <ul class="ddp-list-popup">
+                                            <li class="ddp-selected">
+                                                <a href="javascript:">
+                                                    Name Ascending
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    Name Descending
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    Update Ascending
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li class="">
+                                                <a href="javascript:">
+                                                    Update Descending
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- //popup -->
+
+                                </div>
+                            </span>
+                            <span class="ddp-list-option">
+                                <a href="#" class="ddp-btn-line-s"><em class="ddp-icon-upload"></em>Upload</a>
+                                 <a href="#" class="ddp-btn-line-s"><em class="ddp-icon-download"></em>Download</a>
+                            </span>
+
+                            <a href="#" class="ddp-btn-link"><em class="ddp-icon-link-add"></em>Create schema</a>
+
+
+
+                        </div>
+                        <!-- //right -->
+                    </div>
+                    <!-- //option -->
+                </div>
+
+
+                <table class="ddp-table-form ddp-table-type3">
+                    <colgroup>
+                        <col width="15%">
+                        <col width="15%">
+                        <col width="*">
+                        <col width="15%">
+                        <col width="15%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>
+                                Logical Name
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+                            <th>
+                                Column Name
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+                            <th>
+                                Column name <span class="ddp-txt-colortype">(-Description)</span>
+                            </th>
+                            <th>
+                                Used in Physical Columns
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+                            <th>
+                                Created
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                            <td>
+                                조직아이디
+                            </td>
+                            <td>
+                                ORG_ID
+                            </td>
+                            <td>
+                                <div class="ddp-txt-long">
+                                    Data set _EQPID ALL
+                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+                                </div>
+                            </td>
+                            <td>
+                               2
+                            </td>
+                            <td>
+                                2017-7-13 14:35:00
+                                <div class="ddp-btn-control">
+                                    <em class="ddp-icon-control-cut"></em>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+
+                            <td>
+                                조직아이디
+                            </td>
+                            <td>
+                                ORG_ID
+                            </td>
+                            <td>
+                                <span class="ddp-txt-long">Description Description Description Description Desc</span>
+                            </td>
+                            <td>
+                                2
+                            </td>
+                            <td>
+                                2017-7-13 14:35:00
+                                <div class="ddp-btn-control">
+                                    <em class="ddp-icon-control-cut"></em>
+                                </div>
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <div class="ddp-box-add-link">
+                    <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- //contents -->
+</body>
+</html>

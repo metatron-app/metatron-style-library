@@ -1,0 +1,3119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <script>
+$(function(){
+    $('ul.ddp-list-rnb li a').click(function(){
+        $(this).parent().addClass('ddp-selected');
+        $(this).parent().siblings().removeClass('ddp-selected');
+        var $rnbListIdx = $(this).parent().index();
+        $('.ddp-ui-rnb-contents').eq($rnbListIdx).toggle();
+        $('.ddp-ui-rnb-contents').eq($rnbListIdx).siblings().hide();
+
+    });
+});
+    </script>
+</head>
+<body>
+    <!-- header -->
+    <div class="ddp-layout-header">
+        <!-- lnb -->
+        <!-- menu 클릭시 ddp-selected 추가 -->
+        <div class="ddp-layout-lnb">
+            <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+            <ul class="ddp-list-lnb">
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                            <ul class="ddp-list-submenu">
+                                <!-- 선택시 : ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                            <ul class="ddp-list-submenu">
+                                <li>
+                                    <a href="javascript:">
+                                        <!-- new 일때 ddp-new -->
+                                        <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                        <em class="ddp-icon-afav"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- //sub -->
+                    </div>
+
+                </li>
+                <!-- 클릭시 ddp-selected 추가 -->
+                <li class="ddp-selected">
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- //lnb -->
+        <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+        <div class="ddp-ui-headright">
+            <a href="javascript:" class="ddp-btn-search"></a>
+            <!-- photo -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-wrap-myinfo">
+                <a href="javascript:" class="ddp-data-photo">
+                    <img src="../images/img_photo.png" />
+                </a>
+                <!-- my info -->
+                <div class="ddp-ui-sub-myinfo">
+                    <div class="ddp-wrap-data">
+                        <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                        <!--<span class="ddp-data-team">전략 2팀</span>-->
+                        <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                    </div>
+
+                    <ul class="ddp-list-sub-myinfo">
+                        <li><a href="javscript:">사용자 정보 관리</a></li>
+                        <li><a href="javscript:">로그아웃</a></li>
+                    </ul>
+                </div>
+                <!-- //my info -->
+            </div>
+            <!-- //photo -->
+
+        </div>
+
+    </div>
+    <!-- //header -->
+
+
+    <!-- contents -->
+    <div class="ddp-layout-contents">
+        <div class="ddp-wrap-naviarea ddp-naviarea2 ddp-clear">
+            <div class="ddp-ui-navidata ddp-type">
+
+                <!-- 버튼 -->
+                <div class="ddp-ui-work-buttons">
+                    <!-- more -->
+                    <!-- more 버튼 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-ui-more">
+                        <a href="javascript:" class="ddp-icon-more"></a>
+                        <!-- popup -->
+                        <div class="ddp-wrap-popup2 ddp-types">
+                            <ul class="ddp-list-popup">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-drop-editmodify"></em>
+                                        대시보드 복제
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-drop-editdel3"></em>
+                                        이 대시보드 삭제
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- date -->
+                            <div class="ddp-ui-date">
+                                <span class="ddp-data-date">수정 2017.03.06 06:09:35 by오상식</span>
+                                <span class="ddp-data-date">생성 2017.03.06 06:09:35 by오상식</span>
+                            </div>
+                            <!-- //date -->
+                        </div>
+                        <!-- //popup -->
+                    </div>
+                    <!-- //more -->
+                </div>
+                <!-- //버튼 -->
+
+            </div>
+            <div class="ddp-wrap-navi">
+
+
+                <a href="javascript:" class="ddp-link-naviarea"><em class="ddp-icon-navi"></em></a>
+                <em class="ddp-box-tag ddp-workbench">워크벤치</em>
+                <div class="ddp-ui-naviarea">
+                    <!-- name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navi ddp-">
+                        <div class="ddp-wrap-naviname">
+                            <span class="ddp-data-naviname">New Dashboard 01
+                            <em class="ddp-icon-edit2"></em></span>
+                        </div>
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+                            <input type="text" class="ddp-input-navi" placeholder="ew Dashboard 01"/>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+
+                    </div>
+                    <!-- //name -->
+
+                    <!-- description -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navidet ddp-">
+                        <div class="ddp-wrap-navidet">
+                            <span class="ddp-data-navidet">description description description description
+                            <em class="ddp-icon-edit2"></em></span>
+
+                        </div>
+
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+                            <textarea type="text" class="ddp-input-navi" placeholder="">escription description des</textarea>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+                    </div>
+                    <!-- //description -->
+                </div>
+            </div>
+
+
+
+        </div>
+        <em class="ddp-bg-back"></em>
+        <div class="ddp-layout-contents2 ddp-wrap-workbench page-workbench">
+            <div class="ddp-layout-table">
+
+                <!-- lnb --->
+                <!--
+                    닫힐때 ddp-close 추가
+                    ddp-ui-benchtable 닫기 버튼 클릭시 ddp-fold 추가
+
+                -->
+                <div class="ddp-ui-benchlnb ">
+                    <div class="ddp-view-benchlnb">
+                        <a href="javascript:" class="ddp-btn-folding"></a>
+                        <div class="ddp-box-benchlnb ">
+                            <!-- wrap name -->
+                            <div class="ddp-wrap-name">
+                                <!-- name -->
+                                <div class="ddp-data-name">
+
+                                    <div class="ddp-txt-dataname">
+                                        <!-- icons -->
+                                        <div class="ddp-db-icons">
+                                            <img src="../images/img_db/ic_db_custom_w.png">
+                                            <img src="../images/img_db/ic_db_druid_w.png">
+                                            <img src="../images/img_db/ic_db_hive_w.png">
+                                            <img src="../images/img_db/ic_db_oracle_w.png">
+                                            <img src="../images/img_db/ic_db_phoenix_w.png">
+                                            <img src="../images/img_db/ic_db_post_w.png">
+                                            <img src="../images/img_db/ic_db_presto_w.png">
+                                            <img src="../images/img_db/ic_db_rds_w.png">
+                                            <img src="../images/img_db/ic_db_tibero_w.png">
+                                            <img src="../images/img_db/ic_db_w.png">
+                                        </div>
+                                        <!-- icons -->
+                                        <span class="ddp-txt-in">Data Connection Name</span>
+                                        <script>
+                                            $(function(){
+                                                function infopopup(){
+                                                    $('.ddp-ui-benchlnb .ddp-data-name .ddp-wrap-info .ddp-btn-info2').mouseover(function(){
+                                                        var $infoLeft = $(this).offset().left;
+                                                        var $infoTop = $(this).offset().top;
+                                                        $(this).parent().find('.ddp-box-layout4').css('left',$infoLeft-30);
+                                                        $(this).parent().find('.ddp-box-layout4').css('top',$infoTop+15);
+                                                    });
+                                                };infopopup();
+                                                $(window).resize(function(){
+                                                    infopopup();
+                                                });
+
+                                            })
+                                        </script>
+                                        <!-- info 버튼 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-info ddp-selected">
+                                            <a href="javascript:" class="ddp-btn-info2"></a>
+                                            <!-- box layout -->
+                                            <div class="ddp-box-layout4" style="display:inline-block; font-size:12px; color:red; ">
+
+                                                <div class="ddp-data-explain">
+                                                    DB Connection 설명...설명...설명...
+                                                </div>
+                                                <div class="ddp-form-scroll">
+                                                    <table class="ddp-table-info">
+                                                        <colgroup>
+                                                            <col width="150px" />
+                                                            <col width="*" />
+                                                        </colgroup>
+                                                        <tbody>
+                                                        <tr>
+                                                            <th>
+                                                                DB Type
+                                                            </th>
+                                                            <td>
+                                                                한경화 한경화 한경화한경화 한경화 한경화한경화 한경화 한경화한경화 한경화 한경화한경화한 한경화 한경화한경화 한경화 한경화한경화 한경화 한경화
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <th>
+                                                                호스트 / 포트
+                                                            </th>
+                                                            <td>
+                                                                00:00:00 / 10000
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>
+                                                                url
+                                                            </th>
+                                                            <td>
+                                                                <a href="javascript:" class="ddp-link">url</a>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody>
+
+                                                    </table>
+                                                </div>
+
+                                            </div>
+                                            <!-- //box layout -->
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <!-- //name -->
+                                <!-- database name -->
+                                <div class="ddp-data-namesub">
+
+                                    <!--
+                                        클릭시 ddp-selected 추가
+                                        diam 처리 ddp-disabled 추가
+                                    -->
+                                    <div class="ddp-data-in ddp-selected">
+                                        <em class="ddp-icon-database3"></em>
+                                        <span class="ddp-txt-namesub">Database name 004</span>
+                                        <em class="ddp-icon-view"></em>
+                                        <!-- box layout -->
+                                        <div class="ddp-box-layout4 ddp-datasearch" style="display:;">
+                                            <div class="ddp-wrap-search">
+                                                <!-- search -->
+                                                <div class="ddp-form-search">
+                                                    <em class="ddp-icon-search"></em>
+                                                    <input type="text" placeholder="데이터 베이스 이름을 입력해 주세요">
+                                                    <em class="ddp-btn-search-close"></em>
+                                                </div>
+                                                <!-- //search -->
+                                            </div>
+                                            <div class="ddp-ui-list-type">
+                                                <ul class="ddp-list-type ddp-list-popup">
+                                                    <li class="ddp-selected">
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <em class="ddp-icon-database-s"></em>
+                                                            <span class="ddp-data-name">Database Name 001</span>
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+
+                                            </div>
+                                            <a href="javascript:" class="ddp-link-join"> Associations & Join<em class="ddp-btn-option"></em></a>
+
+                                        </div>
+                                        <!-- //box layout -->
+
+                                    </div>
+                                    <!-- table button -->
+                                    <!-- diam 처리 ddp-disabled 추가 -->
+                                    <a href="javascript:" class="ddp-link-btn ddp-disabled">
+                                        <em class="ddp-icon-table"></em>
+                                    </a>
+                                    <!-- //table button -->
+                                </div>
+                                <!-- //database name -->
+                            </div>
+                            <!-- //wrap name -->
+                            <!--  테이블 리스트 -->
+                            <div class="ddp-wrap-tablelist">
+                                <!-- 검색 -->
+                                <div class="ddp-wrap-list-search">
+                                    <a href="javascript:" class="ddp-btn-refresh"></a>
+                                    <div class="ddp-ui-list-search">
+                                        <input type="text" placeholder="search table">
+                                        <em class="ddp-btn-search-close"></em>
+                                    </div>
+                                </div>
+                                <!-- //검색 -->
+                                <!-- head -->
+                                <div class="ddp-tablelist-header">
+                                    <!-- ;num -->
+                                    <div class="ddp-table-num">
+                                        <span class="ddp-number">2,000</span>
+                                        Tables
+                                    </div>
+                                    <!-- //num -->
+                                    <span class="ddp-table-title">
+                                        Physical Table Name
+                                        <em class="ddp-icon-sort-default"></em>
+                                        <em class="ddp-icon-sort-asc" style="display:none;"></em>
+                                        <em class="ddp-icon-sort-des" style="display:none;"></em>
+                                    </span>
+
+
+                                </div>
+                                <!-- ///head -->
+                                <div class="ddp-ui-tablelist">
+
+
+                                    <ul class="ddp-list-table">
+                                        <li class="ddp-info-selected">
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename" title="Table Name 01">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo ddp-disabled"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+                                        <li>
+                                            <em class="ddp-icon-table"></em>
+                                            <span class="ddp-data-tablename">Table Name 01</span>
+                                            <!-- 버튼 -->
+                                            <div class="ddp-ui-buttons">
+                                                <em class="ddp-icon-tableinfo"></em>
+                                            </div>
+                                            <!-- //버튼 -->
+                                        </li>
+
+                                    </ul>
+                                    <!-- page -->
+                                    <div class="ddp-ui-pageing">
+                                        <a href="javascript:" class="ddp-btn-prev">&lt; Previous</a>
+                                        <div class="ddp-data-page"><span>2</span>/10</div>
+                                        <a href="javascript:" class="ddp-btn-next"> Next &gt;</a>
+                                    </div>
+                                    <!-- //page -->
+
+                                </div>
+
+                            </div>
+                            <!--  //테이블 리스트 -->
+                        </div>
+                    </div>
+
+                    <!-- column list popup -->
+                    <div class="ddp-ui-benchtable">
+                        <!-- table name -->
+                        <div class="ddp-ui-table-name">
+                            Table name
+                            <a href="javascript:" class="ddp-btn-close"></a>
+                        </div>
+                        <!-- //table name -->
+                        <div class="ddp-ui-columnlist">
+                            <!-- label -->
+                            <div class="ddp-ui-label">
+                                Column List
+                                <!-- search -->
+                                <div class="ddp-form-search">
+                                    <em class="ddp-icon-search"></em>
+                                    <input type="text" placeholder="search">
+                                    <em class="ddp-btn-search-close"></em>
+                                </div>
+                                <!-- //search -->
+                            </div>
+                            <!-- //label -->
+
+                            <ul class="ddp-list-column">
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <div class="ddp-data-char">
+                                            STRING
+                                        </div>
+                                        <div class="ddp-data-columnname">
+                                            contract_date
+                                        </div>
+                                        <em class="ddp-btn-more"></em>
+                                    </a>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <!-- //column list popup -->
+                </div>
+                <!-- //lnb --->
+
+
+                <!-- 쿼리 contents -->
+                <!--
+                    lnb 닫힐때 ddp-full 추가
+                    table list popup show : ddp-tablepop 추가
+                -->
+                <div class="ddp-ui-query ddp-tablepop" >
+                    <div class="ddp-ui-query-in" >
+                    <!--    <script>
+                            $(function(){
+                                var totalWidth = 0;
+                                $('.ddp-list-tabs').find('li').each(function(){
+                                    totalWidth += Math.round($(this).outerWidth());
+                                    $(this).parent('.ddp-list-tabs').css('width',totalWidth+30);
+                                });
+
+                                var $tabEditWidth = $('.ddp-wrap-tabs-edit').outerWidth() - 33;
+                                var $tabLiWidth = $('.ddp-wrap-tabs-edit .ddp-list-tabs').outerWidth();
+                                if($tabEditWidth <= $tabLiWidth) {
+                                    $('.ddp-wrap-tabs-edit .ddp-ui-tabs').addClass('ddp-slide');
+                                }
+                                else if ($tabEditWidth > $tabLiWidth){
+                                    $('.ddp-wrap-tabs-edit .ddp-ui-tabs').removeClass('ddp-slide');
+                                }
+
+
+                            });
+                        </script>-->
+                        <!-- query editor -->
+                        <!-- full size 일때 ddp-full 추가 -->
+
+                        <div class="ddp-box-editer ">
+                            <!-- tab -->
+                            <div class="ddp-wrap-tabs-edit">
+
+                                <div class="ddp-wrap-btn" >
+
+                                    <!-- 스크린 사이즈 버튼 -->
+                                    <div class="ddp-btn-size">
+                                        <!-- full size -->
+                                        <div class="ddp-box-full">
+                                            <em class="ddp-icon-fullsize"></em>
+                                            <!-- 툴팁 -->
+                                            <div class="ddp-ui-tooltip-info">
+                                                <em class="ddp-icon-view-top"></em>
+                                                전체 보기
+                                            </div>
+                                            <!-- //툴팁 -->
+                                        </div>
+                                        <!-- //full size -->
+                                        <!-- full size -->
+                                        <div class="ddp-box-reduce">
+                                            <em class="ddp-icon-reducesize"></em>
+                                            <!-- 툴팁 -->
+                                            <div class="ddp-ui-tooltip-info">
+                                                <em class="ddp-icon-view-top"></em>
+                                                창 줄이기
+                                            </div>
+                                            <!-- //툴팁 -->
+                                        </div>
+                                        <!-- //full size -->
+
+                                    </div>
+                                    <!-- //스크린 사이즈 버튼 -->
+                                </div>
+                                <!-- slide 될때 class="ddp-slide" 추가 -->
+                                <div class="ddp-ui-tabs ddp-slide">
+
+
+                                    <div class="ddp-btn-listslider">
+                                        <a href="javascript:" class="ddp-btn-sliderprev"></a>
+                                        <a href="javascript:" class="ddp-btn-slidernext"></a>
+                                    </div>
+
+                                    <!-- li 클릭시 ddp-selected 추가 -->
+                                    <!-- 팝업 이름 수정 클릭시 li = ddp-edit 추가  -->
+                                    <ul class="ddp-list-tabs">
+                                        <li class="ddp-selected ddp-edit">
+                                            <div class="ddp-data-tab">
+                                                Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy"/>
+
+
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li><li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li><li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li><li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li><li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li><li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                        <li>
+                                            <div class="ddp-data-tab">
+                                                Top Salary-cop
+                                                <!-- more -->
+                                                <div class="ddp-wrap-morebutton">
+                                                    <em class="ddp-icon-more"></em>
+                                                </div>
+                                                <!-- //more -->
+                                            </div>
+                                            <input type="text" class="ddp-input-edit" value="Top Salary-cop"/>
+                                        </li>
+                                    </ul>
+
+                                    <a href="javascript:" class="ddp-btn-plus"><em class="ddp-icon-plus"></em></a>
+                                </div>
+                            </div>
+                            <!-- //tab -->
+                            <div class="ddp-wrap-editor">
+                                <div class="ddp-ui-empty">
+                                    상단에서 +버튼을 눌러 쿼리를 추가하세요.
+                                </div>
+                                <div class="ddp-ui-editor" contenteditable="true">
+
+
+                                </div>
+                                <!-- popup -->
+                                <div class="ddp-box-layout4 ddp-history" style="display:;">
+
+                                    <div class="ddp-data-title">
+                                        History
+                                        <!-- history option -->
+                                        <div class="ddp-ui-history-option">
+                                            <script>
+                                                $(function(){
+
+                                                    $('.ddp-history-search .ddp-icon-search').click(function(){
+                                                        $('.ddp-history-search').addClass('ddp-selected');
+                                                        $('.ddp-type-search').animate({
+                                                            left:'10px'
+                                                        },200)
+                                                    })
+                                                    $('.ddp-type-search .ddp-btn-back').click(function(){
+
+                                                        $('.ddp-history-search').removeClass('ddp-selected');
+                                                        $('.ddp-type-search').animate({
+                                                            left:'200px'
+                                                        },200);
+                                                    })
+
+                                                })
+                                            </script>
+                                            <!-- 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-history-search ">
+                                                <a href="javascript:" class="ddp-icon-search"></a>
+                                                <div class="ddp-type-search">
+                                                    <input type="text" placeholder="Search Column">
+                                                    <a href="javascript:" class="ddp-btn-delete"></a>
+                                                    <a href="javascript:" class="ddp-btn-back"></a>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:" class="ddp-icon-del"></a>
+                                            <a href="javascript:" class="ddp-btn-close2"></a>
+                                        </div>
+                                        <!-- //history option -->
+                                    </div>
+                                    <div class="ddp-nodata">
+                                        no data
+                                    </div>
+                                    <div class="ddp-data-list-num">
+                                        348 Results of ‘검색어’
+                                    </div>
+                                    <ul class="ddp-list-history">
+                                        <li>
+                                            <a href="javascript:">
+                                                <div class="ddp-ui-history-data">
+                                                    <span class="ddp-data-ms">482ms</span>
+                                                    <em class="ddp-icon-status-success"></em>
+
+                                                    <em class="ddp-icon-return"></em>
+                                                </div>
+                                                <div class="ddp-data-history">
+                                                    <div class="ddp-data-edit" title="SELECT * from sample.sales limit 20 ">SELECT * from sample.sarom sample.sales limit 20 </div>
+                                                    <div class="ddp-data-time" title="12-10 13:57 ~ 12-10 13:57 by administ">12-10 13:57 ~ 12-10 13:57 by administ...</div>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <div class="ddp-ui-history-data">
+                                                    <span class="ddp-data-ms">482ms</span>
+
+                                                    <em class="ddp-icon-status-fail"></em>
+                                                    <em class="ddp-icon-view"></em>
+                                                </div>
+                                                <div class="ddp-data-history">
+                                                    <div class="ddp-data-edit" title="SELECT * from sample.sales limit 20 ">SELECT * from sample.sarom sample.sales limit 20 </div>
+                                                    <div class="ddp-data-time" title="12-10 13:57 ~ 12-10 13:57 by administ">12-10 13:57 ~ 12-10 13:57 by administ...</div>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <div class="ddp-ui-history-data">
+                                                    <span class="ddp-data-ms">482ms</span>
+
+                                                    <em class="ddp-icon-status-fail"></em>
+                                                    <em class="ddp-icon-view"></em>
+                                                </div>
+                                                <div class="ddp-data-history">
+                                                    <div class="ddp-data-edit" title="SELECT * from sample.sales limit 20 ">SELECT * from sample.sarom sample.sales limit 20 </div>
+                                                    <div class="ddp-data-time" title="12-10 13:57 ~ 12-10 13:57 by administ">12-10 13:57 ~ 12-10 13:57 by administ...</div>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <div class="ddp-ui-history-data">
+                                                    <span class="ddp-data-ms">482ms</span>
+
+                                                    <em class="ddp-icon-status-fail"></em>
+                                                    <em class="ddp-icon-view"></em>
+                                                </div>
+                                                <div class="ddp-data-history">
+                                                    <div class="ddp-data-edit" title="SELECT * from sample.sales limit 20 ">SELECT * from sample.sarom sample.sales limit 20 </div>
+                                                    <div class="ddp-data-time" title="12-10 13:57 ~ 12-10 13:57 by administ">12-10 13:57 ~ 12-10 13:57 by administ...</div>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <div class="ddp-ui-history-data">
+                                                    <span class="ddp-data-ms">482ms</span>
+
+                                                    <em class="ddp-icon-status-fail"></em>
+                                                    <em class="ddp-icon-view"></em>
+                                                </div>
+                                                <div class="ddp-data-history">
+                                                    <div class="ddp-data-edit" title="SELECT * from sample.sales limit 20 ">SELECT * from sample.sarom sample.sales limit 20 </div>
+                                                    <div class="ddp-data-time" title="12-10 13:57 ~ 12-10 13:57 by administ">12-10 13:57 ~ 12-10 13:57 by administ...</div>
+
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <a href="javascript:" class="ddp-btn-more">+ more</a>
+                                </div>
+                                <!-- popup -->
+                                <div class="ddp-box-layout4 ddp-shortcuts" style="display:none;">
+                                    <a href="javascript:" class="ddp-btn-close"></a>
+                                    <div class="ddp-data-title">
+                                        shortcuts for Window
+                                    </div>
+                                    <div class="ddp-wrap-data-detail ddp-padt0">
+                                        <table class="ddp-table-pop">
+                                            <colgroup>
+                                                <col width="95px">
+                                                <col width="*">
+                                            </colgroup>
+                                            <tbody>
+                                            <tr>
+                                                <th>전체 선택</th>
+                                                <td>Ctrl + A</td>
+                                            </tr>
+                                            <tr>
+                                                <th>행 삭제</th>
+                                                <td>Ctrl + D</td>
+                                            </tr>
+                                            <tr>
+                                                <th>전체 삭제</th>
+                                                <td>Ctrl + Q</td>
+                                            </tr>
+                                            <tr>
+                                                <th>들여쓰기</th>
+                                                <td> Tab</td>
+                                            </tr>
+                                            <tr>
+                                                <th>내어쓰기</th>
+                                                <td>Alt-Tab</td>
+                                            </tr>
+                                            <tr>
+                                                <th>주석 설정 / 해제</th>
+                                                <td>CTRL + /</td>
+                                            </tr>
+                                            <tr>
+                                                <th>SQL문 자동정렬</th>
+                                                <td>Ctrl + .</td>
+                                            </tr>
+                                            <tr>
+                                                <th>작업 취소</th>
+                                                <td>Ctrl-Z</td>
+                                            </tr>
+                                            <tr>
+                                                <th>자동완성</th>
+                                                <td>Ctrl + Spacebar
+                                                </td>
+                                            </tr>
+
+                                            </tbody>
+                                        </table>
+
+                                    </div>
+                                    <!-- //popup -->
+
+                                </div>
+                            </div>
+
+                            <!-- foot buttons -->
+                            <div class="ddp-wrap-foot-button">
+                                <!-- link button -->
+                                <div class="ddp-link-button">
+                                    <a href="javascript:" class="ddp-link-query"><em class="ddp-icon-query-full"></em>Execute full</a>
+                                    <a href="javascript:" class="ddp-link-query"><em class="ddp-icon-query-partial"></em>Execute partial</a>
+                                </div>
+                                <!-- //link button -->
+
+                                <div class="ddp-icon-button">
+                                    <!-- btn query -->
+                                    <div class="ddp-btn-query">
+                                        <a href="javascript:" class="ddp-icon-query-clear"></a>
+                                        <div class="ddp-ui-tooltip-info ddp-top" >
+                                            <em class="ddp-icon-view-down"></em>
+                                            Clear query
+                                        </div>
+                                    </div>
+                                    <!-- //btn query -->
+                                    <!-- btn query -->
+                                    <div class="ddp-btn-query">
+                                        <a href="javascript:" class="ddp-icon-query-beautifier"></a>
+                                        <div class="ddp-ui-tooltip-info ddp-top" >
+                                            <em class="ddp-icon-view-down"></em>
+                                            SQL Beautifier
+                                        </div>
+                                    </div>
+                                    <!-- //btn query -->
+                                    <!-- btn query -->
+                                    <div class="ddp-btn-query">
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <a href="javascript:" class="ddp-icon-query-history ddp-selected"></a>
+                                        <div class="ddp-ui-tooltip-info ddp-top" >
+                                            <em class="ddp-icon-view-top"></em>
+                                            History
+                                        </div>
+                                    </div>
+                                    <!-- //btn query -->
+                                    <!-- btn query -->
+                                    <div class="ddp-btn-query">
+                                        <!-- 클릭시 Ddp-selected -->
+                                        <a href="javascript:" class="ddp-icon-query-shortcuts ddp-selected"></a>
+                                        <div class="ddp-ui-tooltip-info ddp-top" >
+                                            <em class="ddp-icon-view-down"></em>
+                                            Shortcuts
+                                        </div>
+                                    </div>
+                                    <!-- //btn query -->
+
+                                </div>
+
+                            </div>
+                            <!-- //foot buttons -->
+                            <div class="ddp-wrap-edit-foot" style="display:none;">
+                                <!-- row 수 -->
+                                <div class="ddp-data-rows">
+                                    <em class="ddp-icon-row"></em>
+                                    <div class="ddp-data-input">
+                                        <input type="text" value="100">
+                                        <a href="javascript:" class="ddp-btn-check2"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //row 수 -->
+                                <a href="javascript:" class="ddp-btn-beautifier">
+
+                                    <div class="ddp-ui-tooltip-info" style="display:;">
+                                        <em class="ddp-icon-view-down"></em>
+                                        SQL Beautifier
+                                    </div>
+                                </a>
+                                <!-- //foot button -->
+                                <!-- foot button -->
+                                <div class="ddp-ui-edit-foot">
+                                    <a href="javascript:" class="ddp-btn-play">
+                                        <div class="ddp-ui-tooltip-info" style="display:;">
+                                            <em class="ddp-icon-view-down"></em>
+                                            Full query execution
+                                        </div>
+                                    </a>
+                                    <a href="javascript:" class="ddp-btn-stop">
+
+                                        <div class="ddp-ui-tooltip-info" style="display:;">
+                                            <em class="ddp-icon-view-down"></em>
+                                            Partial query execution
+                                        </div>
+                                    </a>
+                                    <a href="javascript:" class="ddp-btn-delete">
+
+                                        <div class="ddp-ui-tooltip-info" style="display:;">
+                                            <em class="ddp-icon-view-down"></em>
+                                            Delete query
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- //foot button -->
+
+                                <!-- question -->
+                                <!-- 클릭시 ddp-selected 추가 -->
+                                <div class="ddp-wrap-question ddp-selected">
+                                    <a href="javascript:" class="ddp-btn-question">
+                                    </a>
+
+                                </div>
+                                <!-- //question -->
+                            </div>
+
+                        </div>
+                        <!-- //query editor -->
+
+
+                        <!-- query result -->
+                        <div class="ddp-box-query-result">
+                            <!-- handler -->
+                            <a href="javascript:" class="ddp-wrap-handler">
+                                <em class="ddp-icon-handler"></em>
+                            </a>
+                            <!-- //handler -->
+                            <!-- <script>
+                                $(function(){
+                                    var totalWidth = 0;
+                                    $('.ddp-wrap-tabs-query .ddp-list-tabs').find('li').each(function(){
+                                        totalWidth += Math.round($(this).outerWidth());
+                                        $(this).parent('.ddp-list-tabs').css('width',totalWidth+30);
+                                    });
+
+                                    var $tabQueryWidth = $('.ddp-wrap-tabs-query').outerWidth();
+                                    var $tabQueryLiWidth = $('.ddp-wrap-tabs-query .ddp-list-tabs').outerWidth();
+                                    if($tabQueryWidth<$tabQueryLiWidth) {
+                                        $('.ddp-wrap-tabs-query .ddp-ui-tabs').addClass('ddp-slide');
+                                    }
+                                    else if ($tabQueryWidth > $tabQueryLiWidth){
+                                        $('.ddp-wrap-tabs-query .ddp-ui-tabs').removeClass('ddp-slide');
+                                    }
+                                });
+                            </script> -->
+                            <div class="ddp-box-in" id="result">
+                                <!-- tab -->
+                                <div class="ddp-wrap-tabs-query">
+                                    <!-- empty -->
+                                    <div class="ddp-ui-result-none" style="display:none;">쿼리 결과가 없습니다. 쿼리를 실행해 주세요.</div>
+                                    <!-- //empty -->
+                                    <!-- reset 버튼 -->
+                                    <div class="ddp-wrap-btn" style="display:;">
+
+
+                                        <div class="ddp-btn-reset">
+                                            <em class="ddp-btn-reset2"></em>
+                                            <!-- 툴팁 -->
+                                            <div class="ddp-ui-tooltip-info">
+                                                <em class="ddp-icon-view-top"></em>
+                                                초기화
+                                            </div>
+                                            <!-- //툴팁 -->
+                                        </div>
+                                    </div>
+                                    <!-- //reset 버튼 -->
+
+                                    <!-- slide 될때 class="ddp-slide" 추가 -->
+                                    <div class="ddp-ui-tabs ddp-slide" style="display:;">
+                                        <div class="ddp-btn-listslider">
+                                            <a href="javascript:" class="ddp-btn-sliderprev"></a>
+                                            <a href="javascript:" class="ddp-btn-slidernext"></a>
+                                        </div>
+                                <script>
+                                    $(function(){
+                                        function tabsPopup(){
+                                            $('.ddp-list-tabs li').mouseover(function(){
+                                                var $tabsliLeft = $(this).offset().left;
+                                                if($tabsliLeft > $(window).outerWidth() / 2){
+                                                    $(this).find('.ddp-wrap-retry').css({
+                                                        'right' :'-10px',
+                                                        'left' : 'inherit'
+                                                    });
+
+                                                }
+                                            });
+                                        };tabsPopup();
+                                        $(window).resize(function(){
+                                            tabsPopup();
+                                        });
+                                    });
+                                </script>
+                                        <!-- li 클릭시 ddp-selected 추가 -->
+                                        <ul class="ddp-list-tabs">
+                                            <li class="ddp-selected">
+                                                <div class="ddp-data-tab">
+                                                    Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                                <div class="ddp-wrap-retry">
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-tabs-popup ddp-retry" style="display:;">
+                                                        <div class="ddp-txt-query">
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentntences Full query sentencesssssss
+                                                            <a href="javascript:" class="ddp-btn-log-status ddp-retry2">Retry</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <div class="ddp-data-tab">
+                                                    Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                                <div class="ddp-wrap-retry">
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-tabs-popup ddp-retry" style="display:;">
+                                                        <div class="ddp-txt-query">
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentntences Full query sentencesssssss
+                                                            <a href="javascript:" class="ddp-btn-log-status ddp-retry2">Retry</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <div class="ddp-data-tab">
+                                                    Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                                <div class="ddp-wrap-retry">
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-tabs-popup ddp-retry" style="display:;">
+                                                        <div class="ddp-txt-query">
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentntences Full query sentencesssssss
+                                                            <a href="javascript:" class="ddp-btn-log-status ddp-retry2">Retry</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <div class="ddp-data-tab">
+                                                    Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                                <div class="ddp-wrap-retry">
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-tabs-popup ddp-retry" style="display:;">
+                                                        <div class="ddp-txt-query">
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentencesssssss
+                                                            Full query sentences Full query sentntences Full query sentencesssssss
+                                                            <a href="javascript:" class="ddp-btn-log-status ddp-retry2">Retry</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                            </li> <li class="ddp-selected">
+                                            <div class="ddp-data-tab">
+                                                Top Salary-copyTop Salary-copyTop Salary-copyTop Salary-copy
+                                                <a href="javascript:" class="ddp-btn-close-s"></a>
+                                            </div>
+
+                                            <!-- popup -->
+                                            <div class="ddp-box-tabs-popup ddp-retry" style="display:;">
+                                                <div class="ddp-txt-query">
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentencesssssss
+                                                    Full query sentences Full query sentntences Full query sentencesssssss
+                                                    <a href="javascript:" class="ddp-btn-log-status ddp-retry2">Retry</a>
+                                                </div>
+                                            </div>
+                                            <!-- //popup -->
+
+                                        </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-tab ddp-data-loading">
+
+                                                    <em class="ddp-icon-tabloading"></em>
+
+                                                    Top Salar
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li> <li class="ddp-disabled">
+                                            <div class="ddp-data-loading">
+                                                <em class="ddp-icon-tabloading"></em>
+                                                Loading<em class="ddp-icon-dot">...</em>
+                                                <a href="javascript:" class="ddp-btn-close-s"></a>
+                                            </div>
+                                        </li> <li class="ddp-disabled">
+                                            <div class="ddp-data-loading">
+                                                <em class="ddp-icon-tabloading"></em>
+                                                Loading<em class="ddp-icon-dot">...</em>
+                                                <a href="javascript:" class="ddp-btn-close-s"></a>
+                                            </div>
+                                        </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <div class="ddp-data-loading">
+                                                    <em class="ddp-icon-tabloading"></em>
+                                                    Loading<em class="ddp-icon-dot">...</em>
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                </div>
+                                            </li>
+
+
+
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- tab -->
+                                <!-- 결과 -->
+                                <div class="ddp-view-result">
+                                    <!--
+                                       쿼리 실행직후 / 실행실패 / 중단 / 취소 한 경우 :ddp-ing 추가
+                                   -->
+                                    <div class="ddp-wrap-log ddp-ing " style="display:none;">
+                                        <!-- log -->
+                                        <div class="ddp-box-log ">
+                                            <span class="ddp-txt-info">INFO</span><br>
+                                            <span class="ddp-txt-error">ERROR</span><br>
+                                            <span class="ddp-txt-warn">WARN</span><br>
+                                            <span class="ddp-txt-type-a">sql></span>
+                                            <span class="ddp-txt-type-b">select</span>*
+                                            <span class="ddp-txt-type-b">from</span>
+                                            <span class="ddp-txt-type-c">log</span>
+                                            Query sentences Query sentences Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences  Query sentences Query sentences Query sentences<br>  Query sentences Query sentences Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences  Query sentences Query sentences Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences<br>
+                                            Query sentences  Query sentences Query sentences Query sentences<br>
+
+                                        </div>
+                                        <!-- //log -->
+                                        <!-- box status -->
+                                        <div class="ddp-box-status-button">
+                                            <a href="javascript:" class="ddp-btn-log-status ">Cancel</a>
+
+                                            <span class="ddp-txt-log-status">Getting connection (1/5)</span>
+                                            <a href="javascript:" class="ddp-btn-log-status ddp-retry">Retry</a>
+                                            <span class="ddp-txt-log-status ddp-fail">Sorry, it’s failed while creating statement </span>
+
+
+                                        </div>
+                                        <!-- //box status -->
+                                        <!-- info bar -->
+
+                                    </div>
+                                    <!-- wrap result -->
+                                    <div class="ddp-wrap-result" style="display:;">
+                                        <div class="ddp-ui-empty">
+                                            상단에서 +버튼을 눌러 쿼리를 추가하세요.
+                                        </div>
+                                        <div class="ddp-box-grid">
+
+                                                Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query resul Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query result Query resul
+                                        </div>
+                                        <!-- button -->
+                                        <div class="ddp-ui-buttons">
+                                            <div class="ddp-wrap-btn-link">
+                                                <a href="javascrpt:" class="ddp-box-page">
+                                                    <em class="ddp-icon-prev"></em>PREV
+                                                </a>
+                                                <a href="javascrpt:" class="ddp-box-page ddp-next">
+                                                    NEXT<em class="ddp-icon-next"></em>
+                                                </a>
+                                            </div>
+
+                                            <div class="ddp-wrap-btn-link type-opacity">
+
+                                                <!-- search link -->
+                                                <!--
+                                                    클릭시 ddp-selected 추가
+                                                    값이 있을 경우 Ddp-value 추가
+                                                -->
+                                                <a href="javascript:" class="ddp-btn-link ddp-selected ddp-value">
+                                                    <em class="ddp-icon-query-search"></em>
+                                                    <div class="ddp-ui-tooltip-info " style="display:;">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        search
+                                                    </div>
+                                                    <!-- box -->
+                                                    <div class="ddp-box-searching">
+                                                        <!-- search -->
+                                                        <div class="ddp-form-search">
+                                                            <em class="ddp-icon-search"></em>
+                                                            <input type="text" placeholder="Search by column data">
+                                                            <em class="ddp-btn-search-close"></em>
+                                                        </div>
+                                                        <!-- //search -->
+                                                    </div>
+                                                    <!-- //box -->
+                                                </a>
+                                                <!-- //search link -->
+                                                <a href="javascript:" class="ddp-btn-link">
+                                                    <em class="ddp-icon-chart"></em>
+                                                    <div class="ddp-ui-tooltip-info " style="display:;">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        Chart Preview
+                                                    </div>
+                                                </a>
+
+                                                <a href="javascript:" class="ddp-btn-link">
+                                                    <em class="ddp-icon-save"></em>
+                                                    <div class="ddp-ui-tooltip-info" style="display:;">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        Save as Datasource
+                                                    </div>
+                                                </a>
+                                                <!-- ddp-selected 추가 -->
+                                                <div class="ddp-ui-link ddp-selected">
+
+                                                    <a href="javascript:" class="ddp-btn-link">
+                                                        <em class="ddp-icon-export"></em>
+                                                        <div class="ddp-ui-tooltip-info" style="display:;">
+                                                            <em class="ddp-icon-view-down"></em>
+                                                            Export CSV
+                                                        </div>
+
+                                                    </a>
+                                                    <div class="ddp-wrap-popup2" >
+                                                        <ul class="ddp-list-popup">
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    1000 rows
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    All data
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+
+                                                    </div>
+                                                </div>
+                                                <a href="javascript:" class="ddp-btn-link">
+                                                    <em class="ddp-icon-online-excel"></em>
+                                                    <div class="ddp-ui-tooltip-info" style="display:;">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        Online Excel
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- //button -->
+                                    </div>
+
+                                    <!-- //wrap result -->
+
+                                    <!-- info bar -->
+                                    <div class="ddp-box-infobar">
+                                        <!-- tab -->
+                                        <div class="ddp-ui-bottom-tab">
+                                            <ul class="ddp-list-bottom-tab">
+                                                <li><a href="javascript:">Output</a></li>
+                                                <li class="ddp-selected"><a href="javascript:">Result</a></li>
+                                            </ul>
+                                        </div>
+                                        <!-- //tab -->
+                                        <div class="ddp-view-status ddp-fail">
+                                            <!-- 상태 -->
+                                            <div class="ddp-info-status" style="display:;">
+                                                Running query...
+                                            </div>
+                                            <!--//상태 -->
+                                            <!-- 상태 -->
+                                            <div class="ddp-info-status ddp-fail">
+                                                fail
+                                            </div>
+                                            <!--//상태 -->
+
+                                        </div>
+
+                                        <!-- time -->
+                                        <div class="ddp-list-time">
+                                                        <span class="ddp-data-time">
+                                                            <span class="ddp-data-label">실행시작</span>
+                                                            <span class="ddp-data-txt">2018-10-10 22:00:00</span>
+                                                        </span>
+                                            <span class="ddp-data-time">
+                                                             <span class="ddp-data-label">소요시간</span>
+                                                            <span class="ddp-data-txt">3secs</span>
+                                                        </span>
+                                        </div>
+                                        <!-- //time -->
+                                    </div>
+                                    <!-- //info bar -->
+
+                                </div>
+                                <!-- //결과 -->
+
+
+                            </div>
+                        </div>
+                        <!-- //query result -->
+                    </div>
+                </div>
+                <!-- //쿼리 contents -->
+                <!-- rnb --->
+                <div class="ddp-ui-rnb">
+                    <ul class="ddp-list-rnb">
+                        <li class="ddp-selected">
+                            <a href="javascript:">
+                                <em class="ddp-icon-globalvar"></em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <em class="ddp-icon-history"></em>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <em class="ddp-icon-navimenu"></em>
+                            </a>
+
+                        </li>
+                    </ul>
+                    <div class="ddp-wrap-rnb-contents">
+                        <!-- rnb contents -->
+                        <div class="ddp-ui-rnb-contents ddp-type" style="display:none;">
+                            <div class="ddp-ui-title">
+                                Global variable<span class="ddp-data-num">(4)</span>
+                            </div>
+
+
+                            <div class="ddp-ui-form-list">
+
+                                <div class="ddp-ui-var-plus">
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-wrap-addview ddp-selected">
+                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                        <div class="ddp-ui-addview">
+
+                                            <div class="ddp-box-addview">
+
+                                                <table class="ddp-list-addview">
+                                                    <colgroup>
+                                                        <col width="46px">
+                                                        <col width="*">
+                                                    </colgroup>
+                                                    <tbody>
+                                                    <tr>
+                                                        <th>Type</th>
+                                                        <td>
+                                                            <!-- select box -->
+                                                            <!-- 클릭시 ddp-selected 추가 -->
+                                                            <div class="ddp-type-selectbox ddp-type ddp-txt-type">
+                                                            <span class="ddp-txt-selectbox ">
+                                                                <em class="ddp-icon-type-calen3"></em> 모든타입
+                                                            </span>
+                                                                <div class="ddp-wrap-popup2 ddp-types">
+                                                                    <ul class="ddp-list-popup">
+                                                                        <li>
+                                                                            <a href="javascript:">
+                                                                                <em class="ddp-icon-type-calen3"></em>
+                                                                                TEXT
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="javascript:">
+                                                                                <em class="ddp-icon-type-text"></em>
+                                                                                CALENDAR
+                                                                            </a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //select box -->
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <td>
+                                                            <input type="text" class="ddp-input-typebasic ddp-value" placeholder="변수명 입력">
+                                                            <span class="ddp-data-error"> Invalid Connect</span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Value</th>
+                                                        <td>
+
+                                                            <div class="ddp-form-calen">
+                                                                <input type="text" class="ddp-input-typebasic ddp-value " placeholder="값 입력">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+
+                                                <div class="ddp-box-buttons">
+                                                    <a href="#" class="ddp-btn-pop">Cancel</a>
+                                                    <a href="#" class="ddp-btn-pop ddp-bg-black">Add</a>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="ddp-list-form-plus">
+                                        <div class="ddp-wrap-link-list">
+                                            <!-- form -->
+                                            <div class="ddp-form-multy2 ddp-type ddp-clear ">
+                                                <em class="ddp-icon-type-calen3"></em>
+                                                <div class="ddp-box-typebasic">
+                                                    <input type="text" class="ddp-input-typebasic ddp-readonly " value="VARIABLE" readonly="readonly">
+                                                </div>
+                                                <div class="ddp-box-typebasic ddp-value">
+                                                    <input type="text" class="ddp-input-typebasic ddp-readonly ddp-value" value="value" readonly="readonly">
+                                                </div>
+
+                                                <div class="ddp-ui-buttons">
+                                                    <!-- button -->
+                                                    <div class="ddp-btn-control">
+                                                        <em class="ddp-icon-control-insert"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            변수 삽입
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                    <!-- //button -->
+
+                                                    <!-- button -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-btn-control ">
+                                                        <em class="ddp-icon-control-more2"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                        <!-- popup -->
+                                                        <div class="ddp-wrap-popup2 ddp-types">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editmodify"></em>
+                                                                        편집
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editdel3"></em>
+                                                                        삭제
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <!-- //popup -->
+                                                    </div>
+                                                    <!-- //button -->
+                                                </div>
+                                            </div>
+                                            <!-- //form -->
+                                        </div>
+
+
+                                        <div class="ddp-wrap-link-list">
+                                            <!-- form -->
+                                            <div class="ddp-form-multy2 ddp-type ddp-clear">
+                                                <em class="ddp-icon-type-text"></em>
+
+                                                <div class="ddp-box-typebasic">
+                                                    <input type="text" class="ddp-input-typebasic ddp-readonly " value="VARIABLE" readonly="readonly">
+                                                </div>
+                                                <div class="ddp-box-typebasic ddp-value">
+                                                    <input type="text" class="ddp-input-typebasic ddp-readonly ddp-value" value="value" readonly="readonly">
+                                                </div>
+
+
+                                                <div class="ddp-ui-buttons">
+                                                    <!-- button -->
+                                                    <div class="ddp-btn-control">
+                                                        <em class="ddp-icon-control-insert"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            변수 삽입
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                    <!-- //button -->
+
+                                                    <!-- button -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-btn-control ">
+                                                        <em class="ddp-icon-control-more2"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                        <!-- popup -->
+                                                        <div class="ddp-wrap-popup2 ddp-types">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editmodify"></em>
+                                                                        편집
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editdel3"></em>
+                                                                        삭제
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <!-- //popup -->
+                                                    </div>
+                                                    <!-- //button -->
+                                                </div>
+                                            </div>
+                                            <!-- //form -->
+                                            <!-- button -->
+                                            <div class="ddp-link-buttons ">
+                                                <a href="#" class="ddp-btn-pop">Cancel</a>
+                                                <a href="#" class="ddp-btn-pop ddp-bg-black">Add</a>
+                                            </div>
+                                            <!-- //button -->
+                                        </div>
+
+                                        <div class="ddp-wrap-link-list ddp-edit">
+                                            <!-- form -->
+                                            <div class="ddp-form-multy2 ddp-type ddp-clear ddp-padr0">
+                                                <em class="ddp-icon-type-calen3"></em>
+
+                                                <div class="ddp-box-typebasic">
+                                                    <div class="ddp-form-calen">
+                                                        <input type="text" class="ddp-input-typebasic ddp-value " placeholder="값 입력">
+                                                    </div>
+                                                    <span class="ddp-data-error"> in used</span>
+                                                </div>
+                                                <div class="ddp-box-typebasic ddp-value">
+                                                    <input type="text" class="ddp-input-typebasic  ddp-value" placeholder="value">
+                                                    <span class="ddp-data-error"> required</span>
+                                                </div>
+                                                <div class="ddp-ui-buttons"  style="display:none;">
+                                                    <!-- button -->
+                                                    <div class="ddp-btn-control">
+                                                        <em class="ddp-icon-control-insert"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            변수 삽입
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                    <!-- //button -->
+
+                                                    <!-- button -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-btn-control ">
+                                                        <em class="ddp-icon-control-more2"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                        <!-- popup -->
+                                                        <div class="ddp-wrap-popup2 ddp-types">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editmodify"></em>
+                                                                        편집
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-drop-editdel3"></em>
+                                                                        삭제
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <!-- //popup -->
+                                                    </div>
+                                                    <!-- //button -->
+                                                </div>
+                                            </div>
+                                            <!-- //form -->
+                                            <!-- button -->
+                                            <div class="ddp-link-buttons ">
+                                                <a href="#" class="ddp-btn-pop">Cancel</a>
+                                                <a href="#" class="ddp-btn-pop ddp-bg-black">Add</a>
+                                            </div>
+                                            <!-- //button -->
+                                        </div>
+
+                                    </div>
+                                    <!-- blank -->
+                                    <div class="ddp-list-blank">
+                                        <em class="ddp-icon-blank-plus"></em>버튼을 눌러서 글로벌 변수를 추가할 수 있습니다<em class="ddp-icon-blank-point"></em>
+                                    </div>
+                                    <!-- //blank -->
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- //rnb contents -->
+                        <!-- rnb contents -->
+                        <div class="ddp-ui-rnb-contents" style="display:none;">
+                            <div class="ddp-ui-title">
+                                QUERY HISTORY
+                            </div>
+                            <div class="ddp-ui-option">
+                                <!-- search -->
+                                <div class="ddp-form-search">
+                                    <em class="ddp-icon-search"></em>
+                                    <input type="text" placeholder="search">
+                                    <em class="ddp-btn-search-close"></em>
+                                </div>
+                                <!-- //search -->
+                                <div class="ddp-ui-reset">
+                                    <a href="javascript:" class="ddp-btn-reset2"></a>
+                                    <div class="ddp-ui-tooltip-info">
+                                        <em class="ddp-icon-view-top"></em>
+                                        전체 이력 삭제
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="ddp-wrap-table-simple">
+                                <!-- thead -->
+                                <div class="ddp-table-thead">
+                                    <table class="ddp-table-simple">
+                                        <colgroup>
+                                            <col width="55px" />
+                                            <col width="*" />
+                                            <col width="65px" />
+                                            <col width="70px" />
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th class="ddp-txt-center">
+                                                    No
+                                                </th>
+                                                <th>
+                                                    Query
+                                                </th>
+                                                <th>
+                                                    Resp.
+                                                </th>
+                                                <th class="ddp-txt-center">
+                                                    Result
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                                </div>
+                                <!-- //thead -->
+                                <!-- tbody -->
+                                <div class="ddp-table-tbody">
+                                    <table class="ddp-table-simple">
+                                        <colgroup>
+                                            <col width="55px" />
+                                            <col width="*" />
+                                            <col width="65px" />
+                                            <col width="70px" />
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    1
+                                                </td>
+
+                                                <td>
+                                                    <div class="ddp-ui-action" title=" select * from sample.sales limit 20 2 li..select * from sample.sales limit 20 2sample.sales limit 20 2sample.sales limit 20 2 li..">
+                                                        select * from sample.sales limit 20 2 li..select * from sample.sales limit 20 2sample.sales limit 20 2sample.sales limit 20 2 li..
+                                                    </div>
+                                                    <div class="ddp-ui-time" title="12-10 13:3443">12-10 13:57 ~ 12-10 13:57 by administrator</div>
+                                                </td>
+                                                <td>
+                                                    Resp.
+                                                </td>
+                                                <td class="ddp-txt-center">
+                                                    <span class="ddp-result-scuccess">Success</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    1
+                                                </td>
+                                                <td>
+                                                    <div class="ddp-ui-action"title=" select * from sample.sales limit 20 2 li..select * from sample.sales limit 20 2sample.sales limit 20 2sample.sales limit 20 2 li..">
+                                                        select * from sample.sales limit 20 2 li..select * from sample.sales limit 20 2sample.sales limit 20 2sample.sales limit 20 2 li..
+                                                    </div>
+                                                    <div class="ddp-ui-time"title=" 12-10 13:57 ~ 12-10 13:57 by administrato">12-10 13:57 ~ 12-10 13:57 by administrator</div>
+                                                </td>
+                                                <td>
+                                                    Resp.
+                                                </td>
+                                                <td class="ddp-txt-center">
+                                                    <span class="ddp-result-fail">Fail</span>
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                    <a href="javascript:" class="ddp-btn-more">+ more</a>
+                                </div>
+                                <!-- //tbody -->
+
+                            </div>
+
+                        </div>
+                        <!-- //rnb contents -->
+                        <!-- rnb contents -->
+                        <div class="ddp-ui-rnb-contents" style="display:none;">
+                            <div class="ddp-ui-title">
+                                Workbench navigation
+                                <span class="ddp-data-num2">(10)</span>
+                            </div>
+                            <div class="ddp-ui-option">
+                                <!-- search -->
+                                <div class="ddp-form-search">
+                                    <em class="ddp-icon-search"></em>
+                                    <input type="text" placeholder="search">
+                                    <em class="ddp-btn-search-close"></em>
+                                </div>
+                                <!-- //search -->
+                                <!-- selectbox -->
+                                <!-- 클릭시 ddp-selected 추가 -->
+                                <div class="ddp-wrap-selectbox ">
+                                    <div class="ddp-data-selectbox">
+                                        전체
+                                    </div>
+
+                                    <div class="ddp-wrap-popup2">
+                                        <ul class="ddp-list-popup">
+                                            <li class="ddp-selected">
+                                                <a href="javascript:">
+                                                    전체
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    개인 워크스페이스
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    공유 워크스페이스
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //selectbox -->
+
+                            </div>
+
+                            <div class="ddp-wrap-table-simple">
+                                <!-- thead -->
+                                <div class="ddp-table-thead">
+                                    <table class="ddp-table-simple">
+                                        <colgroup>
+                                            <col width="60px" />
+                                            <col width="*" />
+                                            <col width="130px" />
+                                            <col width="157px" />
+                                        </colgroup>
+                                        <thead>
+                                            <tr>
+                                                <th class="ddp-txt-center">
+                                                    No
+                                                </th>
+                                                <th>
+                                                    Workbench name
+                                                </th>
+                                                <th>
+                                                    updated
+                                                    <em class="ddp-icon-array-default2"></em>
+                                                    <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                                    <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                                </th>
+                                                <th>
+                                                    Workspace
+                                                </th>
+                                            </tr>
+                                        </thead>
+
+                                    </table>
+                                </div>
+                                <!-- //thead -->
+                                <!-- tbody -->
+                                <div class="ddp-table-tbody">
+                                    <table class="ddp-table-simple">
+                                        <colgroup>
+                                            <col width="60px" />
+                                            <col width="*" />
+                                            <col width="130px" />
+                                            <col width="157px" />
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    1
+                                                </td>
+                                                <td>
+                                                    Workbench name
+                                                </td>
+                                                <td>
+                                                    updated
+
+                                                </td>
+                                                <td>
+                                                    <em class="ddp-icon-user-s"></em>
+                                                    Workspace
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    2
+                                                </td>
+                                                <td>
+                                                    Workbench name
+                                                </td>
+                                                <td>
+                                                    updated
+
+                                                </td>
+                                                <td>
+                                                    <em class="ddp-icon-group-s"></em>
+                                                    Workspace
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    1
+                                                </td>
+                                                <td>
+                                                    Workbench name
+                                                </td>
+                                                <td>
+                                                    updated
+
+                                                </td>
+                                                <td>
+                                                    <em class="ddp-icon-user-s"></em>
+                                                    Workspace
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    2
+                                                </td>
+                                                <td>
+                                                    Workbench name
+                                                </td>
+                                                <td>
+                                                    updated
+
+                                                </td>
+                                                <td>
+                                                    <em class="ddp-icon-group-s"></em>
+                                                    Workspace
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <a href="javascript:" class="ddp-btn-more">+ more</a>
+                                </div>
+                                <!-- //tbody -->
+
+                            </div>
+
+                        </div>
+                        <!-- //rnb contents -->
+                    </div>
+                </div>
+                <!-- //rnb --->
+            </div>
+        </div>
+
+    </div>
+    <!-- //contents -->
+<script>
+    function offsetSize(){
+        $(function(){
+            $('ul.ddp-list-table li .ddp-ui-buttons .ddp-icon-info').click(function(){
+                $('.ddp-layout-info').show();
+                $(this).addClass('ddp-selected');
+                var $infoTop = $(this).offset().top;
+                $('.ddp-layout-info').css('top',$infoTop);
+                if($(window).outerHeight()/2 < $infoTop){
+                    $('.ddp-layout-info').css('top',$infoTop-160);
+                }
+            });
+
+            $('ul.ddp-list-table li .ddp-ui-buttons .ddp-icon-tableinfo').click(function(){
+                $('.ddp-ui-benchtable').show();
+                $(this).addClass('ddp-selected');
+                $('.ddp-ui-query ').addClass('ddp-tablepop');
+                $('.ddp-ui-benchlnb ').removeClass('ddp-fold');
+            });
+            $('.ddp-ui-benchtable a.ddp-btn-close').click(function(){
+                $('.ddp-ui-benchtable').hide();
+                $('.ddp-ui-benchlnb ').addClass('ddp-fold');
+                $('ul.ddp-list-table li .ddp-ui-buttons .ddp-icon-tableinfo').removeClass('ddp-selected');
+                $('.ddp-ui-query').removeClass('ddp-tablepop');
+
+            });
+        });
+    }; offsetSize();
+
+    $(window).resize(function(){
+         offsetSize();
+  });
+</script>
+
+    <!-- box layout -->
+    <div class="ddp-box-layout4 ddp-layout-info ddp-info-type">
+        <a href="javascript:" class="ddp-btn-close"></a>
+        <div class="ddp-data-title">
+            Table Name 01
+        </div>
+        <div class="ddp-form-scroll">
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                    <tr>
+                        <th>
+                            시스템 구분시스템
+                        </th>
+                        <td>
+                            xxxxxxxxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            업무 구분
+                        </th>
+                        <td>
+                            xxx
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            컴포넌트 명
+                        </th>
+                        <td>
+                            xxx
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            생성 일
+                        </th>
+                        <td>
+                            2017.08.10
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            최종 변경일
+                        </th>
+                        <td>
+                            2017.08.15
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            총 사이즈
+                        </th>
+                        <td>
+                            2,625 byte
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            행 전체 개수
+                        </th>
+                        <td>
+                            9,999 개
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table><div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+        </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+            <div class="ddp-label-table">
+                <span class="ddp-txt-label">
+                    Partition Information
+                </span>
+            </div>
+            <table class="ddp-table-info">
+                <colgroup>
+                    <col width="150px" />
+                    <col width="" />
+                </colgroup>
+                <tbody>
+                <tr>
+                    <th>
+                        시스템 구분시스템
+                    </th>
+                    <td>
+                        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        업무 구분
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        컴포넌트 명
+                    </th>
+                    <td>
+                        xxx
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        생성 일
+                    </th>
+                    <td>
+                        2017.08.10
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        최종 변경일
+                    </th>
+                    <td>
+                        2017.08.15
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        총 사이즈
+                    </th>
+                    <td>
+                        2,625 byte
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        행 전체 개수
+                    </th>
+                    <td>
+                        9,999 개
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <!-- //box layout -->
+
+
+        <script>
+        $('.ddp-wrap-morebutton').click(function(){
+            var $morebtnTop = $(this).offset().top;
+            var $morebtnLeft = $(this).offset().left;
+            $('.ddp-pop-more').show();
+            $('.ddp-pop-more').css({
+                'top' : $morebtnTop + 20,
+                'left' : $morebtnLeft -30
+            })
+        })
+
+        </script>
+    <!-- popup -->
+    <div class="ddp-wrap-popup2 ddp-types ddp-pop-more"style="top: 128.5px; left: 627px;">
+        <ul class="ddp-list-popup">
+            <li>
+                <a href="javascript:">
+                    <em class="ddp-icon-drop-editmodify"></em>
+                    이름 수정
+                </a>
+            </li>
+            <li>
+                <a href="javascript:">
+                    <em class="ddp-icon-drop-editdel3"></em>
+                    삭제
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <!-- //popup -->
+
+</body>
+</html>

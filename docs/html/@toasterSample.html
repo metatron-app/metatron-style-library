@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>toaster</title>
+	<!-- polaris -->
+	<link rel="stylesheet" href="../css/polaris.v2.css" />
+
+	<!-- jQuery -->
+	<script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+	<!-- toaster js -->
+	<script src="../js/jquery/toaster.js"></script>
+
+	<!-- polaris ui js -->
+	<script src="../js/common/polaris_ui.js"></script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function ($) {
+			$("#info_msg_1").click(function (ev) {
+
+				toastr.success("So me by marianne admitted speaking.", "This is a title", opts);
+			});
+
+			$("#success_msg_1").click(function (ev) {
+				ev.preventDefault();
+
+				var opts = {
+					"closeButton": true,
+					"debug": false,
+					"showDuration": "30000000",
+					"hideDuration": "30000000",
+					"timeOut": "30000000",
+					"extendedTimeOut": "1000",
+					"showEasing": "swing",
+					"hideEasing": "linear"
+				};
+
+				toastr.success("So me by marianne admitted speaking.", "This is a title", opts);
+			});
+
+			$("#danger_msg_1").click(function (ev) {
+				ev.preventDefault();
+
+				var opts = {
+					"closeButton": true,
+					"debug": false,
+					"positionClass": "toast-top-full-width",
+					"showDuration": "30000000",
+					"timeOut": "30000000",
+					"extendedTimeOut": "30000000",
+					"showEasing": "swing",
+					"hideEasing": "linear",
+					"showMethod": "fadeIn"
+				};
+
+				toastr.error("Do to be agreeable conveying oh assurance. Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening.", "Fanny at wrong table ye in", opts);
+			});
+
+			$("#warning_msg_1").click(function (ev) {
+				ev.preventDefault();
+
+				var opts = {
+					"closeButton": true,
+					"debug": false,
+					"positionClass": "toast-bottom-left",
+					"showDuration": "30000000",
+					"timeOut": "30000000",
+					"extendedTimeOut": "1000",
+					"showEasing": "swing",
+					"hideEasing": "linear",
+					"showMethod": "fadeIn",
+					"hideMethod": "fadeOut"
+				};
+
+				toastr.warning("Park gate sell they west hard for the.", "Fanny at wrong table ye in", opts);
+			});
+		});
+	</script>
+
+</head>
+
+<body>
+	<a href="#" class="btn btn-info" id="info_msg_1" onclick="toastr.info('Are you the 6 fingered man?');">Information Message</a>
+	<a href="#" id="success_msg_1" class="btn btn-success">Success Message</a>
+	<a href="#" id="danger_msg_1" class="btn btn-danger">Danger Message</a>
+	<a href="#" id="warning_msg_1" class="btn btn-warning">Warning Message</a>
+
+	<div unselectable="on" style="z-index: 99999; overflow: hidden; position: absolute; left: 621px; top: 357px;">
+		<div class=" nicEdit-pane" unselectable="on" style="font-size: 12px; border: 1px solid rgb(204, 204, 204); overflow: hidden; padding: 4px; text-align: left; background-color: rgb(255, 255, 255); color: rgb(255, 255, 255); width: 270px;">
+			<div unselectable="on" style="float: right; height: 16px; width: 16px; cursor: pointer; background-image: url(&quot;&quot;); background-position: 0px 0px;"></div>
+			<form>
+				<div style="font-size: 14px; font-weight: bold; padding: 0 0 10px 0; margin: 2px 0px;">Add/Edit Link</div>
+				<div style="overflow: hidden; clear: both;padding: 0 0 8px 0; ">
+					<label style="margin: 2px 4px; font-size: 13px; width: 50px; line-height: 20px; text-align: left; float: left;">URL</label>
+					<input id="href" type="text" style="display: block; width: 75%; padding: 6px 28px 6px 10px; color: #4b515b; font-size: 13px; text-align: left; border: 1px solid #d0d1d8; border-radius: 2px; background-color: #fff; box-sizing: border-box;">					
+				</div>
+				<div style="overflow: hidden; clear: both;padding: 0 0 8px 0; ">
+					<label style="margin: 2px 4px; font-size: 13px; width: 50px; line-height: 20px; text-align: left; float: left;">Title</label>
+					<input id="title" type="text" style="display: block; width: 75%; padding: 6px 28px 6px 10px; color: #4b515b; font-size: 13px; text-align: left; border: 1px solid #d0d1d8; border-radius: 2px; background-color: #fff; box-sizing: border-box;">
+				</div>
+				<div style="overflow: hidden; clear: both;padding: 0 0 8px 0; ">
+					<label style="margin: 2px 4px; font-size: 13px; width: 50px; line-height: 20px; text-align: left; float: left;">Open In</label>
+					<select id="target" style="border: 1px solid rgb(204, 204, 204); float: left; margin: 2px 0px;">
+						<option value="">Current Window</option>
+						<option value="_blank">New Window</option>
+					</select>
+				</div>
+				<input type="submit" value="OK" style="margin-left:53%;background-color: #4c515a; border: 1px solid #4c515a; color: #fff; position: relative; display: inline-block; padding: 5px 8px; min-width: 100px; font-size: 14px; text-align: center; border-radius: 3px;">
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>

@@ -1,0 +1,415 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body>
+    <!-- header -->
+    <div class="ddp-layout-header">
+        <!-- lnb -->
+        <!-- menu 클릭시 ddp-selected 추가 -->
+        <div class="ddp-layout-lnb">
+            <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+            <ul class="ddp-list-lnb">
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                            <ul class="ddp-list-submenu">
+                                <!-- 선택시 : ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                            <ul class="ddp-list-submenu">
+                                <li>
+                                    <a href="javascript:">
+                                        <!-- new 일때 ddp-new -->
+                                        <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                        <em class="ddp-icon-afav"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- //sub -->
+                    </div>
+
+                </li>
+                <!-- 클릭시 ddp-selected 추가 -->
+                <li class="ddp-selected">
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- //lnb -->
+        <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+        <div class="ddp-ui-headright">
+            <a href="javascript:" class="ddp-btn-search"></a>
+            <!-- photo -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-wrap-myinfo">
+                <a href="javascript:" class="ddp-data-photo">
+                    <img src="../images/img_photo.png" />
+                </a>
+                <!-- my info -->
+                <div class="ddp-ui-sub-myinfo">
+                    <div class="ddp-wrap-data">
+                        <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                        <!--<span class="ddp-data-team">전략 2팀</span>-->
+                        <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                    </div>
+
+                    <ul class="ddp-list-sub-myinfo">
+                        <li><a href="javscript:">사용자 정보 관리</a></li>
+                        <li><a href="javscript:">로그아웃</a></li>
+                    </ul>
+                </div>
+                <!-- //my info -->
+            </div>
+            <!-- //photo -->
+
+        </div>
+
+    </div>
+    <!-- //header -->
+
+
+    <!-- contents -->
+    <div class="ddp-layout-contents">
+        <div class="ddp-ui-contents-in">
+            <!-- top -->
+            <div class="ddp-ui-contents-top">
+                <div class="ddp-ui-title">
+                    System configuration
+                </div>
+
+                <!-- tab -->
+                <ul class="ddp-list-top-tab">
+                    <li class="ddp-selected">
+                        <a href="#">Data Preparation</a>
+                    </li>
+                    <li>
+                        <a href="#">Druid</a>
+                    </li>
+                    <li>
+                        <a href="#">Hive</a>
+                    </li>
+                </ul>
+                <!-- //tab -->
+
+            </div>
+            <!-- //top -->
+
+            <div class="ddp-wrap-datadetail2">
+
+                <table class="ddp-table-detail">
+                    <colgroup>
+                        <col width="250px">
+                        <col width="*">
+                    </colgroup>
+                    <tbody>
+                        <tr>
+                            <th>
+                                Spark Session Timeout
+                            </th>
+                            <td>
+                                <div class="ddp-ui-edit-option ddp-clear">
+                                    <div class="ddp-col-2">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">설정안함</span>
+                                        </label>
+                                    </div>
+                                    <div class="ddp-col-3 ">
+                                        <div class="ddp-wrapping">
+                                            <label class="ddp-label-radio ddp-inline">
+                                                <input type="radio">
+                                                <i class="ddp-icon-radio"></i>
+                                                <span class="ddp-txt-radio">설정함</span>
+                                            </label>
+                                            <!-- box option -->
+                                            <div class="ddp-box-option-input ddp-inline">
+                                                <input type="text" value="220">
+                                                <span class="ddp-txt-input">sec</span>
+                                            </div>
+                                            <!-- //box option -->
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Data Procession Accelarator (DPA)
+                            </th>
+                            <td>
+                                <div class="ddp-ui-edit-option ddp-clear">
+                                    <div class="ddp-col-2">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">설정안함</span>
+                                        </label>
+                                    </div>
+                                    <div class="ddp-col-3">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">설정함</span>
+                                        </label>
+
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                Hive 데이터 연결방식
+                            </th>
+                            <td>
+                                <div class="ddp-ui-edit-option ddp-clear">
+                                    <div class="ddp-col-2">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">Hive 링크 사용</span>
+                                        </label>
+                                    </div>
+                                    <div class="ddp-col-3">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">JDBC 사용</span>
+                                        </label>
+
+                                    </div>
+                                </div>
+
+                            </td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                <div class="ddp-wrap-table-detail">
+
+                    <table class="ddp-table-detail">
+                        <colgroup>
+                            <col width="250px">
+                            <col width="*">
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    Staging DB Info.
+                                </th>
+                                <td>
+                                    <div class="ddp-wrap-edit3 ddp-type">
+                                        <label class="ddp-label-type">Type
+                                        </label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            DB (MySQL)
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+
+                                    <div class="ddp-wrap-edit3 ddp-type">
+                                        <label class="ddp-label-type">HOST
+                                        </label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            51.21.11.30
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+
+                                    <div class="ddp-wrap-edit3 ddp-type">
+                                        <label class="ddp-label-type">PORT
+                                        </label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            8081
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+
+                                    <div class="ddp-wrap-edit3 ddp-type">
+                                        <label class="ddp-label-type">username
+                                        </label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            DATABASE
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+
+                                    <div class="ddp-wrap-edit3 ddp-type">
+                                        <label class="ddp-label-type">password
+                                        </label>
+                                        <!-- edit option -->
+                                        <div class="ddp-ui-edit-option">
+                                            1111
+                                        </div>
+                                        <!-- //edit option -->
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Dataset sample coun
+                                </th>
+                                <td>
+                                    1111
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Datasnapshot default hdfs path
+                                </th>
+                                <td>
+                                    /urs/aaa/bbb/ccc/ddd/eee
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Local file upload temp
+
+                                </th>
+                                <td>
+                                    /urs/aaa/bbb/ccc/ddd/eee
+                                </td>
+                            </tr>
+
+
+                        </tbody>
+
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- //contents -->
+</body>
+</html>

@@ -1,0 +1,2643 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <script src="../js/jquery/split.js"></script>
+
+     <!-- polaris ui js --->
+     <!-- <script src="../js/common/polaris_ui.js"></script> --->
+</head>
+<body>
+<script>
+    $(function(){
+        Split(['#left', '#right'], {
+            sizes: [80, 20],
+            minSize: 200
+        });
+        Split(['#top', '#bottom'], {
+            direction: 'vertical',
+            sizes: [70, 30],
+        });
+    });
+
+</script>
+<div class="ddp-layout-wrap page-prep-dataflow">
+
+    <div class="ddp-type-contents3" style="overflow:Hidden;">
+		<!-- top -->
+        <div class="ddp-top-flow">
+			<!-- navi wrap -->
+            <div class="ddp-wrap-naviarea ddp-editnavi ddp-clear">
+                <em class="ddp-icon-dataset2"></em>
+                <div class="ddp-ui-naviarea">
+                    <!-- name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-wrap-naviname ">
+                        <span class="ddp-data-naviname">New Dashboard 01
+                        <em class="ddp-icon-menuview"></em></span>
+                        <!-- popup -->
+                        <div class="ddp-wrap-popup2 ddp-type">
+                            <div class="ddp-ui-label ">
+                                Dataset(4)
+
+                            </div>
+
+                            <ul class="ddp-list-popup ddp-list-dataset">
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dataset3"></em>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dataset3"></em>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dataset3"></em>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dataset3"></em>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- //popup -->
+                    </div>
+                    <!-- //name -->
+
+
+                </div>
+
+                <div class="ddp-ui-navibuttons">
+                    <a href="#" class="ddp-btn-buttons2"><em class="ddp-icon-shot"></em>Snapshot</a>
+                    <a href="#" class="ddp-btn-line3"><em class="ddp-icon-btndone"></em>DONE</a>
+                </div>
+
+
+
+            </div>
+			<!-- //navi wrap -->
+
+
+			<!-- button -->
+			<div class="ddp-ui-buttons">
+				<a href="#" class="ddp-btn-buttons2"><em class="ddp-icon-shot"></em>SNAPSHOT</a>
+				<a href="#" class="ddp-btn-buttons3">DONE</a>
+			</div>
+			<!-- //button -->
+
+		</div>
+		<!-- //top -->
+        <div class="ddp-wrap-flow" style="position:fixed; left:0; top:48px; bottom:0; right:0; box-sizing:border-box; overflow:hidden;">
+            <div class="" id="top">
+
+                <!--<div class="ddp-ui-bar-right"></div>-->
+                <!--<div class="ddp-ui-bar-bottom"></div>-->
+                <div class="left-component" id="left" style="float:left; height:100%;">
+                    <!-- 그리드 -->
+                    <div class="ddp-wrap-flow-grid" style="position:relative; top:0; left:0; right:0; min-height:100%;">
+                        <!-- option -->
+                        <div class="ddp-wrap-grid-option ddp-clear">
+
+                            <!-- left -->
+                            <div class="ddp-part-left">
+
+                                <div class="ddp-data-form">
+                                    <strong>2</strong>
+                                    Clumns
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong> 2,333</strong>
+                                    Row
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong class="ddp-cursor">3</strong>
+                                    Types
+                                    <!-- 팝업 -->
+                                    <div class="ddp-wrap-popup2 ddp-types">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-tf"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //팝업 -->
+                                </div>
+                            </div>
+                            <!-- //left -->
+                            <!-- right -->
+                            <div class="ddp-part-right">
+
+                                <!-- search -->
+                                <!-- 클릭시 ddp-selected 추가 -->
+                                <div class="ddp-type-search ddp-selected">
+                                    <input type="text" placeholder="Search Column">
+                                    <a href="javascript:" class="ddp-btn-delete"></a>
+                                </div>
+                                <!-- //search -->
+                                <!-- button -->
+                                <!-- 선택시 li class="ddp-selected" 추가 -->
+                                <ul class="ddp-list-tab-button">
+                                    <li>
+                                        <a href="javascript:"><em class="ddp-icon-grid"></em></a>
+
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            그리드 뷰
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-selected">
+                                        <a href="javascript:"><em class="ddp-icon-listgrid"></em></a>
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            리스트 뷰
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                                <!-- //button -->
+                                <!-- error -->
+                                <div class="ddp-box-warning">
+                                    <em class="ddp-icon-warning"></em>
+
+                                    <div class="ddp-txt-warning">
+                                        This is the result of the sampled data.<br>
+                                        Results for all data may vary. (aggregate)
+                                    </div>
+                                </div>
+                                <!-- //error -->
+
+                            </div>
+                            <!-- //right -->
+                        </div>
+                        <!-- //option -->
+                        <!-- 그리드 영역 -->
+                        <div class="ddp-box-gridarea" style="display:none;">
+                            <!-- 그리드 header -->
+                            <div class="ddp-ui-gridhead">
+                                <table class="ddp-table-form">
+                                    <colgroup>
+                                        <col width="51px" />
+                                        <col width="*" />
+                                        <col width="15%" />
+                                        <col width="20%" />
+                                        <col width="15%" />
+                                        <col width="15%" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th class="ddp-txt-center">
+                                                <div class="ddp-ui-checkbox ddp-check-all">
+                                                    <input type="checkbox" class="ddp-checkbox-form"/>
+                                                    <i class="ddp-icon-checkbox"></i>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                컬럼명
+
+                                                <em class="ddp-icon-array-default2"></em>
+                                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+
+                                            </th>
+                                            <th>
+                                                타입
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-wrap-type-filter">
+                                                    <a href="javascript:" class="ddp-icon-type-filter"></a>
+                                                    <!-- filter 팝업 -->
+                                                    <div class="ddp-wrap-popup2 ddp-types ddp-type-filterpopup" >
+                                                        <ul class="ddp-list-popup ddp-list-checkpopup">
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    <label class="ddp-label-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <i class="ddp-icon-checkbox"></i>
+                                                                        <div class="ddp-txt-label">
+                                                                            <em class="ddp-icon-type-ab"></em>
+                                                                            문자
+                                                                        </div>
+
+                                                                    </label>
+
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    <label class="ddp-label-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <i class="ddp-icon-checkbox"></i>
+                                                                        <div class="ddp-txt-label">
+                                                                            <em class="ddp-icon-type-tf"></em>
+                                                                            불린
+                                                                        </div>
+
+                                                                    </label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    <label class="ddp-label-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <i class="ddp-icon-checkbox"></i>
+                                                                        <div class="ddp-txt-label">
+                                                                            <em class="ddp-icon-type-int"></em>
+                                                                            정수
+                                                                        </div>
+
+                                                                    </label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    <label class="ddp-label-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <i class="ddp-icon-checkbox"></i>
+                                                                        <div class="ddp-txt-label">
+                                                                            <em class="ddp-icon-type-float"></em>
+                                                                            소수
+                                                                        </div>
+
+                                                                    </label>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="javascript:">
+                                                                    <label class="ddp-label-checkbox">
+                                                                        <input type="checkbox" />
+                                                                        <i class="ddp-icon-checkbox"></i>
+                                                                        <div class="ddp-txt-label">
+                                                                            <em class="ddp-icon-type-calen"></em>
+                                                                            날짜/시간
+                                                                        </div>
+
+                                                                    </label>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- //filter 팝업 -->
+                                                </div>
+                                            </th>
+                                            <th>
+                                                Valid (Unique, Outliers)
+                                            </th>
+                                            <th>
+                                                Missing
+                                            </th>
+                                            <th>
+                                                최저값
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                </table>
+                            </div>
+                            <!-- //그리드 header -->
+
+                            <!-- 그리드 body -->
+                            <div class="ddp-ui-gridbody">
+
+                                <table class="ddp-table-form">
+                                    <colgroup>
+                                        <col width="51px" />
+                                        <col width="*" />
+                                        <col width="15%" />
+                                        <col width="20%" />
+                                        <col width="15%" />
+                                        <col width="15%" />
+                                    </colgroup>
+                                    <tbody>
+                                        <tr>
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-checkbox">
+                                                    <input type="checkbox" class="ddp-checkbox-form"/>
+                                                    <i class="ddp-icon-checkbox"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                컬럼명
+                                                <a href="javascript:" class="ddp-btn-more"></a>
+                                            </td>
+                                            <td>
+                                                타입
+                                            </td>
+                                            <td>
+                                                Valid (Unique, Outliers)
+                                            </td>
+                                            <td>
+                                                2
+                                            </td>
+                                            <td>
+                                                최저값
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-checkbox">
+                                                    <input type="checkbox" class="ddp-checkbox-form"/>
+                                                    <i class="ddp-icon-checkbox"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                컬럼명
+
+                                            </td>
+                                            <td>
+                                                타입
+                                            </td>
+                                            <td>
+                                                Valid (Unique, Outliers)
+                                            </td>
+                                            <td>
+                                                <span class="ddp-txt-mssing">3</span>
+                                            </td>
+                                            <td>
+                                                최저값
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-checkbox">
+                                                    <input type="checkbox" class="ddp-checkbox-form"/>
+                                                    <i class="ddp-icon-checkbox"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                컬럼명
+                                            </td>
+                                            <td>
+                                                타입
+                                            </td>
+                                            <td>
+                                                Valid (Unique, Outliers)
+                                            </td>
+                                            <td>
+                                                0
+                                            </td>
+                                            <td>
+                                                최저값
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!-- 그리드 body -->
+
+                        </div>
+                        <!-- //그리드 영역 -->
+
+                        <!-- 그리드 영역 -->
+                        <div class="ddp-box-gridarea">
+
+
+                        </div>
+                        <!-- //그리드 영역 -->
+                    </div>
+                    <!-- //그리드 -->
+                </div>
+                <div class="right-component" id="right" style="float:left; height:100%;">
+
+                    <!-- rules -->
+                    <div class="ddp-wrap-rules-flow" style="position:relative; top:0; left:0; right:0; bottom:0; width:100%; height:100%;">
+
+                        <!-- title -->
+                        <div class="ddp-box-title">
+
+                            <ul class="ddp-rule-tab">
+                                <li>
+                                    <a href="javascript:">RULE (6)
+
+                                        <em class="ddp-icon-selected" style="display:none;"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        SNAPSHOT (3)
+                                        <em class="ddp-icon-selected"></em>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="ddp-ui-buttons" style="display:none;">
+                                <!-- disabled 시 ddp-disabled 추가 -->
+                                <a href="javascript:" class="ddp-icon-refresh"></a>
+                                <a href="javascript:" class="ddp-icon-refresh2 ddp-disabled"></a>
+                            </div>
+                        </div>
+                        <!-- //title -->
+                        <div class="ddp-wrap-tab-cntents">
+
+                            <!-- rule -->
+                            <div class="ddp-ui-rule-flow" style="display:none;">
+                                <div class="ddp-ui-empty">
+                                    스냅 샷 생성 기록 없음
+                                </div>
+
+                                <ul class="ddp-list-rule2  ">
+                                    <!-- edit 버튼 클릭시 ddp-edit 추가 -->
+                                    <li>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <!-- 위에 있는 insert step : ddp-top 추가 -->
+                                        <div class="ddp-wrap-line-add ddp-top">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+                                        <!-- edit 클릭시 ddp-edit 추가 -->
+                                        <!-- tooltip 안나오게 하려면 ddp-tooltip-none 추가 -->
+                                        <div class="ddp-view-data ddp-edit ">
+                                            <span class="ddp-data-type">
+                                                <em class="ddp-ui-round">He</em>
+                                            </span>
+                                            <div class="ddp-ui-code">
+                                                <span class="ddp-type-code">Header</span> testesttesttesttesttesttdesttesttdttd dfsdfdfsdfdfsdfdfsdfdfsdfdfsdfdfsdf
+                                            </div>
+
+                                            <!-- button -->
+                                            <div class="ddp-ui-edit-button">
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-edit"></em>
+                                                </span>
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-del"></em>
+                                                </span>
+                                                <span class="ddp-btn-link">
+                                                    <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                                </span>
+                                            </div>
+                                            <!-- //button -->
+                                            <!-- tooltip -->
+                                            <div class="ddp-ui-tooltip-info ">
+                                                <em class="ddp-icon-view-top"></em>
+                                                header rownum: 1
+                                            </div>
+                                            <!-- //tooltip -->
+
+                                        </div>
+
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-line-add ">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-edit">
+
+                                        <div class="ddp-view-data">
+                                            <span class="ddp-data-type">
+                                                <em class="ddp-ui-round">He</em>
+                                            </span>
+                                            <div class="ddp-ui-code ddp-error">
+                                                <span class="ddp-type-code">Header</span> dddddddddddd
+                                            </div>
+
+                                            <!-- button -->
+                                            <!-- edit 버튼 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-ui-edit-button ddp-selected ">
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-edit"></em>
+                                                </span>
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-del"></em>
+                                                </span>
+                                                <span class="ddp-btn-link">
+                                                    <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                                </span>
+                                            </div>
+                                            <!-- //button -->
+                                            <!-- tooltip -->
+                                            <div class="ddp-ui-tooltip-info ">
+                                                <em class="ddp-icon-view-top"></em>
+                                                header rownum: 1
+                                            </div>
+                                            <!-- //tooltip -->
+                                        </div>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-line-add">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+
+                                    </li>
+                                    <li class="">
+
+                                        <div class="ddp-view-data">
+                                            <span class="ddp-data-type">
+                                                <em class="ddp-ui-round">He</em>
+                                            </span>
+                                            <div class="ddp-ui-code ddp-error2">
+                                                <span class="ddp-type-code">Header</span> dddddddddddd
+                                            </div>
+
+                                            <!-- button -->
+                                            <!-- edit 버튼 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-ui-edit-button ddp-selected ">
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-edit"></em>
+                                                </span>
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-del"></em>
+                                                </span>
+                                                <span class="ddp-btn-link">
+                                                    <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                                </span>
+                                            </div>
+                                            <!-- //button -->
+                                        </div>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-line-add">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-selected">
+
+                                        <div class="ddp-view-data">
+                                            <span class="ddp-data-type">
+                                                <em class="ddp-ui-round">He</em>
+                                            </span>
+                                            <div class="ddp-ui-code">
+                                                <span class="ddp-type-code">Header</span> dddddddddddd
+                                            </div>
+                                            <!-- button -->
+                                            <div class="ddp-ui-edit-button">
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-edit"></em>
+                                                </span>
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-del"></em>
+                                                </span>
+                                                <span class="ddp-btn-link">
+                                                    <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                                </span>
+                                            </div>
+                                            <!-- //button -->
+                                        </div>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-line-add">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-disabled2">
+
+                                        <div class="ddp-view-data">
+                                            <span class="ddp-data-type">
+                                                <em class="ddp-ui-round">He</em>
+                                            </span>
+                                            <div class="ddp-ui-code">
+                                                <span class="ddp-type-code">Header</span> dddddddddddd
+                                            </div>
+
+                                            <!-- button -->
+                                            <div class="ddp-ui-edit-button  ">
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-edit"></em>
+                                                </span>
+                                                <span class="ddp-btn-icon">
+                                                    <em class="ddp-icon-del"></em>
+                                                </span>
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //button -->
+                                        </div>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-wrap-line-add">
+                                            <div class="ddp-line-add">
+                                                <span class="ddp-txt">Insert step</span>
+                                            </div>
+                                            <!-- info -->
+                                            <div class="ddp-input-info">
+                                                아래에서 룰을 입력하세요
+                                                <a href="javascript:" class="ddp-link-cancel">Cancel</a>
+                                            </div>
+                                            <!-- //info -->
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- //rule -->
+                            <!-- snapshot -->
+                            <div class="ddp-ui-rule-flow" style="display:;">
+
+                                <div class="ddp-ui-empty">
+                                    스냅 샷 생성 기록 없음
+                                </div>
+                                <ul class="ddp-list-snapshot" style="display:;">
+                                    <li>
+                                        <div class="ddp-txt-snapshot">
+                                            <em class="ddp-icon-snap-success"></em>
+                                            <div class="ddp-data-det">
+                                                <div class="ddp-data-status type-success">Success</div>
+                                                <div class="ddp-data-name">
+
+                                                    <svg class="icon-db-hive-b">
+                                                        <g id="Layer_2">
+                                                        </g>
+                                                        <g id="Layer_1_1_">
+                                                            <g id="Layer_3">
+                                                                <g transform="translate(-.53268 66.8)">
+                                                                    <path class="st0" d="M14-62.3c-0.2-0.6-6.5-3-6.6-2.7c-0.8,0.3-1.8,1.6-2.7,2.5l-1.5-0.1c-0.8,1-1.2,2-0.9,3.2
+                                                                        c1,1.3,2.1,2.5,2.9,4.2c0.1,0.8,3,0.2,4.3-0.4c-1,0.7-2,2.1-1.6,5.3c0.4,1.5,0.6,3.3,3.6,4.9c0.4,0.3,1.2,0.5,1.7,0.7
+                                                                        c0.5,0.3,1,0.2,2.6-0.3c0.9-0.4,1.2-0.4,2.2-0.7l-1,0.1c-1.6,0.3-2.1,0-2.4-0.6l-1.4-2.4l0.8-1.6c1.2,0.1,1.5,1,2.5,1.3l1.2-0.9
+                                                                        c3.5,2,4.8-1.2,5.1-3.8c0-1.1-1.9,0.3-1.8-0.3c0.1-1.1-1.1-2.6-1.6-3.6l0.6-2.5c0.3-0.3-1.6-3.7-3.1-4C15.8-64.3,14-62.3,14-62.3
+                                                                        L14-62.3z"/>
+                                                                </g>
+                                                                <g>
+                                                                    <g transform="translate(-.53268 66.8)">
+                                                                        <path class="st1" d="M19.7-56.7c0,0.3,0,0.7,0,0.8c0,0.2-0.1,0.2-0.3,0.2l0.7,0.3c0.1,0.2,0.3,0.5,0.4,0.7
+                                                                            c0.1,0.6,0,0.6-0.1,0.7c-0.3,0-0.5,0-0.7,0c0,0,0,0,0,0.1s-0.1,0.3-0.2,0.5c0.2,0.1,0.6,0.2,0.8,0.4l0.3-0.7
+                                                                            C20.6-54.9,20.3-55.8,19.7-56.7L19.7-56.7z"/>
+                                                                        <path class="st1" d="M20.9-53.4c0.4,0.2,0.9,0.1,1.6-0.3c0.1-0.1,0.2,0,0,0.1C21.6-52.7,21.1-53.1,20.9-53.4L20.9-53.4z"/>
+                                                                        <path class="st1" d="M22.6-53.7c0.1,0.2,0,0.4,0,0.6c-0.1,0.9-0.4,1.6-0.9,2.3c-1.8,2.9-3.6,1.1-5-0.1l-0.7,1.5
+                                                                            c0,0.1-0.2,0.3,0.8,0.7l1-0.7C21.3-46.7,23.8-53.3,22.6-53.7L22.6-53.7z"/>
+                                                                        <path class="st1" d="M17-51.1c-0.3,0-1,0.3-1,0.5l0.4-0.6L17-51.1z"/>
+                                                                        <path class="st1" d="M16.5-54.1c0,0,0.3,0.1,0.3,0c0,0,0,0.3,0.1,0.5l-0.4,0.6c0.6-0.6,1.2-0.6,2.1-0.7l-0.4-0.2
+                                                                            c0.1-0.2,0-0.4,0-0.6L16.5-54.1z"/>
+                                                                        <path class="st1" d="M17.8-55.9c-0.6,0.2-1.1,0.5-1.4,1c0.3-1,0.4-0.9,0.4-1C17.2-55.9,17.5-55.9,17.8-55.9L17.8-55.9z"/>
+                                                                    </g>
+                                                                    <g transform="translate(-.53268 66.8)">
+                                                                        <path class="st2" d="M14.9-44.8c-0.9,0.6-2.4,0.1-3.4-0.5c-3.1-2-3.6-3.7-3.6-5.6c-0.2-2.6,0.7-4,1.6-4.4
+                                                                            c-0.7,1.2-1,3.6-0.7,5.3c0.3,1,0.3,2.5,1.8,3.4c0.8,0.5,0.6,0.8,1.1,1.2C12.4-45,13.9-44.5,14.9-44.8L14.9-44.8z"/>
+                                                                        <path class="st2" d="M15.9-56.7c-1.1-1.5-2.6-2.1-4.4-2.2c0.4-0.1,0.7-0.2,1.1-0.4c0.1-0.1,0.1-0.3,0-0.5c-1.7-0.5-2.7-1-4-1.4
+                                                                            l3.6,0.9C14.6-60.2,14.3-59.6,15.9-56.7L15.9-56.7z"/>
+                                                                        <path class="st2" d="M17.1-57.4c-0.8-1.2-1.6-2.6-2.7-3.5c-2.6-1.2-5.2-2.1-8.2-2.8l1-1.2c3.2,0.7,6.2,2,8.8,3.9
+                                                                            C16.4-59.8,16.8-58.7,17.1-57.4L17.1-57.4z"/>
+                                                                        <path class="st2" d="M18.7-59.5c0,0-0.5-1-0.7-1.4c-0.6-0.6-0.8-1.6-1.8-2.1c0.4,0.1,0.6,0,1.2,0.7l1.1,2L18.7-59.5z"/>
+                                                                        <path class="st2" d="M19.2-57.8c0.1-0.9,0.3-2.3,0.1-2.9c-0.7-0.9-1.2-1.7-1.9-2.5c-0.1-0.1-0.2-0.3-0.3-0.4
+                                                                            c0.9,0.3,1.8,0.7,3.1,3.2L19.2-57.8z"/>
+                                                                    </g>
+                                                                    <g transform="translate(-.53268 66.8)">
+                                                                        <path class="st3" d="M15.5-57.6c-0.4-0.3-0.7-1.2-1.2-1.5c-0.6,0-0.7-0.2-1.3-0.1c0.3-0.1,0.5-0.3,0.7-0.4c0.2,0,0.4,0,0.6,0
+                                                                            c0,0,0.1,0,0.1-0.1c-0.7-0.5-2.1-0.5-3-0.7c1.1,0,2.2,0,3.1,0.3C14.9-59.5,15.1-58.3,15.5-57.6L15.5-57.6z"/>
+                                                                        <path class="st3" d="M17.5-62.4c0.2,0,1,1.2,1,1.5c0.1,0.5,0.3,1,0.3,1.4c-0.1-0.5-0.3-0.9-0.5-1.3c-0.1-0.1-0.2-0.5-0.6-0.8
+                                                                            C17.6-62,17.5-62.3,17.5-62.4L17.5-62.4z"/>
+                                                                        <path class="st3" d="M20.2-55.5h-0.4H20.2L20.2-55.5z"/>
+                                                                        <path class="st3" d="M17.8-55.9c-0.4,0-0.7-0.1-1.1,0c-0.2,0.2-0.2,0.4-0.2,0.6C17-55.8,17.1-55.8,17.8-55.9L17.8-55.9z"/>
+                                                                        <path class="st3" d="M22.5-53.5c-0.2,0.2-0.2,0.3-0.8,0.5c-0.5,0.1-0.7-0.1-0.8-0.3c0.3,0.1,0.4,0.3,1.2,0.1L22.5-53.5z"/>
+                                                                        <path class="st3" d="M20.8-53.5c-0.2,0.4-0.3,0.7-0.5,1.1c-0.4,0.5-0.2,0.2-0.7,0.8c0.2-0.3,0.4-0.6,0.6-0.8
+                                                                            c0.1-0.2,0.2-0.4,0.3-0.6c-0.2-0.1-0.5-0.1-0.5-0.1c-0.5,0.3-0.6,0.6-0.8,0.9c0.2-0.4,0.4-0.7,0.7-1c0,0,0.2-0.1,0.3-0.1
+                                                                            c-0.2,0-0.5-0.1-0.6-0.1c-0.3,0.1-0.5,0.4-0.7,0.6c0.2-0.3,0.4-0.5,0.6-0.7c0,0,0.7,0,0.9,0.2v0.1l0.2,0.1L20.8-53.5L20.8-53.5z
+                                                                            "/>
+                                                                        <path class="st3" d="M17-51.1c-0.1,0-0.7-0.1-0.7-0.1c-0.3,0.2-0.3,0.4-0.3,0.6C16.3-51.1,16.3-51.1,17-51.1L17-51.1z"/>
+                                                                        <path class="st3" d="M16.4-54.1c0,0,0.5-0.1,0.5,0c0,0.2,0.1,0.6,0.1,0.6l-0.3,0.2c0.6-0.3,1.2-0.3,1.8-0.3c0,0-0.6-0.2-0.5-0.2
+                                                                            c0.1,0,0-0.6-0.1-0.6c0.1,0,0.2-0.1,0.3-0.1C17.6-54.7,17.2-54.6,16.4-54.1L16.4-54.1z"/>
+                                                                        <path class="st3" d="M20.7-53.8L20.7-53.8C20.6-54.1,20.2-54,20-54l-0.3-0.1c0.1,0.1,0.3,0.1,0.2,0.2c-0.1,0-0.1,0.2-0.2,0.4
+                                                                            h-0.1c0.3,0.1,0.5,0.2,0.7,0.3h0.2l0.4-0.2L20.7-53.8z"/>
+                                                                    </g>
+                                                                    <g transform="translate(-.53268 66.8)">
+                                                                        <path class="st4" d="M17.5-54c-0.1-0.1-0.4-0.1-0.4,0c-0.1,0.1,0,0.5,0.1,0.4s0.2-0.1,0.4-0.1C17.6-53.9,17.6-53.9,17.5-54
+                                                                            L17.5-54z"/>
+                                                                        <path class="st4" d="M20.2-53.5c0,0,0.1-0.2,0.1-0.3S20-53.8,20-53.8c-0.1,0-0.1,0.3-0.1,0.3C19.8-53.5,20.1-53.5,20.2-53.5
+                                                                            L20.2-53.5z"/>
+                                                                    </g>
+                                                                    <g transform="translate(-.53268 66.8)">
+                                                                        <path class="st3" d="M9.1-47.2h0.2c1,0.5,2.5,1.2,4.9,0.8l0.4,0.6c-1,0.5-2.1,0.4-3.2,0.5L9.1-47.2z"/>
+                                                                        <path class="st3" d="M7.7-50.9l0.5,2c1.2,0.8,3.6,1.7,5.3,1.6L13-48.1C9.3-48.9,9-50,7.7-50.9L7.7-50.9z"/>
+                                                                        <path class="st3" d="M9-55.1c0.3,1.5,0.6,2.8,1.9,3.7c0.8,0.7,1.7,1.2,2.7,1.7c0,0-0.1,0.5-0.2,0.5c-3-0.4-5.2-2.8-5.5-3.9
+                                                                            C8.2-54,8.6-54.5,9-55.1L9-55.1z"/>
+                                                                        <path class="st3" d="M10.4-55.9c0.4,1.7,1.3,3.5,2.3,5.1c0.4,0.5,0.5,0.7,1,0.9c0.7,0.3,1.2,0.2,1.8,0.2
+                                                                            c-0.2-0.3-0.3-0.6-0.5-0.8c-1.2-0.9-0.7-1.8-0.4-2.3c-0.7-0.2-1.5-0.6-1.6-1c-0.2-1.5-0.1-2,0.1-2.7
+                                                                            C12.2-56.4,11.4-56.2,10.4-55.9L10.4-55.9z"/>
+                                                                        <path class="st3" d="M7.2-65.1c-0.3,0.2-0.6,0.5-0.9,0.8c-0.6,0.6-0.8,1-1.3,1.4c-0.1,0.1-0.4,0.3-0.7,0.3c-0.2,0-0.3,0-0.7,0
+                                                                            c-0.3-0.2-0.6-0.1-0.8,0.3c-0.3,0.3-0.7,1.1-0.7,1.5c-0.3,1.2,0.5,2.2,1.2,3c0.7,0.7,1.1,1.1,1.3,1.7c0.2,0.4,0.4,0.9,0.6,1.2
+                                                                            c0.1,0.1,0.1,0.1,0.2,0.2c0.4,0.1,0.8,0.1,1.2,0.1c0.2,0,0.5,0,0.7,0c0.4-0.1,0.7-0.1,1.1-0.3C8.8-55,8.9-55,9-55.1
+                                                                            C9-55,8.8-55,8.7-54.8c-0.9,1.2-1.1,2.3-1,4C7.8-50,8-49.3,8.3-48.6c0.1,0.4,0.4,1,0.7,1.2c0.7,1.1,2.4,2.4,4.6,2.9
+                                                                            c0.4,0.1,1.1-0.1,1.4-0.2c1.2-0.4,3.5-1.2,3.5-1.2s-2.1,0.2-3,0.1c-0.2,0-0.5-0.1-0.7-0.2l-0.1-0.2c0.1,0,0.4-0.1,0.7-0.1
+                                                                            c-0.8-0.1-0.7-0.1-0.8-0.2c-0.1-0.2-0.2-0.6-0.4-0.8c0.4,0,1.1,0.1,1.3-0.2c0,0-0.5,0.1-0.8,0c-0.1,0-0.4-0.1-0.5-0.1
+                                                                            c-0.2-0.1-0.4-0.1-0.4-0.1c-0.1-0.2-0.1-0.2-0.2-0.5s-0.1-0.6-0.1-0.9c0.3,0.4,0.6,0.6,1,0.7c0,0,0.6,0.3,1,0.1h0.1
+                                                                            c0,0-0.3,0-0.4,0c-0.8-0.4-1-0.7-1.1-0.8l-0.3-0.6c0.1-0.2,0.2-0.2,0.3-0.3c0.5,0.1,0.7,0.1,0.9,0c0.2,0.4,0.3,0.7,0.7,1
+                                                                            c1.3,0.4,1.6-0.1,2-0.6c1,0.7,2.5,0.9,3.6,0c1.3-1.6,1.8-4.1,1.7-4.3c-0.2-0.3-0.4-0.7-0.7-0.6c-0.7,0.2-1,0.6-1.6,0.5
+                                                                            c0.1,0,0.2,0,0.2,0c0.1-0.7,0-0.9,0-0.9c-0.2-0.5-0.5-1-0.7-1.3c-0.1-0.1-0.2-0.7-0.5-0.9c-0.1-0.1-0.4-0.4-0.4-0.4v0.3
+                                                                            c0,0,0.1,0,0.2,0.2c0.2,0.7,0.9,2,0.9,2c0.3,0.5,0,1,0.2,1.2c0,0,0.4,0,0.7,0c0.5-0.1,0.5-0.4,0.9-0.4c0.3,0,0.3,0.6,0.3,0.6
+                                                                            c-0.1,0.7-0.3,1.2-0.6,1.9c-0.4,1.2-1.2,2.1-2,2.3c-1.1,0.2-1.7-0.3-2.2-0.7l-0.3,0.2c-0.8,0.8-1.7,0.7-2.1-0.3
+                                                                            c-0.2-0.4-0.5-0.7-0.7-1L13.7-50c-0.1,0.2-0.2,0.5-0.4,0.8c-0.1,0.3-0.2,0.7-0.2,1c-0.2,0.3,0.6,1.2,0.9,1.8
+                                                                            c0.1,0.2,0.4,0.5,0.4,0.6c0.1,0.2,0.3,0.4,0.3,0.5c0.7,1-1,0.7-1.2,0.7c-0.7-0.1-1.3-0.4-2-0.8l-0.1-0.1
+                                                                            c-0.7-0.5-1.4-1.1-2.1-1.7c-0.4-0.4-0.7-1.2-0.9-1.8c-0.4-1.4-0.9-3.7,0.6-5.7c0-0.1,0.1-0.3,0.2-0.3c0.5-0.3,0.9-0.5,1.4-0.7
+                                                                            l0.4-0.4c-0.3,0.1-1.5,0.4-1.8,0.6c-0.6,0.2-1,0.4-1.7,0.6c-0.3,0-0.5,0-0.7,0c-0.4,0-1.2,0-1.2,0c-0.4-0.5-0.5-1.3-0.7-1.8l0,0
+                                                                            l0,0c-0.2-0.3-0.4-0.5-0.7-0.7c-0.7-0.7-1.3-1.4-1.5-2.1c0-0.2-0.2-0.5-0.1-1.1l0,0l0,0c0.2-0.7,0.5-1.1,1-1.6
+                                                                            c0.6,0,1,0,1.4,0.1c0.2,0,0.6,0.1,0.9,0.2c1,0.4,2.2,1,2.2,1c-1-0.6-2.1-1.2-2.8-1.3c-0.1,0-0.2-0.1-0.2-0.2
+                                                                            c1-0.7,1.2-1.3,1.9-2c0.3-0.2,0.5-0.2,0.7-0.3c2.4,0.4,3.9,1.3,5.2,2c0.5,0.3,0.9,0.5,1.3,0.7c0.4,0.1,1.5,1,1.8,1.4
+                                                                            c0.4,0.7,0.6,1.4,0.8,2.2c0.2,0.7,0.3,1.1,0.3,1.1s-0.2-0.7-0.1-0.7c0.2,0.1,0.5,0.2,0.7,0.2c0,0-0.7-0.4-0.7-0.7
+                                                                            c-0.3-0.9-0.6-2.3-0.7-2.4c-0.2-0.3-1-0.9-1.5-1.2c-0.2-0.1-0.3-0.2-0.3-0.3c0.2-0.2,0.4-0.4,0.6-0.6c0.2-0.1,0.4-0.3,0.6-0.4
+                                                                            c1.1-0.5,1.6,0.2,1.8,0.1c0,0-0.3-0.3-0.1-0.2c0.1,0.1,0.5,0.1,0.5,0.2c0.4,0.3,1.3,1.4,2,2.5c0.2,0.3,0.2,0.5,0.2,0.8
+                                                                            c-0.1,0.4-0.1,0.6-0.2,0.7c-0.1,0.2-0.5,1.2-0.5,1.3c-0.1,0.6,0.3,1.2,0.3,1.2c0-0.2,0-0.3,0-0.5v-0.3v-0.1
+                                                                            c0-0.2,0.1-0.4,0.1-0.5c0.1-0.7,0.4-1.2,0.6-2c0.1-0.2,0.2-0.3,0.2-0.4c0-0.2-0.2-0.6-0.4-0.8s-0.4-0.7-0.6-1
+                                                                            c-0.6-0.7-1-1.3-1.8-1.7c-0.3-0.1-1.2-0.2-1.4-0.2c-0.4,0.1-0.7,0.2-1,0.4c-0.5,0.3-0.7,0.7-1.1,0.9c-0.8-0.5-1.2-0.7-1.3-0.8
+                                                                            c-0.5-0.3-1.1-0.6-1.7-0.9C10.8-64.3,9-65,7.2-65.1L7.2-65.1z M17.8-49.7c-0.6-0.4-0.9-0.8-1.2-1.2c-0.1,0.6-0.5,0.8-0.7,1.2
+                                                                            c-0.1,0.1-0.1,0.2,0.2,0.6c0.1,0.1,0.4,0.1,0.5,0.1c-0.2-0.1-0.5-0.3-0.5-0.4c0.3,0.2,0.6,0.3,0.8,0.3c0.1,0,0.1-0.1,0.2-0.2
+                                                                            c0.1-0.3,0.2-0.3,0.3-0.4l0.2,0.3L17.8-49.7z"/>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+
+                                                    <span class="ddp-txt-name">데이데이터스냅샷데이터스냅샷데이터스냅샷데이터스냅샷데이터스냅샷데이터스냅샷데이터스냅샷데이터스냅샷터스냅샷</span>
+                                                </div>
+                                                <div class="ddp-data-date">
+                                                    2018-07-01 10:02:12
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-txt-snapshot">
+                                            <em class="ddp-icon-snap-failed"></em>
+                                            <div class="ddp-data-det">
+                                                <div class="ddp-data-status type-failed">Failed</div>
+                                                <div class="ddp-data-name">
+                                                    <svg class="icon-db-hdfs-b">
+                                                        <g>
+                                                            <polyline class="st0" points="8.3,7.1 6.7,7.3 5.2,8 3.9,8.8 2.7,10.3 2,11 1.4,11.2 1.2,10.8 1.5,10.4 1.6,9.7 1.8,9.7 2,10
+                                                                1.9,9.3 1.7,9.2 1.7,8.9 1.1,9.2 0.6,9.9 0.5,10.4 0.7,10.9 0.9,11.6 1.3,11.8 1.8,11.8 2.2,11.6 1.9,13 2.2,14.6 1.9,15.4
+                                                                0.9,16.5 1.1,17.1 1.6,17.9 2.5,18.5 3,18.6 3.5,18.6 3.2,20 4.4,20.5 6,20.7 6.5,20.4 6.5,19.4 7.1,18.5 7.2,17.7 8.6,17.8
+                                                                9.9,17.7 8.6,18.5 8.8,19.4 9.6,20.7 10.5,21.1 11.1,20.8 11.4,20.3 12.7,19.2 13,19.5 15.1,19.5 15.6,19.2 15.6,18.6 15.5,18.3
+                                                                15.4,16.7 14.6,15.2 14.8,14.6 15.2,14.8 16.4,16 17,16 17.6,15.7 18.3,15.2 18.6,14.2 20.5,14.3 21.7,13.9 22.6,13 23.3,11.7
+                                                                23.5,10.2 23.3,8.5 23,7 22.6,6.5 22.1,6.3 21.2,7.3 20.4,7.6 19.7,6.4 18.9,5.7 18.6,5.5 17,4.2 15.8,3.5 14.5,3.4 13.1,3.7
+                                                                11.8,4.2 10.9,4.9 10.2,5.7 9.5,5.9 8.3,7.1 	"/>
+                                                            <g>
+                                                                <path class="st1" d="M16.6,14.3c0,0.1-0.1,0.2-0.1,0.3c0,0.2,0,0.3,0,0.5c0.1,0.1,0.1,0.2,0.2,0.3c0.1,0,0.2,0.1,0.2,0.1
+                                                                    c0.1,0,0.1,0,0.2,0c0.3,0.2,0.3,0.3,0.2,0.4c0.2-0.1,0.4-0.2,0.6-0.2c0.1-0.2,0.3-0.4,0.4-0.5c0.1-0.3,0.2-0.5,0.3-0.8
+                                                                    c-0.1-0.1-0.3-0.2-0.4-0.3C17.7,14.2,17.1,14.2,16.6,14.3z"/>
+                                                                <path class="st1" d="M15.9,13.8c0.3-0.5,0.6-0.8,1.1-1.1C16.1,12.9,16.1,13,15.9,13.8z"/>
+                                                                <path class="st1" d="M21.2,7.9c0.2-0.1,0.4-0.2,0.6-0.4c0.1-0.1,0.2-0.2,0.3-0.4c0.1-0.2,0.2-0.4,0.3-0.6
+                                                                    c-0.1,0.1-0.3,0.1-0.4,0.2c-0.2,0.3-0.4,0.5-0.7,0.7c-0.2,0.1-0.3,0.2-0.5,0.2c-0.1,0-0.2,0-0.4,0.1c0.1,0,0.1,0,0.2,0h0.6V7.9z"
+                                                                />
+                                                                <path class="st1" d="M10.1,8.3c0,0.3,0.1,0.6,0.1,0.9c0.2-1.5,0.8-2.1,2.2-2.7c-0.4,0-0.8,0.1-1.2,0.1c-0.4,0.1-0.7,0.2-1.1,0.2
+                                                                    C9.9,7.1,9.8,7.4,9.6,7.7C9.5,7.9,9.4,8.2,9.3,8.4C9,9.3,8.7,10,8.2,10.9c0.6-0.7,1-1.3,1.4-2C9.7,8.5,9.7,8.2,10.1,8.3z"/>
+                                                                <path class="st1" d="M11.2,14.9c0.5-0.2,0.8-0.2,1.3-0.2c0.5-0.8,0.5-1.2,0.3-2.2c-0.2-1.4-0.6-2.8-0.9-4.2c0,0.2,0,0.3-0.1,0.5
+                                                                    c0,0.3,0,0.7,0,1c0.1,0.7,0.2,1.5,0.3,2.2c-0.1,0.6-0.3,1.1-0.4,1.7c-0.4,0.1-0.8,0.2-1.2,0.2C10,14.4,9.5,14.7,9,15
+                                                                    c-0.3,0.1-0.6,0.1-0.9,0.2c-0.4-0.2-0.8-0.4-1.3-0.6C8.1,16.5,9.3,15.5,11.2,14.9z"/>
+                                                                <path class="st1" d="M15.3,17.1c-0.2-0.5-0.3-1.1-0.5-1.6h-0.1v-0.1c0-0.2,0-0.5,0.1-0.7c-0.3-0.1-0.5-0.2-0.8-0.3
+                                                                    c-0.2-0.2-0.4-0.3-0.6-0.5c0.1,0.5,0.3,0.6,0.5,1.1c-0.2,0.8-0.4,1.8-0.7,2.5c-0.1,0.3-0.2,0.5-0.5,0.7c-0.4,0.4-0.8,0.7-1.2,1.1
+                                                                    c-0.3,0.2-0.5,0.1-0.9,0.1c-0.2,0.3-0.2,0.5-0.5,0.6c-0.5,0.2-0.9-0.3-1.3-0.6c0.3,0.4,0.5,0.8,0.8,1.3c0.2,0.2,0.4,0.3,0.6,0.5
+                                                                    c0.2,0,0.3,0,0.5,0.1c0.2-0.1,0.4-0.3,0.6-0.4c0.1-0.2,0.2-0.4,0.3-0.6c0.2-0.2,0.5-0.3,0.7-0.5c0.3-0.2,0.6-0.5,0.9-0.7
+                                                                    c0.2-0.3,0.4-0.5,0.5-0.8c0-0.1,0.1-0.1,0.1-0.2c-0.1,0.2-0.1,0.3-0.2,0.5c-0.2,0.3-0.5,0.5-0.7,0.8c0.2,0.1,0.3,0.1,0.5,0.2h1.1
+                                                                    c0-0.1,0.5,0.1,0.9-0.1c0.1,0,0.2-0.2,0.2-0.3C15.7,18.8,15.2,18.2,15.3,17.1z"/>
+                                                                <path class="st1" d="M10.1,17.3c0.1-0.5,0.1-0.8,0.4-1.3c-0.3,0.3-0.5,0.6-0.7,0.9C9,17.3,8,17.4,7.1,17.4c0,0.1,0,0.2,0,0.2
+                                                                    s0,0,0.1,0.1c0.2,0,0.4,0,0.6,0.1c0.7,0,1.3,0,2-0.1C9.9,17.6,10,17.5,10.1,17.3z"/>
+                                                                <path class="st1" d="M6.9,16.2c-0.2,0.9-0.1,1.5-0.5,2.3c-0.3,0.4-0.7,0.7-1.1,0.9c0,0.2,0,0.4,0,0.5c-0.1,0.6-1.3,0.3-1.7,0.3
+                                                                    c0.8,0.2,1.6,0.4,2.3,0.6c0.2-0.1,0.3-0.1,0.5-0.2c0.1-0.3,0.1-0.7,0.2-1c0.2-0.3,0.3-0.6,0.5-0.9c0-0.2,0.1-0.4,0.1-0.6
+                                                                    c-0.1-0.4-0.1-0.9-0.2-1.3C7,16.6,7,16.4,6.9,16.2z"/>
+                                                                <path class="st1" d="M6.7,14.1c0-0.3,0.1-0.7,0.1-1c-0.3-0.5-0.7-1-1-1.5c0,0.4-0.1,0.6,0.1,1C6.1,13.2,6.4,13.6,6.7,14.1z"/>
+                                                                <path class="st1" d="M2.9,16.7c-0.3-0.6-0.5-1.1-0.8-1.7C2,15.1,2,15.3,1.9,15.5c0.2,0.7,0.4,1.1,0.8,1.8
+                                                                    c-0.1,0.2-0.1,0.4-0.3,0.6c-0.3-0.1-0.7-0.1-1-0.1c0.4,0.3,0.8,0.6,1.2,0.9c0.2,0,0.4-0.1,0.6-0.1c0.2-0.2,0.4-0.4,0.6-0.6
+                                                                    C3.4,17.5,3.2,17.1,2.9,16.7z"/>
+                                                                <path class="st1" d="M23.3,8.4c-0.1-0.5-0.3-1.1-0.4-1.6c-0.2-0.1-0.3-0.2-0.5-0.4c0.2,1.1,0.5,2.1,0.5,3.2c0,1.3-0.3,3-1.5,3.9
+                                                                    c-1.4,0.9-3,0.5-4.6,0.1c0.6,0.3,1.2,0.5,1.9,0.8c0.6,0,1.2,0.1,1.7,0.1c0.4-0.1,0.8-0.2,1.2-0.3c0.3-0.3,0.6-0.5,0.9-0.8
+                                                                    c0.2-0.5,0.5-1,0.7-1.5c0.1-0.6,0.2-1.1,0.3-1.7C23.4,9.5,23.4,8.9,23.3,8.4z"/>
+                                                                <path class="st1" d="M2.2,11.7c0.1-0.3,0.2-0.6,0.3-1c-0.3,0.1-0.6,0.3-0.9,0.4H1.4c-0.1-0.1-0.1-0.2-0.2-0.3
+                                                                    c0.1-0.1,0.2-0.3,0.3-0.4c0-0.2,0.1-0.5,0.1-0.7c0.1,0,0.1,0,0.2,0.1c0.1,0,0.1,0.1,0.2,0.1c0-0.1,0-0.3,0-0.4
+                                                                    c0-0.1-0.1-0.2-0.1-0.3L1.8,9.1c0,0.1-0.1,0.2-0.1,0.4c-0.6,0.4-0.9,0.6-0.8,1.4C1,11.1,1,11.4,1.1,11.6c0.1,0.1,0.2,0.1,0.3,0.2
+                                                                    c0.1,0,0.2,0.1,0.3,0.1C1.8,11.8,2,11.8,2.2,11.7z"/>
+                                                                <path class="st1" d="M17.5,5.1c0.2,0.2,0.4,0.4,0,0.7c0.4-0.1,0.5-0.1,0.8-0.1c0.6,0.1,1.1,0.9,1.1,1.5c0,0.1-0.2,0.2-0.6,0.3
+                                                                    h-0.2c0,0.1,0.1,0.1,0.2,0.2c0,0.1,0,0.4,0.1,0.5c0.3,0,0.5,0,0.8,0.1c0.1,0.2,0.1,0.3,0.1,0.5c0.1,0,0.2,0,0.3-0.1
+                                                                    C20.1,8.5,20,8.2,20,8c0.1-0.2,0.2-0.3,0.3-0.5c-0.1-0.3-0.3-0.6-0.4-0.9c-0.3-0.2-0.5-0.5-0.8-0.7c0,0,0,0-0.1,0
+                                                                    c-0.3-0.2-0.6-0.4-0.9-0.5c-0.5-0.4-0.9-0.8-1.4-1.2c-0.3-0.2-0.7-0.5-1-0.7C16.4,4,17,4.5,17.5,5.1z"/>
+                                                                <path class="st1" d="M16.9,8.8c0,0,0.1,0,0.1-0.1c0-0.3-0.2-0.5-0.4-0.7c0.1-0.1,0.1-0.1,0.1-0.2c-0.1,0-0.2,0.1-0.2,0.1
+                                                                    C16.3,8,16.2,8.1,16,8.1c-0.3,0.2-0.5,0.4-0.8,0.6C15.1,8.8,15,9,14.8,9.1c-0.1,0.1-0.1,0.1-0.2,0.1c0.1,0.1,0.3,0,0.5,0
+                                                                    c0.1,0.3,0.2,0.4,0.5,0.6c-0.1,0.2-0.2,0.4-0.2,0.7c0.4-0.9,1.2-1.3,2.1-1.8C17.3,8.7,17.1,8.7,16.9,8.8z"/>
+                                                            </g>
+                                                            <path class="st1" d="M15.2,6.5c-0.6,0.4-1.1,1.3-1,2.1c-0.2-0.7-0.1-1.4,0.5-1.9c0.1-0.1,0.2-0.1,0.3-0.2
+                                                                C15.1,6.5,15.2,6.5,15.2,6.5"/>
+                                                            <g>
+                                                                <path class="st2" d="M7.9,7.5C8,7.4,8.1,7.3,8.2,7.1C7.6,7.2,7,7.3,6.4,7.4C5.9,7.6,5.4,7.8,4.9,8C4.5,8.4,4,8.7,3.6,9.1
+                                                                    C3.3,9.6,3,10,2.7,10.4c-0.2,0.5-0.4,0.9-0.6,1.4c0,0.5,0,1-0.1,1.5c0.1,0.5,0.2,1,0.2,1.4c0.2,0.5,0.4,1,0.6,1.6
+                                                                    c-0.4-1.9-0.7-3.9,0.7-5.5c0.9-1.1,1.7-1.3,3-1.8c0.1-0.1,0.2-0.2,0.3-0.3c-0.3,0.5-0.6,1.1-0.9,1.6c-0.1,0.3-0.2,0.7-0.3,1
+                                                                    c0.2,0.3,0.5,0.5,0.7,0.8c0.1-0.5,0.1-0.8,0.3-1.2c0.5-0.8,1-1.5,1.4-2.3c0.6-1.1,1.1-1.8,2.1-2.8C9.9,5.9,9.6,5.9,9.4,6
+                                                                    C8.9,6.5,8.4,7,7.9,7.5z"/>
+                                                                <path class="st2" d="M14.9,3.5c-0.3,0-0.5,0-0.8,0c-0.6,0.1-1.2,0.3-1.8,0.4c-0.5,0.3-0.9,0.6-1.4,0.8c-0.3,0.4-0.5,0.7-0.8,1.1
+                                                                    c1.8-0.3,2.1-0.5,3,0.5c-0.4-0.7-0.5-1-0.4-1.6C12.9,3.8,14.2,3.7,14.9,3.5z"/>
+                                                            </g>
+                                                            <g>
+                                                                <path class="st3" d="M23.6,8.5c-0.1-0.7-0.3-1.4-0.6-1.9c0-0.1-0.1-0.1-0.1-0.2c-0.1-0.1-0.3-0.2-0.5-0.3C22.2,6,22,6,21.8,6
+                                                                    l-0.1,0.1c-0.1,0.1-0.2,0.3-0.3,0.4C21.3,6.7,21.2,6.9,21,7c-0.1,0.1-0.3,0.2-0.5,0.3c-0.1-0.2-0.2-0.4-0.3-0.5
+                                                                    c-0.1-0.2-0.3-0.4-0.4-0.6c-0.1-0.1-0.2-0.3-0.4-0.4c-0.1-0.1-0.3-0.2-0.4-0.3c-0.4-0.3-0.8-0.6-1.1-0.9c-0.2-0.1-0.3-0.3-0.5-0.4
+                                                                    c-0.9-0.7-1.7-1.1-2.5-1.1C14,3,13.1,3.3,12.1,3.7c-0.5,0.2-0.9,0.5-1.2,0.8s-0.6,0.6-0.9,1c-0.2,0-0.3,0-0.5,0.1
+                                                                    C9.3,5.7,9.2,5.8,9,6C8.8,6.1,8.7,6.3,8.5,6.4C8.4,6.5,8.3,6.6,8.2,6.8C7.2,7,6.4,7.1,5.7,7.4S4.3,8,3.7,8.6
+                                                                    C3.4,8.9,3.2,9.1,3,9.4c-0.2,0.3-0.4,0.5-0.5,0.8c-0.1,0.1-0.3,0.3-0.4,0.4c-0.1,0.1-0.3,0.2-0.5,0.3l0,0c-0.1,0-0.1,0.1-0.1,0.1
+                                                                    l0,0c0.2-0.2,0.3-0.6,0.3-0.9l0.1,0.1L2,10.3l0.2,0.2l0.1-0.3c0-0.2,0.1-0.5,0-0.7c0-0.2-0.1-0.3-0.2-0.4C2,9.1,2,9,2,9
+                                                                    c0-0.1,0.1-0.2,0.1-0.3l0.1-0.2H2c-0.3,0-0.9,0.4-1.3,0.8C0.5,9.5,0.4,9.7,0.3,9.9s-0.1,0.4-0.1,0.6c0,0.2,0.1,0.4,0.3,0.5
+                                                                    c0,0.1,0.1,0.2,0.1,0.3s0.1,0.2,0.1,0.3C0.8,11.9,1,12,1.2,12.1s0.4,0.1,0.6,0c0,0.2-0.1,0.5-0.1,0.7c0,0.3,0,0.7,0,1.1
+                                                                    c0,0.1,0,0.2,0,0.3s0,0.2,0,0.3s-0.1,0.2-0.1,0.3c-0.1,0.2-0.1,0.3-0.2,0.5c-0.1,0.1-0.3,0.2-0.4,0.4c0.1,0.1,0,0.2-0.2,0.3
+                                                                    c0,0,0,0-0.1,0.1c-0.2,0.2-0.3,0.3-0.2,0.7c0,0.2,0.1,0.5,0.2,0.7s0.3,0.4,0.5,0.6c0.2,0.3,0.7,0.6,1.1,0.7
+                                                                    c0.2,0.1,0.5,0.1,0.7,0.1V19c0,0.1-0.1,0.2-0.1,0.3c-0.3,0.6,0,1,0.5,1.2c0.2,0.1,0.5,0.2,0.8,0.2c0.1,0,0.1,0,0.2,0
+                                                                    c0.3,0.1,0.8,0.2,1.3,0.3c0.5,0,1-0.1,1.1-0.5c0.1-0.2,0.1-0.3,0.1-0.5c0-0.1,0-0.3,0-0.4C7,19.3,7.1,19.2,7.2,19
+                                                                    c0,0,0-0.1,0.1-0.1c0.1-0.2,0.2-0.3,0.2-0.4s0-0.3,0-0.5c0,0,0,0,0-0.1c0.3,0,0.6,0.1,0.9,0.1c0.2,0,0.3,0,0.5,0
+                                                                    c0,0-0.1,0-0.1,0.1c0,0,0,0-0.1,0c-0.4,0.2-0.4,0.6-0.3,1c0.1,0.4,0.3,0.7,0.5,1c0.3,0.5,0.6,0.9,1,1.1s0.8,0.3,1.4,0
+                                                                    c0.3-0.2,0.4-0.3,0.5-0.5c0-0.1,0.1-0.1,0.1-0.2c0.1-0.1,0.4-0.3,0.7-0.6c0.1-0.1,0.2-0.2,0.3-0.2c0.1,0.1,0.2,0.1,0.3,0.1
+                                                                    s0.3,0,0.5,0.1c0.2,0,0.6,0,1,0c0.1,0,0.2,0,0.2,0c0.3,0,0.6,0,0.8-0.1s0.3-0.3,0.4-0.7c0-0.2,0-0.3,0-0.4S16,18.5,16,18.4
+                                                                    c0-0.2,0-0.3,0-0.5s0-0.4,0-0.5c0-0.2,0-0.4-0.1-0.5c0-0.2-0.1-0.3-0.2-0.5c-0.1-0.1-0.1-0.2-0.1-0.4h-0.1l0,0h0.1l0,0
+                                                                    c-0.1-0.2-0.1-0.4-0.2-0.6v-0.1c0.1,0.1,0.1,0.1,0.2,0.2l0.3,0.3c0.2,0.2,0.4,0.4,0.6,0.5s0.5,0.2,0.8,0.2c0.4,0,0.7-0.2,1-0.4
+                                                                    c0.3-0.2,0.5-0.5,0.6-0.8c0-0.1,0.1-0.2,0.1-0.3s0-0.2,0.1-0.2c0.5,0.1,1,0.1,1.5,0.1c0.5-0.1,1-0.2,1.4-0.4
+                                                                    c0.6-0.3,1.1-0.8,1.4-1.4l0,0c0.4-0.6,0.6-1.4,0.6-2.1C23.8,10.1,23.8,9.3,23.6,8.5z M20.1,7.6L20.1,7.6c-0.1,0-0.1-0.1-0.2-0.1
+                                                                    H20C20.1,7.5,20.1,7.5,20.1,7.6z M1.7,11L1.7,11L1.7,11L1.7,11z M1.7,9.5C1.7,9.4,1.7,9.4,1.7,9.5c0.2,0,0.2,0.1,0.2,0.3
+                                                                    C1.8,9.7,1.8,9.6,1.7,9.6V9.5z M1,11.5c-0.1-0.2-0.1-0.4-0.2-0.6c-0.6-0.6,0.3-1.5,0.8-1.8C1.5,9.2,1.5,9.4,1.4,9.5
+                                                                    c-0.2,0.5,0.1,1-0.4,1.4c0.2,0.4,0.2,0.6,0.7,0.4c0.2-0.1,0.4-0.2,0.5-0.3c-0.1,0.2-0.1,0.4-0.2,0.6v0.1C1.7,11.7,1.2,11.8,1,11.5
+                                                                    z M3.4,17.9c0,0.1-0.1,0.3-0.2,0.4c-0.4,0.5-1.3-0.2-1.6-0.5s-0.5-0.7-0.6-1c0-0.3,0-0.3,0.2-0.4C1.5,16,1.7,15.8,2,15.6
+                                                                    c0.1-0.1,0.1-0.3,0.2-0.4C2.4,16.1,2.9,17.1,3.4,17.9L3.4,17.9z M15.2,17.3c0,0.4,0,0.8,0,1.1c0.1,0.2,0.1,0.3,0.1,0.5
+                                                                    c0,0.5-0.2,0.5-0.6,0.5c-0.2,0-1,0-1.2,0c-0.3,0-0.4,0-0.5-0.1c0.4-0.3,1.2-1.7,1.3-2.1c0.2-0.5,0.3-0.9,0.4-1.4
+                                                                    c0.1,0.2,0.1,0.4,0.2,0.6C15.1,16.7,15.2,16.9,15.2,17.3z M14.9,15.3L14.9,15.3L14.9,15.3L14.9,15.3z M23.3,10.7
+                                                                    c-0.1,1.2-0.7,2.5-1.8,3.1c-1.3,0.7-2.9,0.3-4.2-0.2c-0.3-0.1-0.5-0.2-0.7-0.4c0.1,0.3,0.1,0.6,0,0.9c-0.1,0.5-0.4,1.3,0.3,1.4
+                                                                    c0.3,0.1,0.4,0,0.7-0.1c-0.3,0.1-0.4,0-0.6,0s-0.3-0.1-0.3-0.3c0.1,0,0.2,0.1,0.3,0.1c0.5,0.1,1-0.1,1-0.5c0.1-0.2,0-0.3,0.2-0.6
+                                                                    c0.1,0,0.2,0.1,0.3,0.1c-0.1,0.2-0.1,0.4-0.2,0.6c-0.2,0.5-0.8,0.9-1.3,0.9s-0.8-0.3-1.2-0.6c-0.2-0.2-0.5-0.4-0.7-0.6
+                                                                    c-0.6-0.2-1.1-0.4-1.7-0.9c0.4,0.5,0.7,0.7,1.3,1c-0.1,0.8-0.4,1.5-0.6,2.3c-0.1,0.4-1,1.8-1.3,2c-0.2,0.1-1.3,1-1.5,1.2
+                                                                    s-0.3,0.5-0.5,0.6c-0.7,0.4-1.2-0.3-1.6-1c-0.2-0.2-0.7-1-0.2-1.2c0.4-0.2,0.6-0.4,1-0.6c0.1,0.1,0.2,0.2,0.2,0.3
+                                                                    c0-0.1,0-0.2,0-0.4c0-0.2,0-0.4,0-0.6s0-0.4,0-0.6c0,0.2-0.2,0.4-0.2,0.6c0,0.1,0,0.2-0.1,0.2c-0.9,0.2-1.8,0.2-2.7,0
+                                                                    c-0.1-0.3-0.1-0.7-0.2-0.9c0,0.3,0,1.1,0,1.5c0,0.3,0,0.5-0.2,0.7C6.6,19,6.6,19,6.3,19.5c0,0.3,0,0.5-0.1,0.8
+                                                                    c-0.1,0.5-1.4,0.1-1.8,0C4,20.2,3.1,20,3.3,19.5s0.3-1,0.4-1.7c-0.8-1.1-1.5-2.6-1.6-4c-0.1-1,0-1.7,0.2-2.3
+                                                                    c0.4-1,0.9-1.9,1.7-2.6C5.2,8,6.2,7.6,7.8,7.4C7.4,7.8,7,8.3,6.6,8.8s-0.7,1-0.9,1.5c-0.4,0.7-0.4,1,0.1,1.7
+                                                                    c0.4,0.6,0.6,0.8,0.8,1.4c-0.1,0.3-0.2,0.6-0.3,1c0.5,0.6,0.9,0.9,1.4,1.1c0.5,0.1,0.9,0.1,1.3-0.1c1-0.5,1.9-1.1,2.9-1.2
+                                                                    c0.5-1.2,0.5-2.3,0.2-3.5C12,9.8,12,9,11.9,8.2c-0.2,0.9-0.2,1.6-0.1,2.5c0.2,1,0.3,2.2-0.2,3.1c-1,0.1-1.8,0.7-2.7,1.1
+                                                                    c-0.3,0.1-0.7,0.1-1.1,0c-0.4-0.1-0.6-0.3-1-0.8c0-0.5,0.1-0.7,0.3-1.1c0.3-0.7,0.7-1.3,1.1-1.9c-0.5,0.6-1,1.1-1.4,1.7
+                                                                    c-0.2-0.4-0.4-0.6-0.7-1.1C5.8,11.2,5.8,11,6,10.5c0.3-0.6,0.5-1,1-1.5c0.8-0.8,1.5-1.8,2.3-2.6C9.7,6,9.9,6,10.5,5.9
+                                                                    c0.5-0.1,1.1-0.2,1.6-0.3c-0.5,0.1-1.1,0.1-1.6,0.1l0,0c0.5-0.7,0.8-1,1.7-1.4c2.1-0.9,3.4-1,5,0.4c0.4,0.4,0.8,0.7,1.2,1
+                                                                    c-0.2,0-0.3,0-0.5,0.1c0.2,0,0.5,0,0.7,0c0.1,0,0.1,0.1,0.2,0.1c0.3,0.2,0.5,0.3,0.7,0.6c0.2,0.3,0.4,0.6,0.6,0.9
+                                                                    c-0.1,0-0.2-0.1-0.3-0.1c-0.1,0-0.1,0-0.2,0s-0.3,0-0.4,0.1l0,0c-0.2,0.1-0.4,0.2-0.6,0.2c0.1,0,0.3,0,0.4,0l0,0c0,0,0,0.1,0,0.2
+                                                                    c0,0.1,0,0.2,0,0.3l0,0c0,0,0,0.1,0.1,0.1c-0.1,0-0.2,0.1-0.2,0.1c0.4-0.1,0.7-0.1,1.1,0c0,0.1,0,0.2,0.1,0.4H20l0,0
+                                                                    c-0.2-0.1-0.4-0.1-0.6-0.1c-0.8,0.2-0.6,0.6-1,1.3c0.4-0.5,0.4-1,1-1.1c0.1,0,0.3-0.1,0.4-0.1c-0.2,0.1-0.3,0.2-0.4,0.4
+                                                                    c-0.2,0.5-0.1,0.9-0.3,1.4c0.2-0.4,0.3-0.8,0.5-1.3C19.7,9,20,8.8,20.1,8.8h0.1c0,0.3,0.1,0.6,0.1,0.8c0,0.4-0.1,1-0.2,1.3
+                                                                    c0.2-0.3,0.3-0.9,0.4-1.3c0.1-0.4,0.1-1,0-1.4c-0.1-0.6,0.5-0.5,0.9-0.8c0.3-0.2,0.5-0.6,0.7-0.8c0.3-0.2,0.7,0.1,0.8,0.4
+                                                                    C23.2,8,23.4,9.6,23.3,10.7z"/>
+                                                                <path class="st3" d="M10.7,3.1C10.1,3.3,10,3.4,9.8,3.9C10.1,3.5,10.3,3.4,10.7,3.1z"/>
+                                                                <path class="st3" d="M11.6,3c-1.2,0.3-1.5,0.5-1.9,1.8C10.2,3.9,10.6,3.5,11.6,3z"/>
+                                                                <path class="st3" d="M14.1,7.9c0.1-0.5,0.3-1.1,1.2-1.5C14.2,6.7,14,7.2,14.1,7.9z"/>
+                                                                <path class="st3" d="M21.2,7.8c-0.3,0.1-0.5,0.1-0.8,0.1C20.7,8,20.9,8.1,21.3,8c0.7-0.2,1-0.8,1.1-1.4
+                                                                    C22.1,7.1,21.7,7.5,21.2,7.8z"/>
+                                                                <path class="st3" d="M16.7,8.5c-0.1-0.2-0.2-0.3-0.4-0.4c0.2-0.1,0.3-0.2,0.4-0.3C16.4,8,16,7.9,15.6,8.2c-0.3,0.2-0.7,0.8-0.9,1
+                                                                    c0.2-0.1,0.4-0.2,0.6-0.4c0,0.1,0,0.2,0.1,0.3c0.1,0.2,0.2,0.3,0.3,0.3c-0.1,0.1-0.2,0.3-0.2,0.4c0.5-0.6,1.3-1.1,2-1.3
+                                                                    c-0.2,0-0.4,0-0.7,0.1C16.8,8.7,16.8,8.6,16.7,8.5z"/>
+                                                                <path class="st3" d="M16,13.3c0,0.2-0.1,0.4-0.1,0.5c0.1-0.2,0.2-0.4,0.2-0.6c0.1-0.2,0.1-0.2,0.3-0.3c0.1-0.1,0.4-0.2,0.5-0.2
+                                                                    c-0.1,0-0.4,0.1-0.5,0.1C16.1,12.9,16,12.9,16,13.3z"/>
+                                                                <path class="st3" d="M9.9,6.9c-0.4,0.5-0.8,1.9-1,2.4C9.1,8.8,9.7,7.5,10,7.2c0.1-0.1,0.2-0.1,0.3-0.2C10,7.5,10,7.6,10.1,8.2
+                                                                    c0.1-0.6,0.3-0.9,0.7-1.3c0.4-0.1,0.8-0.2,1.2-0.4c-0.5,0.1-0.9,0.1-1.4,0.1C10.2,6.7,10.2,6.7,9.9,6.9z"/>
+                                                            </g>
+                                                            <path class="st2" d="M15.7,8.9c-0.2,0.1-0.2,0.3-0.1,0.4c0,0.1,0.1,0.1,0.2,0.2c0.1-0.2,0.3-0.3,0.4-0.4l0,0
+                                                                C16,8.9,15.8,8.8,15.7,8.9z"/>
+                                                            <path class="st2" d="M19.3,7.7C19.1,7.7,19,7.8,19,8c0,0.1,0,0.2,0.1,0.2s0.2-0.1,0.4-0.1c0,0,0,0,0-0.1
+                                                                C19.5,7.9,19.4,7.8,19.3,7.7z"/>
+                                                        </g>
+                                                    </svg>
+
+
+                                                    <span class="ddp-txt-name">데이터스냅샷
+                                                    </span>
+                                                </div>
+                                                <div class="ddp-data-date">
+                                                    2018-07-01 10:02:12
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="ddp-txt-snapshot">
+                                            <em class="ddp-icon-snap-play">
+
+                                            </em>
+                                            <div class="ddp-data-det">
+                                                <div class="ddp-data-title">스냅샷테이블을생성하고있습니다 (1/n)</div>
+                                                <div class="ddp-data-name">
+
+                                                    <svg class="icon-db-local-b">
+
+                                                        <g id="_x32_.-component">
+                                                            <g id="list" transform="translate(-713.000000, -2063.000000)">
+                                                                <g id="Group-9" transform="translate(713.000000, 2063.000000)">
+                                                                    <path id="Fill-1" class="st0" d="M16.4,5c1,0,1.8,0.8,1.8,1.9L19,17.1c0,1-0.8,1.9-1.8,1.9H6.8c-1,0-1.8-0.8-1.8-1.9L5.9,6.9
+                                                                        c0-1,0.8-1.9,1.8-1.9H16.4z"/>
+                                                                    <path id="Stroke-3" class="st1" d="M7.6,5h8.8c1,0,1.8,0.8,1.8,1.9L19,17.1c0,1-0.8,1.9-1.8,1.9H6.8c-1,0-1.8-0.8-1.8-1.9
+                                                                        L5.9,6.9C5.9,5.8,6.7,5,7.6,5z"/>
+                                                                    <path id="Stroke-5" class="st1" d="M19,14H5"/>
+                                                                    <path id="Fill-7" class="st2" d="M16.5,16.5c0,0.6-0.4,1-1,1c-0.6,0-1-0.4-1-1c0-0.6,0.4-1,1-1C16.1,15.5,16.5,15.9,16.5,16.5"/>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </svg>
+
+                                                    <span class="ddp-txt-name">데이터스냅샷</span>
+                                                </div>
+                                                <div class="ddp-data-date">2018-07-01 10:02:12</div>
+                                            </div>
+                                            <!-- progress -->
+                                            <div class="ddp-wrap-progress">
+                                                <div class="ddp-ui-progress ddp-play">
+                                                    <span class="ddp-bar" style="width:30%;"></span>
+                                                </div>
+                                                <a href="javascript:" class="ddp-btn-cancel"></a>
+                                            </div>
+                                            <!-- //progress -->
+
+                                        </div>
+
+                                    </li>
+                                    <li class="">
+                                        <div class="ddp-txt-snapshot ddp-disabled">
+                                            <em class="ddp-icon-snap-cancel"></em>
+                                            <div class="ddp-data-det">
+                                                <div class="ddp-data-title">스냅샷테이블을생성하고있습니다 (1/n)</div>
+                                                <div class="ddp-data-name"> <em class="icon-db-local"></em>데이터스냅샷</div>
+                                                <div class="ddp-data-date"> 2018-07-01 10:02:12</div>
+                                            </div>
+                                            <!-- progress -->
+                                            <div class="ddp-wrap-progress">
+                                                <div class="ddp-ui-progress ddp-play">
+                                                    <span class="ddp-bar" style="width:30%;"></span>
+                                                </div>
+                                                <a href="javascript:" class="ddp-btn-cancel"></a>
+                                            </div>
+                                            <!-- //progress -->
+
+                                        </div>
+                                        <div class="ddp-txt-cancel">
+                                            <span class="ddp-txt-det">Sure to cancel snapshot creation?</span>
+                                            <a href="#" class="ddp-btn-line">No</a>
+
+                                            <a href="#" class="ddp-btn-solid ddp-bg-black ">Yes</a>
+                                        </div>
+
+                                    </li>
+                                </ul>
+                                <div class="ddp-ui-link">
+                                    <a href="#" class="ddp-btn-line ddp-link-list"><em class="ddp-icon-go"></em>Go to snapshot list</a>
+                                </div>
+
+                            </div>
+                            <!-- //snapshot -->
+                        </div>
+                    </div>
+                    <!-- //rules -->
+                </div>
+            </div>
+            <div class="ddp-wrap-checkaction" style="display:none;">
+                <!-- 실행 팝업 -->
+                <div class="ddp-pop-bar">
+                    <a href="javascript:" class="ddp-btn-close"><em class="ddp-icon-close"></em> 선택해제</a>
+                    <span class="ddp-txt-info">1개의 선택 항목이 있습니다.</span>
+                    <a href="javascript:" class="ddp-btn-bar">실행</a>
+
+                </div>
+                <!-- //실행 팝업 -->
+                <div class="ddp-ui-checkaction">
+                    <!-- selectbox -->
+                    <div class="ddp-type-selectbox ddp-selected">
+                        <span class="ddp-txt-selectbox">액션을 선택하세요</span>
+                        <ul class="ddp-list-selectbox">
+                            <li>
+                                <a href="javascript:">
+                                    타입변경<em class="ddp-icon-subview"></em>
+                                </a>
+                                <!-- 2depth -->
+                                <div class="ddp-wrap-popup2 ddp-types">
+                                    <ul class="ddp-list-popup ddp-checkpopup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-type-ab"></em>
+                                                문자
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-type-tf"></em>
+                                                불린
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-type-int"></em>
+                                                정수
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-type-float"></em>
+                                                소수
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-type-calen"></em>
+                                                날짜/시간
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //2depth -->
+
+
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    삭제
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- //selectbox -->
+                </div>
+            </div>
+            <div class="bottom" id="bottom">
+                <!-- add rule -->
+                <div class="ddp-wrap-addrule" style="position:relative; top:0; left:0; right:0; bottom:0; height:100%; min-height:inherit">
+                    <div class="ddp-box-top" style="position:relative; top:0; left:0; right:0; bottom:0;z-index:10;">
+                        <!-- title -->
+                        <div class="ddp-box-title">
+                            Add Rule
+                            <a href="#" class="ddp-link-switch">switch to editor</a>
+                        </div>
+                        <!-- //title -->
+                        <!-- buttons -->
+                        <div class="ddp-ui-buttons">
+                            <a href="javascript:" class="ddp-btn-type3">취소</a>
+                            <a href="javascript:" class="ddp-btn-type4">추가</a>
+                        </div>
+                        <!-- //buttons -->
+                    </div>
+                    <script>
+                        $(function(){
+                            $('.ddp-wrap-rulecontents').click(function(){
+                                var $RulescrollLeft = $(this).scrollLeft();
+                                $(this).css('overflow','inherit');
+                                $(this).find('.ddp-box-contents ').css('left',-$RulescrollLeft);
+
+
+                            });
+                        });
+                    </script>
+
+                    <div class="ddp-wrap-rulecontents " style="position:;">
+                        <div class="ddp-box-contents ddp-clear" style="height:px;">
+                            <!-- editor -->
+                            <div class="ddp-wrap-switch-editor">
+                                <!-- switch 클릭시 ddp-box-full 추가 -->
+                                <div class="ddp-box-command ddp-box-full" style="display:none;">
+                                    <div class="ddp-ui-title">
+                                        Command
+                                    </div>
+
+                                    <!-- input -->
+                                    <div class="ddp-wrap-datainput">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        <!-- ddp-selected 추가시 display:block; -->
+                                        <div class="ddp-box-error">
+                                            <span class="ddp-txt-error"><em class="ddp-icon-error"></em>입력값을 확인하세요</span>
+                                            에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지
+                                            <a href="javascript:" class="ddp-icon-close"></a>
+                                        </div>
+                                    </div>
+                                    <!-- //input -->
+                                </div>
+                            </div>
+                            <!-- //editor -->
+
+                            <!-- builder -->
+                            <div class="ddp-wrap-switch-builder">
+                                <div class="ddp-box-command">
+                                    <div class="ddp-ui-title">
+                                        Command
+                                    </div>
+                                    <!-- select box -->
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-type-search-select">
+                                        <!-- 선택시 자동 input display:block; -->
+                                        <input type="text" class="ddp-input-selectbox" placeholder="Command"/>
+                                        <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                        <ul class="ddp-list-selectbox ddp-list-command">
+                                            <li class="ddp-data-select">
+                                                <strong>2</strong>개 열 선택
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                <span class="ddp-ui-type">
+                                                    <em class="ddp-ui-round">Rp</em>
+                                                    Command A
+                                                </span>
+                                                    <span class="ddp-ui-code">
+                                                    Command Description can be longer 설명
+                                                    은 길어질 수 있습니다
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                <span class="ddp-ui-type">
+                                                    <em class="ddp-ui-round">Rp</em>
+                                                    Command A
+                                                </span>
+                                                    <span class="ddp-ui-code">
+                                                    Command Description can be longer 설명
+                                                    은 길어질 수 있습니다
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                <span class="ddp-ui-type">
+                                                    <em class="ddp-ui-round">Rp</em>
+                                                    Command A
+                                                </span>
+                                                    <span class="ddp-ui-code">
+                                                    Command Description can be longer 설명
+                                                    은 길어질 수 있습니다
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                <span class="ddp-ui-type">
+                                                    <em class="ddp-ui-round">Rp</em>
+                                                    Command A
+                                                </span>
+                                                    <span class="ddp-ui-code">
+                                                    Command Description can be longer 설명
+                                                    은 길어질 수 있습니다
+                                                </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                <span class="ddp-ui-type">
+                                                    <em class="ddp-ui-round">Rp</em>
+                                                    Command A
+                                                </span>
+                                                    <span class="ddp-ui-code">
+                                                    Command Description can be longer 설명
+                                                    은 길어질 수 있습니다
+                                                </span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //select box -->
+                                </div>
+                                <div class="ddp-wrap-part">
+                                    <div class="ddp-box-part ddp-type-part" style="">
+                                        <div class="ddp-error-part">
+                                            <div class="ddp-box-title">
+                                                행 (Row)<em class="ddp-icon-essential"></em>
+                                            </div>
+                                            <div class="ddp-wrap-selectbox" >
+
+                                                <!-- select box -->
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-type-selectbox">
+                                                    <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                                    <ul class="ddp-list-selectbox ddp-list-command">
+                                                        <li class="ddp-data-select">
+                                                            <strong>2</strong>개 열 선택
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                <label class="ddp-label-checkbox ddp-type-number">
+                                                                    <input type="checkbox">
+                                                                    <i class="ddp-icon-checkbox">1</i>
+                                                                    <span class="ddp-txt-checkbox">test</span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                <label class="ddp-label-checkbox ddp-type-number">
+                                                                    <input type="checkbox">
+                                                                    <i class="ddp-icon-checkbox">2</i>
+                                                                    <span class="ddp-txt-checkbox">test</span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                <label class="ddp-label-checkbox ddp-type-number">
+                                                                    <input type="checkbox">
+                                                                    <i class="ddp-icon-checkbox">3</i>
+                                                                    <span class="ddp-txt-checkbox">test</span>
+                                                                </label>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //select box -->
+                                            </div>
+                                            <div class="ddp-wrap-warning ddp-size">
+                                                <div class="ddp-box-warning">
+                                                    <em class="ddp-icon-warning"></em>
+                                                <div class="ddp-txt-warning">
+                                                    This rule will execute for the sampled data.<br>
+                                                    the exact results for the original data can be found in the snapshot.
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="ddp-box-part ddp-editor">
+                                        <div class="ddp-box-title">
+                                            열 (Column)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- input -->
+                                        <!-- input select -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-input-selectbox ">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                            <div class="ddp-wrap-popup2 ddp-multy ddp-fix">
+                                                <ul class="ddp-list-popup">
+                                                    <li>
+                                                        <span class="ddp-noresult">no result</span>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li><li>
+                                                    <a href="javascript:">
+                                                        <span class="ddp-data-name">text</span>
+                                                    </a>
+                                                </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+
+
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            <span class="ddp-data-name">text</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <!-- //input select -->
+                                        <!-- //input -->
+                                        <a href="javascript:" class="ddp-btn-bg"><em class="ddp-icon-editor"></em>advanced editor</a>
+                                    </div>
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                        <span class="ddp-box-title-in">
+                                            열 (Column)<em class="ddp-icon-essential"></em>
+
+                                            <a href="javascript:" class="ddp-btn-plus"></a>
+                                        </span>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- ddp-selected 추가 -->
+                                        <div class="ddp-wrap-box-info ddp-selected">
+                                            <div class="ddp-box-info">
+                                                <div class="ddp-box-info-in">
+
+
+                                                    <span class="ddp-input-title">Edit your Pattern</span>
+                                                    Detail DetailDetailDetailDetailDetailDetailDetail<br><br>
+                                                    DetailDetailDetailDetailDetailDetailDetail
+
+                                                    <strong class="ddp-ex">Examples</strong>
+                                                    Examples Examples dkdlfjls;dkfj;lajfdsalfj ladjf l;dajsf l;aj l;dajl
+                                                </div>
+                                            </div>
+                                            <!-- box scroll -->
+                                            <script>
+                                                $(function(){
+                                                    // input selectbox
+//                                                    $('.ddp-input-selectbox').click(function(){
+//                                                        $(this).addClass('ddp-selected');
+//                                                        var $inputSelectLeft = $(this).offset().left;
+//                                                        var $inputSelectTop = $(this).offset().top;
+//                                                        var $inputSelectWidth = $(this).outerWidth();
+//                                                        var $inputPopupHeight = $(this).find('.ddp-wrap-popup2').outerHeight();
+//                                                        $(this).find('.ddp-wrap-popup2.ddp-fix').css({
+//                                                            'top' : $inputSelectTop - $inputPopupHeight - 3 ,
+//                                                            'left' : $inputSelectLeft,
+//                                                            'width' : $inputSelectWidth
+//                                                        });
+//                                                    });
+
+                                                    // selectbox
+//                                                    $('.ddp-type-selectbox').click(function(){
+//                                                        var $selectboxLeft = $(this).offset().left;
+//                                                        var $selectboxTop = $(this).offset().top;
+//                                                        var $selectboxWidth = $(this).outerWidth();
+//                                                        var $selectboxpopHeight = $(this).find('.ddp-list-selectbox').outerHeight();
+//                                                        $(this).find('.ddp-list-selectbox.ddp-fix').css({
+//                                                            'top' : $selectboxTop - $selectboxpopHeight - 3 ,
+//                                                            'left' : $selectboxLeft,
+//                                                            'width' : $selectboxWidth
+//                                                        });
+//                                                    });
+                                                });
+
+                                            </script>
+                                            <script>
+                                                $(function(){
+
+                                                    $('.ddp-wrap-boxwrap .ddp-wrap-boxadd .ddp-input-selectbox').click(function(){
+                                                        $(this).addClass('ddp-selected');
+
+                                                        var $inputSelectTop = $(this).offset().top;
+                                                        var $inputSelectLeft = $(this).offset().left;
+                                                        var $inputSelectWidth =  $(this).outerWidth();
+                                                        var $inputSelectPopHeight =  $(this).find('.ddp-wrap-popup2').outerHeight();
+
+
+                                                          $(this).find('.ddp-wrap-popup2').css({
+                                                              'position':'fixed',
+                                                              'left': $inputSelectLeft,
+                                                              'top' : $inputSelectTop-$inputSelectPopHeight-3,
+                                                              'bottom' : 'inherit',
+                                                              'min-width' : $inputSelectWidth
+                                                          });
+                                                    });
+                                                });
+                                            </script>
+                                            <div class="ddp-wrap-boxwrap">
+                                                <div class="ddp-wrap-boxadd">
+                                                    <!-- input select -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-input-selectbox ">
+                                                        <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                                        <div class="ddp-wrap-popup2 ddp-multy ">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <span class="ddp-noresult">no result</span>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li><li>
+                                                                <a href="javascript:">
+                                                                    <span class="ddp-data-name">text</span>
+                                                                </a>
+                                                            </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+
+
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //input select -->
+                                                    <div class="ddp-ui-buttons">
+                                                        <a href="javascript:" class="ddp-btn-minus ddp-disabled"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="ddp-wrap-boxadd">
+                                                    <!-- input select -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-input-selectbox ">
+                                                        <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                                        <div class="ddp-wrap-popup2 ddp-multy ">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <span class="ddp-noresult">no result</span>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li><li>
+                                                                <a href="javascript:">
+                                                                    <span class="ddp-data-name">text</span>
+                                                                </a>
+                                                            </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+
+
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //input select -->
+                                                    <div class="ddp-ui-buttons">
+                                                        <a href="javascript:" class="ddp-btn-minus ddp-disabled"></a>
+                                                    </div>
+                                                </div>
+                                                <div class="ddp-wrap-boxadd">
+                                                    <!-- input select -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-input-selectbox ">
+                                                        <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                                        <div class="ddp-wrap-popup2 ddp-multy ddp-fix">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <span class="ddp-noresult">no result</span>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li><li>
+                                                                <a href="javascript:">
+                                                                    <span class="ddp-data-name">text</span>
+                                                                </a>
+                                                            </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+
+
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <span class="ddp-data-name">text</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //input select -->
+                                                    <div class="ddp-ui-buttons">
+                                                        <a href="javascript:" class="ddp-btn-minus ddp-disabled"></a>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                            <!-- //box scroll -->
+                                        </div>
+
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            수식 (Value)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <div class="ddp-type-multy2 ddp-clear">
+                                            <div class="ddp-col-4">
+                                                <!-- select box -->
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-type-selectbox">
+                                                    <!-- 선택시 자동 input display:block; -->
+                                                    <input type="text" class="ddp-input-selectbox" placeholder="Command">
+                                                    <span class="ddp-txt-selectbox">수식</span>
+                                                    <ul class="ddp-list-selectbox ddp-list-command ddp-fix">
+                                                        <li class="ddp-data-select">
+                                                            수식
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                1
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                2
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                3
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //select box -->
+                                            </div>
+                                            <div class="ddp-col-8">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            수식 (Value)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <div class="ddp-type-multy2 ddp-clear">
+                                            <div class="ddp-col-4">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="placeholder">
+                                            </div>
+                                            <div class="ddp-col-8">
+                                                <!-- select box -->
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-type-selectbox ">
+
+                                                    <span class="ddp-txt-selectbox">수식</span>
+                                                    <ul class="ddp-list-selectbox ddp-list-command">
+                                                        <li class="ddp-data-select">
+                                                            수식
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                1
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                2
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                3
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //select box -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            수식 (Value)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <div class="ddp-type-multi">
+
+                                            <!-- select box -->
+                                            <!-- 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-type-selectbox ddp-size-s">
+                                                <span class="ddp-txt-selectbox">수식</span>
+                                                <ul class="ddp-list-selectbox ddp-list-command">
+                                                    <li class="ddp-data-select">
+                                                        수식
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //select box -->
+
+
+                                            <!-- select box -->
+                                            <!-- 클릭시 ddp-selected 추가 -->
+                                            <div class="ddp-type-selectbox ddp-size-m">
+                                                <!-- 선택시 자동 input display:block; -->
+                                                <input type="text" class="ddp-input-selectbox" placeholder="Command">
+                                                <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                                <ul class="ddp-list-selectbox ddp-list-command">
+                                                    <li class="ddp-data-select">
+                                                        수식
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //select box -->
+                                            <a href="javascript" class="ddp-btn-formclose"></a>
+                                        </div>
+                                    </div>
+                                    <!-- //part -->
+
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part ddp-box-s">
+                                        <div class="ddp-box-title">
+                                            행 (Row)dd<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+                                        </div>
+                                        <!-- //info -->
+
+                                        <div class="ddp-wrap-datainput">
+                                            <!-- ddp-selected 추가 -->
+                                            <div class="ddp-wrap-input-info">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="test">
+
+                                                <ul class="ddp-list-selectbox ddp-list-command">
+                                                    <li>
+
+                                                        <span class="ddp-noresult">
+                                                            검색 결과가 없습니다.
+                                                        </span>
+
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                                <div class="ddp-box-info">
+                                                    <div class="ddp-box-info-in">
+                                                        <span class="ddp-input-title">Edit your Pattern</span>
+                                                        Detail DetailDetailDetailDetailDetailDetailDetail<br /><br />
+                                                        DetailDetailDetailDetailDetailDetailDetail
+
+                                                        <strong class="ddp-ex">Examples</strong>
+                                                        Examples Examples dkdlfjls;dkfj;lajfdsalfj ladjf l;dajsf l;aj l;dajl
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <!-- ddp-selected 추가시 display:block; -->
+                                            <div class="ddp-box-error">
+                                                <span class="ddp-txt-error"><em class="ddp-icon-error"></em>입력값을 확인하세요</span>
+                                                에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지 에러 메시지
+                                                <a href="javascript:" class="ddp-icon-close"></a>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part ddp-box-s">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox ddp-selected">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox ddp-selected">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox ddp-type-number">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox">1</i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox ddp-type-number">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox">2</i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <label class="ddp-label-checkbox ddp-type-number">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox">3</i>
+                                                            <span class="ddp-txt-checkbox">test</span>
+                                                        </label>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox ddp-selected">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part ddp-box-s">
+                                        <div class="ddp-box-title">
+                                            Match all occurences <em class="ddp-icon-essential"></em>
+                                        </div>
+
+                                        <ul class="ddp-list-buttons">
+                                            <li class="ddp-selected">
+                                                <em class="ddp-icon-check"></em>
+                                                Yes
+                                            </li>
+                                            <li>
+                                                <em class="ddp-icon-check"></em>
+                                                No
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            패턴 (on pattern)<em class="ddp-icon-essential"></em>
+                                            <!-- 선택시 ddp-selected -->
+                                            <div class="ddp-ui-open-view ">
+                                                <span class="ddp-icon-view"><em></em></span>
+                                            </div>
+
+                                            <ul class="ddp-box-select-check">
+                                                <li class="ddp-txt-view-name">
+                                                    Patterns
+                                                </li>
+                                                <li class="ddp-selected">
+                                                    <a href="javascript:">
+                                                        <span class="ddp-data-pattern"><em>온패턴</em> <em>On pattern</em> </span>
+                                                        <span class="ddp-data-det">Specify the pattern thst matches the value    to replace [one or more times]</span>
+                                                        <em class="ddp-icon-check"></em>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <span class="ddp-data-pattern"><em>온패턴</em> <em>On pattern</em> </span>
+                                                        <span class="ddp-data-det">Specify the pattern thst matches the value    to replace [one or more times]</span>
+                                                        <em class="ddp-icon-check"></em>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- label -->
+                                        <div class="ddp-form-label">
+                                            <label class="ddp-label-type">On</label>
+                                            <div class="ddp-wrap-inputform">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="test"/>
+                                            </div>
+
+                                        </div>
+                                        <!-- //label -->
+                                        <!-- label -->
+                                        <div class="ddp-form-label">
+                                            <label class="ddp-label-type">Starting from</label>
+                                            <div class="ddp-wrap-inputform">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="test"/>
+                                            </div>
+
+                                        </div>
+                                        <!-- //label -->
+                                        <!-- label -->
+                                        <div class="ddp-form-label">
+                                            <label class="ddp-label-type">Ending before</label>
+                                            <div class="ddp-wrap-inputform">
+                                                <input type="text" class="ddp-input-typebasic" placeholder="test"/>
+                                            </div>
+
+                                        </div>
+                                        <!-- //label -->
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            포지션 (Between two positions) </span><em class="ddp-icon-essential"></em>
+                                            <!-- 선택시 ddp-selected -->
+                                            <div class="ddp-ui-open-view ">
+                                                <span class="ddp-icon-view"><em></em></span>
+                                            </div>
+
+                                            <ul class="ddp-box-select-check">
+                                                <li class="ddp-txt-view-name">
+                                                    Patterns
+                                                </li>
+                                                <li class="ddp-selected">
+                                                    <a href="javascript:">
+                                                        <span class="ddp-data-pattern"><em>온패턴</em> <em>On pattern</em> </span>
+                                                        <span class="ddp-data-det">Specify the pattern thst matches the value    to replace [one or more times]</span>
+                                                        <em class="ddp-icon-check"></em>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <span class="ddp-data-pattern"><em>온패턴</em> <em>On pattern</em> </span>
+                                                        <span class="ddp-data-det">Specify the pattern thst matches the value
+                                to replace [one or more times]</span>
+                                                        <em class="ddp-icon-check"></em>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <!-- info -->
+                                        <div class="ddp-ui-info">
+                                            <em class="ddp-icon-sinfo2"></em>
+                                            <div class="ddp-box-info">
+                                                콤포넌트에 대한 설명. 각 콤포넌트마다 있으며,
+                                                콤포넌트영역 Hover시 아이콘이 나타납니다.
+                                                길어질 때 스크롤 없이 모두 보여줍니다.
+                                            </div>
+
+                                        </div>
+                                        <!-- //info -->
+                                        <!-- label -->
+                                        <div class="ddp-form-label">
+                                            <label class="ddp-label-type">Starting after</label>
+                                            <div class="ddp-wrap-dropdown">
+                                                <!-- select box -->
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-type-selectbox dd">
+                                                    <span class="ddp-txt-selectbox">포지션</span>
+                                                    <ul class="ddp-list-selectbox">
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                1
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                2
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                3
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //select box -->
+                                            </div>
+                                        </div>
+                                        <!-- //label -->
+                                        <!-- label -->
+                                        <div class="ddp-form-label">
+                                            <label class="ddp-label-type">Ending before</label>
+                                            <div class="ddp-wrap-dropdown">
+                                                <!-- select box -->
+                                                <!-- 클릭시 ddp-selected 추가 -->
+                                                <div class="ddp-type-selectbox">
+                                                    <span class="ddp-txt-selectbox">포지션</span>
+                                                    <ul class="ddp-list-selectbox">
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                1
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                2
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:">
+                                                                3
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //select box -->
+                                            </div>
+                                        </div>
+                                        <!-- //label -->
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            열 (Column)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- input -->
+                                        <input type="text" class="ddp-input-typebasic" placeholder="placeholder"/>
+                                        <!-- //input -->
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+                                    <!-- part -->
+                                    <div class="ddp-box-part">
+                                        <div class="ddp-box-title">
+                                            행 (Row)<em class="ddp-icon-essential"></em>
+                                        </div>
+
+                                        <!-- select box -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-type-selectbox">
+                                            <span class="ddp-txt-selectbox">Choose Rule Function</span>
+                                            <ul class="ddp-list-selectbox ddp-list-command">
+                                                <li class="ddp-data-select">
+                                                    <strong>2</strong>개 열 선택
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        1
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        2
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        3
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //select box -->
+                                    </div>
+                                    <!-- //part -->
+
+                                </div>
+                            </div>
+                            <!-- //builder -->
+                        </div>
+                    </div>
+                </div>
+                <!-- //add rule -->
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+<!-- 팝업 -->
+<div class="ddp-wrap-popup2 ddp-types ddp-type-morepopup">
+    <ul class="ddp-list-popup">
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-type-round">Rn</em>
+                컬럼명변경
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-type-round">St</em>
+                타입변경
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-type-graph"></em>
+                통계/스키마보기
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-type-sdel"></em>
+                삭제
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- //팝업 -->
+
+
+<!-- 팝업 -->
+<div class="ddp-wrap-popup2 ddp-types ddp-type-rulepop" style="display:block; top:100px; left:0;">
+    <ul class="ddp-list-popup">
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-editdel3"></em>
+                Drop
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-change"></em>
+               Cnage
+                <em class="ddp-icon-view"></em>
+            </a>
+        </li>
+        <li class="ddp-disabled">
+            <a href="javascript:">
+                <em class="ddp-icon-drop-sort"></em>
+                Sort
+                <em class="ddp-icon-view"></em>
+            </a>
+            <div class="ddp-wrap-popup2 ">
+                <ul class="ddp-list-popup ddp-padd">
+                    <li>
+                        <a href="#">
+                            Column name
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Column type
+                            <em class="ddp-icon-view"></em>
+                        </a>
+                        <div class="ddp-wrap-popup2 ">
+                            <ul class="ddp-list-popup ddp-padd">
+                                <li>
+                                    <a href="#">
+                                        Integer
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Float
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        String
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Boolean
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-move"></em>
+               Move
+                <em class="ddp-icon-view"></em>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-editmodify"></em>
+               Edit
+                <em class="ddp-icon-view"></em>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-generate"></em>
+                Generate
+                <em class="ddp-icon-view"></em>
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-detail"></em>
+                Generate
+            </a>
+        </li>
+        <li>
+            <a href="javascript:">
+                <em class="ddp-icon-drop-clean"></em>
+                Clean
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- //팝업 -->
+<script>
+
+    $(function(){
+        //addrule 위치
+        /*if($('.ddp-wrap-addrule').css('display') == 'block'){
+                var $bottomHeight = $('.ddp-wrap-addrule').outerHeight();
+                $('.ddp-wrap-flow-grid').css('bottom',$bottomHeight+7);
+                $('.ddp-wrap-rules-flow').css('bottom',$bottomHeight+7);
+                $('.ddp-ui-bar-right').css('bottom',$bottomHeight+7);
+                $('.ddp-ui-bar-bottom').css('bottom',$bottomHeight);
+            }
+        else{
+            var $bottomHeight2 = $('.ddp-wrap-checkaction').outerHeight();
+            $('.ddp-wrap-flow-grid').css('bottom',$bottomHeight2+7);
+            $('.ddp-wrap-rules-flow').css('bottom',$bottomHeight2+7);
+            $('.ddp-ui-bar-right').css('bottom',$bottomHeight2+7);
+            $('.ddp-ui-bar-bottom').css('bottom',$bottomHeight2);
+        }
+*/
+            //filter 클릭시 팝업 위치
+         /*$('.ddp-icon-type-filter').click(function(){
+             var $topFilter = $(this).offset().top+$(this).outerHeight();
+             var $leftFilter = $(this).offset().left;
+             $('.ddp-type-filterpopup').css({left:$leftFilter,top:$topFilter});
+            $(this).toggleClass('ddp-selected');
+
+        });*/
+
+        //more 클릭시 팝업 위치
+       $('.ddp-btn-more').click(function(){
+           var $topMore = $(this).offset().top+$(this).outerHeight();
+           var $leftMore = $(this).offset().left;
+           $('.ddp-type-morepopup').css({left:$leftMore,top:$topMore});
+          $(this).toggleClass('ddp-selected');
+
+      });
+     // sub
+      $('.ddp-ui-checkaction ul.ddp-list-selectbox li').on('mouseover mouseout',function(e){
+          if(e.type == 'mouseover'){
+              $(this).parent().css('overflow','inherit');
+              $(this).find('.ddp-wrap-popup2').show();
+          } else{
+              $(this).parent().css('overflow','inherit');
+              $(this).find('.ddp-wrap-popup2').hide();
+          }
+      });
+
+          //팝업
+
+         $('.ddp-type-selectbox').click(function(){
+                $(this).toggleClass('ddp-selected');
+                /*if($(this).hasClass('ddp-selected')){
+                    $('.ddp-wrap-rulecontents').css('overflow','initail');
+                    var $selectLeft = $(this).offset().left;
+                    var $selectTop =  $(this).offset().top;
+                    var $selectHeight = $(this).find('.ddp-list-selectbox').outerHeight();
+                    var $selecWidth = $(this).outerWidth();
+                    $(this).find('.ddp-list-selectbox').css({
+                        "position":"fixed",
+                        "left": $selectLeft,
+                        "top": $selectTop-$selectHeight-5,
+                        "bottom": "inherit",
+                        "width" : $selecWidth
+                    });
+                }
+                else{
+                    $('.ddp-wrap-rulecontents').css('overflow','auto');
+                }*/
+
+         });
+
+         $('.ddp-ui-info').on('mouseover mouseout',function(e){
+             /*if(e.type == 'mouseover'){
+                $(this).find('.ddp-box-info').show();
+                 var $infoLeft = $(this).offset().left;
+                 var $infoTop = $(this).offset().top;
+                 var $infoHeight =  $(this).find('.ddp-box-info').outerHeight();
+                 $(this).find('.ddp-box-info').css({
+                      "position":"fixed",
+                      "left": $infoLeft-230,
+                      "top": $infoTop-$infoHeight-5,
+                      "bottom": "inherit"
+                  });
+
+             } else{
+                  $(this).find('.ddp-box-info').hide();
+             }*/
+         });
+
+
+        //error 메세지
+        /*if($('.ddp-box-error').hasClass('ddp-selected')){
+            $('.ddp-wrap-rulecontents').css('overflow','hidden');
+             var $errorboxLeft = $('.ddp-box-error').parent('.ddp-wrap-datainput').offset().left;
+             var $errorboxTop = $('.ddp-box-error').parent('.ddp-wrap-datainput').offset().top;
+             var $errorboxHeight = $('.ddp-box-error').outerHeight();
+             var $errorboxWidth = $('.ddp-box-error').parent('.ddp-wrap-datainput').outerWidth();
+            $('.ddp-box-error').css({
+                  "position":"fixed",
+                  "left": $errorboxLeft-2,
+                  "top": $errorboxTop-$errorboxHeight-5,
+                  "bottom": "inherit",
+                  "width" : $errorboxWidth
+              });
+        }else{
+            $('.ddp-wrap-rulecontents').css('overflow','auto');
+        }*/
+
+
+
+
+    });
+</script>
+
+</body>
+</html>

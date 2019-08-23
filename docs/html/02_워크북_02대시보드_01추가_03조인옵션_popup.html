@@ -1,0 +1,462 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>메타트론</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+     <!-- polaris ui js --->
+     <!-- <script src="../js/common/polaris_ui.js"></script> --->
+
+</head>
+<body>
+
+
+<div class="ddp-layout-popuptype popup-dashboard-join" style="display:;">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup ddp-ui-popup-join">
+        <!-- title -->
+    	<div class="ddp-ui-popup-title">
+        	<span class="ddp-txt-title-name">
+                Join
+            </span>
+
+            <div class="ddp-ui-pop-buttons">
+            	<a href="javascript:" class="ddp-btn-pop">Cancel</a>
+            	<a href="javascript:" class="ddp-btn-pop ddp-bg-black">Join</a>
+            </div>
+        </div>
+    	<!-- //title -->
+        <div class="ddp-wrap-board-join">
+            <!-- default : ddp-default 추가 -->
+            <div class="ddp-ui-board-join ">
+                <div class="ddp-board-box-contents">
+                    <!-- contents -->
+                    <div class="ddp-box-pop-contents">
+
+                        <div class="ddp-ui-part">
+                            <!-- top -->
+                            <div class="ddp-ui-pop-top">
+                                <span class="ddp-txt-title">Master dataset</span>
+                            </div>
+                            <!-- //top -->
+                            <!-- set -->
+                            <div class="ddp-ui-set">
+                                <span class="ddp-data-name"><em class="ddp-icon-wrangled-m"></em>Wrangled 데이터 셋 01</span>
+                                <ul class="ddp-list-tab-button">
+                                    <li>
+                                        <a href="javascript:"><em class="ddp-icon-grid"></em></a>
+
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            그리드 뷰
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-selected">
+                                        <a href="javascript:"><em class="ddp-icon-listgrid"></em></a>
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            리스트 뷰
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- //set -->
+
+                            <!-- 그리드 -->
+                            <div class="ddp-ui-grid-form">
+                                <div class="ddp-wrap-scroll">
+                                    <!-- 선택시 tr class="ddp-selected" 추가 -->
+                                    <table class="ddp-table-grid-list">
+                                        <colgroup>
+                                            <col width="60px" />
+                                            <col width="*" />
+                                        </colgroup>
+                                        <tbody>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr class="ddp-selected">
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="ddp-txt-center">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                </td>
+                                                <td>
+                                                    FABID
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+
+
+                            </div>
+                            <!-- // 그리드 -->
+                        </div>
+                        <div class="ddp-ui-part">
+                            <!-- top -->
+                            <div class="ddp-ui-pop-top">
+                                <span class="ddp-txt-title">조인할 데이터</span>
+                            </div>
+                            <!-- //top -->
+                            <!-- set -->
+                            <div class="ddp-ui-set">
+                                <!-- selectbox -->
+                                <!--
+                                    클릭시 ddp-selected 추가
+                                    ddp-result
+                                -->
+                                <div class="ddp-wrap-drop-search " style="display:;">
+                                    <div class="ddp-type-selectbox2">
+                                        <span class="ddp-txt-selectbox ddp-result">Wafer 01 외 2</span>
+                                    </div>
+
+                                    <!-- drop search -->
+                                    <div class="ddp-ui-drop-search">
+                                        <input type="text" class="ddp-input-search" placeholder="Search">
+
+                                        <ul class="ddp-list-selectbox2">
+                                            <li>
+
+                                                Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+
+                                            </li>
+                                            <li>
+                                                Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                            </li>
+                                            <li>
+                                                Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                            </li>
+                                            <li>
+                                                Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                            </li>
+                                        </ul>
+                                        <div class="ddp-data-message">
+                                            <label class="ddp-label-checkbox"><input type="checkbox"><i class="ddp-icon-checkbox"></i>현재 플로우 데이터 셋만 보기</label>
+                                        </div>
+
+                                    </div>
+                                    <!-- drop search -->
+                                </div>
+                                <!-- //selectbox -->
+                                <ul class="ddp-list-tab-button ddp-disabled">
+                                    <li>
+                                        <a href="javascript:"><em class="ddp-icon-grid"></em></a>
+
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            그리드 뷰
+                                        </div>
+
+                                    </li>
+                                    <li class="ddp-selected">
+                                        <a href="javascript:"><em class="ddp-icon-listgrid"></em></a>
+                                        <div class="ddp-ui-tooltip-info">
+                                            <em class="ddp-icon-view-top"></em>
+                                            리스트 뷰
+                                        </div>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- //set -->
+
+                            <!-- data none -->
+                            <div class="ddp-data-none" style="display:none;">
+                                <span class="ddp-data-contents">Please choose a dataset</span>
+                            </div>
+                            <!-- //data none -->
+
+                            <!-- 그리드 -->
+                            <div class="ddp-ui-grid-form" style="display:;">
+
+                            </div>
+                            <!-- // 그리드 -->
+
+                        </div>
+
+                        <!-- join keys -->
+                        <div class="ddp-ui-joinkeys">
+                            <!-- join keys -->
+                            <div class="ddp-view-joinkeys">
+                                <!-- join form -->
+                                <div class="ddp-form-join">
+                                    <!-- select box -->
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox">
+                                        <span class="ddp-txt-selectbox">Column</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //select box -->
+                                    <span class="ddp-data-default">=</span>
+                                    <!-- select box -->
+                                    <!-- 클릭시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox">
+                                        <span class="ddp-txt-selectbox">Column</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //select box -->
+
+
+                                <!--     <span class="ddp-data-column">Column</span>-->
+                                </div>
+                                <!-- //join form -->
+                                <a href="#" class="ddp-btn-solid ">Add to join keys</a>
+                            </div>
+                            <!-- //join keys -->
+
+                            <span class="ddp-data-info" style="display:none;">The selection has matched 400,000 out of the first <strong>400,000</strong> rows</span>
+                            <div class="ddp-ui-error">
+                                <span class="ddp-txt-error"><em class="ddp-icon-error"></em>Please choose a column of dataset to join</span>
+                            </div>
+                        </div>
+                        <!-- //join keys -->
+
+                    </div>
+                    <!-- //contents -->
+                </div>
+                <div class="ddp-board-join-type">
+                    <div class="ddp-ui-join-type">
+                        <div class="ddp-ui-data-join">
+                            <!-- data join -->
+                            <div class="ddp-data-join">
+                                <span class="ddp-ui-label">Join type</span>
+                                <ul class="ddp-list-join">
+                                    <li class="ddp-disabled">
+                                        <a href="#">
+                                            <em class="ddp-icon-joininner"></em>
+                                            Inner
+                                        </a>
+
+                                    </li>
+                                    <li class="ddp-selected">
+                                        <a href="#">
+                                            <em class="ddp-icon-joinleft"></em>
+                                            Left
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <em class="ddp-icon-joinright"></em>
+                                            Right
+                                        </a>
+
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <em class="ddp-icon-joinouter"></em>
+                                            Full Outer
+                                        </a>
+
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- //data join -->
+                            <!-- data join -->
+                            <div class="ddp-data-join">
+                                <span class="ddp-ui-label">Join keys (3)</span>
+                                <!-- nodata -->
+                                <div class="ddp-ui-nodata" style="display:none;">
+                                    No join key
+                                </div>
+                                <!-- //nodata -->
+                                <ul class="ddp-list-form-join" style="display:;">
+                                    <li>
+                                        <div class="ddp-form-join">
+                                            <span class="ddp-data-column">Column</span>
+                                            <span class="ddp-data-default">=</span>
+                                            <span class="ddp-data-column">Column</span>
+                                        </div>
+                                        <em class="ddp-icon-control-cut"></em>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-form-join">
+                                            <span class="ddp-data-column">Column</span>
+                                            <span class="ddp-data-default">=</span>
+                                            <span class="ddp-data-column">Column</span>
+                                        </div>
+                                        <em class="ddp-icon-control-cut"></em>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-form-join">
+                                            <span class="ddp-data-column">Column</span>
+                                            <span class="ddp-data-default">=</span>
+                                            <span class="ddp-data-column">Column</span>
+                                        </div>
+                                        <em class="ddp-icon-control-cut"></em>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+                            <!-- //data join -->
+                        </div>
+
+                    </div>
+
+
+                    <div class="ddp-box-resultpreview">
+                        <!-- top -->
+                        <div class="ddp-ui-pop-top">
+                            <span class="ddp-txt-title">결과 미리보기</span>
+                            <div class="ddp-wrap-grid-option">
+
+
+                                <div class="ddp-part-right">
+                                <div class="ddp-data-form">
+                                    <strong>432.3</strong>
+                                    kb
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong>2</strong>
+                                    Clumns
+                                </div>
+                                <div class="ddp-data-form">
+                                    <input type="text" class="ddp-data-input">
+                                    <strong>/ 2,333</strong>
+                                    Row
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong class="ddp-cursor">3</strong>
+                                    Types
+                                    <!-- 팝업 -->
+                                    <div class="ddp-wrap-popup2 ddp-types">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-tf"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //팝업 -->
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <!-- //top -->
+                        <div class="ddp-wrap-gird-form">
+                            <div class="ddp-ui-grid-form">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

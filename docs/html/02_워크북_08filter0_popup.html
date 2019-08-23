@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <script>
+        $(function(){
+
+            //tab
+            $('.ddp-ui-tab li a').click(function(){
+                $(this).parent().addClass('ddp-selected');
+                $(this).parent().siblings().removeClass('ddp-selected');
+                var $liIdx = $(this).parent().index();
+
+                $('.ddp-ui-tab-contents').eq($liIdx).show();
+                $('.ddp-ui-tab-contents').eq($liIdx).siblings().hide();
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="ddp-layout-popuptype" style="display:;">
+        <em class="ddp-bg-popup"></em>
+        <div class="ddp-pop-filter">
+            <!-- title -->
+            <div class="ddp-txt-title-name">
+                <em class="ddp-icon-filter"></em> Global filter
+                <!-- text -->
+                <div class="ddp-wrap-source-name ">
+                    <span class="ddp-txt">
+                        <em class="ddp-icon-database3"></em>
+                        Datasource A
+                    </span>
+                </div>
+                <!-- text -->
+                <!-- select -->
+                <div class="ddp-wrap-source-name ddp-white">
+
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-data-in ddp-selected">
+                        <em class="ddp-icon-database3"></em>
+                        <span class="ddp-txt-namesub">Database name 004</span>
+                        <em class="ddp-icon-view"></em>
+                        <!-- box layout -->
+                        <div class="ddp-box-layout4" style="display:;">
+
+                            <div class="ddp-ui-list-type">
+                                <ul class="ddp-list-type ddp-list-popup">
+                                    <li class="ddp-selected">
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <a href="javascript:" class="ddp-btn-more">+ more</a>
+                            </div>
+
+
+                        </div>
+                        <!-- //box layout -->
+
+                    </div>
+
+                    <div class="ddp-txt-description">설명</div>
+
+                </div>
+                <!-- //select -->
+            </div>
+        	<!-- //title -->
+            <div class="ddp-ui-popup-contents">
+                <!-- tab -->
+                <div class="ddp-wrap-tab">
+                    <ul class="ddp-ui-tab ddp-clear ddp-type2 ddp-tab2">
+                        <li class="ddp-selected">
+                            <a href="javascript:">Dimension</a>
+                        </li>
+                        <li class="">
+                            <a href="javascript:">Measures</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!-- //tab -->
+
+                <div class="ddp-wrap-tab-contents">
+                    <!-- tab contents -->
+                    <div class="ddp-ui-tab-contents">
+                        <div class="ddp-filter0">
+                            <!-- search -->
+                            <div class="ddp-form-search ddp-full">
+                                <em class="ddp-icon-search"></em>
+                                <input type="text" placeholder="찾기">
+                                <em class="ddp-btn-search-close"></em>
+                            </div>
+                            <!-- //search -->
+                            <div class="ddp-add-filter">
+                                <ul class="ddp-list-filter">
+
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-point"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-line"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-polygon"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+
+
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-point"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-line"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-polygon"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                        <div class="ddp-data-filter">
+                                            <!-- icon -->
+                                            <div class="ddp-ui-icons">
+                                                <em class="ddp-icon-global-s"></em>
+                                                <div class="ddp-wrap-datarecommend">
+                                                    99
+                                                    <em class="ddp-icon-recommend-s"></em>
+                                                </div>
+                                                <div class="ddp-wrap-datarecommend">
+                                                    99
+                                                    <em class="ddp-icon-recommend-s"></em>
+                                                </div>
+                                                <em class="ddp-icon-recommend"></em>
+                                                <a href="javascript:" class="ddp-btn-edit"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-ab"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-edit"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-longitude"></em>
+                                                LOT A<span class="ddp-sub-name">(Logical column name)</span>
+                                            </span>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="ddp-ui-buttons">
+                            <a href="javascript:" class="ddp-btn-type-popup">취소</a>
+                        </div>
+                    </div>
+                    <!-- tab contents -->
+                    <!-- tab contents -->
+                    <div class="ddp-ui-tab-contents" style="display:none;">
+                        <div class="ddp-filter0">
+                            <!-- search -->
+                            <div class="ddp-form-search ddp-full">
+                                <em class="ddp-icon-search"></em>
+                                <input type="text" placeholder="찾기">
+                                <em class="ddp-btn-search-close"></em>
+                            </div>
+                            <!-- //search -->
+                            <div class="ddp-add-filter">
+                                <ul class="ddp-list-filter">
+                                    <!-- ddp-data-filter 클릭시 ddp-selected 추가 -->
+                                    <li class="ddp-selected">
+
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <em class="ddp-icon-view"></em>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-calen"></em>
+                                                LOT A
+                                            </span>
+
+                                        </div>
+                                        <!-- sub -->
+                                        <div class="ddp-sub-filter">
+                                            <span class="ddp-label-filter">Continuous type</span>
+                                            <ul class="ddp-list-subfilter">
+                                                <li>
+
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                                    </div>
+
+                                                    <span class="ddp-txt-filter">Second</span>
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Minute</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Hour</span>
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Day</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Week</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Month</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Quarter</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Year</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-edit"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">None</span>
+
+                                                </li>
+                                            </ul>
+                                            <span class="ddp-label-filter">Discontinuous type</span>
+                                            <ul class="ddp-list-subfilter">
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Second by Minute</span>
+
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-ui-icons">
+                                                        <a href="javascript:" class="ddp-btn-add"></a>
+                                                    </div>
+                                                    <span class="ddp-txt-filter">Minute by Hour</span>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //sub -->
+                                    </li>
+                                    <li>
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-add"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-longitude"></em>
+                                                LOT A
+                                            </span>
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                        <div class="ddp-data-filter">
+                                            <div class="ddp-ui-icons">
+                                                <a href="javascript:" class="ddp-btn-edit"></a>
+                                            </div>
+                                            <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-measure-ab"></em>
+                                                LOT A
+                                            </span>
+
+                                        </div>
+                                    </li>
+
+                                </ul>
+
+
+                            </div>
+                        </div>
+                        <div class="ddp-ui-buttons">
+                            <a href="javascript:" class="ddp-btn-type-popup">취소</a>
+                        </div>
+                    </div>
+                    <!-- tab contents -->
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

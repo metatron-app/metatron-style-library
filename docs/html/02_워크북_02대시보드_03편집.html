@@ -1,0 +1,2124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- slider css --->
+    <link rel="stylesheet" href="../css/lib/slider/ion.rangeSlider.css"/>
+    <link rel="stylesheet" href="../css/lib/slider/ion.rangeSlider.skinFlat.css"/>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+
+    <!-- slider js --->
+    <script src="../js/jquery/ion.rangeSlider.js"></script>
+
+    <script>
+        // 대시보드 선택
+        $(function(){
+            $('.ddp-ui-boardname').click(function(){
+                var $nameWidth = $(this).outerWidth();
+                $('.ddp-wrap-dashname-popup').css('left',$nameWidth-200);
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+    <!-- contents -->
+    <!-- ddp-type 일때 top:0 -->
+    <div class="ddp-layout-contents ddp-layout-board page-dashboard-edit">
+        <div class="ddp-ui-contentsin ddp-full">
+            <!-- 워크북 navi (edit) -->
+            <div class="ddp-wrap-naviarea ddp-editnavi ddp-clear ddp-board-naviarea">
+                <em class="ddp-icon-dashboard2"></em>
+                <div class="ddp-ui-naviarea">
+                    <!-- name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-wrap-naviname">
+                            <span class="ddp-data-naviname">New Dashboard 01
+                            <em class="ddp-icon-menuview"></em></span>
+                        <!-- popup -->
+                        <div class="ddp-wrap-popup2 ddp-wrap-dashname-popup">
+                            <!-- setting -->
+                            <div class="ddp-ui-top-setting">
+                                <span class="ddp-data-name">Dashboard<em class="ddp-data-num">(6)</em></span>
+
+                                <!-- buttons -->
+                                <div class="ddp-btn-control">
+                                    <em class="ddp-icon-editsearch"></em>
+                                    <em class="ddp-icon-editadd"></em>
+                                </div>
+                                <!-- //buttons -->
+                                <!-- 검색 -->
+                                <div class="ddp-form-search">
+                                    <em class="ddp-icon-search"></em>
+                                    <input type="text" placeholder="항목 찾기">
+                                    <a href="#" class="ddp-btn-search-close"></a>
+                                </div>
+                                <!-- //검색 -->
+                            </div>
+
+                            <!-- //setting -->
+                            <ul class="ddp-list-popup ddp-list-imgchart">
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                            <span class="ddp-wrap-images">
+                                                <img src="" class="ddp-img-chart">
+                                            </span>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                            <span class="ddp-wrap-images">
+                                                <img src="" class="ddp-img-chart">
+                                            </span>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                            <span class="ddp-wrap-images">
+                                                <img src="" class="ddp-img-chart">
+                                            </span>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                            <span class="ddp-wrap-images">
+                                                <img src="" class="ddp-img-chart">
+                                            </span>
+                                        <span class="ddp-data-name">New Dashboard 01</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!-- //popup -->
+                    </div>
+                    <!-- //name -->
+
+                    <!-- description -->
+                    <div class="ddp-box-navidet">
+                        <div class="ddp-wrap-navidet">
+                                <span class="ddp-data-navidet ddp-readonly">
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                    <em class="ddp-data-route">description > </em>
+                                </span>
+                        </div>
+                    </div>
+                    <!-- //description -->
+                </div>
+                <div class="ddp-ui-navibuttons">
+                    <div class="ddp-ui-fix-buttons ddp-ko" style="display:;">
+                        <ul class="ddp-list-buttons2">
+                            <li>
+                                <a href="#" class="ddp-btn-list"><em class="ddp-icon-chart-new"></em>차트</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ddp-btn-list"><em class="ddp-icon-filter-new"></em>필터</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ddp-btn-list"><em class="ddp-icon-parameter-new"></em>파라미터</a>
+                            </li>
+                            <li>
+                                <a href="#" class="ddp-btn-list"><em class="ddp-icon-text-new"></em>텍스트</a>
+                            </li>
+                            <!--<li>-->
+                                <!--<a href="#" class="ddp-btn-list"><em class="ddp-icon-btnvariable"></em>New parameter</a>-->
+                            <!--</li>-->
+                        </ul>
+
+                        <a class="ddp-btn-more-plus" href="javascript:"></a>
+                    </div>
+
+                    <a href="#" class="ddp-btn-line3"><em class="ddp-icon-btnsave"></em>SAVE</a>
+                    <a href="#" class="ddp-btn-line3"><em class="ddp-icon-btnclose"></em>CLOSE</a>
+                </div>
+
+
+
+            </div>
+            <!-- //워크북 navi -->
+            <div class="ddp-wrap-editboard">
+                <!-- edit contents -->
+                <div class="ddp-ui-edit-contents">
+                    <div class="ddp-box-boardedit">
+                        <em class="ddp-dimmed" style="display:none;"></em>
+                        <div class="ddp-view-boardedit">
+                            <div class="ddp-ui-boardedit">
+
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <div class="ddp-box-widget">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- tool -->
+                                            <div class="ddp-ui-tool">
+                                                <!-- 선택시 ddp-selected 추가 -->
+
+                                                <a href="#" class="ddp-btn-tool"><em class="ddp-icon-tool-title"></em></a>
+                                                <a href="#" class="ddp-btn-tool "><em class="ddp-icon-tool-legend"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-minimap"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-linked"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-chart"></em></a>
+                                            </div>
+                                            <!-- //tool -->
+
+                                            <div class="ddp-ui-buttons">
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-info2"></em>
+                                                    <!-- box info -->
+                                                    <div class="ddp-box-info ddp-limitation">
+                                                        <em class="ddp-icon-info"></em>
+                                                        <span class="ddp-total">
+                                                        <strong>1000건 표시중</strong>(총 12,345,678건)</span>
+                                                        데이터가 많아서 일부만 표현되고 있습니다.
+                                                    </div>
+                                                    <!-- box info -->
+                                                </div>
+                                                <!-- btn -->
+                                                <div class="ddp-box-btn-hover">
+                                                    <a href="#" class="ddp-btn-tool">
+                                                        <em class="ddp-icon-tool-selectbox"></em>
+                                                    </a>
+                                                    <a href="#" class="ddp-btn-tool">
+                                                        <em class="ddp-icon-tool-list"></em>
+                                                    </a>
+                                                    <a href="#" class="ddp-btn-tool">
+                                                        <em class="ddp-icon-tool-selectbox"></em>
+                                                    </a>
+
+                                                </div>
+                                                <!-- //btn -->
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-edit"></em>
+                                                    <!-- 툴팁 -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        편집
+                                                    </div>
+                                                    <!-- //툴팁 -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-cut ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            삭제
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                    </em>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //top control -->
+                                        <!-- 실제 개발에서는 높이 자동으로 계산됨 -->
+                                        <div class="ddp-view-widget ddp-view-widget-filter">
+
+                                            <!-- title -->
+                                            <div class="ddp-ui-title">
+                                                <em class="ddp-icon-filter"></em>
+                                                City
+                                            </div>
+                                            <!-- //title -->
+
+                                            <div class="ddp-ui-widget-contents">
+                                                <div class="ddp-filter-view ddp-full" style="">
+                                                    <span class="ddp-txt-preview">2017 Q4</span>
+                                                    <div class="ddp-filter-area">
+                                                        <!-- filter type -->
+                                                        <div class="ddp-filter-type">
+                                                            <span class="ddp-label-name">Display type</span>
+                                                            <!-- 말줄임 ddp-size 추가 -->
+                                                            <div class="ddp-wrap-buttons " >
+                                                                <ul class="ddp-list-buttons ">
+                                                                    <li class="ddp-selected" title="Day">
+                                                                        D<em>ay</em>
+                                                                    </li>
+                                                                    <li title="Week">
+                                                                        W<em>eek</em>
+                                                                    </li>
+                                                                    <li class="" title="Month">
+                                                                        M<em>onth</em>
+                                                                    </li>
+                                                                    <li class="" title="Querter">
+                                                                        Q<em>uarter</em>
+                                                                    </li>
+                                                                    <li class="" title="Year">
+                                                                        Y<em>ear</em>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- time -->
+                                                            <!-- 선택시 ddp-selected 추가 -->
+                                                            <div class="ddp-btn-time ">
+                                                                <div class="ddp-form-multy">
+
+                                                                    <span class="ddp-txt-label">Last</span>
+                                                                    <div class="ddp-box-multy ddp-clear ddp-form-time">
+                                                                        <input class="ddp-input-typebasic" type="text">
+
+                                                                        <!-- selectbox -->
+                                                                        <div class="ddp-type-selectbox">
+                                                                            <span class="ddp-txt-selectbox">초</span>
+                                                                            <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                                <li>
+                                                                                    <a href="javascript:">초</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- //selectbox -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //time -->
+                                                        </div>
+                                                        <!-- //filter type -->
+                                                        <!-- filter type -->
+                                                        <div class="ddp-filter-type">
+                                                            <span class="ddp-label-name">Current</span>
+                                                            <ul class="ddp-list-buttons">
+                                                                <li class="ddp-selected">
+                                                                    D
+                                                                </li>
+                                                                <li>
+                                                                    W
+                                                                </li>
+                                                                <li class="">
+                                                                    M
+                                                                </li>
+                                                                <li class="">
+                                                                    Q
+                                                                </li>
+                                                                <li class="">
+                                                                    Y
+                                                                </li>
+                                                            </ul>
+
+                                                        </div>
+                                                        <!-- //filter type -->
+                                                        <!-- filter type -->
+                                                        <div class="ddp-filter-type">
+                                                            <span class="ddp-label-name">Next</span>
+                                                            <ul class="ddp-list-buttons">
+                                                                <li class="ddp-selected">
+                                                                    D
+                                                                </li>
+                                                                <li>
+                                                                    W
+                                                                </li>
+                                                                <li class="">
+                                                                    M
+                                                                </li>
+                                                                <li class="">
+                                                                    Q
+                                                                </li>
+                                                                <li class="">
+                                                                    Y
+                                                                </li>
+                                                            </ul>
+                                                            <!-- time -->
+                                                            <!-- 선택시 ddp-selected 추가 -->
+                                                            <div class="ddp-btn-time ddp-selected">
+                                                                <div class="ddp-form-multy">
+
+                                                                    <span class="ddp-txt-label">Next</span>
+                                                                    <div class="ddp-box-multy ddp-clear ddp-form-time">
+                                                                        <input class="ddp-input-typebasic" type="text">
+
+                                                                        <!-- selectbox -->
+                                                                        <div class="ddp-type-selectbox">
+                                                                            <span class="ddp-txt-selectbox">초</span>
+                                                                            <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                                <li>
+                                                                                    <a href="javascript:">초</a>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                        <!-- //selectbox -->
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- //time -->
+                                                        </div>
+                                                        <!-- //filter type -->
+                                                    </div>
+                                                </div>
+                                                <!-- slider -->
+
+
+                                                <script>
+                                                    $(function () {
+                                                        $("#range").ionRangeSlider({
+                                                            hide_from_to: false,
+                                                            hide_min_max: true,
+                                                            keyboard: false,
+                                                            min: 0,
+                                                            max: 200,
+                                                            from: 0,
+                                                            to: 50.2,
+                                                            type: 'double',
+                                                            step: 0.01,
+                                                            grid: false
+                                                        });
+                                                    });
+                                                </script>
+                                                <!-- //slider -->
+
+                                                <script src='../js/jquery/rome.js'></script>
+                                                <script>
+                                                    $(function(){
+                                                        rome(calenbox, { weekStart: 1 });
+                                                        rome(calenbox).on('data', function (value) {
+                                                            calendata.innerHTML = value;
+                                                        });
+                                                        rome(calenbox).on('time', function (value) {
+                                                            timedata.innerHTML = value;
+                                                        });
+
+
+                                                        rome(calenbox2, { weekStart: 1 });
+                                                        rome(calenbox2).on('data', function (value) {
+                                                            calendata2.innerHTML = value;
+                                                        });
+                                                        rome(calenbox2).on('time', function (value) {
+                                                            timedata2.innerHTML = value;
+                                                        });
+                                                    });
+                                                </script>
+                                                <!-- dateinfo -->
+                                                <div class="ddp-dateinfo-view ddp-inline">
+                                                    <div class="ddp-filter-calen ">
+                                                        <div class="ddp-filter-calen-in">
+                                                            <!-- form date -->
+                                                            <div class="ddp-form-date ddp-inline">
+                                                                <!-- day -->
+
+                                                                <div class="ddp-day">
+                                                                    <span class="ddp-label-date">From</span>
+                                                                    <!--
+                                                                          focus 시 ddp-focus 추가
+                                                                          수정시 ddp-edit 추가
+                                                                      -->
+                                                                    <div class="ddp-box-date ddp-focus ddp-edit">
+                                                                        <em class="ddp-icon-apply"></em>
+                                                                        <!-- input -->
+                                                                        <div class="ddp-wrap-input">
+                                                                            <em class="ddp-icon-calen"></em>
+
+                                                                            <input type="text" value="2018-01-01 13:13">
+                                                                        </div>
+                                                                        <!-- //input -->
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //day -->
+                                                                <!-- day -->
+                                                                <div class="ddp-day">
+                                                                    <span class="ddp-label-date">To</span>
+                                                                    <!--
+                                                                         focus 시 ddp-focus 추가
+                                                                         수정시 ddp-edit 추가
+                                                                     -->
+                                                                    <div class="ddp-box-date">
+                                                                        <em class="ddp-icon-apply"></em>
+                                                                        <!-- input -->
+                                                                        <div class="ddp-wrap-input">
+                                                                            <em class="ddp-icon-calen"></em>
+
+                                                                            <input type="text" value="2018-01-01 13:13">
+                                                                        </div>
+                                                                        <!-- //input -->
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //day -->
+                                                            </div>
+                                                            <!-- //form date -->
+                                                        </div>
+
+                                                        <div class="ddp-filter-calen-in">
+                                                            <!-- wrap dateinfo -->
+                                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">From</span>
+                                                                        <div class="ddp-box-rome" >
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <!-- 달력 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <!-- //달력 -->
+                                                                                <!-- selectbox -->
+                                                                                <div class="ddp-type-selectbox ">
+                                                                                    <span class="ddp-txt-selectbox">q1</span>
+                                                                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                                        <li>
+                                                                                            <a href="#">
+                                                                                                q1
+                                                                                            </a>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <a href="#">
+                                                                                                q2
+                                                                                            </a>
+                                                                                        </li>
+
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <!-- //selectbox -->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">To</span>
+                                                                        <div class="ddp-box-rome">
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <span class="ddp-txt-calen">1988-02-02</span>
+                                                                                </div>
+                                                                                <!-- selectbox -->
+                                                                                <div class="ddp-type-selectbox ">
+                                                                                    <span class="ddp-txt-selectbox">q1</span>
+                                                                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                                        <li>
+                                                                                            <a href="#">
+                                                                                                q1
+                                                                                            </a>
+                                                                                        </li>
+                                                                                        <li>
+                                                                                            <a href="#">
+                                                                                                q2
+                                                                                            </a>
+                                                                                        </li>
+
+                                                                                    </ul>
+                                                                                </div>
+                                                                                <!-- //selectbox -->
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+                                                            </div>
+                                                            <!-- //wrap dateinfo -->
+
+                                                        </div>
+                                                        <div class="ddp-filter-calen-in">
+                                                            <!-- wrap dateinfo -->
+                                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">From</span>
+                                                                        <div class="ddp-box-rome" >
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <!-- 달력 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <!-- //달력 -->
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">To</span>
+                                                                        <div class="ddp-box-rome">
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+                                                            </div>
+                                                            <!-- //wrap dateinfo -->
+
+                                                        </div>
+
+                                                        <div class="ddp-filter-calen-in">
+                                                            <!-- wrap dateinfo -->
+                                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">From</span>
+                                                                        <div class="ddp-box-rome" id="calenbox">
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <!-- 달력 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <!-- //달력 -->
+                                                                                <!-- 시간 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-time"></em>
+                                                                                    <span class="ddp-txt-time" id="timedata">13:44</span>
+                                                                                </div>
+                                                                                <!-- //시간 -->
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+
+
+                                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">To</span>
+                                                                        <div class="ddp-box-rome" id="calenbox2">
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-time"></em>
+                                                                                    <span class="ddp-txt-time" id="timedata2">13:44</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+
+                                                            </div>
+                                                            <!-- //wrap dateinfo -->
+
+                                                        </div>
+                                                        <div class="ddp-filter-calen-in">
+                                                            <!-- wrap dateinfo -->
+                                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">From</span>
+                                                                        <div class="ddp-box-rome" >
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <!-- 달력 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <!-- //달력 -->
+                                                                                <!-- 시간 -->
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-time"></em>
+                                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                                </div>
+                                                                                <!-- //시간 -->
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+
+                                                                <!-- 날짜 -->
+                                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                                    <div class="ddp-dateinfo-in">
+                                                                        <span class="ddp-txt-date">To</span>
+                                                                        <div class="ddp-box-rome">
+                                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                                </div>
+                                                                                <div class="ddp-box-date">
+                                                                                    <em class="ddp-icon-time"></em>
+                                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                                <!-- //날짜 -->
+                                                            </div>
+                                                            <!-- //wrap dateinfo -->
+
+                                                        </div>
+                                                    </div>
+
+
+                                                </div>
+                                                <!-- //dateinfo -->
+                                                <!-- dateinfo -->
+                                                <div class="ddp-dateinfo-view">
+                                                    <div class="ddp-box-preview">2015 Q4</div>
+                                                    <!-- clear -->
+                                                    <div class="ddp-filter-time ddp-clear">
+                                                        <div class="ddp-col-4">
+                                                            <!-- selectbox -->
+                                                            <div class="ddp-type-selectbox ">
+                                                                <span class="ddp-txt-selectbox">Last</span>
+                                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            Last
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            Last
+                                                                        </a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+
+                                                        </div>
+                                                        <div class="ddp-col-8">
+                                                            <!-- multy -->
+                                                            <div class="ddp-box-multy ddp-clear ddp-form-time">
+                                                                <input class="ddp-input-typebasic" type="text" value="2">
+
+                                                                <div class="ddp-type-selectbox">
+                                                                    <span class="ddp-txt-selectbox">Year</span>
+                                                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                        <li>
+                                                                            <a href="javascript:">Year</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+
+                                                            </div>
+                                                            <!-- //multy -->
+                                                        </div>
+                                                    </div>
+                                                    <!--//clear -->
+                                                </div>
+                                                <!-- //dateinfo -->
+                                                <!-- dateinfo -->
+                                                <div class="ddp-dateinfo-view">
+                                                    <div class="ddp-box-preview">2015 Q4</div>
+                                                    <!-- clear -->
+                                                    <div class="ddp-filter-time ddp-clear">
+                                                        <div class="ddp-col-6">
+                                                            <!-- selectbox -->
+                                                            <div class="ddp-type-selectbox ">
+                                                                <span class="ddp-txt-selectbox">This</span>
+                                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            q1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            q2
+                                                                        </a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+
+                                                        </div>
+                                                        <div class="ddp-col-6">
+                                                            <!-- selectbox -->
+                                                            <div class="ddp-type-selectbox ">
+                                                                <span class="ddp-txt-selectbox">Year</span>
+                                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            q1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            q2
+                                                                        </a>
+                                                                    </li>
+
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+                                                        </div>
+                                                    </div>
+                                                    <!--//clear -->
+                                                </div>
+                                                <!-- //dateinfo -->
+                                                <!-- dateinfo -->
+                                                <div class="ddp-dateinfo-view">
+                                                    <div class="ddp-box-preview">2015 Q4</div>
+                                                    <!-- clear -->
+                                                    <div class="ddp-filter-time ">
+
+                                                        <!-- selectbox -->
+                                                        <div class="ddp-type-selectbox ">
+                                                            <span class="ddp-txt-selectbox">Today</span>
+                                                            <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        q1
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        q2
+                                                                    </a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </div>
+                                                        <!-- //selectbox -->
+
+                                                    </div>
+                                                    <!--//clear -->
+                                                </div>
+                                                <!-- //dateinfo -->
+
+                                                <!-- dateinfo -->
+                                                <div class="ddp-dateinfo-view">
+                                                    <ul class="ddp-list-buttons ddp-type3 ddp-part4">
+                                                        <li class="">
+                                                            Mon
+                                                        </li>
+                                                        <li>
+                                                            Tue
+                                                        </li>
+                                                        <li class="ddp-selected">
+                                                            Wed
+                                                        </li>
+                                                        <li class="">
+                                                            Thu
+                                                        </li>
+                                                        <li class="">
+                                                            Fri
+                                                        </li>
+                                                        <li class="">
+                                                            Sat
+                                                        </li>
+                                                        <li class="">
+                                                            Sun
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="ddp-list-buttons ddp-type3 ddp-part4">
+                                                        <li class="">
+                                                            Q1
+                                                        </li>
+                                                        <li>
+                                                            Q2
+                                                        </li>
+                                                        <li class="ddp-selected">
+                                                            Q3
+                                                        </li>
+                                                        <li class="">
+                                                            Q4
+                                                        </li>
+                                                    </ul>
+                                                    <ul class="ddp-list-buttons ddp-type3 ddp-part4">
+                                                        <li class="">
+                                                            Jan
+                                                        </li>
+                                                        <li>
+                                                            Feb
+                                                        </li>
+                                                        <li class="ddp-selected">
+                                                            Mar
+                                                        </li>
+                                                        <li class="">
+                                                            Apr
+                                                        </li>
+                                                        <li class="">
+                                                            May
+                                                        </li>
+                                                        <li class="">
+                                                            June
+                                                        </li>
+                                                        <li class="">
+                                                            July
+                                                        </li>
+                                                        <li class="">
+                                                            Aug
+                                                        </li>
+                                                        <li class="">
+                                                            Sep
+                                                        </li>
+                                                        <li class="">
+                                                            Oct
+                                                        </li>
+                                                        <li class="">
+                                                            Nov
+                                                        </li>
+                                                        <li class="">
+                                                            Des
+                                                        </li>
+                                                    </ul>
+
+                                                </div>
+                                                <!-- //dateinfo -->
+
+                                                <!-- search -->
+                                                <div class="ddp-form-search">
+                                                    <em class="ddp-icon-search"></em>
+                                                    <input type="text" placeholder="search">
+                                                </div>
+                                                <!-- //search -->
+
+                                                <ul class="ddp-list-checktype">
+                                                    <li>
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">unchecked</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">unchecked</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">unchecked</span>
+                                                        </label>
+                                                    </li>
+                                                    <li>
+                                                        <label class="ddp-label-checkbox">
+                                                            <input type="checkbox">
+                                                            <i class="ddp-icon-checkbox"></i>
+                                                            <span class="ddp-txt-checkbox">unchecked</span>
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <!-- 해상도 작아질때 ddp-box-size 추가 -->
+                                    <div class="ddp-box-widget ddp-box-size">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size1">
+                                                <div class="ddp-data-top">
+                                                    <!-- tool -->
+                                                    <div class="ddp-ui-tool">
+                                                        <!-- 선택시 ddp-selected 추가 -->
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-title"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                title
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-legend"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                legend
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                minimap
+                                                            </div>
+                                                            <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-linked"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                linked
+                                                            </div>
+                                                            <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-chart"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                chart
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                    </div>
+                                                    <!-- //tool -->
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+                                                <div class="ddp-ui-buttons">
+
+                                                    <div class="ddp-box-btn2">
+                                                        <em class="ddp-icon-widget-edit"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-down"></em>
+                                                            편집
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //top control in -->
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size2">
+                                                <div class="ddp-data-top">
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+
+                                                <div class="ddp-ui-buttons">
+                                                    <!-- more -->
+                                                    <!-- 아이콘 선택시 ddp-selected 추가 -->
+                                                    <div class="ddp-wrap-morebutton ddp-hover-tooltip  ddp-selected">
+                                                        <em class="ddp-icon-more"></em>
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                        <div class="ddp-wrap-popup2">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-title"></em>
+                                                                            Chart name
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-legend"></em>
+                                                                            Legend
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                                            Mini-map
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-chart"></em>
+                                                                            Detail chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-chartdet"></em>
+                                                                            Hierarchical chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-linked"></em>
+                                                                            Link with others
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+
+                                                            </ul>
+
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <div class="ddp-list-txt">
+                                                                        <em class="ddp-icon-tool-display"></em>
+                                                                        Display
+                                                                     </div>
+
+                                                                    <!-- tab button -->
+                                                                    <div class="ddp-list-tab-button ddp-type">
+
+                                                                        <!-- 선택시 ddp-selected 추가 -->
+                                                                        <span class="ddp-selected"><em class="ddp-icon-tool-selectbox"></em></span>
+
+                                                                        <span><em class="ddp-icon-tool-list"></em></span>
+
+                                                                    </div>
+                                                                    <!-- //tab button -->
+                                                                </li>
+
+                                                                <li>
+                                                                    <a href="javascript:">
+
+                                                                        <em class="ddp-icon-tool-edit"></em>
+                                                                        Edit chart
+
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-copy"></em>
+                                                                        Copy
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-remove"></em>
+                                                                        Remove
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //more -->
+
+                                                </div>
+
+
+                                            </div>
+                                            <!-- //top control in -->
+                                        </div>
+                                        <!-- //top control -->
+
+                                        <!-- 실제 개발에서는 높이 자동으로 계산됨 -->
+                                        <div class="ddp-view-widget ddp-view-widget-text ddp-view-name ">
+                                            ㅇㅇㅇ
+                                        </div>
+
+                                        <!-- hover edit -->
+                                        <div class="ddp-hover-edit">
+                                            <div class="ddp-hover-edit-in">
+                                                <a href="javascript:" class="ddp-btn-edit">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- //hover edit -->
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+
+                                <div class="ddp-wrap-widget" >
+                                    <!-- box -->
+                                    <!-- 해상도 작아질때 ddp-box-size 추가 -->
+                                    <div class="ddp-box-widget ">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size1">
+                                                <div class="ddp-data-top">
+                                                    <!-- tool -->
+                                                    <div class="ddp-ui-tool">
+                                                        <!-- 선택시 ddp-selected 추가 -->
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-title"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                title
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-legend"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                legend
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                minimap
+                                                            </div>
+                                                            <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-linked"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                linked
+                                                            </div>
+                                                            <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-chart"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                chart
+                                                            </div>
+                                                            <!-- //tooltip -->
+                                                        </a>
+                                                    </div>
+                                                    <!-- //tool -->
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+                                                <div class="ddp-ui-buttons">
+                                                    <!-- btn hover -->
+                                                    <div class="ddp-box-btn-hover">
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-selectbox"></em>
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-list"></em>
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-selectbox"></em>
+                                                        </a>
+
+                                                    </div>
+                                                    <!-- //btn hover -->
+                                                    <div class="ddp-box-btn2">
+                                                        <em class="ddp-icon-widget-edit"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-down"></em>
+                                                            편집
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //top control in -->
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size2">
+                                                <div class="ddp-data-top">
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+
+                                                <div class="ddp-ui-buttons">
+
+                                                    <!-- more -->
+                                                    <!-- 아이콘 선택시 ddp-selected 추가 -->
+                                                    <div class="ddp-wrap-morebutton ddp-hover-tooltip">
+                                                        <em class="ddp-icon-more"></em>
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                        <div class="ddp-wrap-popup2">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-title"></em>
+                                                                            Chart name
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-legend"></em>
+                                                                            Legend
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                                            Mini-map
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-chart"></em>
+                                                                            Detail chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-chartdet"></em>
+                                                                            Hierarchical chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-linked"></em>
+                                                                            Link with others
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+
+                                                                        <em class="ddp-icon-tool-edit"></em>
+                                                                        Edit chart
+
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-copy"></em>
+                                                                        Copy
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-remove"></em>
+                                                                        Remove
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //more -->
+
+                                                </div>
+
+
+                                            </div>
+                                            <!-- //top control in -->
+                                        </div>
+                                        <!-- //top control -->
+
+                                        <!-- 실제 개발에서는 높이 자동으로 계산됨 -->
+                                        <div class="ddp-view-widget ddp-view-widget-text ddp-view-name ">
+                                            <div class="ddp-display-table">
+                                                <div class="ddp-table-in">
+                                                    <div class="ddp-ui-slider-type type-per ddp-slider-bg">
+                                                        <!-- num -->
+                                                        <div class="ddp-range-num">
+                                                            <div class="ddp-data-num ddp-min">
+                                                                <span class="ddp-label">Minimum</span>
+                                                                <input type="text" class="ddp-input-range" value="000">
+                                                            </div>
+                                                            <div class="ddp-data-num ddp-max">
+                                                                <span class="ddp-label">Maximum</span>
+                                                                <input type="text" class="ddp-input-range" value="000">
+                                                            </div>
+
+                                                        </div>
+                                                        <!-- //num -->
+
+                                                        <input type="text" id="range" value="" name="range" />
+                                                        <!-- data range -->
+                                                        <div class="ddp-data-range">
+                                                            <span class="ddp-label-range">Available input range</span>
+                                                            <span class="ddp-view-range"><span>0.1234 ~</span> <span>9876.32</span></span>
+                                                        </div>
+                                                        <!-- //data range -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <!-- 해상도 작아질때 ddp-box-size 추가 -->
+                                    <div class="ddp-box-widget ">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size1">
+                                                <div class="ddp-data-top">
+                                                    <!-- tool -->
+                                                    <div class="ddp-ui-tool">
+                                                        <!-- 선택시 ddp-selected 추가 -->
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-title"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                title
+                                                           </div>
+                                                           <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-hover-tooltip ">
+                                                            <em class="ddp-icon-tool-legend"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                legend
+                                                           </div>
+                                                           <!-- //tooltip -->
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                minimap
+                                                           </div>
+                                                           <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-linked"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                linked
+                                                           </div>
+                                                           <!-- //tooltip -->
+
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool ddp-selected ddp-hover-tooltip">
+                                                            <em class="ddp-icon-tool-chart"></em>
+                                                            <!-- tooltip -->
+                                                            <div class="ddp-ui-tooltip-info ddp-down">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                chart
+                                                           </div>
+                                                           <!-- //tooltip -->
+                                                        </a>
+                                                    </div>
+                                                    <!-- //tool -->
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+                                                <div class="ddp-ui-buttons">
+                                                    <!-- btn hover -->
+                                                    <div class="ddp-box-btn-hover">
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-selectbox"></em>
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-list"></em>
+                                                        </a>
+                                                        <a href="#" class="ddp-btn-tool">
+                                                            <em class="ddp-icon-tool-selectbox"></em>
+                                                        </a>
+
+                                                    </div>
+                                                    <!-- //btn hover -->
+                                                    <div class="ddp-box-btn2">
+                                                        <em class="ddp-icon-widget-edit"></em>
+                                                        <!-- 툴팁 -->
+                                                        <div class="ddp-ui-tooltip-info">
+                                                            <em class="ddp-icon-view-down"></em>
+                                                            편집
+                                                        </div>
+                                                        <!-- //툴팁 -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- //top control in -->
+                                            <!-- top control in -->
+                                            <div class="ddp-top-control-in ddp-size2">
+                                                <div class="ddp-data-top">
+                                                    <!-- name -->
+                                                    <!-- 클릭시 ddp-selected 추가 -->
+                                                    <div class="ddp-ui-eidt-name ddp-selected">
+                                                        <div class="ddp-data-enter">
+                                                            <span class="ddp-data-name">New Chart New ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew ChartNew Chart</span>
+                                                        </div>
+
+                                                        <input type="text" class="ddp-input-edit" value="New Chart"/>
+                                                    </div>
+                                                    <!-- //name -->
+                                                </div>
+
+
+                                                <div class="ddp-ui-buttons">
+
+                                                    <!-- more -->
+                                                    <!-- 아이콘 선택시 ddp-selected 추가 -->
+                                                    <div class="ddp-wrap-morebutton ddp-hover-tooltip">
+                                                        <em class="ddp-icon-more"></em>
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            더보기
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                        <div class="ddp-wrap-popup2">
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-title"></em>
+                                                                            Chart name
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-legend"></em>
+                                                                            Legend
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-minimap"></em>
+                                                                            Mini-map
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-chart"></em>
+                                                                            Detail chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-chartdet"></em>
+                                                                            Hierarchical chart
+                                                                            <span class="ddp-ui-check">
+                                                                            <input type="checkbox" />
+                                                                            <i></i>
+                                                                            <span class="ddp-txt-check"></span>
+                                                                        </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <label class="ddp-label-checked">
+                                                                            <em class="ddp-icon-tool-linked"></em>
+                                                                            Link with others
+                                                                            <span class="ddp-ui-check">
+                                                                                <input type="checkbox" />
+                                                                                <i></i>
+                                                                                <span class="ddp-txt-check"></span>
+                                                                            </span>
+                                                                        </label>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+
+                                                            <ul class="ddp-list-popup">
+                                                                <li>
+                                                                    <a href="javascript:">
+
+                                                                        <em class="ddp-icon-tool-edit"></em>
+                                                                        Edit chart
+
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-copy"></em>
+                                                                        Copy
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="javascript:">
+                                                                        <em class="ddp-icon-tool-remove"></em>
+                                                                        Remove
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //more -->
+
+                                                </div>
+
+
+                                            </div>
+                                            <!-- //top control in -->
+                                        </div>
+                                        <!-- //top control -->
+
+                                        <!-- 실제 개발에서는 높이 자동으로 계산됨 -->
+                                        <div class="ddp-view-widget ddp-view-widget-text ddp-view-name ">
+                                            Sales by Region
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <div class="ddp-box-widget">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- tool -->
+                                            <div class="ddp-ui-tool">
+                                                <!-- 선택시 ddp-selected 추가 -->
+                                                <a href="#" class="ddp-btn-tool"><em class="ddp-icon-tool-title"></em></a>
+                                                <a href="#" class="ddp-btn-tool "><em class="ddp-icon-tool-legend"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-minimap"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-linked"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-chart"></em></a>
+                                            </div>
+                                            <!-- //tool -->
+
+                                            <div class="ddp-ui-buttons">
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-info"></em>
+
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-layout4">
+                                                        <div class="ddp-wrap-data-detail">
+                                                            <div class="ddp-ui-top-title">
+                                                                Chart info
+                                                            </div>
+                                                            <table class="ddp-table-pop">
+                                                                <colgroup>
+                                                                    <col width="70px">
+                                                                    <col width="">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th>Datasource</th>
+                                                                    <td>피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>행</th>
+                                                                    <td>피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>데이터</th>
+                                                                    <td>피봇 데이터, 피봇데이터피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>교차</th>
+                                                                    <td>피봇 데이터, 피봇데이터피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-edit"></em>
+                                                    <!-- 툴팁 -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        편집
+                                                    </div>
+                                                    <!-- //툴팁 -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-copy ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            copy
+                                                        </div>
+                                                        <!-- //tooltip -->
+
+                                                    </em>
+                                                </div>
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-cut ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            삭제
+                                                       </div>
+                                                       <!-- //tooltip -->
+                                                    </em>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- //top control -->
+
+                                        <!-- 실제 개발에서는 높이 자동으로 계산됨 -->
+                                        <div class="ddp-view-widget ddp-view-widget-chart">
+
+                                            그래프 영역
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+
+
+
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <div class="ddp-box-widget">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- tool -->
+                                            <div class="ddp-ui-tool">
+                                                <!-- 선택시 ddp-selected 추가 -->
+                                                <a href="#" class="ddp-btn-tool"><em class="ddp-icon-tool-title"></em></a>
+                                                <a href="#" class="ddp-btn-tool "><em class="ddp-icon-tool-legend"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-minimap"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-linked"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-chart"></em></a>
+                                            </div>
+                                            <!-- //tool -->
+
+                                            <div class="ddp-ui-buttons">
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-info"></em>
+
+                                                    <!-- popup -->
+                                                    <div class="ddp-box-layout4">
+                                                        <div class="ddp-wrap-data-detail">
+                                                            <div class="ddp-ui-top-title">
+                                                                Chart info
+                                                            </div>
+                                                            <table class="ddp-table-pop">
+                                                                <colgroup>
+                                                                    <col width="60px">
+                                                                    <col width="">
+                                                                </colgroup>
+                                                                <tbody>
+                                                                <tr>
+                                                                    <th>열</th>
+                                                                    <td>피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>행</th>
+                                                                    <td>피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>데이터</th>
+                                                                    <td>피봇 데이터, 피봇데이터피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th>교차</th>
+                                                                    <td>피봇 데이터, 피봇데이터피봇 데이터, 피봇데이터</td>
+                                                                </tr>
+
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- //popup -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-edit"></em>
+                                                    <!-- 툴팁 -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        편집
+                                                    </div>
+                                                    <!-- //툴팁 -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-copy ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            copy
+                                                        </div>
+                                                        <!-- //tooltip -->
+
+                                                    </em>
+                                                </div>
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-cut ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            삭제
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                    </em>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <!-- //top control -->
+                                        <div class="ddp-view-widget ddp-view-widget-grid">
+                                            그리드 영역
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+
+                                <div class="ddp-wrap-widget">
+                                    <!-- box -->
+                                    <div class="ddp-box-widget">
+                                        <!-- top control -->
+                                        <div class="ddp-top-control ddp-clear">
+                                            <!-- tool -->
+                                            <div class="ddp-ui-tool">
+                                                <!-- 선택시 ddp-selected 추가 -->
+                                                <a href="#" class="ddp-btn-tool"><em class="ddp-icon-tool-title"></em></a>
+                                                <a href="#" class="ddp-btn-tool "><em class="ddp-icon-tool-legend"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-minimap"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-linked"></em></a>
+                                                <a href="#" class="ddp-btn-tool ddp-selected"><em class="ddp-icon-tool-chart"></em></a>
+                                            </div>
+                                            <!-- //tool -->
+
+                                            <div class="ddp-ui-buttons">
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-edit"></em>
+                                                    <!-- 툴팁 -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-down"></em>
+                                                        편집
+                                                    </div>
+                                                    <!-- //툴팁 -->
+                                                </div>
+
+                                                <div class="ddp-box-btn2">
+                                                    <em class="ddp-icon-widget-cut ddp-hover-tooltip">
+                                                        <!-- tooltip -->
+                                                        <div class="ddp-ui-tooltip-info ddp-down">
+                                                            <em class="ddp-icon-view-top"></em>
+                                                            삭제
+                                                        </div>
+                                                        <!-- //tooltip -->
+                                                    </em>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //top control -->
+                                        <div class="ddp-view-widget ddp-view-widget-parameter">
+                                            <!-- title -->
+                                            <div class="ddp-ui-title">
+                                                <em class="ddp-icon-parameter"></em>
+                                                Parameter
+                                            </div>
+                                            <!-- //title -->
+
+                                            <div class="ddp-ui-widget-contents">
+                                                <div class="ddp-ui-slider-type type-per ddp-slider-bg">
+                                                    <!-- num -->
+                                                    <div class="ddp-range-num">
+                                                        <div class="ddp-data-num ddp-min">
+                                                            <span class="ddp-label">Minimum</span>
+
+                                                            <!-- 적용 -->
+                                                            <!--
+            수정될때 ddp-edit 추가
+            로딩될때 ddp-loading 추가
+        -->
+                                                            <div class="ddp-input-apply ddp-loading ">
+                                                                <input type="text" value="test" class="ddp-input-txt">
+                                                                <em class="ddp-icon-apply"></em>
+                                                                <em class="ddp-icon-apply-loading"></em>
+                                                            </div>
+                                                            <!-- //적용 -->
+                                                        </div>
+                                                        <div class="ddp-data-num ddp-max">
+                                                            <span class="ddp-label">Maximum</span>
+                                                            <!-- 적용 -->
+                                                            <!--
+            수정될때 ddp-edit 추가
+            로딩될때 ddp-loading 추가
+        -->
+                                                            <div class="ddp-input-apply">
+                                                                <input type="text" value="test" class="ddp-input-txt">
+                                                                <em class="ddp-icon-apply"></em>
+                                                                <em class="ddp-icon-apply-loading"></em>
+                                                            </div>
+                                                            <!-- //적용 -->
+                                                        </div>
+
+                                                    </div>
+                                                    <!-- //num -->
+
+                                                    <input type="text" id="range2" value="" name="range2" />
+
+                                                    <div class="ddp-data-range">
+                                                        <span class="ddp-label-range">Available input range</span>
+                                                        <span class="ddp-view-range"><span>0.1234 ~</span> <span>9876.32</span></span>
+                                                    </div>
+                                                </div>
+
+                                                <script>
+                                                    $(function () {
+                                                        $("#range2").ionRangeSlider({
+                                                            hide_from_to: false,
+                                                            hide_min_max: true,
+                                                            keyboard: false,
+                                                            min: 0,
+                                                            max: 200,
+                                                            from: 0,
+                                                            to: 50.2,
+                                                            type: 'double',
+                                                            step: 0.01,
+                                                            grid: false
+                                                        });
+                                                    });
+                                                </script>
+
+                                                <div class="ddp-col-12 ddp-apply">
+                                                    <input type="text" class="ddp-input-typebasic" placeholder="2000.001">
+                                                    <a href="#" class="ddp-btn-line-s">적용</a>
+                                                </div>
+                                                <div class="ddp-ui-slider-type type-per ddp-slider-bg">
+
+                                                <input type="text" id="range" value="" name="range" />
+                                            </div>
+
+                                                <script>
+                                                    $(function () {
+                                                        $("#range").ionRangeSlider({
+                                                            hide_from_to: false,
+                                                            hide_min_max: true,
+                                                            keyboard: false,
+                                                            min: 0,
+                                                            max: 200,
+                                                            from: 0,
+                                                            to: 50.2,
+                                                            type: 'single',
+                                                            step: 0.01,
+                                                            grid: false
+                                                        });
+                                                    });
+                                                </script>
+                                                <!-- range -->
+                                                <div class="ddp-data-range">
+                                                    <span class="ddp-label-range">Available input range</span>
+                                                    <span class="ddp-view-range"><span>0.1234 ~</span> <span>9876.32</span></span>
+                                                </div>
+                                                <!-- //range -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <!-- //edit contents -->
+
+
+                <!-- side contents -->
+                <div class="ddp-ui-boardside-contents">
+
+
+                </div>
+                <!-- //side contents -->
+                <!-- sidemenu -->
+                <div class="ddp-ui-boardside-menu">
+                    <a href="#" class="ddp-selected"><em class="ddp-icon-menu-chart"></em></a>
+                    <a href="#"><em class="ddp-icon-menu-filter"></em></a>
+                    <span class="ddp-ui-menu-layout">
+                        <a href="#"><em class="ddp-icon-menu-layout"></em></a>
+                    </span>
+
+                </div>
+                <!-- //sidemenu -->
+            </div>
+
+        </div>
+
+    </div>
+    <!-- //contents -->
+</body>
+</html>

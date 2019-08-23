@@ -1,0 +1,1143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>메타트론</title>
+
+    <!-- slider css --->
+    <link rel="stylesheet" href="../css/lib/slider/ion.rangeSlider.css"/>
+    <link rel="stylesheet" href="../css/lib/slider/ion.rangeSlider.skinFlat.css"/>
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <!-- slider js --->
+    <script src="../js/jquery/ion.rangeSlider.js"></script>
+    <script>
+        $(function(){
+            $('.ddp-list-buttons li').click(function(){
+                var $buttonsIdx = $(this).index();
+                $(this).addClass('ddp-selected');
+                $(this).siblings().removeClass('ddp-selected');
+
+                $(this).parent().parent().parent().find('.ddp-ui-toggle-contents').eq($buttonsIdx).show();
+                $(this).parent().parent().parent().find('.ddp-ui-toggle-contents').eq($buttonsIdx).siblings().hide();
+
+            })
+        })
+    </script>
+</head>
+<body>
+
+
+<div class="ddp-layout-popuptype" style="display:;">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup ddp-ui-popup-join">
+        <!-- title -->
+        <div class="ddp-ui-popup-title">
+            	<span class="ddp-txt-title-name">
+                    Setup essential filters <span class="ddp-txt-thin">of datasource A</span>
+                    <span class="ddp-txt-det2">You can link datasource after setting essential filters in order </span>
+                </span>
+
+            <div class="ddp-ui-pop-buttons">
+                <a href="javascript:" class="ddp-btn-pop">Cancel</a>
+                <a href="javascript:" class="ddp-btn-pop ddp-bg-black">Done</a>
+            </div>
+
+        </div>
+    	<!-- //title -->
+        <!-- contents -->
+        <div class="ddp-ui-eessential">
+            <!-- filter data -->
+            <div class="ddp-data-filter">
+                Essential Filters(6)
+            </div>
+            <!-- //filter data -->
+            <!-- setup -->
+            <div class="ddp-type-setup">
+                <!-- top -->
+                <div class="ddp-ui-top">
+                    <!-- tags -->
+                    <div class="ddp-ui-tags">
+                        <span class="ddp-tag-type ddp-type" style="display:;"><em class="ddp-icon-global"></em>Global</span>
+
+                        <span class="ddp-tag-type ddp-type" style="display:;">
+                            <div class="ddp-wrap-datalock">
+                               99
+                               <em class="ddp-icon-lock-s2"></em>
+                           </div>
+                          Essential
+                       </span>
+
+                    </div>
+                    <!-- //tags -->
+                    <div class="ddp-tag-name">
+                         <span class="ddp-icon-box">
+                            <em class="ddp-icon-dimension-calen" style="display:none"></em>
+                             <em class="ddp-icon-dimension-ab" style="display:"></em>
+                             <em class="ddp-icon-dimension-tf" style="display:none"></em>
+                             <em class="ddp-icon-dimension-longitude" style="display:none"></em>
+                           <em class="ddp-icon-dimension-latitude" style="display:none"></em>
+                           <em class="ddp-icon-dimension-int" style="display:none"></em>
+                            <em class="ddp-icon-dimension-float" style="display:none"></em>
+                       </span>
+
+                        item 1
+                    </div>
+
+                </div>
+                <!-- //top -->
+                <div class="ddp-setup-contents">
+                    <div class="ddp-ui-empty">선택할 수 있는 값이 없습니다</div>
+                    <div class="ddp-filter1 ">
+                        <div class="ddp-toggle">
+                            <ul class="ddp-list-buttons ddp-type2">
+                                <li class="ddp-selected">
+                                    <em class="ddp-icon-check"></em>
+                                    <label class="ddp-label-radio">
+                                        <input type="radio" checked="checked">
+                                        <i class="ddp-icon-radio"></i>
+                                        <span class="ddp-txt-radio">Single</span>
+                                    </label>
+                                </li>
+                                <li class="">
+                                    <em class="ddp-icon-check"></em>
+                                    <label class="ddp-label-checkbox">
+                                        <input type="checkbox" checked="checked">
+                                        <i class="ddp-icon-checkbox"></i>
+                                        <span class="ddp-txt-checkbox">Multiple</span>
+                                    </label>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="ddp-wrap-toggle-contents">
+                            <!-- contents -->
+                            <div class="ddp-ui-toggle-contents" style="display:none;">
+                                <!-- option -->
+                                <div class="ddp-option">
+                                    <span class="ddp-data-num"><strong>2</strong> default value</span>
+                                    <div class="ddp-option-btn">
+                                        <!-- search -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-ui-search ">
+                                            <em class="ddp-icon-search-default ddp-btn-box"></em>
+
+                                            <div class="ddp-form-search">
+                                                <em class="ddp-icon-search"></em>
+                                                <input type="text" placeholder="search">
+                                                <em class="ddp-btn-search-close"></em>
+                                            </div>
+
+                                        </div>
+                                        <!-- //search -->
+
+                                        <!-- sort -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-ui-sort ddp-btn-box ">
+                                            <a href="javascript:" class="ddp-icon-sort"></a>
+                                            <!-- hover -->
+                                            <div class="ddp-ui-tooltip-info">
+                                                <em class="ddp-icon-view-top"></em>
+                                                정렬순서
+                                            </div>
+                                            <!-- //hover -->
+                                            <!-- popup -->
+                                            <div class="ddp-wrap-popup2">
+                                                <ul class="ddp-list-popup">
+                                                    <li class="ddp-selected">
+                                                        <a href="javascript:">
+                                                            제목 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            제목 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            업데이트 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            업데이트 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            생성일 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            생성일 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <!-- //popup -->
+
+                                        </div>
+                                        <!-- //sort -->
+
+                                    </div>
+
+                                </div>
+                                <!-- //option -->
+                                <!-- item search -->
+                                <div class="ddp-box-item-search">
+                                    <!-- check -->
+                                    <ul class="ddp-list-checktype ddp-type-list ddp-hover">
+                                        <li>
+                                            <label class="ddp-label-radio">
+                                                <input type="radio">
+                                                <i class="ddp-icon-radio"></i>
+                                                <span class="ddp-txt-radio">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-radio">
+                                                <input type="radio">
+                                                <i class="ddp-icon-radio"></i>
+                                                <span class="ddp-txt-radio">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-radio">
+                                                <input type="radio">
+                                                <i class="ddp-icon-radio"></i>
+                                                <span class="ddp-txt-radio">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+
+                                    </ul>
+                                    <!-- //check -->
+                                    <div class="ddp-data-result">
+
+                                        <!-- page -->
+                                        <div class="ddp-ui-page">
+                                            <a href="#" class="ddp-btn-prev"></a>
+                                            <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                            <a href="#" class="ddp-btn-next ddp-disabled"></a>
+                                        </div>
+                                        <!-- //page -->
+
+                                    </div>
+
+                                    <!-- box search -->
+                                    <div class="ddp-box-search">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        <a href="#" class="ddp-btn-solid3">Add</a>
+                                    </div>
+                                    <!-- //box search -->
+
+                                </div>
+                                <!-- //item search -->
+                            </div>
+                            <!-- //contents -->
+                            <!-- contents -->
+                            <div class="ddp-ui-toggle-contents">
+                                <!-- option -->
+                                <div class="ddp-option">
+                                    <span class="ddp-data-num"><strong>2</strong> default value</span>
+                                    <div class="ddp-option-btn">
+                                        <!-- search -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-ui-search ">
+                                            <em class="ddp-icon-search-default ddp-btn-box"></em>
+
+                                            <div class="ddp-form-search">
+                                                <em class="ddp-icon-search"></em>
+                                                <input type="text" placeholder="search">
+                                                <em class="ddp-btn-search-close"></em>
+                                            </div>
+
+                                        </div>
+                                        <!-- //search -->
+
+                                        <!-- sort -->
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-ui-sort ddp-btn-box ">
+                                            <a href="javascript:" class="ddp-icon-sort"></a>
+                                            <!-- hover -->
+                                            <div class="ddp-ui-tooltip-info">
+                                                <em class="ddp-icon-view-top"></em>
+                                                정렬순서
+                                            </div>
+                                            <!-- //hover -->
+                                            <!-- popup -->
+                                            <div class="ddp-wrap-popup2">
+                                                <ul class="ddp-list-popup">
+                                                    <li class="ddp-selected">
+                                                        <a href="javascript:">
+                                                            제목 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            제목 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            업데이트 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            업데이트 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            생성일 오름차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="javascript:">
+                                                            생성일 내림차순
+                                                            <em class="ddp-icon-check"></em>
+                                                        </a>
+                                                    </li>
+
+                                                </ul>
+                                            </div>
+                                            <!-- //popup -->
+
+                                        </div>
+                                        <!-- //sort -->
+
+                                    </div>
+
+                                </div>
+                                <!-- //option -->
+                                <!-- item search -->
+                                <div class="ddp-box-item-search">
+
+                                    <!-- check -->
+                                    <ul class="ddp-list-checktype ddp-type-list ddp-hover">
+                                        <li>
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                                <span class="ddp-txt-checkbox">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                                <span class="ddp-txt-checkbox">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                                <span class="ddp-txt-checkbox">None <span class="ddp-data-valuenum">1220</span></span>
+                                            </label>
+
+                                            <em class="ddp-icon-eyes2-on"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                                <span class="ddp-txt-checkbox">unchecked</span>
+                                            </label>
+                                            <em class="ddp-icon-eyes2-none"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+                                        <li>
+                                            <label class="ddp-label-checkbox">
+
+                                                <span class="ddp-txt-checkbox">unchecked</span>
+                                            </label>
+                                            <em class="ddp-icon-eyes2-none"></em>
+                                            <em class="ddp-icon-sclose2"></em>
+                                        </li>
+
+                                    </ul>
+                                    <!-- //check -->
+                                    <div class="ddp-data-result">
+
+                                        <!-- page -->
+                                        <div class="ddp-ui-page">
+                                            <a href="#" class="ddp-btn-prev"></a>
+                                            <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                            <a href="#" class="ddp-btn-next ddp-disabled"></a>
+                                        </div>
+                                        <!-- //page -->
+
+                                    </div>
+
+                                    <!-- box search -->
+                                    <div class="ddp-box-search">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        <a href="#" class="ddp-btn-solid3">Add</a>
+                                    </div>
+                                    <!-- //box search -->
+
+                                </div>
+                                <!-- //item search -->
+                            </div>
+                            <!-- //contents -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //setup -->
+            <!-- setup -->
+            <div class="ddp-type-setup">
+                <!-- top -->
+                <div class="ddp-ui-top">
+                    <!-- tags -->
+                    <div class="ddp-ui-tags">
+                        <span class="ddp-tag-type ddp-type" style="display:;"><em class="ddp-icon-global"></em>Global</span>
+
+                        <span class="ddp-tag-type ddp-type" style="display:;">
+                            <div class="ddp-wrap-datalock">
+                               99
+                               <em class="ddp-icon-lock-s2"></em>
+                           </div>
+                          Essential
+                       </span>
+
+                    </div>
+                    <!-- //tags -->
+                    <div class="ddp-tag-name">
+                         <span class="ddp-icon-box ddp-measure">
+                           <em class="ddp-icon-measure-int" style="display:none"></em>
+                           <em class="ddp-icon-measure-float" style="display:"></em>
+                       </span>
+
+                        item 1
+                    </div>
+
+                </div>
+                <!-- //top -->
+                <div class="ddp-setup-contents">
+                    <div class="ddp-filter1 ">
+                        <div class="ddp-toggle">
+                            <ul class="ddp-list-buttons">
+                                <li  class="ddp-selected">
+                                    All time
+                                </li>
+                                <li>
+                                    Relative
+                                </li>
+                                <li class="">
+                                    Specific
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="ddp-wrap-toggle-contents">
+                            <!-- tab contents -->
+                            <div class="ddp-ui-toggle-contents" style="display:;">
+                                <span class="ddp-txt-preview">(No time filtering)</span>
+
+                            </div>
+                            <!-- //tab contents -->
+                            <!-- tab contents -->
+                            <div class="ddp-ui-toggle-contents" style="display:none;">
+                                <span class="ddp-txt-preview">2017 Q4</span>
+                                <!-- filter area -->
+                                <div class="ddp-filter-area">
+                                    <!-- filter type -->
+                                    <div class="ddp-filter-type">
+                                        <span class="ddp-label-name">Display type</span>
+                                        <ul class="ddp-list-buttons">
+                                            <li  class="ddp-selected">
+                                                Yesterday
+                                            </li>
+                                            <li>
+                                                Last Week
+                                            </li>
+                                            <li class="">
+                                                Last Month
+                                            </li>
+                                            <li class="">
+                                                Last Quarter
+                                            </li>
+                                            <li class="">
+                                                Last Year
+                                            </li>
+                                        </ul>
+                                        <!-- time -->
+                                        <!-- 선택시 ddp-selected 추가 -->
+                                        <div class="ddp-btn-time ">
+                                            <div class="ddp-form-multy">
+
+                                                <span class="ddp-txt-label">최신</span>
+                                                <div class="ddp-box-multy ddp-clear ddp-form-time">
+                                                    <input class="ddp-input-typebasic" type="text">
+
+                                                    <!-- selectbox -->
+                                                    <div class="ddp-type-selectbox">
+                                                        <span class="ddp-txt-selectbox">초</span>
+                                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                                            <li>
+                                                                <a href="javascript:">초</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- //selectbox -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //time -->
+                                    </div>
+                                    <!-- //filter type -->
+                                    <!-- filter type -->
+                                    <div class="ddp-filter-type">
+                                        <span class="ddp-label-name">Current</span>
+                                        <ul class="ddp-list-buttons">
+                                            <li  class="ddp-selected">
+                                                Today
+                                            </li>
+                                            <li>
+                                                This Week
+                                            </li>
+                                            <li class="">
+                                                This Month
+                                            </li>
+                                            <li class="">
+                                                Last Quarter
+                                            </li>
+                                            <li class="">
+                                                This Year
+                                            </li>
+                                        </ul>
+
+                                    </div>
+                                    <!-- //filter type -->
+                                    <!-- filter type -->
+                                    <div class="ddp-filter-type">
+                                        <span class="ddp-label-name">Next</span>
+                                        <ul class="ddp-list-buttons">
+                                            <li  class="ddp-selected">
+                                                Tomorrow
+                                            </li>
+                                            <li>
+                                                Next Week
+                                            </li>
+                                            <li class="">
+                                                Next Month
+                                            </li>
+                                            <li class="">
+                                                Next Quarter
+                                            </li>
+                                            <li class="">
+                                                Next Year
+                                            </li>
+                                        </ul>
+                                        <!-- time -->
+                                        <!-- 선택시 ddp-selected 추가 -->
+                                        <div class="ddp-btn-time ddp-selected">
+                                            <div class="ddp-form-multy">
+
+                                                <span class="ddp-txt-label">최신</span>
+                                                <div class="ddp-box-multy ddp-clear ddp-form-time">
+                                                    <input class="ddp-input-typebasic" type="text">
+
+                                                    <!-- selectbox -->
+                                                    <div class="ddp-type-selectbox">
+                                                        <span class="ddp-txt-selectbox">초</span>
+                                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                                            <li>
+                                                                <a href="javascript:">초</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                    <!-- //selectbox -->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //time -->
+                                    </div>
+                                    <!-- //filter type -->
+                                </div>
+                                <!-- //filter area -->
+
+                            </div>
+                            <!-- //tab contents -->
+                            <!-- tab contents -->
+                            <div class="ddp-ui-toggle-contents" style="display:none;">
+                                <script src='../js/jquery/rome.js'></script>
+                                <script>
+                                    $(function(){
+                                        rome(calenbox, { weekStart: 1 });
+                                        rome(calenbox).on('data', function (value) {
+                                            calendata.innerHTML = value;
+                                        });
+                                        rome(calenbox).on('time', function (value) {
+                                            timedata.innerHTML = value;
+                                        });
+
+
+                                        rome(calenbox2, { weekStart: 1 });
+                                        rome(calenbox2).on('data', function (value) {
+                                            calendata2.innerHTML = value;
+                                        });
+                                        rome(calenbox2).on('time', function (value) {
+                                            timedata2.innerHTML = value;
+                                        });
+                                    });
+                                </script>
+                                <!-- 날짜 -->
+                                <div class="ddp-dateinfo-view">
+                                    <div class="ddp-filter-calen">
+                                        <div class="ddp-filter-calen-in">
+                                            <!-- wrap dateinfo -->
+                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">From</span>
+                                                        <div class="ddp-box-rome" >
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <!-- 달력 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <!-- //달력 -->
+                                                                <!-- 시간 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                </div>
+                                                                <!-- //시간 -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">To</span>
+                                                        <div class="ddp-box-rome">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+                                            </div>
+                                            <!-- //wrap dateinfo -->
+
+                                            <!-- wrap control -->
+                                            <div class="ddp-wrap-control">
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Earliest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                </div>
+                                                <!-- //control -->
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Latest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                    <a href="javascript:" class="ddp-icon-control-cut"></a>
+                                                </div>
+                                                <!-- //control -->
+                                            </div>
+                                            <!-- //wrap control -->
+                                        </div>
+
+                                        <div class="ddp-filter-calen-in">
+                                            <!-- wrap dateinfo -->
+                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">From</span>
+                                                        <div class="ddp-box-rome" >
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <!-- 달력 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <!-- //달력 -->
+                                                                <!-- selectbox -->
+                                                                <div class="ddp-type-selectbox ">
+                                                                    <span class="ddp-txt-selectbox">q1</span>
+                                                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                q1
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                q2
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                                <!-- //selectbox -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">To</span>
+                                                        <div class="ddp-box-rome">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <span class="ddp-txt-calen">1988-02-02</span>
+                                                                </div>
+                                                                <!-- selectbox -->
+                                                                <div class="ddp-type-selectbox ">
+                                                                    <span class="ddp-txt-selectbox">q1</span>
+                                                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                q1
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a href="#">
+                                                                                q2
+                                                                            </a>
+                                                                        </li>
+
+                                                                    </ul>
+                                                                </div>
+                                                                <!-- //selectbox -->
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+                                            </div>
+                                            <!-- //wrap dateinfo -->
+                                            <!-- wrap control -->
+                                            <div class="ddp-wrap-control">
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Earliest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                </div>
+                                                <!-- //control -->
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Latest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                    <a href="javascript:" class="ddp-icon-control-cut"></a>
+                                                </div>
+                                                <!-- //control -->
+                                            </div>
+                                            <!-- //wrap control -->
+                                        </div>
+                                        <div class="ddp-filter-calen-in">
+                                            <!-- wrap dateinfo -->
+                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">From</span>
+                                                        <div class="ddp-box-rome" >
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <!-- 달력 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <!-- //달력 -->
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">To</span>
+                                                        <div class="ddp-box-rome">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+                                            </div>
+                                            <!-- //wrap dateinfo -->
+                                            <!-- wrap control -->
+                                            <div class="ddp-wrap-control">
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Earliest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                </div>
+                                                <!-- //control -->
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Latest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                    <a href="javascript:" class="ddp-icon-control-cut"></a>
+                                                </div>
+                                                <!-- //control -->
+                                            </div>
+                                            <!-- //wrap control -->
+                                        </div>
+
+                                        <div class="ddp-filter-calen-in">
+                                            <!-- wrap dateinfo -->
+                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">From</span>
+                                                        <div class="ddp-box-rome" id="calenbox">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <!-- 달력 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <!-- //달력 -->
+                                                                <!-- 시간 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time" id="timedata">13:44</span>
+                                                                </div>
+                                                                <!-- //시간 -->
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+
+                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">To</span>
+                                                        <div class="ddp-box-rome" id="calenbox2">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time" id="timedata2">13:44</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+                                            </div>
+                                            <!-- //wrap dateinfo -->
+                                            <!-- wrap control -->
+                                            <div class="ddp-wrap-control">
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Earliest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                </div>
+                                                <!-- //control -->
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Latest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                    <a href="javascript:" class="ddp-icon-control-cut"></a>
+                                                </div>
+                                                <!-- //control -->
+                                            </div>
+                                            <!-- //wrap control -->
+                                        </div>
+                                        <div class="ddp-filter-calen-in">
+                                            <!-- wrap dateinfo -->
+                                            <div class="ddp-wrap-dateinfo ddp-filter-dateinfo">
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-from">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">From</span>
+                                                        <div class="ddp-box-rome" >
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <!-- 달력 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <!-- //달력 -->
+                                                                <!-- 시간 -->
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                </div>
+                                                                <!-- //시간 -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+
+                                                <!-- 날짜 -->
+                                                <div class="ddp-ui-dateinfo ddp-to">
+                                                    <div class="ddp-dateinfo-in">
+                                                        <span class="ddp-txt-date">To</span>
+                                                        <div class="ddp-box-rome">
+                                                            <div class="ddp-box-dateinfo ddp-clear">
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-calen"></em>
+
+                                                                    <input type="text" class="ddp-txt-calen" value="1988-02-02" />
+                                                                </div>
+                                                                <div class="ddp-box-date">
+                                                                    <em class="ddp-icon-time"></em>
+                                                                    <span class="ddp-txt-time">13:44</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <!-- //날짜 -->
+                                            </div>
+                                            <!-- //wrap dateinfo -->
+                                            <!-- wrap control -->
+                                            <div class="ddp-wrap-control">
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Earliest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                </div>
+                                                <!-- //control -->
+                                                <!-- control -->
+                                                <div class="ddp-dateinfo-control">
+                                                    <!-- checkbox -->
+                                                    <label class="ddp-label-checkbox">
+                                                        <input type="checkbox">
+                                                        <i class="ddp-icon-checkbox"></i>
+                                                        <span class="ddp-txt-checkbox">Latest</span>
+                                                    </label>
+                                                    <!-- //checkbox -->
+                                                    <a href="javascript:" class="ddp-icon-control-cut"></a>
+                                                </div>
+                                                <!-- //control -->
+                                            </div>
+                                            <!-- //wrap control -->
+                                        </div>
+                                    </div>
+                                    <!-- add -->
+                                    <a href="javascript:" class="ddp-btn-add">Add period</a>
+                                    <!-- add -->
+
+                                </div>
+
+                            </div>
+                            <!-- //tab contents -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- //setup -->
+
+
+            <!-- setup -->
+            <div class="ddp-type-setup ">
+                <!-- top -->
+                <div class="ddp-ui-top">
+                    <!-- tags -->
+                    <div class="ddp-ui-tags">
+                        <span class="ddp-tag-type ddp-type" style="display:;"><em class="ddp-icon-global"></em>Global</span>
+
+                        <span class="ddp-tag-type ddp-type" style="display:;">
+                            <div class="ddp-wrap-datalock">
+                               99
+                               <em class="ddp-icon-lock-s2"></em>
+                           </div>
+                          Essential
+                       </span>
+
+                    </div>
+                    <!-- //tags -->
+                    <div class="ddp-tag-name">
+                         <span class="ddp-icon-box ddp-measure">
+                           <em class="ddp-icon-measure-int" style="display:none"></em>
+                           <em class="ddp-icon-measure-float" style="display:"></em>
+                       </span>
+
+                        item 1
+                    </div>
+
+                </div>
+                <!-- //top -->
+                <div class="ddp-setup-contents">
+                    <div class="ddp-filter-range">
+
+                        <div class="ddp-ui-slider-type type-per ddp-slider-bg">
+                            <!-- num -->
+                            <div class="ddp-range-num">
+                                <div class="ddp-data-num ddp-min">
+                                    <span class="ddp-label">Minimum</span>
+                                    <input type="text" class="ddp-input-range" value="000">
+                                </div>
+                                <div class="ddp-data-num ddp-max">
+                                    <span class="ddp-label">Maximum</span>
+                                    <input type="text" class="ddp-input-range" value="000">
+                                </div>
+
+                            </div>
+                            <!-- //num -->
+
+                            <input type="text" id="range" value="" name="range" />
+                            <!-- data range -->
+                            <div class="ddp-data-range">
+                                <span class="ddp-label-range">Available input range</span>
+                                <span class="ddp-view-range"><span>0.1234 ~</span> <span>9876.32</span></span>
+                            </div>
+                            <!-- //data range -->
+                        </div>
+
+                        <script>
+                            $(function () {
+                                $("#range").ionRangeSlider({
+                                    hide_from_to: false,
+                                    hide_min_max: true,
+                                    keyboard: false,
+                                    min: 0,
+                                    max: 200,
+                                    from: 0,
+                                    to: 50.2,
+                                    type: 'double',
+                                    step: 0.01,
+                                    grid: false
+                                });
+                            });
+                        </script>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- //setup -->
+
+
+
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

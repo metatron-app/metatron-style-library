@@ -1,0 +1,434 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>메타트론</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+     <!-- polaris ui js --->
+     <!-- <script src="../js/common/polaris_ui.js"></script> --->
+
+</head>
+<body>
+
+
+<div class="ddp-layout-popuptype" style="display:;">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup ddp-ui-popup-join">
+        <!-- title -->
+    	<div class="ddp-ui-popup-title">
+        	<span class="ddp-txt-title-name">
+                Please select a datasource
+                <span class="ddp-txt-det">Ingestion is limited to 1 million rows</span>
+            </span>
+
+            <div class="ddp-ui-pop-buttons">
+            	<a href="javascript:" class="ddp-btn-pop">Cancel</a>
+            	<a href="javascript:" class="ddp-btn-pop ddp-bg-black">Done</a>
+            </div>
+        </div>
+    	<!-- //title -->
+        <!-- contents -->
+        <div class="ddp-popup-dashboard ddp-type">
+            <!-- 옵션 -->
+            <div class="ddp-type-top-option ddp-clear">
+                <!-- 검색 -->
+                <div class="ddp-form-search ddp-fleft">
+                    <em class="ddp-icon-search"></em>
+                    <input type="text" placeholder="항목 찾기">
+                    <em class="ddp-btn-search-close"></em>
+                </div>
+                <!-- //검색 -->
+
+
+                <div class="ddp-ui-rightoption">
+
+                    <!-- 공개 -->
+                    <label class="ddp-label-checkbox">
+                        <input type="checkbox" checked="checked">
+                        <i class="ddp-icon-checkbox"></i>
+                        <span class="ddp-txt-checkbox">오픈 데이터만 보기</span>
+                    </label>
+                    <!-- //공개 -->
+
+                    <!-- form -->
+                    <div class="ddp-form-label2">
+                        <label class="ddp-label-type">Type</label>
+                        <div class="ddp-wrap-dropdown">
+                            <!-- select box -->
+                            <!-- 클릭시 ddp-selected 추가 -->
+                            <div class="ddp-type-selectbox">
+                                <span class="ddp-txt-selectbox">모든타입</span>
+                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                    <li>
+                                        <a href="javascript:">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            3
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- //select box -->
+                        </div>
+                    </div>
+                    <!-- //form -->
+
+                </div>
+
+            </div>
+            <!-- //옵션 -->
+            <!-- 그리드 영역 -->
+            <!-- 설명 나올때 ddp-selected 추가 -->
+            <div class="ddp-wrap-grid ddp-selected">
+
+                <div class="ddp-wrap-viewtable">
+                    <!-- 테이블 -->
+                    <div class="ddp-box-viewtable">
+                        <!-- gridhead -->
+                        <div class="ddp-ui-gridhead">
+                            <table class="ddp-table-form ddp-table-type2">
+                                <colgroup>
+                                    <col width="40px">
+                                    <col width="50px">
+                                    <col width="*">
+                                    <col width="30%">
+                                </colgroup>
+                                <thead>
+                                <tr>
+                                    <th class="ddp-txt-center">
+
+                                    </th>
+                                    <th class="ddp-txt-center">
+                                        No.
+                                    </th>
+                                    <th>
+                                        Dataset
+                                        <em class="ddp-icon-array-default2"></em>
+                                        <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                        <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                    </th>
+                                    <th>
+                                        Type
+                                    </th>
+
+                                </tr>
+                                </thead>
+
+                            </table>
+                        </div>
+                        <!--// gridhead -->
+
+                        <!-- gridbody -->
+                        <div class="ddp-ui-gridbody">
+                            <table class="ddp-table-form ddp-table-type2 ddp-table-select">
+                                <colgroup>
+                                    <col width="40px">
+                                    <col width="50px">
+                                    <col width="*">
+                                    <col width="30%">
+                                </colgroup>
+
+                                <tbody>
+                                <tr>
+                                    <td class="ddp-txt-center">
+                                        <div class="ddp-ui-checkbox">
+                                            <input type="checkbox">
+                                            <i class="ddp-icon-checkbox"></i>
+                                        </div>
+                                    </td>
+                                    <td class="ddp-txt-center">
+                                        1
+                                    </td>
+                                    <td>
+                                        <div class=" ddp-txt-long ddp-global">
+                                            Data set _EQPID ALL
+                                            <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+                                            <em class="ddp-tag-global">오픈 데이터</em>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Wrangled dataset
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="ddp-txt-center">
+                                        <div class="ddp-ui-checkbox">
+                                            <input type="checkbox">
+                                            <i class="ddp-icon-checkbox"></i>
+                                        </div>
+                                    </td>
+                                    <td class="ddp-txt-center">
+                                        1
+                                    </td>
+                                    <td>
+                                        <div class=" ddp-txt-long ddp-global">
+                                            Data set _EQPID ALL
+                                            <em class="ddp-tag-global">오픈 데이터</em>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Wrangled dataset
+                                    </td>
+                                </tr>
+                                <tr class="ddp-selected">
+                                    <td class="ddp-txt-center">
+                                        <div class="ddp-ui-checkbox">
+                                            <input type="checkbox" checked="checked">
+                                            <i class="ddp-icon-checkbox"></i>
+                                        </div>
+                                    </td>
+                                    <td class="ddp-txt-center">
+                                        1
+                                    </td>
+                                    <td>
+                                        <div class=" ddp-txt-long ">
+                                            Data set _EQPID ALL
+                                            <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                        </div>
+                                    </td>
+                                    <td>
+                                        Wrangled dataset
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <!--// gridbody -->
+
+
+                    </div>
+                    <!-- //테이블 -->
+                    <div class="ddp-box-add-link3">
+                        <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- //그리드 영역 -->
+            <!-- 설명 -->
+            <div class="ddp-box-grid-detail">
+                <a href="javascript:" class="ddp-btn-close-s"></a>
+                <div class="ddp-data-detailinfo">
+                    <span class="ddp-data-name">OfficeSupplies aa Supplies</span>
+                </div>
+
+                <!-- part -->
+                <div class="ddp-wrap-datadetail">
+                    <!-- detail -->
+                    <dl class="ddp-dl-detail">
+                        <dt>
+                            Created
+                        </dt>
+                        <dd>
+                            <div class="ddp-data-det">수집수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형수집형형</div>
+                        </dd>
+                    </dl>
+                    <!-- //detail -->
+                    <!-- detail -->
+                    <dl class="ddp-dl-detail">
+                        <dt>
+                            Updated
+                        </dt>
+                        <dd>
+                            개인
+                        </dd>
+                    </dl>
+                    <!-- //detail -->
+                    <!-- detail -->
+                    <dl class="ddp-dl-detail">
+                        <dt>
+                            Size
+
+                        </dt>
+                        <dd>
+                            65.65KB
+                        </dd>
+                    </dl>
+                    <!-- //detail -->
+                    <!-- detail -->
+                    <dl class="ddp-dl-detail">
+                        <dt>
+                            Rows
+                        </dt>
+                        <dd>
+                            2열/2타입
+                        </dd>
+                    </dl>
+                    <!-- //detail -->
+                    <!-- detail -->
+                    <dl class="ddp-dl-detail">
+                        <dt>
+                            Summary
+                        </dt>
+                        <dd>
+                            2열/2타입
+                        </dd>
+                    </dl>
+                    <!-- //detail -->
+                </div>
+                <!-- 스키마 리스트 -->
+                <div class="ddp-data-listview">
+
+                    <table class="ddp-table-listview">
+                        <colgroup>
+                            <col width="30%">
+                            <col width="10%">
+                            <col width="*">
+                        </colgroup>
+                        <tbody>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-dimension">dimension</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <!--
+                                    em.ddp-icon-type-calen
+                                    em.ddp-icon-type-ab
+                                    em.ddp-icon-type-local
+                                    em.ddp-icon-type-sharp
+                                    em.ddp-icon-type-account
+                                    em.ddp-icon-type-tf
+                                    em.ddp-icon-type-maplink
+                                    em.ddp-icon-type-float
+                                    em.ddp-icon-type-int
+                                -->
+                                <em class="ddp-icon-type-ab"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr><tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-dimension">차원값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <span class="ddp-box-tag-value ddp-measure">측정값</span>
+                            </td>
+                            <td class="ddp-txt-center">
+                                <em class="ddp-icon-type-calen"></em>
+                            </td>
+                            <td>
+                                Css
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+
+                </div>
+                <!-- //스키마 리스트 -->
+
+
+            </div>
+            <!-- //설명 -->
+
+        </div>
+
+
+    </div>
+</div>
+</body>
+</html>

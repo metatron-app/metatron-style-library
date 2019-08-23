@@ -1,0 +1,290 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+
+
+</head>
+<body>
+<div class="ddp-wrap-layout-popup">
+    <div class="ddp-ui-layout-popup">
+        <div class="ddp-box-popup3">
+            <a href="javascript:" class="ddp-btn-close"></a>
+            <!-- title -->
+            <div class="ddp-pop-title">
+                Change owner
+                <div class="ddp-txt-pop-info ">
+                    <strong>2</strong>개의 공유워크스페이스의 오너를 변경해 주세요
+                </div>
+            </div>
+            <!-- //title -->
+            <script>
+                $(function(){
+                    $('.ddp-type-search-select').click(function(){
+                        $(this).addClass('ddp-selected');
+                        $searchSelectTop = $(this).offset().top + 32;
+                        $searchSelectLeft = $(this).offset().left ;
+                        $(this).find('.ddp-wrap-popup2').css({
+                            'top':$searchSelectTop,
+                            'left':$searchSelectLeft
+                        });
+                        /* 스크롤 hidden 처리 */
+                        var $boxownerHeight = $('.pop-box-owner').outerHeight();
+                        var $boxownerInHeight = $('.pop-box-owner-in').outerHeight();
+                        if($('.ddp-type-selectbox').hasClass('ddp-selected') && $boxownerInHeight>$boxownerHeight)  {
+                            $('.pop-box-owner').css({
+                                'overflow' : 'hidden',
+                                'paddingRight' : '18px'
+                            });
+                        }
+                    });
+
+                });
+            </script>
+            <!-- box -->
+            <div class="pop-box-owner">
+                <div class="pop-box-owner-in">
+                    <!-- division -->
+                    <div class="ddp-ui-division">
+                        <!-- top -->
+                        <div class="ddp-ui-top ddp-clear">
+
+
+                            <div class="ddp-top-name">
+                                <div class="ddp-txt-name">
+                                    <div class="ddp-btn-name">
+                                        <a href="javascript:" class="ddp-btn-window"></a>
+                                        <span class="ddp-tag-global">Public</span>
+                                    </div>
+                                    <div class="ddp-data-name" title="WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01">
+                                        WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01WorkspWorkspaceW 01
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //top -->
+
+                        <div class="ddp-data-description">
+                            Description Description Description Description Description Description Description Description Description Descrip
+                            tion Description Description Description Description Description Description Description Description Description De
+                            scription Description Description Description Description Description Description Description Description Descriptio
+                            n Description
+                        </div>
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit3">
+                            <label class="ddp-label-type">New owner</label>
+                            <div class="ddp-ui-edit-option">
+                                <!--
+                                    클릭시 ddp-selected 추가
+                                    selectbox 클릭시 ddp-result
+                                -->
+                                <div class="ddp-type-selectbox ddp-type-search-select ">
+                                    <!-- 선택시 자동 input display:block; -->
+                                    <input type="text" class="ddp-input-selectbox" value="IDIDID">
+                                    <span class="ddp-txt-selectbox">Choose </span>
+                                    <div class="ddp-wrap-popup2">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+
+                                                <span class="ddp-noresult">no result</span>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" title="IDIDIDIDIDIDIDIDIDIDIDID">IDIDIDIDIDIDIDIDIDIDIDID</span> <span class="ddp-rank">(Wacher)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="aaa">aaa</span> <span class="ddp-rank">(Owner)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="bbb">bbb</span> <span class="ddp-rank">(Manager)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //search select -->
+                                <div class="ddp-txt-error ">
+                                    <em class="ddp-icon-error-s"></em>Need to change
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //edit -->
+                    </div>
+                    <!-- //division -->
+                    <!-- division -->
+                    <div class="ddp-ui-division">
+                        <!-- top -->
+                        <div class="ddp-ui-top ddp-clear">
+
+                            <div class="ddp-top-name">
+                                <div class="ddp-txt-name">
+                                    <div class="ddp-btn-name">
+                                        <a href="javascript:" class="ddp-btn-window"></a>
+
+                                    </div>
+                                    <div class="ddp-data-name" title="WorkspWork">
+                                        WorkspWork
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //top -->
+
+                        <div class="ddp-data-description">
+                            Description Descri
+                        </div>
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit3">
+                            <label class="ddp-label-type">New owner</label>
+                            <div class="ddp-ui-edit-option">
+                                <!--
+                                    클릭시 ddp-selected 추가
+                                    selectbox 클릭시 ddp-result
+                                -->
+                                <div class="ddp-type-selectbox ddp-type-search-selectㅋ ">
+                                    <!-- 선택시 자동 input display:block; -->
+                                    <input type="text" class="ddp-input-selectbox" value="IDIDID">
+                                    <span class="ddp-txt-selectbox">Choose </span>
+                                    <div class="ddp-wrap-popup2">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+
+                                                <span class="ddp-noresult">no result</span>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" title="IDIDIDIDIDIDIDIDIDIDIDID">IDIDIDIDIDIDIDIDIDIDIDID</span> <span class="ddp-rank">(Wacher)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="aaa">aaa</span> <span class="ddp-rank">(Owner)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="bbb">bbb</span> <span class="ddp-rank">(Manager)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //search select -->
+                                <div class="ddp-txt-error ">
+                                    <em class="ddp-icon-error-s"></em>Need to change
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //edit -->
+                    </div>
+                    <!-- //division -->
+
+                    <!-- division -->
+                    <div class="ddp-ui-division">
+                        <!-- top -->
+                        <div class="ddp-ui-top ddp-clear">
+
+                            <div class="ddp-top-name">
+                                <div class="ddp-txt-name">
+                                    <div class="ddp-btn-name">
+                                        <a href="javascript:" class="ddp-btn-window"></a>
+
+                                    </div>
+                                    <div class="ddp-data-name" title="WorkspWork">
+                                        WorkspWork
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //top -->
+
+                        <div class="ddp-data-description">
+                            Description Descri
+                        </div>
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit3">
+                            <label class="ddp-label-type">New owner</label>
+                            <div class="ddp-ui-edit-option">
+                                <!--
+                                    클릭시 ddp-selected 추가
+                                    selectbox 클릭시 ddp-result
+                                -->
+                                <div class="ddp-type-selectbox ddp-type-search-select ">
+                                    <!-- 선택시 자동 input display:block; -->
+                                    <input type="text" class="ddp-input-selectbox" value="IDIDID">
+                                    <span class="ddp-txt-selectbox">Choose </span>
+                                    <div class="ddp-wrap-popup2">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+
+                                                <span class="ddp-noresult">no result</span>
+
+                                            </li>
+                                            <li class="ddp-selected">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" title="IDIDIDIDIDIDIDIDIDIDIDID">IDIDIDIDIDIDIDIDIDIDIDID</span> <span class="ddp-rank">(Wacher)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li class="ddp-disabled">
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="aaa">aaa</span> <span class="ddp-rank">(Owner)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <span class="ddp-name" id="bbb">bbb</span> <span class="ddp-rank">(Manager)</span>
+                                                    <em class="ddp-icon-check"></em>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //search select -->
+                                <div class="ddp-txt-error ">
+                                    <em class="ddp-icon-error-s"></em>Need to change
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //edit -->
+                    </div>
+                    <!-- //division -->
+                </div>
+            </div>
+            <!-- //box -->
+
+
+            <!-- button -->
+            <div class="ddp-ui-buttons">
+                <a href="javascript:" class="ddp-btn-type-popup">Cancel</a>
+                <!-- disabled 시 ddp-disabled 추가 -->
+                <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">Done</a>
+            </div>
+            <!-- //button -->
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

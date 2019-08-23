@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+</head>
+<body>
+
+<div class="ddp-type-contents ddp-resize2 ddp-type2  ">
+	<!-- 닫기 버튼 -->
+	<a href="#" class="ddp-btn-close"></a>
+    <!-- 닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2 ddp-type3">
+            Create URL type dataset
+            <span class="ddp-txt-info ddp-type">Please enter URL</span>
+            <em class="ddp-bg-order-line2-type"></em>
+        </div>
+    </div>
+    <div class="ddp-type-contents-in ddp-size-resize ">
+        <div class="ddp-wrap-urltype ">
+            <!-- edit -->
+            <div class="ddp-wrap-edit4">
+                <div class="ddp-label-type">File Url</div>
+                <div class="ddp-form-edit type-file">
+                    <div class="ddp-form-file">
+                        <input type="text" class="ddp-input-typebasic" placeholder="Please enter a File URI (e.g. http://location/of/file, hdfs://location/of/file)">
+
+                        <a href="javascript:" class="ddp-btn-pop ddp-bg-gray ">Validation check</a>
+                    </div>
+                    <!-- message -->
+                    <div class="ddp-ui-message">
+                        <span class="ddp-data-error2">Required</span>
+                        <span class="ddp-data-ok"><em class="ddp-icon-ok"></em>Valid URL</span>
+                        <span class="ddp-data-error"><em class="ddp-icon-error"></em>Invalid URL. Please check server information.</span>
+                    </div>
+                    <!-- //message -->
+                </div>
+                <!-- message -->
+                <div class="ddp-ui-message type-clear">
+                    <span class="ddp-data-error2">Required</span>
+                    <span class="ddp-data-ok"><em class="ddp-icon-ok"></em>Valid URL</span>
+                    <span class="ddp-data-error"><em class="ddp-icon-error"></em>Invalid URL. Please check server information.</span>
+                </div>
+                <!-- //message -->
+            </div>
+            <!-- //edit -->
+            <div class="ddp-box-resultpreview ddp-box-type">
+                <!-- top -->
+                <div class="ddp-ui-pop-top">
+
+                    <div class="ddp-label-type">Data preview</div>
+                    <div class="ddp-wrap-grid-option">
+                        <div class="ddp-part-right">
+                            <div class="ddp-data-form">
+                                <strong>2</strong>
+                                Rows
+                            </div>
+                            <div class="ddp-data-form">
+                                <strong>2</strong>
+                                Clumns
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- //top -->
+                <script>
+                    $(function(){
+                        function gridArea(){
+                            var $columnOption =  $('.ddp-wrap-column-option').outerHeight();
+                            $('.ddp-wrap-grid').css('bottom',$columnOption);
+                        };
+                        $('.ddp-wrap-fold .ddp-fold-link').click(function(){
+
+                            $('.ddp-wrap-fold').toggleClass('ddp-selected');
+                            gridArea();
+                        });
+                        gridArea();
+                    });
+                </script>
+                <!-- 그리드 영역 -->
+                <!--
+                    file list 가 없을경우 type-filelist-none 추가
+                -->
+                <div class="ddp-ui-create-file ">
+                    <!-- list file -->
+                    <div class="ddp-list-create-file">
+                        <ul class="ddp-list-file-name">
+
+                            <li class="ddp-selected">
+
+                                <div class="ddp-wrap-checkbox">
+                                    <label class="ddp-label-checkbox">
+                                        <input type="checkbox">
+                                        <i class="ddp-icon-checkbox"></i>
+                                    </label>
+                                    <span class="ddp-txt-checkbox">
+                                            <span class="ddp-txt-subname">jsp <em class="ddp-icon-error2"></em></span>
+                                        <span class="ddp-txt-filename">FiFileFilele name 01.</span>
+                                    </span>
+                                </div>
+                                <!-- //checkbox -->
+                                <!-- sub -->
+                                <ul class="ddp-list-sub-file">
+                                    <li class="ddp-selected">
+                                        <!-- checkbox -->
+                                        <div class="ddp-wrap-checkbox">
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                            </label>
+                                            <span class="ddp-txt-checkbox">
+                                            <span class="ddp-txt-subname">jsp</span>
+                                           <span class="ddp-txt-filename">FiFileFilele name 01.</span>
+                                       </span>
+                                        </div>
+                                        <!-- //checkbox -->
+                                    </li>
+                                    <li>
+                                        <!-- checkbox -->
+                                        <div class="ddp-wrap-checkbox">
+                                            <label class="ddp-label-checkbox">
+                                                <input type="checkbox">
+                                                <i class="ddp-icon-checkbox"></i>
+                                            </label>
+                                            <span class="ddp-txt-checkbox">
+                                            <span class="ddp-txt-subname">jsp</span>
+                                           <span class="ddp-txt-filename">FiFileFilele name 01.</span>
+                                       </span>
+                                        </div>
+                                        <!-- //checkbox -->
+                                    </li>
+
+                                </ul>
+                                <!-- sub -->
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //list file -->
+
+                    <!-- detail -->
+                    <div class="ddp-wrap-create-detail ">
+                        <div class="ddp-ui-create-detail">
+
+
+                            <!-- 그리드 영역 -->
+                            <div class="ddp-wrap-grid">
+                                그리드 영역
+                                <div class="ddp-ui-empty">
+                                    Please validate the File URI to preview data
+                                </div>
+
+                            </div>
+                            <!-- //그리드 영역 -->
+                            <div class="ddp-wrap-column-option">
+                                <!--
+                                    ddp-fold-link 클릭시 ddp-selected 추가
+                                -->
+                                <div class="ddp-wrap-fold ddp-selected">
+                                    <a href="javascript:" class="ddp-fold-link">Advanced setting</a>
+                                    <div class="ddp-fold-det">
+
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type ddp-error">
+                                            <label class="ddp-label-type">Column count </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type">
+
+                                                <!-- apply -->
+                                                <div class="ddp-input-apply">
+                                                    <input type="text" placeholder="Enter column count" class="ddp-input-txt">
+                                                    <em class="ddp-icon-apply"></em>
+                                                </div>
+                                                <!-- //apply -->
+                                                <span class="ddp-data-error">Required</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- //detail -->
+
+
+                </div>
+                <!-- //그리드 영역 -->
+            </div>
+        </div>
+    </div>
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="#" class="ddp-btn-type-popup">Previous</a>
+        <a href="#" class="ddp-btn-type-popup  ddp-bg-black">Done</a>
+    </div>
+    <!-- //buttons -->
+</div>
+</body>
+</html>

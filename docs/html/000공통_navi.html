@@ -1,0 +1,622 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <script>
+        $(function(){
+            var $detailWidth =  $('.ddp-ui-naviarea').find('.ddp-data-navidet').width();
+            if($detailWidth==0){
+                $('.ddp-ui-naviarea').find('.ddp-wrap-naviname').addClass('ddp-full');
+            };
+
+//            $('.ddp-box-navi, .ddp-box-navidet').click(function(){
+//                $(this).toggleClass('ddp-selected');
+//            })
+        });
+    </script>
+
+</head>
+<body>
+
+<!--
+    제목 수정 못할때 ddp-data-naviname 에 ddp-readonly 추가
+    설명 수정 못할때 ddp-data-navidet 에 ddp-readonly 추가
+-->
+    <div class="ddp-wrap-naviarea ddp-clear">
+
+        <em class="ddp-icon-chart2"></em>
+        <div class="ddp-ui-navidata">
+
+            <span class="ddp-data-time">수정 2017.03.06 06:09:35 <em>by오상식</em></span>
+            <span class="ddp-data-source ddp-hover-tooltip">
+                <a href="#" class="ddp-icon-source3 "></a>
+
+                <!-- tooltip -->
+                <div class="ddp-ui-tooltip-info ddp-down">
+                    <em class="ddp-icon-view-top"></em>
+                    데이터 소스
+                </div>
+                <!-- //tooltip -->
+            </span>
+
+            <!-- 버튼 -->
+            <div class="ddp-ui-work-buttons">
+                <a href="javascript:" class="ddp-icon-board-monitoring">
+                    프리젠테이션 뷰
+                </a>
+
+                <a href="javascript:" class="ddp-icon-board-edit">
+                    대시보드 편집
+                </a>
+                <!-- more -->
+                <!-- more 버튼 클릭시 ddp-selected 추가 -->
+                <div class="ddp-ui-more ddp-hover-tooltip">
+                    <a href="javascript:" class="ddp-icon-more"></a>
+                    <!-- tooltip -->
+                    <div class="ddp-ui-tooltip-info ddp-down">
+                        <em class="ddp-icon-view-top"></em>
+                        더보기
+                    </div>
+                    <!-- //tooltip -->
+                    <!-- popup -->
+                    <div class="ddp-wrap-popup2 ddp-types">
+                        <ul class="ddp-list-popup">
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-dashboard"></em>
+                                    대시보드 복제
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-editdel3"></em>
+                                    이 대시보드 삭제
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- date -->
+                        <div class="ddp-ui-date">
+                            <span class="ddp-data-date">생성 2017.03.06 06:09:35 by오상식</span>
+                        </div>
+                        <!-- //date -->
+                    </div>
+                    <!-- //popup -->
+                </div>
+                <!-- //more -->
+            </div>
+            <!-- //버튼 -->
+
+        </div>
+        <div class="ddp-ui-naviarea">
+            <!-- name -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-box-navi">
+                <div class="ddp-wrap-naviname ddp-type">
+                    <span class="ddp-data-naviname">New Dashboard 01</span>
+                </div>
+                <div class="ddp-wrap-input">
+                <input type="text" class="ddp-input-navi" placeholder="New Dashboard 01">
+                <span class="ddp-btn-check"></span>
+            </div>
+            </div>
+            <!-- //name -->
+
+            <!-- description -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-box-navidet ddp-">
+                <div class="ddp-wrap-navidet">
+                    <span class="ddp-data-navidet ddp-readonly">
+                    <em class="ddp-icon-edit2"></em></span>
+
+                </div>
+
+                <!-- 편집 input -->
+                <div class="ddp-wrap-input">
+                    <input type="text" class="ddp-input-navi" placeholder="description description des">
+                    <span class="ddp-btn-check"></span>
+                </div>
+                <!-- //편집 input -->
+            </div>
+            <!-- //description -->
+        </div>
+
+
+
+    </div>
+    <!-- 워크북 navi -->
+    <div class="ddp-wrap-naviarea ddp-clear">
+
+        <em class="ddp-icon-chart2"></em>
+
+        <div class="ddp-ui-naviarea">
+            <!-- name -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-box-navi ddp-">
+                <div class="ddp-wrap-naviname">
+                    <span class="ddp-data-naviname">New Dashboard 01
+                    <em class="ddp-icon-edit2"></em></span>
+                </div>
+                <!-- 편집 input -->
+                <div class="ddp-wrap-input">
+                    <input type="text" class="ddp-input-navi" placeholder="New Dashboard 01"/>
+                    <span class="ddp-btn-check"></span>
+                </div>
+                <!-- //편집 input -->
+
+            </div>
+            <!-- //name -->
+
+            <!-- description -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-box-navidet ddp-">
+                <div class="ddp-wrap-navidet">
+                    <span class="ddp-data-navidet">description description description description
+                    <em class="ddp-icon-edit2"></em></span>
+
+                </div>
+
+                <!-- 편집 input -->
+                <div class="ddp-wrap-input">
+                    <input type="text" class="ddp-input-navi" placeholder="description description description description">
+                    <span class="ddp-btn-check"></span>
+                </div>
+                <!-- //편집 input -->
+            </div>
+            <!-- //description -->
+        </div>
+
+
+
+    </div>
+    <!-- //워크북 navi -->
+
+    <!-- 워크북 navi -->
+    <div class="ddp-wrap-naviarea ddp-naviarea2 ddp-clear " style="margin-top:10px;">
+        <div class="ddp-ui-navidata">
+
+            <span class="ddp-data-time">수정 2017.03.06 06:09:35 <em>by오상식</em></span>
+            <span class="ddp-data-source ddp-hover-tooltip">
+                <a href="#" class="ddp-icon-source3 "></a>
+
+                <!-- tooltip -->
+                <div class="ddp-ui-tooltip-info ddp-down">
+                    <em class="ddp-icon-view-top"></em>
+                    데이터 소스
+                </div>
+                <!-- //tooltip -->
+            </span>
+
+            <!-- 버튼 -->
+            <div class="ddp-ui-work-buttons">
+                <a href="javascript:" class="ddp-icon-board-monitoring">
+                    프리젠테이션 뷰
+                </a>
+
+                <a href="javascript:" class="ddp-icon-board-edit">
+                    대시보드 편집
+                </a>
+                <!-- more -->
+                <!-- more 버튼 클릭시 ddp-selected 추가 -->
+                <div class="ddp-ui-more ddp-hover-tooltip">
+                    <a href="javascript:" class="ddp-icon-more"></a>
+                    <!-- tooltip -->
+                    <div class="ddp-ui-tooltip-info ddp-down">
+                        <em class="ddp-icon-view-top"></em>
+                        더보기
+                    </div>
+                    <!-- //tooltip -->
+                    <!-- popup -->
+                    <div class="ddp-wrap-popup2 ddp-types">
+                        <ul class="ddp-list-popup">
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-dashboard"></em>
+                                    대시보드 복제
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-editdel3"></em>
+                                    이 대시보드 삭제
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- date -->
+                        <div class="ddp-ui-date">
+                            <span class="ddp-data-date">생성 2017.03.06 06:09:35 <em>by오상식</em></span>
+                        </div>
+                        <!-- //date -->
+                    </div>
+                    <!-- //popup -->
+                </div>
+                <!-- //more -->
+            </div>
+            <!-- //버튼 -->
+
+        </div>
+            <a href="#" class="ddp-link-naviarea"><em class="ddp-icon-navi"></em></a>
+            <em class="ddp-box-tag ddp-workbench">워크벤치</em>
+            <div class="ddp-ui-naviarea">
+                <div class="ddp-wrap-box">
+
+
+                    <!-- name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navi">
+                        <div class="ddp-wrap-naviname">
+                            <span class="ddp-data-naviname">New Dashboard 01
+                            <em class="ddp-icon-edit2"></em></span>
+                        </div>
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+                            <input type="text" class="ddp-input-navi" placeholder="ew Dashboard 01"/>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+                    </div>
+                    <!-- //name -->
+
+
+                    <!-- description -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navidet ddp-selected">
+                        <div class="ddp-wrap-navidet">
+                            <span class="ddp-data-navidet">description description description description
+                            <em class="ddp-icon-edit2"></em></span>
+
+                        </div>
+
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+                            <input type="text" class="ddp-input-navi" placeholder="escription description des">
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+                    </div>
+                    <!-- //description -->
+                </div>
+            </div>
+
+
+    </div>
+    <!-- //워크북 navi -->
+
+    <!-- 데이터프리퍼레이션 navi -->
+    <div class="ddp-top-flow" style="margin-top:10px;">
+
+        <!-- 수정 data -->
+		<div class="ddp-data-form">
+            <span class="ddp-txt-date">최근수정 2017.03.06 08:22:35 by kko by kko by kk</span>
+
+
+            <a href="javascript:" class="ddp-btn-return"></a>
+            <!-- more -->
+            <!-- more 버튼 클릭시 ddp-selected 추가 -->
+            <div class="ddp-ui-more ddp-hover-tooltip">
+                <a href="javascript:" class="ddp-icon-more"></a>
+                <!-- tooltip -->
+                <div class="ddp-ui-tooltip-info ddp-down">
+                    <em class="ddp-icon-view-top"></em>
+                    더보기
+                </div>
+                <!-- //tooltip -->
+                <!-- popup -->
+                <div class="ddp-data-box">
+
+                    <a href="#" class="ddp-list-link"><em class="ddp-icon-delete"></em>Delete this request</a>
+                    <span class="ddp-data-by">생성 2017.03.06 06:09:35 by오상식</span>
+                </div>
+                <!-- //popup -->
+            </div>
+            <!-- //more -->
+        </div>
+        <!-- //수정 data -->
+        <!-- navi wrap -->
+        <div class="ddp-wrap-navi">
+
+
+
+            <a href="javascript:" class="ddp-btn-back"></a>
+            <span class="ddp-ui-navitag">플로우</span>
+            <!-- navi -->
+            <div class="ddp-ui-naviarea">
+                <!-- name -->
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-box-navi">
+                    <div class="ddp-wrap-naviname">
+                        <span class="ddp-data-naviname">New Dashboard 01
+                        <em class="ddp-icon-edit2"></em></span>
+                    </div>
+                    <!-- 편집 input -->
+                    <div class="ddp-wrap-input">
+                        <input type="text" class="ddp-input-navi" placeholder="ew Dashboard 01"/>
+                        <span class="ddp-btn-check"></span>
+                    </div>
+                    <!-- //편집 input -->
+                </div>
+                <!-- //name -->
+
+                <!-- description -->
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-box-navidet">
+                    <div class="ddp-wrap-navidet">
+                        <span class="ddp-data-navidet">description description description description
+                        <em class="ddp-icon-edit2"></em></span>
+
+                    </div>
+                    <!-- 편집 input -->
+                    <div class="ddp-wrap-input">
+
+                        <input type="text" class="ddp-input-navi" placeholder="escription description des">
+                        <span class="ddp-btn-check"></span>
+                    </div>
+                    <!-- //편집 input -->
+                </div>
+                <!-- //description -->
+            </div>
+            <!-- //navi -->
+
+        </div>
+        <!-- //navi wrap -->
+
+
+	</div>
+    <!-- //데이터프리퍼레이션 navi -->
+
+    <!-- 차트 navi (edit) -->
+    <div class="ddp-wrap-naviarea ddp-editnavi ddp-clear">
+        <em class="ddp-icon-chart2"></em>
+        <div class="ddp-ui-naviarea">
+            <!-- name -->
+            <div class="ddp-box-navi">
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-wrap-naviname ddp-selected ">
+                    <span class="ddp-data-naviname">New Dashboard 01
+                    <em class="ddp-icon-menuview"></em></span>
+                    <!-- popup -->
+                    <div class="ddp-wrap-popup2 ddp-wrap-dashname-popup">
+                        <!-- setting -->
+                        <div class="ddp-ui-top-setting">
+                            <span class="ddp-data-name">Dashboard<em class="ddp-data-num">(6)</em></span>
+
+                            <!-- buttons -->
+                            <div class="ddp-btn-control">
+                                <em class="ddp-icon-editsearch"></em>
+                                <em class="ddp-icon-editadd"></em>
+                            </div>
+                            <!-- //buttons -->
+                            <!-- 검색 -->
+                            <div class="ddp-form-search">
+                                <em class="ddp-icon-search"></em>
+                                <input type="text" placeholder="항목 찾기">
+                                <a href="#" class="ddp-btn-search-close"></a>
+                            </div>
+                            <!-- //검색 -->
+                        </div>
+
+                        <!-- //setting -->
+                        <ul class="ddp-list-popup ddp-list-imgchart">
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- //popup -->
+                </div>
+            </div>
+            <!-- //name -->
+
+            <!-- description -->
+            <div class="ddp-box-navidet">
+                <div class="ddp-wrap-navidet">
+                    <span class="ddp-data-navidet ddp-readonly">description description description description</span>
+                </div>
+            </div>
+            <!-- //description -->
+        </div>
+
+        <div class="ddp-ui-navibuttons">
+            <a href="#" class="ddp-btn-undo ddp-disabled"></a>
+            <a href="#" class="ddp-btn-redo ddp-disabled"></a>
+            <a href="#" class="ddp-btn-line3"><em class="ddp-icon-dismiss"></em>DISMISS</a>
+            <a href="#" class="ddp-btn-buttons2"><em class="ddp-icon-btndone"></em>DONE</a>
+        </div>
+
+
+
+    </div>
+    <!-- //차트 navi -->
+
+    <!-- 대시보드 navi (edit) -->
+    <div class="ddp-wrap-naviarea ddp-editnavi ddp-clear">
+        <em class="ddp-icon-dashboard2"></em>
+        <div class="ddp-ui-naviarea">
+            <!-- name -->
+            <div class="ddp-box-navi ">
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-wrap-naviname ddp-selected">
+                    <span class="ddp-data-naviname">New Dashboard 01
+                    <em class="ddp-icon-menuview"></em></span>
+                    <!-- popup -->
+                    <div class="ddp-wrap-popup2 ddp-wrap-dashname-popup">
+                        <!-- setting -->
+                        <div class="ddp-ui-top-setting">
+                            <span class="ddp-data-name">Dashboard<em class="ddp-data-num">(6)</em></span>
+
+                            <!-- buttons -->
+                            <div class="ddp-btn-control">
+                                <em class="ddp-icon-editsearch"></em>
+                                <em class="ddp-icon-editadd"></em>
+                            </div>
+                            <!-- //buttons -->
+                            <!-- 검색 -->
+                            <div class="ddp-form-search">
+                                <em class="ddp-icon-search"></em>
+                                <input type="text" placeholder="항목 찾기">
+                                <a href="#" class="ddp-btn-search-close"></a>
+                            </div>
+                            <!-- //검색 -->
+                        </div>
+
+                        <!-- //setting -->
+                        <ul class="ddp-list-popup ddp-list-imgchart">
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-wrap-images">
+                                        <img src="../images/img_board_default.png" class="ddp-img-chart">
+                                    </span>
+                                    <span class="ddp-data-name">New Dashboard 01</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!-- //popup -->
+                 </div>
+            </div>
+            <!-- //name -->
+
+            <!-- description -->
+
+            <div class="ddp-box-navidet">
+                <div class="ddp-wrap-navidet">
+                    <span class="ddp-data-navidet ddp-readonly">description description description description</span>
+                </div>
+            </div>
+            <!-- //description -->
+        </div>
+
+        <div class="ddp-ui-navibuttons">
+            <a href="#" class="ddp-btn-undo"></a>
+            <a href="#" class="ddp-btn-redo"></a>
+            <a href="#" class="ddp-btn-line3"><em class="ddp-icon-btnsave"></em>SAVE</a>
+            <a href="#" class="ddp-btn-blank"><em class="ddp-icon-btnclose"></em></a>
+        </div>
+
+        <!-- popup -->
+        <div class="ddp-wrap-popup2 ddp-wrap-dashname-popup" style="display:none; position:fixed; left: 1105px;">
+            <!-- setting -->
+            <div class="ddp-ui-top-setting">
+                <span class="ddp-data-name">Dashboard<em class="ddp-data-num">(6)</em></span>
+
+                <!-- buttons -->
+                <div class="ddp-btn-control">
+                    <em class="ddp-icon-editsearch"></em>
+                    <em class="ddp-icon-editadd"></em>
+                </div>
+                <!-- //buttons -->
+                <!-- 검색 -->
+                <div class="ddp-form-search">
+                    <em class="ddp-icon-search"></em>
+                    <input type="text" placeholder="항목 찾기">
+                    <a href="#" class="ddp-btn-search-close"></a>
+                </div>
+                <!-- //검색 -->
+            </div>
+
+            <!-- //setting -->
+            <ul class="ddp-list-popup ddp-list-imgchart">
+                <li class="ddp-selected">
+                    <a href="javascript:">
+                        <span class="ddp-wrap-images">
+                            <img src="" class="ddp-img-chart">
+                        </span>
+                        <span class="ddp-data-name">New Dashboard 01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="ddp-wrap-images">
+                            <img src="" class="ddp-img-chart">
+                        </span>
+                        <span class="ddp-data-name">New Dashboard 01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="ddp-wrap-images">
+                            <img src="" class="ddp-img-chart">
+                        </span>
+                        <span class="ddp-data-name">New Dashboard 01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:">
+                        <span class="ddp-wrap-images">
+                            <img src="" class="ddp-img-chart">
+                        </span>
+                        <span class="ddp-data-name">New Dashboard 01</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- //popup -->
+
+    </div>
+    <!-- //대시보드 navi (edit) -->
+
+
+
+</body>
+</html>

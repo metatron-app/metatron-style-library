@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body>
+
+<div class="ddp-type-contents ddp-resize2 ddp-type2">
+    <!-- 닫기 버튼 -->
+    <a href="#" class="ddp-btn-close"></a>
+    <!-- 닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2 ddp-type3">
+            Add new application
+            <span class="ddp-txt-info">Please set configurations</span>
+            <em class="ddp-bg-order-line2-type2"></em>
+        </div>
+    </div>
+    <!-- import -->
+    <div class="ddp-type-contents-in ddp-size-resize2 ">
+
+        <!-- cluster -->
+        <div class="ddp-cluster-add2">
+            <script>
+                $(function(){
+
+                    function versionSize(){
+                        var $setHeight = $('.ddp-ui-version').outerHeight();
+                        var $labelLeng = $('.ddp-label-list').length;
+                        var $labelHeight = $('.ddp-label-list').outerHeight();
+                        var $labelTotalHeight = $labelHeight * $labelLeng;
+                        var $setContentsHeight = $setHeight - $labelTotalHeight;
+                        $('.ddp-step-contents').css('height',$setContentsHeight);
+
+                        $('.ddp-ui-step .ddp-label-list').click(function(){
+                            $(this).parent('.ddp-ui-step').addClass('ddp-selected');
+                            $(this).parent('.ddp-ui-step').siblings().removeClass('ddp-selected');
+
+                        });
+                    };versionSize();
+                    $(window).resize(function(){
+                        versionSize()
+                    });
+
+
+                })
+            </script>
+            <!-- 버젼 -->
+            <div class="ddp-ui-version">
+                <!-- step -->
+                <div class="ddp-ui-step ddp-selected">
+                    <!-- label -->
+                    <div class="ddp-label-list">
+                        <span class="ddp-txt-label">Application VErsion</span>
+                    </div>
+                    <!-- //label -->
+                    <div class="ddp-step-contents">
+                        <ul class="ddp-list-set">
+                            <li>
+                                <a href="javascript:">Common Configuration</a>
+                            </li>
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <li class="ddp-selected">
+                                <a href="javascript:">Node Configuration</a>
+
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- //step -->
+
+                <!-- step -->
+                <div class="ddp-ui-step ">
+                    <!-- label -->
+                    <div class="ddp-label-list">
+                        <span class="ddp-txt-label">Application VErsion</span>
+                    </div>
+                    <!-- //label -->
+                    <div class="ddp-step-contents">
+                        <ul class="ddp-list-set">
+                            <li>
+                                <a href="javascript:">Common Configuration</a>
+                            </li>
+                            <li>
+                                <a href="javascript:">Node Configuration</a>
+
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!-- //step -->
+
+            </div>
+            <!-- 버젼 -->
+            <!-- 상세 정보 -->
+            <div class="ddp-ui-set-info">
+                <div class="ddp-ui-title">
+                    <span class="ddp-data-ver">Druid 0.12</span>
+                    Node Configuration  >  Historical Node
+                </div>
+
+                <ul class="ddp-list-setinfo">
+                    <!-- ddp-label-info 클릭시 ddp-selected 추가 -->
+                    <li class="ddp-selected">
+                        <div class="ddp-label-info">
+                            <em class="ddp-icon-view"></em>
+                            dd Properties
+                        </div>
+
+                        <!-- contents -->
+                        <div class="ddp-setinfo-contents">
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <div class="ddp-txt-title">Number of nodes</div>
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <div class="ddp-txt-title">Number of nodes
+                                                initial memory pool</div>
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <!-- select box -->
+                                            <div class="ddp-type-selectbox ">
+                                                <span class="ddp-txt-selectbox">String function</span>
+                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                    <li>
+                                                        <a href="#">
+                                                            Metatron 2.0
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //select box -->
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <div class="ddp-btn-setinfo">
+                                    <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                                </div>
+                            </div>
+                            <!-- //form setting -->
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <div class="ddp-btn-setinfo">
+                                    <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                                </div>
+                            </div>
+                            <!-- //form setting -->
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+
+                                        <div class="ddp-col-12">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+                                        <a href="javascript:" class="ddp-icon-close"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+
+                                        <div class="ddp-col-12">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+                                        <a href="javascript:" class="ddp-icon-close"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                            </div>
+                            <!-- //form setting -->
+
+                            <div class="ddp-btn-setinfo">
+                                <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                            </div>
+                        </div>
+                        <!-- //contents -->
+                    </li>
+                    <li class="">
+                        <div class="ddp-label-info">
+                            <em class="ddp-icon-view"></em>
+                            dd Properties
+                        </div>
+
+                        <!-- contents -->
+                        <div class="ddp-setinfo-contents">
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <div class="ddp-txt-title">Number of nodes</div>
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <div class="ddp-txt-title">Number of nodes
+                                                initial memory pool</div>
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <!-- select box -->
+                                            <div class="ddp-type-selectbox ">
+                                                <span class="ddp-txt-selectbox">String function</span>
+                                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                                    <li>
+                                                        <a href="#">
+                                                            Metatron 2.0
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            3
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //select box -->
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <div class="ddp-btn-setinfo">
+                                    <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                                </div>
+                            </div>
+                            <!-- //form setting -->
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                        <div class="ddp-col-6">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <div class="ddp-btn-setinfo">
+                                    <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                                </div>
+                            </div>
+                            <!-- //form setting -->
+                            <!-- form setting -->
+                            <div class="ddp-form-setting">
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+
+                                        <div class="ddp-col-12">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+                                        <a href="javascript:" class="ddp-icon-close"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                                <!-- setinfo -->
+                                <div class="ddp-ui-setinfo">
+                                    <!-- clear -->
+                                    <div class="ddp-clear">
+
+                                        <div class="ddp-col-12">
+                                            <input type="text" class="ddp-input-typebasic" placeholder="test">
+                                        </div>
+                                    </div>
+                                    <!-- //clear -->
+                                    <div class="ddp-btn-icons">
+                                        <a href="javascript:" class="ddp-icon-refresh"></a>
+                                        <a href="javascript:" class="ddp-icon-close"></a>
+
+                                    </div>
+                                </div>
+                                <!-- //setinfo -->
+                            </div>
+                            <!-- //form setting -->
+
+                            <div class="ddp-btn-setinfo">
+                                <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> 추가</a>
+                            </div>
+                        </div>
+                        <!-- //contents -->
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+            <!-- //상세 정보 -->
+
+        </div>
+        <!-- //cluster -->
+    </div>
+    <!-- //import -->
+
+    <!-- button -->
+    <div class="ddp-ui-buttons">
+        <a href="#" class="ddp-btn-type-popup">Cancel</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="#" class="ddp-btn-type-popup ddp-bg-black ">Next</a>
+    </div>
+    <!-- //button -->
+</div>
+</body>
+</html>

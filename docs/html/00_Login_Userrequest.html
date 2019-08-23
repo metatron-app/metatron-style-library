@@ -1,0 +1,200 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>login</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body>
+
+<!-- popup wrap -->
+<div class="ddp-wrap-popup">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup-in">
+        <!-- popup -->
+        <div class="ddp-ui-popup ddp-box-user-popup">
+            <a href="#" class="ddp-btn-close"></a>
+            <span class="ddp-ui-pop-title">Sign up</span>
+
+            <!-- contents -->
+            <div class="ddp-ui-user-contet">
+                <!-- input form -->
+                <!-- error 일때 ddp-type-error 추가 -->
+                <div class="ddp-ui-input-form ddp-type-error">
+                    <label class="ddp-label-type">ID</label>
+                    <div class="ddp-input-check">
+                        <input type="text" class="ddp-input-type" placeholder="아이디"/>
+                        <em class="ddp-icon-ok"></em>
+                        <em class="ddp-icon-error"></em>
+                    </div>
+                    <!-- error 메시지 -->
+                    <span class="ddp-ui-error">
+                        이미 사용 중인 아이디입니다.
+                    </span>
+                    <!-- //error 메시지 -->
+                </div>
+                <!-- //input form -->
+
+                <!-- input form -->
+                <!-- error 일때 ddp-type-error 추가 -->
+                <div class="ddp-ui-input-form ddp-type-error">
+                    <label class="ddp-label-type">Email
+                        <!-- tooltip -->
+                        <div class="ddp-ui-tooltip">
+                            <em class="ddp-icon-question"></em>
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                승인결과 송부 및 계정정보 찾기에 이용되므로, 정확하게 입력해 주세요.
+                            </div>
+                        </div>
+                        <!-- //tooltip -->
+
+                    </label>
+                    <div class="ddp-input-check">
+                        <input type="text" class="ddp-input-type" placeholder="email"/>
+                        <em class="ddp-icon-ok"></em>
+                        <em class="ddp-icon-error"></em>
+                    </div>
+                    <!-- error 메시지 -->
+                    <span class="ddp-ui-error">
+                        이미 사용 중인 이메일입니다.
+                    </span>
+                    <!-- //error 메시지 -->
+                </div>
+                <!-- //input form -->
+
+
+                <!-- input form -->
+                <div class="ddp-wrap-overflow ddp-clear">
+                    <div class="ddp-ui-fleft ">
+                        <!-- error 일때 ddp-type-error 추가 -->
+                        <div class="ddp-ui-input-form ddp-type-error">
+                            <label class="ddp-label-type">Password </label>
+
+                            <div class="ddp-input-check">
+                                <input type="password" class="ddp-input-type" placeholder="password"/>
+                                <em class="ddp-icon-ok"></em>
+                                <em class="ddp-icon-error"></em>
+                            </div>
+                            <!-- error 메시지 -->
+                            <span class="ddp-ui-error">
+                                비밀번호 양식에 맞지 않습니다.
+                            </span>
+                            <!-- //error 메시지 -->
+                        </div>
+
+                    </div>
+                    <div class="ddp-ui-fright">
+                        <!-- error 일때 ddp-type-error 추가 -->
+                        <div class="ddp-ui-input-form ddp-type-error">
+                            <label class="ddp-label-type">Password confirm </label>
+
+                            <div class="ddp-input-check">
+                                <input type="password" class="ddp-input-type" placeholder="password"/>
+                                <em class="ddp-icon-ok"></em>
+                                <em class="ddp-icon-error"></em>
+                            </div>
+                            <!-- error 메시지 -->
+                            <span class="ddp-ui-error">
+                                비밀번호가 일치하지 않습니다.
+                            </span>
+                            <!-- //error 메시지 -->
+                        </div>
+
+                    </div>
+                </div>
+                <!-- //input form -->
+
+                <!-- input form -->
+                <!-- error 일때 ddp-type-error 추가 -->
+                <div class="ddp-ui-input-form">
+                    <label class="ddp-label-type">Name
+                        <!-- tooltip -->
+                        <div class="ddp-ui-tooltip">
+                            <em class="ddp-icon-question"></em>
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                시스템 상의 표기명으로 필수 입력사항입니다
+                            </div>
+                        </div>
+                        <!-- //tooltip -->
+                    </label>
+                    <div class="ddp-input-check">
+                        <input type="text" class="ddp-input-type" placeholder="이름"/>
+                        <em class="ddp-icon-ok"></em>
+                        <em class="ddp-icon-error"></em>
+                    </div>
+                    <!-- error 메시지 -->
+                    <span class="ddp-ui-error">
+                        이미 사용 중인 아이디입니다.
+                    </span>
+                    <!-- //error 메시지 -->
+                </div>
+                <!-- //input form -->
+
+
+                <!-- input form -->
+                <div class="ddp-ui-input-form">
+                    <label class="ddp-label-type">Phone
+                        <!-- tooltip -->
+                        <div class="ddp-ui-tooltip">
+                            <em class="ddp-icon-question"></em>
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                '-' 를 제외한 연락처를 입력하세요
+                            </div>
+                        </div>
+                        <!-- //tooltip -->
+                    </label>
+                    <div class="ddp-input-check">
+                        <input type="text" class="ddp-input-type" placeholder="'-'를 제외한 연락처를 입력하세요."/>
+                    </div>
+                </div>
+                <!-- //input form -->
+                <!-- 프로필 사진 -->
+                <div class="ddp-ui-input-form ddp-ui-file-select">
+                    <label class="ddp-label-type">프로필 사진
+                        <!-- tooltip -->
+                        <div class="ddp-ui-tooltip">
+                            <em class="ddp-icon-question"></em>
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                JPG혹은 PNG형식의 파일을 사용가능하 며,200px*200px의 크기를 권장합니다
+                            </div>
+                        </div>
+                        <!-- //tooltip -->
+                    </label>
+
+                    <!-- 사진 -->
+                    <span class="ddp-data-photo"><img src="../images/img_photo2.png" /></span>
+                    <!-- //사진 -->
+                    <!-- button -->
+                    <div class="ddp-ui-buttons">
+                        <a href="#" class="ddp-btn-sbutton"><input type="file" />Load file</a>
+                        <a href="#" class="ddp-btn-sbutton ddp-bg-gray">Delete</a>
+                    </div>
+                    <!-- //button -->
+
+
+                </div>
+                <!-- //프로필 사진 -->
+            </div>
+            <!-- //contents -->
+            <!-- buttons -->
+            <div class="ddp-ui-buttons2">
+                <a href="#" class="ddp-btn-type-popup ddp-bg-black">Send email</a>
+            </div>
+            <!-- //buttons -->
+        </div>
+        <!-- //popup -->
+    </div>
+</div>
+<!-- //popup wrap -->
+
+</body>
+</html>

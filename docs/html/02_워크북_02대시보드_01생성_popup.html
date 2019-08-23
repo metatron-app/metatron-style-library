@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+</head>
+<body>
+
+<div class="ddp-type-contents ddp-resize2 ddp-type2">
+	<!-- 닫기 버튼 -->
+	<a href="javascript:" class="ddp-btn-close"></a>
+	<!-- //닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2">
+            <!--<em class="ddp-icon-newlink2"></em>-->
+            대시보드 생성
+            <span class="ddp-txt-info">대시보드 생성을 완료합니다.</span>
+            <em class="ddp-bg-order-line3-type3"></em>
+        </div>
+    </div>
+    <!-- contents in  -->
+    <div class="ddp-type-contents-in ddp-scroll">
+
+        <div class="ddp-box-popupcontents2">
+
+            <!-- edit -->
+            <div class="ddp-wrap-boxtype">
+
+                <table class="ddp-wrap-boxdata">
+                    <colgroup>
+                        <col width="120px" />
+                        <col width="*" />
+                    </colgroup>
+
+                    <tbody>
+
+                        <tr>
+                            <th>
+                                워크북
+                            </th>
+                            <td>
+                                워크북이름
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>
+                                데이터소스
+                            </th>
+                            <td>
+                                워크북이름
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <!-- //edit -->
+
+            <!-- edit -->
+            <!-- error 메세지 ddp-error 추가 -->
+            <div class="ddp-wrap-edit2 ddp-error">
+                <label class="ddp-label-type">이름</label>
+                <input type="text" class="ddp-input-type" placeholder="이름을 입력하세요" />
+                <!-- error -->
+                <span class="ddp-ui-error">
+                    필수 입력
+                </span>
+                <!-- error -->
+            </div>
+            <!-- //edit -->
+
+            <!-- edit -->
+            <div class="ddp-wrap-edit2">
+                <label class="ddp-label-type">설명</label>
+                <!--<input type="text" class="ddp-input-type" placeholder="설명을 입력하세요" />-->
+                <style>
+
+                    textarea::-ms-clear {display: none;}
+                    textarea::placeholder {color:#b7b9c2; font-family:sans-serif; line-height:1.3em;}
+                    textarea::-webkit-input-placeholder {color:#b7b9c2; font-family:sans-serif; line-height:1.3em;}
+                    textarea:-ms-input-placeholder {color:#b7b9c2; font-family:sans-serif; line-height:1.3em;}
+                    .wrap textarea {
+                        width: 100%;
+                        resize: none;
+                        overflow-y: hidden;
+                        font-size:16px;
+                        padding-bottom: 0.2em;
+                        line-height: 1em;
+                        border:none;
+                        border-bottom:1px solid #e7e7ea;
+                    }
+
+                </style>
+                <script>
+                    $(document).ready(function() {
+                        $('.wrap').on( 'keyup', 'textarea', function (){
+                            $(this).css('height', '28px' );
+                            $(this).height( this.scrollHeight );
+                        });
+                        $('.wrap').find( 'textarea' ).keyup();
+                    });
+                </script>
+
+                <div class="wrap">
+                    <textarea  placeholder="설명을 입력"></textarea>
+                </div>
+            </div>
+            <!-- //edit -->
+            <!-- edit -->
+            <div class="ddp-wrap-edit3 ddp-type">
+                <label class="ddp-label-type ddp-size">
+                    Data display format
+                    <div class="ddp-wrap-hover-info">
+                        <em class="ddp-icon-info3"></em>
+                        <!-- popup -->
+                        <div class="ddp-box-layout4 ddp-box-format">
+                            <div class="ddp-data-title">
+                                Data Display Format?
+                            </div>
+                            <div class="ddp-data-det">
+                                Determines how the chart's legend, labels, etc. are represented.
+                                Physical type: Use physical information loaded in the Metatron engine.
+                                Logical type: Replace with logical information managed by metadata.
+
+                                <div class="ddp-txt-strong">
+                                    It can be modified after the dashboard is created.
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- //popup -->
+                    </div>
+                </label>
+                <!-- edit option -->
+                <div class="ddp-ui-edit-option">
+                    <div class="ddp-wrap-label">
+                        <label class="ddp-label-radio">
+                            <input type="radio">
+                            <i class="ddp-icon-radio"></i>
+                            <span class="ddp-txt-radio">Physical type</span>
+                        </label>
+
+
+                        <label class="ddp-label-radio">
+                            <input type="radio">
+                            <i class="ddp-icon-radio"></i>
+                            <span class="ddp-txt-radio">Logical type</span>
+                        </label>
+                    </div>
+
+                </div>
+                <!-- //edit option -->
+            </div>
+            <!-- //edit -->
+        </div>
+
+    </div>
+    <!-- //contents in  -->
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="javascript:" class="ddp-btn-type-popup">취소</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">완료</a>
+    </div>
+    <!-- //buttons -->
+
+</div>
+
+
+
+
+</body>
+</html>

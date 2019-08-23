@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/integrator/import.integrator.css"/>
+
+</head>
+<body>
+
+<div class="ddp-type-contents ddp-resize2 ddp-type2 popup-interator">
+	<!-- 닫기 버튼 -->
+	<a href="javascript:" class="ddp-btn-close"></a>
+	<!-- //닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2">
+            <!--<em class="ddp-icon-newlink2"></em>-->
+            Create a new cluster
+            <span class="ddp-txt-info">Please complete cluster creation</span>
+            <em class="ddp-bg-order-line2-type2"></em>
+        </div>
+    </div>
+    <!-- contents in  -->
+    <div class="ddp-type-contents-in">
+        <div class="ddp-box-popupcontents2">
+            <!--<div class="ddp-wrap-edit2 ddp-mgt0">-->
+                <!--<label class="ddp-label-type">Configuration Summary</label>-->
+
+                <!--&lt;!&ndash; edit &ndash;&gt;-->
+                <!--<div class="ddp-wrap-boxtype type-detail">-->
+
+                    <!--NameNode URL<br>-->
+                    <!--…<br>-->
+                    <!--Port (NameNode)<br>-->
+                    <!--…<br>-->
+                    <!--Port (DataNode) … Username …  Use DataNode URL … WebHDFS Path NameNode URL<br>-->
+                    <!--…<br>-->
+                    <!--Port (NameNode)<br>-->
+                    <!--…<br>-->
+                    <!--Port (DataNode) … Username …  Use DataNode URL … WebHDFS Path-->
+                <!--</div>-->
+                <!--&lt;!&ndash; //edit &ndash;&gt;-->
+            <!--</div>-->
+
+            <!-- 필수 일때 ddp-error 추가 -->
+            <div class="ddp-wrap-edit2 ddp-error">
+                <label class="ddp-label-type">Name*</label>
+                <input type="text" class="ddp-input-type" placeholder="Please enter a name" />
+                <!-- error -->
+                <span class="ddp-ui-error">
+                    Name is required.
+                </span>
+                <!-- error -->
+            </div>
+            <!-- //edit -->
+
+            <!-- edit -->
+            <div class="ddp-wrap-edit2 ">
+                <label class="ddp-label-type">Description</label>
+                <input type="text" class="ddp-input-type" placeholder="Please enter a description" />
+                <!-- error -->
+                <span class="ddp-ui-error">
+                    필수 입력
+                </span>
+                <!-- error -->
+            </div>
+            <!-- //edit -->
+        </div>
+
+    </div>
+    <!-- //contents in  -->
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="javascript:" class="ddp-btn-type-popup">Cancel</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">Done</a>
+    </div>
+    <!-- //buttons -->
+
+</div>
+
+
+
+
+</body>
+</html>

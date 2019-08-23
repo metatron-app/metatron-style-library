@@ -1,0 +1,1830 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/flow/import.flow.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <!-- split -->
+    <script src="../js/jquery/split.js"></script>
+
+    <script>
+        $(function(){
+            $('tspan').each(function(){
+                if($(this).text().length >= 9){
+                    $(this).parent('text').attr('width');
+                    var $tspanText = $(this).text();
+//                    $(this).parent().append('<tspan>').attr('class','elip').text('dd');
+
+                    $(this).append('<title>dd</title>');
+                }
+            });
+        });
+
+    </script>
+
+</head>
+<body>
+<!--
+    header 없을경우 ddp-header-none 추가
+-->
+<div class="ddp-type-contents2 ddp-header-none page-flow">
+    <div class="ddp-top-flow">
+
+        <!-- 수정 data -->
+        <div class="ddp-data-form">
+            <span class="ddp-txt-date">최근수정 2017.03.06 08:22:35 by kko by kko by kk</span>
+
+            <!-- more -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-ui-more ddp-hover-tooltip ">
+                <a href="javascript:" class="ddp-icon-more"></a>
+                <!-- tooltip -->
+                <div class="ddp-ui-tooltip-info ddp-down">
+                    <em class="ddp-icon-view-top"></em>
+                    더보기
+                </div>
+                <!-- //tooltip -->
+                <!-- popup -->
+                <div class="ddp-wrap-popup2 ddp-types">
+                    <ul class="ddp-list-popup">
+                        <li>
+                            <a href="javascript:">
+                                <em class="ddp-icon-drop-member"></em>
+                                Set shared members
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <em class="ddp-icon-drop-source"></em>
+                                View source
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:">
+                                <em class="ddp-icon-drop-editdel3"></em>
+                                Delete this workflow
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- date -->
+                    <div class="ddp-ui-date">
+                        <span class="ddp-data-date">생성 2017.03.06 06:09:35 <em>by오상식</em></span>
+                    </div>
+                    <!-- //date -->
+                </div>
+                <!-- //popup -->
+            </div>
+
+            <!--//more -->
+        </div>
+        <!-- //수정 data -->
+        <!-- navi wrap -->
+        <div class="ddp-wrap-navi">
+            <a href="javascript:" class="ddp-btn-back"></a>
+            <!-- navi -->
+            <div class="ddp-ui-naviarea">
+                <!-- name -->
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-box-navi">
+                    <div class="ddp-wrap-naviname">
+                        <span class="ddp-data-naviname ddp-readonly">New Workflow 01
+                       </span>
+                    </div>
+                    <!-- 편집 input -->
+                    <div class="ddp-wrap-input">
+                        <input type="text" class="ddp-input-navi" placeholder="ew Dashboard 01">
+                        <span class="ddp-btn-check"></span>
+                    </div>
+                    <!-- //편집 input -->
+                </div>
+                <!-- //name -->
+
+                <!-- description -->
+                <!-- 클릭시 ddp-selected 추가 -->
+                <div class="ddp-box-navidet">
+                    <div class="ddp-wrap-navidet">
+                        <span class="ddp-data-navidet ddp-readonly">description description description description
+                       </span>
+
+                    </div>
+                    <!-- 편집 input -->
+                    <div class="ddp-wrap-input">
+
+                        <textarea type="text" class="ddp-input-navi" placeholder="">escription description des</textarea>
+                        <span class="ddp-btn-check"></span>
+                    </div>
+                    <!-- //편집 input -->
+                </div>
+                <!-- //description -->
+            </div>
+            <!-- //navi -->
+
+        </div>
+        <!-- //navi wrap -->
+
+    </div>
+
+    <!-- integrator -->
+    <div class="ddp-wrap-integrator">
+        <div class="ddp-ui-integrator">
+            <!-- left -->
+            <!--
+                [D] : 펼쳐질때 ddp-selected 추가
+            -->
+            <div class="ddp-layout-left ">
+                <!-- folding -->
+                <div class="ddp-lnb-folder">
+                    <a href="javascript:" class="ddp-btn-fold"></a>
+                    <!-- select box -->
+                    <div class="ddp-type-selectbox " style="display:;">
+                        <span class="ddp-txt-selectbox">All</span>
+                        <ul class="ddp-list-selectbox ddp-selectdown">
+                            <li>
+                                <a href="#">
+                                    Series
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Series
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Series
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //select box -->
+
+                </div>
+                <!-- //folding -->
+                <!-- 검색 -->
+                <div class="ddp-search">
+                    <a href="javascript:" class="ddp-icon-lnb-search"></a>
+                    <!-- search form -->
+                    <div class="ddp-form-search" style="display:;">
+                        <em class="ddp-icon-search"></em>
+                        <input type="text" placeholder="항목 찾기">
+                        <em class="ddp-btn-search-close"></em>
+                    </div>
+                    <!-- //search form -->
+                </div>
+                <!-- //검색 -->
+                <!-- menu -->
+                <div class="ddp-integrator-menu type-flow">
+                    <ul class="ddp-list-menu">
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-kafkasource"></em>
+                                <span class="ddp-txt-menu">Kafka source</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Kafka source
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-filter"></em>
+                                <span class="ddp-txt-menu">Filter</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Filter
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-select"></em>
+                                <span class="ddp-txt-menu">Select</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Select
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-timewindow"></em>
+                                <span class="ddp-txt-menu">Time window</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Time window
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-kafkasink"></em>
+                                <span class="ddp-txt-menu">Kafka Sink</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Kafka Sink
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                        <li>
+                            <a href="javascript:" class="">
+                                <em class="ddp-icon-lnb-out"></em>
+                                <span class="ddp-txt-menu">Kafka Sink</span>
+                            </a>
+                            <!-- 툴팁 -->
+                            <div class="ddp-ui-tooltip-info">
+                                <em class="ddp-icon-view-left"></em>
+                                Kafka Sink
+                            </div>
+                            <!-- //툴팁 -->
+                        </li>
+                    </ul>
+
+                </div>
+                <!-- //menu -->
+                <script>
+                    $(function(){
+                        $('.ddp-integrator-menu ul li').mouseover(function(){
+                            var $lnbmenuTop = $(this).offset().top;
+                            var $lnbmenuTooltip = $(this).find('.ddp-ui-tooltip-info');
+                            $lnbmenuTooltip.css({
+                                top : $lnbmenuTop + 8
+                            });
+                        });
+                    });
+                </script>
+            </div>
+            <!-- //left -->
+            <!-- contents workflow -->
+            <div class="ddp-contents-workflow">
+                <div class="ddp-workflow-detail" id="flow">
+                    <!--
+                        [D] : full size 일 때 ddp-full 추가
+                    -->
+                    <div class="ddp-workflow-edit " id="edit-flow">
+                        <!-- option -->
+                        <div class="ddp-top-option ddp-clear">
+                            <!-- left -->
+                            <div class="ddp-flow-edit-option">
+
+                                <div class="ddp-part ddp-editor-btn">
+                                    <a href="#" class="ddp-btn-solid "><em class="ddp-icon-run"></em>Run</a>
+                                    <a href="#" class="ddp-btn-line-s"><em class="ddp-icon-download"></em>Download</a>
+                                    <a href="#" class="ddp-btn-selection ddp-gray ">UDF</a>
+                                    <a href="#" class="ddp-btn-selection ddp-gray ">Schema</a>
+                                </div>
+                            </div>
+                            <!-- //left -->
+                            <!-- right -->
+                            <div class="ddp-flow-edit-option ddp-fright">
+
+                                <div class="ddp-part ddp-size-set">
+                                    <a href="javascript:" class="ddp-btn-size-auto"></a>
+                                    <a href="javascript:" class="ddp-btn-size-zoomin"></a>
+                                    <a href="javascript:" class="ddp-btn-size-zoomout"></a>
+                                    <a href="javascript:" class="ddp-btn-size-alignment"></a>
+                                </div>
+                                <div class="ddp-part ddp-size-set2">
+                                    <!-- 축소일때 type-reduction 추가 -->
+                                    <a href="javascript:" class="ddp-btn-size-full type-reduction "></a>
+                                </div>
+
+                            </div>
+                            <!-- //right -->
+                        </div>
+                        <!-- //option -->
+                        <!-- edit area -->
+                        <div class="ddp-wrap-edit-area">
+
+                            <div class="pipeline-graph">
+                                <div class="graph-container" id="graph-container">
+                                    <svg height="100%" tabindex="0" width="100%">
+                                        <defs><marker id="end-arrow" viewBox="0 -5 10 10" refX="0" markerWidth="3.5" markerHeight="3.5" orient="auto"><path d="M0,-5L10,0L0,5"></path></marker></defs><g><g></g></g><g class="graph" transform="translate(110,-51) scale(1)"><path class="link dragline hidden" d="M 484,153C691.5,153 691.5,150 899,150" style="marker-end: url(&quot;http://192.168.100.120:4200/app/v2/management/integrator/workflowdetail/b6913b64-7000-4645-b524-e0e10ae6a277#mark-end-arrow&quot;);"></path><g><g class="pathG"><path class="link" d="M 170,150C286,150 286,233 402,233" style="marker-end: url(&quot;http://192.168.100.120:4200/app/v2/management/integrator/workflowdetail/b6913b64-7000-4645-b524-e0e10ae6a277#end-arrow&quot;);"></path></g><g class="pathG"><path class="link" d="M 572,233C721,233 721,150 870,150" style="marker-end: url(&quot;http://192.168.100.120:4200/app/v2/management/integrator/workflowdetail/b6913b64-7000-4645-b524-e0e10ae6a277#end-arrow&quot;);"></path></g></g><g>
+
+
+                                        <!--out-->
+                                        <g class="rectangleG type-out selected" transform="translate(-30,50)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+                                            <!--<foreignObject width="30" height="30" x="36" y="14">-->
+                                            <!--<div class="icon-image"></div>-->
+                                            <!--</foreignObject>-->
+                                            <image width="30" height="30" x="36" y="14" href="../images/pipeline/icon_out.png"></image>
+
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <foreignObject width="30" height="30" x="90" y="-10"><span class="node-warning fa fa-exclamation-triangle graph-bootstrap-tooltip" title="<span class=&quot;stage-errors-tooltip&quot;></span>" data-html="true" data-placement="bottom"></span></foreignObject>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">START</tspan></text>
+                                        </g>
+                                        <!--//out-->
+                                        <!-- kafkasource -->
+                                        <g class="rectangleG type-kafkasource selected" transform="translate(0,100)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+
+                                            <!--<foreignObject width="30" height="30" x="36" y="14">-->
+                                            <!--<div class="icon-image"></div>-->
+                                            <!--</foreignObject>-->
+                                            <foreignObject width="30" height="30" x="36" y="14">
+                                                <div class="icon-image"></div>
+                                            </foreignObject>
+                                            <foreignObject width="30" height="30" x="90" y="-10"><span class="node-warning fa fa-exclamation-triangle graph-bootstrap-tooltip" title="<span class=&quot;stage-errors-tooltip&quot;></span>" data-html="true" data-placement="bottom"></span></foreignObject>
+
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="40" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">KafkaSiSdd</tspan></text>
+                                            <text text-anchor="middle" x="50" y="95"><tspan x="50" y="95" dy="0em" class="type-text">textexttexttexttexttexttextt</tspan></text>
+
+                                        </g>
+                                        <!-- //kafkasource -->
+
+                                        <!-- kafkasink -->
+                                        <g class="rectangleG type-kafkasink" transform="translate(150,100)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+
+                                            <foreignObject width="30" height="30" x="36" y="14">
+                                                <div class="icon-image"></div>
+                                            </foreignObject>
+
+
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="40" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">Kafka Sink</tspan></text>
+                                        </g>
+                                        <!-- //kafkasink -->
+
+                                        <!-- filter -->
+                                        <g class="rectangleG type-filter-flow " transform="translate(300,100)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+                                            <foreignObject width="30" height="30" x="36" y="14">
+                                                <div class="icon-image"></div>
+                                            </foreignObject>
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="40" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">Hive</tspan></text>
+                                        </g>
+                                        <!-- //filter -->
+
+                                        <!-- select -->
+                                        <g class="rectangleG type-select-flow" transform="translate(450,100)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+                                            <foreignObject width="30" height="30" x="36" y="14">
+                                                <div class="icon-image"></div>
+                                            </foreignObject>
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="40" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">Select</tspan></text>
+                                        </g>
+                                        <!-- //select -->
+                                        <!-- time window -->
+                                        <g class="rectangleG type-timewindow-flow" transform="translate(600,100)">
+                                            <rect height="80" width="100" rx="14" ry="14"></rect>
+                                            <foreignObject width="30" height="30" x="36" y="14">
+                                                <div class="icon-image"></div>
+                                            </foreignObject>
+                                            <circle cx="0" cy="40" r="5"></circle>
+                                            <circle cx="100" cy="40" r="5" class="graph-bootstrap-tooltip 1" title=""></circle>
+                                            <text text-anchor="middle" x="40" y="75"><tspan x="50" y="64" dy="0em"></tspan></text>
+                                            <text text-anchor="middle" x="50" y="75"><tspan x="50" y="64" dy="0em">Time Window</tspan></text>
+                                        </g>
+                                        <!-- //time window -->
+
+                                        </g></g></svg>
+                                    <div class="graph-toolbar">
+
+                                        <div class="pan-toolbar">
+                                            <div>
+                <span class="glyphicon glyphicon-chevron-up pan-up" (click)="panUp($event)">
+                </span>
+                                            </div>
+                                            <div>
+                                                <span class="glyphicon glyphicon-chevron-right pan-right" (click)="panRight($event)"></span>
+                                            </div>
+                                            <div>
+                                                <span class="glyphicon glyphicon-home pan-home" (click)="panHome($event)"></span>
+                                            </div>
+                                            <div>
+                                                <span class="glyphicon glyphicon-chevron-left pan-left" (click)="panLeft($event)"></span>
+                                            </div>
+                                            <div>
+                                                <span class="glyphicon glyphicon-chevron-down pan-down" (click)="panDown($event)"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="zoom-toolbar">
+                                            <div>
+                                                <span class="pointer fa fa-plus" (click)="zoomIn($event)"></span>
+                                            </div>
+                                            <div>
+                                                <span class="pointer fa fa-minus" (click)="zoomOut($event)"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!--<span class="warning-toolbar node-warning fa fa-exclamation-triangle graph-bootstrap-tooltip"-->
+                                    <!--(click)="onWarningClick($event)"-->
+                                    <!--data-html="true" data-placement="right" style="visibility: hidden;">-->
+                                    <!--</span>-->
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!-- //edit area -->
+                    </div>
+                    <!-- setting -->
+                    <div class="ddp-wrap-setting" id="setting-flow">
+                        <div class="ddp-view-setting ">
+                            <!-- top -->
+                            <div class="ddp-wrap-result-top">
+                                <div class="ddp-label">
+                                    <!-- title -->
+                                    <!-- 클릭시 ddp-edit 추가 -->
+                                    <div class="ddp-txt-title ">
+                                        <div class="ddp-ui-result">
+                                            Sample
+                                            <em class="ddp-icon-edit2"></em>
+                                        </div>
+
+                                        <div class="ddp-ui-edit">
+                                            <input type="text" value="Sample">
+                                            <span class="ddp-btn-check"></span>
+
+                                        </div>
+                                    </div>
+                                    <!-- //title -->
+                                    <!-- detail -->
+                                    <!-- 클릭시 ddp-edit 추가 -->
+                                    <div class="ddp-txt-det ">
+                                        <div class="ddp-ui-result">
+                                            detail
+                                            <em class="ddp-icon-edit2"></em>
+                                        </div>
+
+                                        <div class="ddp-ui-edit">
+                                            <input type="text" value="Sample">
+                                            <span class="ddp-btn-check"></span>
+
+                                        </div>
+                                    </div>
+                                    <!-- //detail -->
+                                </div>
+                            </div>
+                            <!-- //top -->
+                            <script>
+                                $(function(){
+                                    $('.ddp-form-tabs .ddp-ui-tab li a').click(function(){
+                                        var $tabIdx = $(this).parent().index();
+                                        $(this).parent().addClass('ddp-selected');
+                                        $(this).parent().siblings().removeClass('ddp-selected');
+                                        $('.ddp-form-tabs .ddp-ui-tab-contents').eq($tabIdx).show();
+                                        $('.ddp-form-tabs .ddp-ui-tab-contents').eq($tabIdx).siblings().hide();
+                                    });
+                                });
+                            </script>
+                            <div class="ddp-form-tabs">
+                                <div class="ddp-wrap-tab2 ddp-clear">
+                                    <ul class="ddp-ui-tab ddp-type3 ddp-disabled">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">Specification</a>
+                                        </li>
+                                        <li class="ddp-disabled">
+                                            <a href="javascript:">Sampling</a>
+                                        </li>
+                                        <li class="">
+                                            <a href="javascript:">Schema</a>
+                                        </li>
+                                    </ul>
+                                    <!-- option -->
+                                    <div class="ddp-fright ddp-wrap-option">
+
+                                        <div class="ddp-list-option">
+                                            <!-- Size 버튼 -->
+                                            <a href="javascript:" class="ddp-btn-size-full"></a>
+                                            <!-- //Size 버튼 -->
+                                        </div>
+                                    </div>
+                                    <!-- //option -->
+
+                                </div>
+                                <div class="ddp-wrap-tab-contents">
+                                    <!-- tab contents -->
+                                    <div class="ddp-ui-tab-contents type-edit-form" style="display:none;">
+                                        <!-- error -->
+                                        <div class="ddp-box-error">
+                                            <div class="ddp-box-synch type-error">
+                                                <div class="ddp-txt-synch">
+                                                    <em class="ddp-icon-info"></em>
+                                                    Parent operator 와 연결하세요
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //error -->
+                                        <div class="ddp-type-label">Existing fields</div>
+                                        <!-- field -->
+                                        <div class="ddp-ui-field">
+                                            <ul class="ddp-list-field">
+                                                <li>
+                                                    <div class="ddp-box-field type-cursor">
+                                                        <span class="ddp-data-type">Long</span>
+                                                        <span class="ddp-txt-name">rideld</span>
+                                                        <span class="ddp-data-name"></span>
+                                                        <em class="ddp-icon-add-r"></em>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-box-field">
+                                                        <span class="ddp-data-type">Long</span>
+                                                        <span class="ddp-txt-name">rideld</span>
+                                                        <span class="ddp-data-name"></span>
+                                                        <em class="ddp-icon-add-r"></em>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-box-field">
+                                                        <span class="ddp-data-type">Long</span>
+                                                        <span class="ddp-txt-name">rideld</span>
+                                                        <span class="ddp-data-name"></span>
+                                                        <em class="ddp-icon-add-r"></em>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="ddp-box-field">
+                                                        <span class="ddp-data-type">DateTime</span>
+                                                        <span class="ddp-txt-name">Time2141212</span>
+                                                        <span class="ddp-data-name"></span>
+                                                        <em class="ddp-icon-add-r"></em>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //field -->
+                                        <!-- part -->
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-type-label">User defined functions
+                                            </div>
+                                            <!-- edit field -->
+                                            <div class="ddp-edit-field">
+                                                <label class="ddp-label-type">Scalar</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option">
+                                                    <!-- field -->
+                                                    <div class="ddp-ui-field">
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">boolean
+</span>
+                                                            <span class="ddp-txt-name">isInNYC(float, float)
+</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //field -->
+
+                                                </div>
+                                                <!-- //edit option -->
+                                            </div>
+                                            <!-- //edit field -->
+                                            <!-- edit field -->
+                                            <div class="ddp-edit-field">
+                                                <label class="ddp-label-type">Scalar</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option">
+                                                    <!-- field -->
+                                                    <div class="ddp-ui-field">
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">int</span>
+                                                            <span class="ddp-txt-name">toCellId(float, float)
+</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </div>
+                                                    <!-- //field -->
+
+                                                </div>
+                                                <!-- //edit option -->
+                                            </div>
+                                            <!-- //edit field -->
+                                            <!-- edit field -->
+                                            <div class="ddp-edit-field">
+                                                <!-- field -->
+                                                <div class="ddp-ui-field">
+                                                    <ul class="ddp-list-field type-block">
+                                                        <li>
+                                                            <div class="ddp-box-field">
+                                                                <span class="ddp-data-type">Long</span>
+                                                                <span class="ddp-txt-name">rideld</span>
+                                                                <span class="ddp-data-name"></span>
+                                                                <em class="ddp-icon-add-r"></em>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="ddp-box-field">
+                                                                <span class="ddp-data-type">Long</span>
+                                                                <span class="ddp-txt-name">rideld</span>
+                                                                <span class="ddp-data-name"></span>
+                                                                <em class="ddp-icon-add-r"></em>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="ddp-box-field">
+                                                                <span class="ddp-data-type">Long</span>
+                                                                <span class="ddp-txt-name">rideld</span>
+                                                                <span class="ddp-data-name"></span>
+                                                                <em class="ddp-icon-add-r"></em>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="ddp-box-field">
+                                                                <span class="ddp-data-type">DateTime</span>
+                                                                <span class="ddp-txt-name">Time2141212</span>
+                                                                <span class="ddp-data-name"></span>
+                                                                <em class="ddp-icon-add-r"></em>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <!-- //field -->
+                                            </div>
+                                            <!-- //edit field -->
+                                        </div>
+                                        <!-- //part -->
+                                        <!-- part -->
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-type-label">
+                                                Condition <span class="ddp-tag-guide">Guide</span>
+                                                <div class="ddp-txt-info type-error">
+                                                    <em class="ddp-icon-error"></em>
+                                                    Expression이 하나라도 있어야 함
+
+                                                </div>
+                                            </div>
+                                            <div class="ddp-ui-field type-new">
+                                                <ul class="ddp-list-field type-block">
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">DateTime</span>
+                                                            <span class="ddp-txt-name">Time2141212</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- expression -->
+                                            <!--
+                                                클릭시 ddp-selected 추가
+                                            -->
+                                            <div class="ddp-wrap-expression ddp-selected">
+                                                <div class="ddp-box-expression">
+                                                    <span class="ddp-txt-info">
+                                                    Enter a new expression and click on <em class="ddp-icon-add-r"></em> button
+                                                    </span>
+                                                    <textarea class="ddp-textarea-expression">text</textarea>
+                                                </div>
+                                                <a href="javascript:" class="ddp-icon-add-r type-button"></a>
+                                            </div>
+                                            <!-- //expression -->
+
+                                        </div>
+                                        <!-- //part -->
+
+                                        <!-- part -->
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-type-label">New fields</div>
+                                            <div class="ddp-box-add">
+                                                <div class="ddp-txt-message">
+                                                기존 컬럼 옆에 <em class="ddp-icon-add-r"></em> 버튼을 눌러서 추가하세요.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- //part -->
+
+                                        <!-- part -->
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-type-label">New fields</div>
+                                            <!-- field -->
+                                            <div class="ddp-ui-field type-new">
+                                                <ul class="ddp-list-field ">
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">Long</span>
+                                                            <span class="ddp-txt-name">rideld</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <div class="ddp-box-field">
+                                                            <span class="ddp-data-type">DateTime</span>
+                                                            <span class="ddp-txt-name">Time2141212</span>
+                                                            <span class="ddp-data-name"></span>
+                                                            <em class="ddp-icon-add-r"></em>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- //field -->
+                                        </div>
+                                        <!-- //part -->
+
+                                    </div>
+                                    <!-- //tab contents -->
+                                    <!-- tab contents -->
+                                    <div class="ddp-ui-tab-contents type-edit-form" style="display:none;">
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Schema name</label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type">
+                                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Schema description
+                                            </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type">
+                                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-wrap-edit3 ddp-type">
+                                                <label class="ddp-label-type">Queries</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option ddp-type">
+                                                    <div class="ddp-clear ddp-type-multy type-form">
+                                                        <div class="ddp-col-6">
+                                                            <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                        </div>
+                                                        <div class="ddp-col-6">
+                                                            <!-- selectbox -->
+                                                            <!-- 클릭시 ddp-selected 추가-->
+                                                            <div class="ddp-type-selectbox">
+                                                                <span class="ddp-txt-selectbox">기타</span>
+                                                                <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            2
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            3
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="ddp-clear ddp-type-multy type-form">
+                                                        <div class="ddp-col-6">
+                                                            <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                        </div>
+                                                        <div class="ddp-col-6">
+                                                            <!-- selectbox -->
+                                                            <!-- 클릭시 ddp-selected 추가-->
+                                                            <div class="ddp-type-selectbox">
+                                                                <span class="ddp-txt-selectbox">기타</span>
+                                                                <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            2
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            3
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+                                                        </div>
+                                                    </div>
+                                                    <div class="ddp-clear ddp-type-multy type-form">
+                                                        <div class="ddp-col-6">
+                                                            <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                        </div>
+                                                        <div class="ddp-col-6">
+                                                            <!-- selectbox -->
+                                                            <!-- 클릭시 ddp-selected 추가-->
+                                                            <div class="ddp-type-selectbox">
+                                                                <span class="ddp-txt-selectbox">기타</span>
+                                                                <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            1
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            2
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a href="#">
+                                                                            3
+                                                                        </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- //selectbox -->
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!-- //edit option -->
+                                            </div>
+
+
+                                        </div>
+                                        <div class="ddp-edit-part">
+                                            <div class="ddp-wrap-edit3 ddp-type">
+                                                <label class="ddp-label-type">Field</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option ddp-type">
+                                                    <div class="ddp-ui-field type-block">
+                                                        <ul class="ddp-list-field">
+                                                            <li>
+                                                                <div class="ddp-box-field">
+                                                                    <span class="ddp-data-type">Long</span>
+                                                                    <span class="ddp-txt-name">rideld</span>
+                                                                    <span class="ddp-data-name"></span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="ddp-box-field">
+                                                                    <span class="ddp-data-type">Long</span>
+                                                                    <span class="ddp-txt-name">rideld</span>
+                                                                    <span class="ddp-data-name"></span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="ddp-box-field">
+                                                                    <span class="ddp-data-type">Long</span>
+                                                                    <span class="ddp-txt-name">rideld</span>
+                                                                    <span class="ddp-data-name"></span>
+                                                                </div>
+                                                            </li>
+                                                            <li>
+                                                                <div class="ddp-box-field">
+                                                                    <span class="ddp-data-type">DateTime</span>
+                                                                    <span class="ddp-txt-name">Time2141212</span>
+                                                                    <span class="ddp-data-name"></span>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type" style="display:none;">
+                                            <label class="ddp-label-type">Samples</label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type">
+                                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+
+                                                <div class="ddp-inline ddp-form-type">
+                                                    <label class="ddp-label-radio">
+                                                        <input type="radio">
+                                                        <i class="ddp-icon-radio"></i>
+                                                        <span class="ddp-txt-radio"> Before</span>
+                                                    </label>
+                                                    <label class="ddp-label-radio">
+                                                        <input type="radio">
+                                                        <i class="ddp-icon-radio"></i>
+                                                        <span class="ddp-txt-radio">Before and after</span>
+                                                    </label>
+                                                    <label class="ddp-label-radio">
+                                                        <input type="radio">
+                                                        <i class="ddp-icon-radio"></i>
+                                                        <span class="ddp-txt-radio">After</span>
+                                                    </label>
+
+
+                                                </div>
+                                            </div>
+                                            <!-- //edit option -->
+
+                                        </div>
+                                        <!-- //edit -->
+
+                                        <div class="ddp-edit-multy" style="display:none;">
+                                            <!-- edit -->
+                                            <div class="ddp-wrap-edit3 ddp-type">
+                                                <label class="ddp-label-type">From</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option ddp-type">
+                                                    <div class="ddp-wrap-day">
+                                                        <!-- day -->
+                                                        <div class="ddp-edit-day">
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                            <span class="ddp-bar">-</span>
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                            <span class="ddp-bar">-</span>
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                        </div>
+                                                        <!-- //day -->
+                                                        <span class="ddp-txt-bar">@</span>
+                                                        <!-- day -->
+                                                        <div class="ddp-edit-day">
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                            <span class="ddp-bar">:</span>
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                            <span class="ddp-bar">:</span>
+                                                            <input type="text" class="ddp-input-typebasic ">
+                                                        </div>
+                                                        <!-- //day -->
+                                                    </div>
+                                                </div>
+                                                <!-- //edit option -->
+
+                                            </div>
+                                            <!-- //edit -->
+                                            <!-- edit -->
+                                            <div class="ddp-wrap-edit3 ddp-type">
+                                                <label class="ddp-label-type">To</label>
+                                                <!-- edit option -->
+                                                <div class="ddp-ui-edit-option ddp-type">
+                                                    <input type="text" class="ddp-input-typebasic ddp-full" placeholder="2019-10-10">
+                                                </div>
+                                                <!-- //edit option -->
+
+                                            </div>
+                                            <!-- //edit -->
+                                        </div>
+
+
+                                        <div class="ddp-wrap-edit3 ddp-type" style="display:none;">
+                                            <label class="ddp-label-type">Queries</label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type ddp-multi ddp-padb0">
+                                                <div class="ddp-clear ddp-type-multy">
+                                                    <div class="ddp-col-6">
+                                                        <!-- selectbox -->
+                                                        <!-- 클릭시 ddp-selected 추가-->
+                                                        <div class="ddp-type-selectbox">
+                                                            <span class="ddp-txt-selectbox">기타</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        1
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        2
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        3
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- //selectbox -->
+                                                    </div>
+                                                    <div class="ddp-col-6">
+                                                        <!-- selectbox -->
+                                                        <!-- 클릭시 ddp-selected 추가-->
+                                                        <div class="ddp-type-selectbox">
+                                                            <span class="ddp-txt-selectbox">기타</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        1
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        2
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        3
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <!-- //selectbox -->
+                                                    </div>
+                                                </div>
+                                                <div class="ddp-form-type">
+                                                    <input type="text" class="ddp-input-typebasic ddp-full" placeholder="2019-10-10">
+                                                </div>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+
+                                        <div class="ddp-ui-edit-button">
+                                            <a href="javascript:" class="ddp-btn-solid2 ddp-dark ddp-full">Get samples
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- //tab contents -->
+                                    <!-- tab contents -->
+                                    <div class="ddp-ui-tab-contents type-edit-form" style="display:;">
+                                        <!-- dropbox -->
+                                        <!--
+                                            클릭시 ddp-selected 추가
+                                        -->
+                                        <div class="ddp-wrap-dropbox ddp-selected">
+                                            <!-- dropbox top -->
+                                            <div class="ddp-drop-top">
+                                                <em class="ddp-icon-success"></em>
+                                                Time series chart
+
+                                            </div>
+                                            <!-- //dropbox top -->
+                                            <!-- dropbox contents -->
+                                            <div class="ddp-drop-contents">
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Time field</label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <div class="ddp-type-selectbox ddp-full">
+                                                            <span class="ddp-txt-selectbox">lates</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        earliest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        latest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        group offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        specific offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        timestamp
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Time field format
+                                                        <!-- guide -->
+                                                        <div class="ddp-ui-guide">
+                                                            <span class="ddp-tag-guide">Guide</span>
+                                                        </div>
+                                                        <!-- //guide -->
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <div class="ddp-type-selectbox ddp-full">
+                                                            <span class="ddp-txt-selectbox">lates</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        earliest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        latest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        group offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        specific offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        timestamp
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Custom format
+
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Timelion query
+                                                        <!-- guide -->
+                                                        <div class="ddp-ui-guide">
+                                                            <span class="ddp-tag-guide">Guide</span>
+                                                        </div>
+                                                        <!-- //guide -->
+
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <textarea class="ddp-textarea" rows="3"></textarea>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <div class="ddp-ui-edit-button type-button">
+                                                    <a href="javascript:" class="ddp-btn-solid2 ddp-dark ddp-full">Save</a>
+                                                </div>
+                                            </div>
+                                            <!-- //dropbox contents -->
+                                        </div>
+                                        <!-- //dropbox -->
+                                        <!-- dropbox -->
+                                        <!--
+                                            클릭시 ddp-selected 추가
+                                        -->
+                                        <div class="ddp-wrap-dropbox  ">
+                                            <!-- dropbox top -->
+                                            <div class="ddp-drop-top">
+                                                Map chart
+                                            </div>
+                                            <!-- //dropbox top -->
+                                            <!-- dropbox contents -->
+                                            <div class="ddp-drop-contents">
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Time field</label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <div class="ddp-type-selectbox ddp-full">
+                                                            <span class="ddp-txt-selectbox">lates</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        earliest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        latest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        group offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        specific offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        timestamp
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Time field format
+                                                        <!-- guide -->
+                                                        <div class="ddp-ui-guide">
+                                                            <span class="ddp-tag-guide">Guide</span>
+                                                        </div>
+                                                        <!-- //guide -->
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <div class="ddp-type-selectbox ddp-full">
+                                                            <span class="ddp-txt-selectbox">lates</span>
+                                                            <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                                <li>
+                                                                    <a href="#">
+                                                                        earliest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        latest
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        group offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        specific offsets
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#">
+                                                                        timestamp
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Custom format
+
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                                <!-- edit -->
+                                                <div class="ddp-wrap-edit3 ddp-type">
+                                                    <label class="ddp-label-type">Timelion query
+                                                        <!-- guide -->
+                                                        <div class="ddp-ui-guide">
+                                                            <span class="ddp-tag-guide">Guide</span>
+                                                        </div>
+                                                        <!-- //guide -->
+
+                                                    </label>
+                                                    <!-- edit option -->
+                                                    <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                        <textarea class="ddp-textarea" rows="3"></textarea>
+                                                        <span class="ddp-data-error"> Invalid Connect</span>
+                                                    </div>
+                                                    <!-- //edit option -->
+                                                </div>
+                                                <!-- //edit -->
+                                            </div>
+                                            <!-- //dropbox contents -->
+                                        </div>
+                                        <!-- //dropbox -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Sampling method </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                <div class="ddp-type-selectbox ddp-full">
+                                                    <span class="ddp-txt-selectbox">lates</span>
+                                                    <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                        <li>
+                                                            <a href="#">
+                                                                earliest
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                latest
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                group offsets
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                specific offsets
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                timestamp
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Mode </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error">
+
+                                                <div class="ddp-type-selectbox ddp-full">
+                                                    <span class="ddp-txt-selectbox">lates</span>
+                                                    <ul class="ddp-list-selectbox  ddp-selectdown">
+                                                        <li>
+                                                            <a href="#">
+                                                                earliest
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                latest
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                group offsets
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                specific offsets
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                timestamp
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Samples </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error"><input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Samples before</label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error"><input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type ">
+                                            <label class="ddp-label-type">Partitions<span class="type-sub">(comma-separated) </span></label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error"><input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <div class="ddp-wrap-edit3 ddp-type">
+                                            <label class="ddp-label-type">Timestamp </label>
+                                            <!-- edit option -->
+                                            <div class="ddp-ui-edit-option ddp-type type-error">
+                                                <div class="ddp-clear ddp-type-multy">
+                                                    <div class="ddp-col-5">
+                                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                    </div>
+                                                    <div class="ddp-col-7">
+                                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">
+                                                    </div>
+                                                </div>
+                                                <span class="ddp-data-error"> Invalid Connect</span>
+                                            </div>
+                                            <!-- //edit option -->
+                                        </div>
+                                        <!-- //edit -->
+                                        <!-- edit -->
+                                        <!--<div class="ddp-wrap-edit3 ddp-type">-->
+                                            <!--<label class="ddp-label-type">Created time </label>-->
+                                            <!--&lt;!&ndash; edit option &ndash;&gt;-->
+                                            <!--<div class="ddp-ui-edit-option ddp-type">-->
+                                                <!--<span class="ddp-detail">2019-03-3 09:11:11</span>-->
+                                            <!--</div>-->
+                                            <!--&lt;!&ndash; //edit option &ndash;&gt;-->
+                                        <!--</div>-->
+                                        <!--&lt;!&ndash; //edit &ndash;&gt;-->
+                                        <!--&lt;!&ndash; edit &ndash;&gt;-->
+                                        <!--<div class="ddp-wrap-edit3 ddp-type">-->
+                                            <!--<label class="ddp-label-type">Last modified time </label>-->
+                                            <!--&lt;!&ndash; edit option &ndash;&gt;-->
+                                            <!--<div class="ddp-ui-edit-option ddp-type">-->
+                                                <!--<span class="ddp-detail">2019-03-3 09:11:11</span>-->
+                                            <!--</div>-->
+                                            <!--&lt;!&ndash; //edit option &ndash;&gt;-->
+                                        <!--</div>-->
+                                        <!-- //edit -->
+                                        <!--<div class="ddp-edit-group">-->
+                                            <!--&lt;!&ndash; edit &ndash;&gt;-->
+                                            <!--<div class="ddp-wrap-edit3 ddp-type">-->
+                                                <!--<label class="ddp-label-type">Format </label>-->
+                                                <!--&lt;!&ndash; edit option &ndash;&gt;-->
+                                                <!--<div class="ddp-ui-edit-option ddp-type">-->
+
+                                                    <!--&lt;!&ndash; selectbox &ndash;&gt;-->
+                                                    <!--&lt;!&ndash; 클릭시 ddp-selected 추가&ndash;&gt;-->
+                                                    <!--<div class="ddp-type-selectbox ddp-full">-->
+                                                        <!--<span class="ddp-txt-selectbox">기타</span>-->
+                                                        <!--<ul class="ddp-list-selectbox  ddp-selectdown">-->
+                                                            <!--<li>-->
+                                                                <!--<a href="#">-->
+                                                                    <!--1-->
+                                                                <!--</a>-->
+                                                            <!--</li>-->
+                                                            <!--<li>-->
+                                                                <!--<a href="#">-->
+                                                                    <!--2-->
+                                                                <!--</a>-->
+                                                            <!--</li>-->
+                                                            <!--<li>-->
+                                                                <!--<a href="#">-->
+                                                                    <!--3-->
+                                                                <!--</a>-->
+                                                            <!--</li>-->
+                                                        <!--</ul>-->
+                                                    <!--</div>-->
+                                                    <!--&lt;!&ndash; //selectbox &ndash;&gt;-->
+                                                <!--</div>-->
+                                                <!--&lt;!&ndash; //edit option &ndash;&gt;-->
+                                            <!--</div>-->
+                                            <!--&lt;!&ndash; //edit &ndash;&gt;-->
+                                            <!--&lt;!&ndash; edit &ndash;&gt;-->
+                                            <!--<div class="ddp-wrap-edit3 ddp-type">-->
+                                                <!--<label class="ddp-label-type">Delimiter </label>-->
+                                                <!--&lt;!&ndash; edit option &ndash;&gt;-->
+                                                <!--<div class="ddp-ui-edit-option ddp-type"><input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">-->
+                                                <!--</div>-->
+                                                <!--&lt;!&ndash; //edit option &ndash;&gt;-->
+                                            <!--</div>-->
+                                            <!--&lt;!&ndash; //edit &ndash;&gt;-->
+                                            <!--&lt;!&ndash; edit &ndash;&gt;-->
+                                            <!--<div class="ddp-wrap-edit3 ddp-type">-->
+                                                <!--<label class="ddp-label-type">Fields </label>-->
+                                                <!--&lt;!&ndash; edit option &ndash;&gt;-->
+                                                <!--<div class="ddp-ui-edit-option ddp-type"><input type="text" class="ddp-input-typebasic ddp-full" placeholder="text">-->
+                                                <!--</div>-->
+                                                <!--&lt;!&ndash; //edit option &ndash;&gt;-->
+                                            <!--</div>-->
+                                            <!--&lt;!&ndash; //edit &ndash;&gt;-->
+                                            <!--<div class="ddp-ui-buttons">-->
+                                                <!--<div class="ddp-btn-table">-->
+                                                    <!--<a href="javascript:" class="ddp-btn-gray">Change</a>-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+
+                                        <!-- button -->
+                                        <div class="ddp-ui-edit-button type-button">
+                                            <a href="javascript:" class="ddp-btn-solid2 ddp-dark ddp-full">Save</a>
+                                        </div>
+                                        <!-- //button -->
+
+
+
+                                    </div>
+                                    <!-- //tab contents -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //setting -->
+                </div>
+                <!-- result -->
+                <div class="ddp-workflow-detail" id="result-flow">
+                    <!--
+                       [D] : full size 일 때 ddp-full 추가
+                   -->
+                    <div class="ddp-wrap-result ">
+                        <script>
+                            $(function(){
+                                $('.ddp-wrap-result-top .ddp-ui-tab li a').click(function(){
+                                    var $tabIdx = $(this).parent().index();
+                                    $(this).parent().addClass('ddp-selected');
+                                    $(this).parent().siblings().removeClass('ddp-selected');
+                                    $('.ddp-wrap-grid .ddp-ui-tab-contents').eq($tabIdx).show();
+                                    $('.ddp-wrap-grid .ddp-ui-tab-contents').eq($tabIdx).siblings().hide();
+                                });
+                            });
+                        </script>
+                        <!-- top -->
+                        <div class="ddp-wrap-result-top">
+                            <!-- tab -->
+                            <div class="ddp-wrap-tab2 ddp-fleft">
+                                <ul class="ddp-ui-tab ddp-type3 ddp-disabled">
+                                    <li class="ddp-selected">
+                                        <a href="javascript:">Table</a>
+                                    </li>
+                                    <li class="ddp-disabled">
+                                        <a href="javascript:">Time</a>
+                                    </li>
+                                    <li class="">
+                                        <a href="javascript:">Map</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <!-- //tab -->
+
+                            <div class="ddp-label" style="display:none;">Sample</div>
+                            <div class="ddp-flow-edit-option">
+                                <a href="javascript:" class="ddp-btn-size-full"></a>
+                                <a href="javascript:" class="ddp-btn-size-reduction"></a>
+                            </div>
+                        </div>
+                        <!-- //top -->
+                        <div class="ddp-wrap-grid">
+                            <div class="ddp-ui-tab-contents">
+                                <!-- option -->
+                                <div class="ddp-ui-option ddp-clear">
+                                    <!-- left -->
+                                    <div class="ddp-fleft">
+                                        <div class="ddp-data-form">
+                                            <strong>10</strong>
+                                            Clumns
+                                        </div>
+                                        <div class="ddp-data-form">
+                                            <strong>1</strong>
+                                            Types
+                                        </div>
+                                        <div class="ddp-data-form">
+                                            <strong>9</strong>
+                                            Rows
+                                        </div>
+                                    </div>
+                                    <!-- //left -->
+                                    <!-- right -->
+                                    <div class="ddp-fright">
+                                        <a href="javascript:" class="ddp-link-txt">
+                                            <em class="ddp-icon-window"></em>
+                                            detach
+                                        </a>
+                                        <a href="javascript:" class="ddp-link-txt">
+                                            <em class="ddp-icon-widget-gridsave"></em>
+                                            Download
+                                        </a>
+                                    </div>
+                                    <!-- //right -->
+                                </div>
+                                <!-- //option -->
+                                <div class="ddp-ui-grid" >
+                                    그리드 영역
+                                </div>
+                            </div>
+                            <div class="ddp-ui-tab-contents" style="display:none;">
+                                2
+                            </div>
+                        </div>
+                        <div class="ddp-wrap-grid" style="display:none;">
+
+
+
+<!--                            <span class="ddp-txt-error2">error</span>-->
+                            <div class="ddp-box-add" style="display:none;">
+                                <div class="ddp-txt-message">
+                                    기존 컬럼 옆에 <em class="ddp-icon-add-r"></em> 버튼을 눌러서 추가하세요.
+                                </div>
+                            </div>
+                            <div class="ddp-wrap-popup2 ddp-types ddp-type-rulepop" style="display:block; top:300px; left:100px;">
+                                <ul class="ddp-list-popup">
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-editdel3"></em>
+                                            Drop
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-change"></em>
+                                            Cnage
+                                            <em class="ddp-icon-view"></em>
+                                        </a>
+                                    </li>
+                                    <li class="ddp-disabled">
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-sort"></em>
+                                            Sort
+                                            <em class="ddp-icon-view"></em>
+                                        </a>
+                                        <div class="ddp-wrap-popup2 ">
+                                            <ul class="ddp-list-popup ddp-padd">
+                                                <li>
+                                                    <a href="#">
+                                                        Column name
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Column type
+                                                        <em class="ddp-icon-view"></em>
+                                                    </a>
+                                                    <div class="ddp-wrap-popup2 ">
+                                                        <ul class="ddp-list-popup ddp-padd">
+                                                            <li>
+                                                                <a href="#">
+                                                                    Integer
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Float
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    String
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="#">
+                                                                    Boolean
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-move"></em>
+                                            Move
+                                            <em class="ddp-icon-view"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-editmodify"></em>
+                                            Edit
+                                            <em class="ddp-icon-view"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-generate"></em>
+                                            Generate
+                                            <em class="ddp-icon-view"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-detail"></em>
+                                            Generate
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-drop-clean"></em>
+                                            Clean
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //result -->
+                </div>
+            </div>
+            <!-- //contents workflow -->
+        </div>
+
+
+    </div>
+    <!-- //integrator -->
+</div>
+
+
+<script>
+    $(function(){
+        Split(['#flow', '#result-flow'], {
+            sizes: [70,30],
+            direction: 'vertical'
+        });
+        Split(['#edit-flow', '#setting-flow'],{
+            sizes: [70,30]
+        });
+    })
+</script>
+
+</body>
+</html>
