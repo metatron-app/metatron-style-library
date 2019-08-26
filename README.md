@@ -16,7 +16,7 @@ Introduction to Metatron UI/UX
 Introduction to Metatron UI Components
 ---
 - Button
-- Model Popup
+- Modal Popup
 - List
 - Widget
 - Icons
