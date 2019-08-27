@@ -6,7 +6,7 @@ UI Publishing
 - 기존 퍼블(Original) <https://metatron-app.github.io/metatron-style-library/publishing/dark/html/@index.html>
 <img width="500px" src="/docs/guide/images/white.png" alt="White" title="White Thema">
 
-- 테마 작업중(Add Dark Thema) <https://metatron-app.github.io/metatron-style-library/publishing/dark/html2/@index.html>
+- 테마 작업중(Add Dark Thema) <https://metatron-app.github.io/metatron-style-library/publishing/dark/html_dark/@index.html>
 <img width="500px" src="/docs/guide/images/dark.png" alt="Dark" title="Dark Thema">
 
 Introduction to Metatron UI/UX
