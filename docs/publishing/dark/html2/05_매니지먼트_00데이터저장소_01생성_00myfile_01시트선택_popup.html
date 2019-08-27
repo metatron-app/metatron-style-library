@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+     <!-- polaris ui js --->
+     <!-- <script src="../js/common/polaris_ui.js"></script> --->
+</head>
+<body class="thema-black">
+
+<div class="ddp-type-contents ddp-resize2 ddp-type2">
+	<!-- 닫기 버튼 -->
+	<a href="#" class="ddp-btn-close"></a>
+	<!-- //닫기 버튼 -->
+    <div class="ddp-icon-name">
+        <div class="ddp-ui-name2 ddp-type3">
+            Create a data source (My file)
+            <span class="ddp-txt-info ddp-type">Please select data</span>
+            <em class="ddp-bg-order-line4-type"></em>
+        </div>
+    </div>
+    <!-- contents in  -->
+    <div class="ddp-type-contents-in ddp-sheet-resize">
+        <div class="ddp-box-popupcontents ddp-wrap-file-create ddp-flex">
+
+            <!-- upload box -->
+            <div class="ddp-box-upload">
+                <!-- name -->
+                <div class="ddp-data-load-name">
+                    <em class="ddp-icon-file2"></em>Superstore Sales (Excel).xls
+                </div>
+                <!-- //name -->
+                <div class="ddp-txt-file-info">
+                    <div class="ddp-link-file">
+                        <input type="file">
+                        Import
+                    </div>
+                     or drop file here
+                </div>
+            </div>
+            <!-- //upload box -->
+            <!--
+                옵션 체크박스만 있을경우 : ddp-type 추가
+            -->
+            <div class="ddp-wrap-variable">
+                <!-- wrap sheet -->
+                <div class="ddp-wrap-sheet">
+
+                    <!-- sheet list -->
+                    <div class="ddp-ui-sheet-list" style="display:;">
+                        <ul class="ddp-list-sheet">
+                            <li>
+                                <label class="ddp-label-radio">
+                                    <input type="radio">
+                                    <i class="ddp-icon-radio"></i>
+                                </label>
+                                <span class="ddp-txt-radio">시트명1<em class="ddp-icon-error2"></em></span>
+                            </li>
+                            <li class="ddp-selected">
+                                <label class="ddp-label-radio">
+                                    <input type="radio">
+                                    <i class="ddp-icon-radio"></i>
+                                </label>
+                                <span class="ddp-txt-radio">시트명1</span>
+                            </li>
+                            <li>
+                                <label class="ddp-label-radio">
+                                    <input type="radio">
+                                    <i class="ddp-icon-radio"></i>
+                                </label>
+                                <span class="ddp-txt-radio">시트명1</span>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                    <!-- //sheet list -->
+                    <!-- sheet view -->
+                    <!-- full size :  ddp-full 추가 -->
+                    <div class="ddp-view-sheet ">
+
+                        <div class="ddp-wrap-grid-option ddp-data-name">
+                            <span class="ddp-txt-name">시트명1
+                                <em class="ddp-icon-error2"></em>
+                            </span>
+
+                            <div class="ddp-part-right">
+                                <div class="ddp-data-form">
+                                    <strong>432.3</strong>
+                                    kb
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong>2</strong>
+                                    Clumns
+                                </div>
+                                <div class="ddp-data-form">
+                                    <input type="text" class="ddp-data-input">
+                                    <strong>/ 2,333</strong>
+                                    Row
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong class="ddp-cursor">3</strong>
+                                    Types
+                                    <!-- 팝업 -->
+                                    <div class="ddp-wrap-popup2 ddp-types">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+                                                <a href="#">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <em class="ddp-icon-type-tf"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //팝업 -->
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <!-- 그리드 영역 -->
+                        <!-- option 없을 경우 ddp-full 추가 -->
+                        <div class="ddp-wrap-grid">
+
+                        </div>
+                        <!-- //그리드 영역 -->
+
+                    </div>
+                    <!-- //sheet view -->
+                </div>
+                <!-- //wrap sheet -->
+            </div>
+            <div class="ddp-wrap-edit-form">
+                <!-- 필수 일때 ddp-error 추가 -->
+                <div class="ddp-wrap-edit3 ddp-type ddp-error">
+                    <label class="ddp-label-type">Column delimiter</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option">
+
+                        <!-- apply -->
+
+                        <div class="ddp-input-apply">
+                            <input type="text" placeholder="Enter column delimiter" class="ddp-input-txt">
+                            <em class="ddp-icon-apply"></em>
+                        </div>
+                        <!-- //apply -->
+                        <!-- error -->
+                        <span class="ddp-ui-error">
+                            필수 입력
+                        </span>
+                        <!-- error -->
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- 필수 일때 ddp-error 추가 -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Line separator</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option">
+                        <!-- apply -->
+                        <div class="ddp-input-apply  ">
+                            <input type="text" placeholder="Enter column delimiter" class="ddp-input-txt">
+                            <em class="ddp-icon-apply"></em>
+                        </div>
+                        <!-- //apply -->
+                        <!-- error -->
+                        <span class="ddp-ui-error">
+                            필수 입력
+                        </span>
+                        <!-- error -->
+                    </div>
+                    <!-- //edit option -->
+                </div>
+
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-checkbox">
+                        <input type="checkbox">
+                        <i class="ddp-icon-checkbox"></i>
+                        <span class="ddp-txt-checkbox">Use the first row as the head column. (If not checked, a new row is created and used as the head column)</span>
+                    </label>
+                </div>
+            </div>
+            <!-- info message -->
+            <div class="ddp-wrap-message">
+                <div class="ddp-box-synch type-error">
+                    <div class="ddp-txt-synch">
+                        <em class="ddp-icon-info"></em>
+                        불러올 수 없는 포멧이 포함되어 있습니다
+                    </div>
+                </div>
+                <div class="ddp-box-synch ">
+                    <div class="ddp-txt-synch">
+                        <em class="ddp-icon-info"></em>
+                        불러올 수 없는 포멧이 포함되어 있습니다
+                    </div>
+                    <a href="javascript:" class="ddp-btn-info-close"></a>
+                </div>
+                <div class="ddp-box-synch type-info">
+                    <div class="ddp-txt-synch">
+                        <em class="ddp-icon-info"></em>
+                        불러올 수 없는 포멧이 포함되어 있습니다
+                    </div>
+                </div>
+            </div>
+            <!-- //info message -->
+        </div>
+    </div>
+    <!-- //contents in  -->
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="#" class="ddp-btn-type-popup">Cancel</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="#" class="ddp-btn-type-popup ddp-bg-black ">Next</a>
+    </div>
+    <!-- //buttons -->
+
+</div>
+
+
+
+
+</body>
+</html>

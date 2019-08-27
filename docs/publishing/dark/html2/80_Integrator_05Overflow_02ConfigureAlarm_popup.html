@@ -1,0 +1,245 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <link rel="stylesheet" href="../css/integrator/import.integrator.css"/>
+</head>
+<body class="thema-black">
+
+<div class="ddp-layout-popuptype">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup">
+        <div class="ddp-ui-popup-title">
+            	<span class="ddp-txt-title-name">
+                   Configure Alarm
+                </span>
+
+            <div class="ddp-ui-pop-buttons">
+                <a href="javascript:" class="ddp-btn-pop">Cancel</a>
+                <a href="javascript:" class="ddp-btn-pop ddp-bg-black">Done</a>
+            </div>
+            <!-- det -->
+        </div>
+
+        <div class="ddp-ui-popup-contents ddp-integrator  ">
+            <div class="ddp-wrap-create2">
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <div class="ddp-label-type ddp-bold">SMTP</div>
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2 type-sub">
+                        <table class="ddp-table-detail type-middle">
+                            <colgroup>
+                                <col width="166px">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th>
+                                    Host
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Port
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    User Authentication
+                                </th>
+                                <td>
+                                    <div class="ddp-ui-edit-option form-option">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">True</span>
+                                        </label>
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">False</span>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Username
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Password
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="password" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Encoding
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Use TLS
+                                </th>
+                                <td>
+                                    <div class="ddp-ui-edit-option form-option">
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">True</span>
+                                        </label>
+                                        <label class="ddp-label-radio ddp-inline">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">False</span>
+                                        </label>
+                                    </div>
+                                </td>
+                            </tr>
+
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <div class="ddp-label-type ddp-bold">Slack</div>
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2 type-sub">
+                        <table class="ddp-table-detail type-middle">
+                            <colgroup>
+                                <col width="166px">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th>
+                                    Web Hook URL
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Bot Name
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Bot Emoji
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    NotiChannel
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <div class="ddp-label-type ddp-bold">SMS</div>
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2 type-sub">
+                        <table class="ddp-table-detail type-middle">
+                            <colgroup>
+                                <col width="166px">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th>
+                                    URL
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Sender Number
+                                </th>
+                                <td>
+                                    <div class="form-edit">
+                                        <input type="text" class="ddp-input-typebasic" placeholder="text">
+                                    </div>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
