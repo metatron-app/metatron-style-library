@@ -1,0 +1,280 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <script>
+        $(function(){
+            $('.ddp-ui-tab li a').click(function(){
+                var $tabIdx = $(this).parent().index();
+                $(this).parent().addClass('ddp-selected');
+                $(this).parent().siblings().removeClass('ddp-selected');
+                $('.ddp-ui-tab-contents').eq($tabIdx).show();
+                $('.ddp-ui-tab-contents').eq($tabIdx).siblings().hide();
+            });
+        });
+    </script>
+
+</head>
+<body>
+<!-- 미리보기 팝업 -->
+<div class="ddp-pop-preview ddp-type page-information">
+
+    <!-- top -->
+    <div class="ddp-ui-top">
+        <div class="ddp-data-name">
+            Druid Cluster Information
+        </div>
+        <em class="ddp-btn-popup-close"></em>
+    </div>
+    <!-- //top -->
+
+    <!-- contents -->
+    <div class="ddp-ui-preview-contents ddp-type-preview">
+        <div class="ddp-type-top-option">
+            <ul class="ddp-ui-tab ddp-type">
+                <li class="">
+                    <a href="javascript:">Common</a>
+                </li>
+                <li>
+                    <a href="javascript:">History</a>
+                </li>
+                <li>
+                    <a href="javascript:">Broker</a>
+                </li>
+                <li>
+                    <a href="javascript:">Coordinator</a>
+                </li>
+                <li>
+                    <a href="javascript:">Middle Manager</a>
+                </li>
+                <li class="ddp-selected">
+                    <a href="javascript:">Overload</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="ddp-wrap-tab-contents">
+            <div class="ddp-ui-tab-contents">
+                <div class="ddp-wrap-informaiton " >
+                    <div class="ddp-ui-detail ddp-clear ">
+                        <!-- col -->
+                        <div class="ddp-col-12">
+                            <div class="ddp-ui-title">
+                                Overview
+                            </div>
+                            <table class="ddp-table-detail2 type-vertical-top">
+                                <colgroup>
+                                    <col width="325px">
+                                    <col width="*">
+                                </colgroup>
+                                <tbody>
+                                <tr>
+                                    <th>
+                                        Total coordinator nodes
+                                    </th>
+                                    <td>
+                                        1,234
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Druid host
+                                    </th>
+                                    <td>
+                                        localhost:8083
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Druid plaintext port
+                                    </th>
+                                    <td>
+                                        8090
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Druid TLS port
+                                    </th>
+                                    <td>
+                                        8290
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Size (Curr/Max)
+                                    </th>
+                                    <td class=" ">
+                                        <!-- data size -->
+                                        <div class="ddp-data-size ">
+                                            <div class="ddp-txt-data">
+                                                <span class="ddp-txt-size">16.6GB</span> / 12TB
+                                            </div>
+
+                                            <div class="ddp-ui-bar-per">
+                                                <!-- bar -->
+                                                <div class="ddp-ui-bar" style="width:20%;">
+                                                    <!-- tooltip -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-top"></em>
+                                                        20%
+                                                    </div>
+                                                    <!-- //tooltip -->
+                                                </div>
+                                                <!-- //bar -->
+                                                <em class="ddp-bar-line" style="left:140px;"></em>
+                                            </div>
+                                        </div>
+                                        <!-- //data size -->
+                                        <!-- data size -->
+                                        <div class="ddp-data-size type-error">
+                                            <div class="ddp-txt-data">
+                                                <span class="ddp-txt-size">16.6GB</span> / 12TB
+                                            </div>
+
+                                            <div class="ddp-ui-bar-per">
+                                                <!-- bar -->
+                                                <div class="ddp-ui-bar" style="width:65%;">
+                                                    <!-- tooltip -->
+                                                    <div class="ddp-ui-tooltip-info">
+                                                        <em class="ddp-icon-view-top"></em>
+                                                        65%
+                                                    </div>
+                                                    <!-- //tooltip -->
+                                                </div>
+                                                <!-- //bar -->
+                                                <em class="ddp-bar-line" style="left:60%;"></em>
+                                            </div>
+                                        </div>
+                                        <!-- //data size -->
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- //col -->
+                    </div>
+                    <div class="ddp-ui-detail ddp-clear ">
+                        <!-- col -->
+                        <div class="ddp-col-12">
+                            <div class="ddp-ui-title">
+                                Overlord Operations
+                            </div>
+                            <table class="ddp-table-detail2">
+                                <colgroup>
+                                    <col width="325px">
+                                    <col width="*">
+                                </colgroup>
+                                <tbody>
+                                <tr>
+                                    <th>
+                                        druid.extensions.loadList
+                                    </th>
+                                    <td>
+                                        irehose", "druid-orc-extensions", "druid-kafka-indexing-service"]
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.startup.logging.logProperties
+                                    </th>
+                                    <td>
+                                        true
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.request.logging.typedruid.zk.
+                                    </th>
+                                    <td>
+                                        log
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        service.host
+                                    </th>
+                                    <td>
+                                        hosthost
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.zk.paths.base
+                                    </th>
+                                    <td>
+                                        pathpath
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.metadata.storage.type
+                                    </th>
+                                    <td>
+                                        mariadb
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.metadata.storage.connector.connectURI
+                                    </th>
+                                    <td>
+                                        jdbc:mysql://jup-g07-01:3306/druid?useUnicode=true&charac
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.metadata.storage.connector.user
+                                    </th>
+                                    <td>
+                                        druid
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.metadata.storage.connector.password
+                                    </th>
+                                    <td>
+                                        druid
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.storage.type
+                                    </th>
+                                    <td>
+                                        hdfs
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        druid.storage.storageDirectory
+                                    </th>
+                                    <td>
+                                        myStorage
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- //col -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- //contents -->
+
+</div>
+<!-- //미리보기 팝업 -->
+</body>
+</html>

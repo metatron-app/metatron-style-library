@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+</head>
+<body class="thema-black">
+
+<div class="ddp-layout-popuptype ddp-type-dataset">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup">
+        <!-- title -->
+        <div class="ddp-ui-popup-title">
+            	<span class="ddp-txt-title-name">
+                    Change input dataset
+                </span>
+
+            <div class="ddp-ui-pop-buttons">
+                <a href="javascript:" class="ddp-btn-pop">Cancel</a>
+                <a href="javascript:" class="ddp-btn-pop ddp-bg-black">Done</a>
+            </div>
+            <!-- det -->
+        </div>
+        <!-- //title -->
+        <!-- contents in  -->
+        <div class="ddp-ui-popup-contents">
+            <div class="ddp-popup-dashboard">
+                <!-- 옵션 -->
+                <div class="ddp-type-top-option ddp-clear">
+                    <!-- 검색 -->
+                    <div class="ddp-form-search ddp-fleft">
+                        <em class="ddp-icon-search"></em>
+                        <input type="text" placeholder="항목 찾기">
+                        <em class="ddp-btn-search-close"></em>
+                    </div>
+                    <!-- //검색 -->
+                    <div class="ddp-ui-rightoption">
+
+                        <!-- edit -->
+                        <div class="ddp-wrap-edit">
+                            <label class="ddp-label-type"> Type</label>
+                            <!-- edit option -->
+                            <div class="ddp-ui-edit-option ddp-inline">
+
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-box-tag ddp-imported">Imported</span>
+                                </label>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-box-tag ddp-wargled">Wrangled</span>
+                                </label>
+                            </div>
+                            <!-- //edit option -->
+                        </div>
+                        <!-- //edit -->
+
+                    </div>
+
+                </div>
+                <!-- //옵션 -->
+                <div class="ddp-wrap-variable">
+                    <!-- 그리드 영역 -->
+                    <!-- 설명 나올때 ddp-selected 추가 -->
+                    <div class="ddp-wrap-grid ddp-selected">
+
+                        <div class="ddp-wrap-viewtable ddp-add">
+                            <!-- 테이블 -->
+                            <div class="ddp-box-viewtable">
+                                <!-- gridhead -->
+                                <div class="ddp-ui-gridhead">
+                                    <table class="ddp-table-form ddp-table-type2">
+                                        <colgroup>
+                                            <col width="51px">
+                                            <col width="*">
+                                            <col width="120px">
+                                            <col width="180px">
+                                        </colgroup>
+                                        <thead>
+                                        <tr class="ddp-selected">
+                                            <th class="ddp-txt-center">
+                                                <div class="ddp-ui-radio">
+                                                    <input type="radio" class="ddp-checkbox-form">
+                                                    <i class="ddp-icon-radio"></i>
+                                                </div>
+                                            </th>
+                                            <th>
+                                                Name
+                                                <em class="ddp-icon-array-default2"></em>
+                                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                            </th>
+                                            <th>
+                                                Type
+                                                <em class="ddp-icon-array-default2"></em>
+                                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                            </th>
+
+                                            <th>
+                                                Last updated
+                                                <em class="ddp-icon-array-default2"></em>
+                                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                            </th>
+                                        </tr>
+                                        </thead>
+
+                                    </table>
+                                </div>
+                                <!--// gridhead -->
+
+                                <!-- gridbody -->
+                                <div class="ddp-ui-gridbody">
+                                    <table class="ddp-table-form ddp-table-type2 ddp-table-select">
+                                        <colgroup>
+                                            <col width="51px">
+                                            <col width="*">
+                                            <col width="120px">
+                                            <col width="180px">
+                                        </colgroup>
+
+                                        <tbody>
+                                        <tr class="ddp-selected">
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-radio">
+                                                    <input type="radio" class="ddp-checkbox-form">
+                                                    <i class="ddp-icon-radio"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="ddp-txt-long ">
+                                                    <span class="ddp-box-tag ddp-wargled">Wrangled</span>
+                                                    Data set _EQPID ALL
+                                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                                </div>
+
+                                                <div class="ddp-box-grid-detail">
+                                                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                                                    <div class="ddp-data-detailinfo">
+                                                        <span class="ddp-data-name">데이터이름 OfficeSupplies </span>
+                                                    </div>
+                                                    <script>
+                                                        $(function(){
+                                                            var $dataNameHeight = $('.ddp-data-detailinfo').outerHeight();
+                                                            var $dataDetailHeight = $('.ddp-wrap-datadetail').outerHeight();
+                                                            $('.ddp-script-preview').css({
+                                                                'position' :'absolute',
+                                                                'top' : $dataNameHeight + $dataDetailHeight,
+                                                                'left' : '0px',
+                                                                'right' : '0px',
+                                                                'bottom' :'0px'
+                                                            });
+                                                        })
+                                                    </script>
+                                                    <!-- part -->
+                                                    <div class="ddp-wrap-datadetail ddp-pad0">
+                                                        <!-- detail -->
+                                                        <dl class="ddp-dl-detail">
+                                                            <dt>
+                                                                Created
+                                                            </dt>
+                                                            <dd>
+                                                                2019.04.44
+                                                            </dd>
+                                                        </dl>
+                                                        <!-- //detail -->
+                                                        <!-- detail -->
+                                                        <dl class="ddp-dl-detail">
+                                                            <dt>
+                                                                Size
+                                                            </dt>
+                                                            <dd>
+                                                                505.50KB
+                                                            </dd>
+                                                        </dl>
+                                                        <!-- //detail -->
+                                                        <!-- detail -->
+                                                        <dl class="ddp-dl-detail">
+                                                            <dt>
+                                                                Row
+                                                            </dt>
+                                                            <dd>
+                                                                2,000
+                                                            </dd>
+                                                        </dl>
+                                                        <!-- //detail -->
+                                                        <div class="ddp-wrap-datapreview ddp-pad0">
+                                                            <span class="ddp-label-name">데이터 미리보기</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class=" ddp-script-preview">
+                                                        그리드 영역
+                                                    </div>
+                                                </div>
+
+
+                                            </td>
+                                            <td>
+                                                <span calss="ddp-data-source">
+
+                <div class="ddp-box-grid-detail">
+                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                    <div class="ddp-data-detailinfo">
+                        <span class="ddp-data-name">데이터이름 OfficeSupplies </span>
+                    </div>
+                    <script>
+                        $(function(){
+                            var $dataNameHeight = $('.ddp-data-detailinfo').outerHeight();
+                            var $dataDetailHeight = $('.ddp-wrap-datadetail').outerHeight();
+                            $('.ddp-script-preview').css({
+                                'position' :'absolute',
+                                'top' : $dataNameHeight + $dataDetailHeight,
+                                'left' : '0px',
+                                'right' : '0px',
+                                'bottom' :'0px'
+                            });
+                        })
+                    </script>
+                    <!-- part -->
+                    <div class="ddp-wrap-datadetail ddp-pad0">
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Created
+                            </dt>
+                            <dd>
+                                2019.04.44
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Size
+                            </dt>
+                            <dd>
+                                505.50KB
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Row
+                            </dt>
+                            <dd>
+                                2,000
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <div class="ddp-wrap-datapreview ddp-pad0">
+                            <span class="ddp-label-name">데이터 미리보기</span>
+                        </div>
+                    </div>
+                    <div class=" ddp-script-preview">
+                        그리드 영역
+                    </div>
+                </div>
+                                                    <em class="ddp-icon-flow"></em>
+                                                    flow name
+                                                </span>
+
+                                            </td>
+                                            <td>
+                                                2017.05.22 12:00:00
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-radio">
+                                                    <input type="radio" class="ddp-checkbox-form">
+                                                    <i class="ddp-icon-radio"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="ddp-txt-long ">
+                                                    <span class="ddp-box-tag ddp-imported">Imported</span>
+                                                    Data set _EQPID ALL
+                                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span calss="ddp-data-source">
+                                                    <em class="ddp-icon-staging"></em>
+                                                    Staging DB
+                                                </span>
+                                            </td>
+                                            <td>
+                                                2017.05.22 12:00:00
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-radio">
+                                                    <input type="radio" class="ddp-checkbox-form">
+                                                    <i class="ddp-icon-radio"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="ddp-txt-long ">
+                                                    <span class="ddp-box-tag ddp-wargled">Wrangled</span>
+                                                    Data set _EQPID ALL
+                                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span calss="ddp-data-source">
+                                                    <em class="ddp-icon-db-s"></em>
+                                                    DB
+                                                </span>
+                                            </td>
+                                            <td>
+                                                2017.05.22 12:00:00
+                                            </td>
+                                        </tr>
+                                        <tr class="">
+                                            <td class="ddp-txt-center">
+                                                <div class="ddp-ui-radio">
+                                                    <input type="radio" class="ddp-checkbox-form">
+                                                    <i class="ddp-icon-radio"></i>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <div class="ddp-txt-long ">
+                                                    <span class="ddp-box-tag ddp-imported">Imported</span>
+                                                    Data set _EQPID ALL
+                                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <span calss="ddp-data-source">
+                                                    <em class="ddp-icon-file"></em>
+                                                    file
+                                                </span>
+                                            </td>
+                                            <td>
+                                                2017.05.22 12:00:00
+                                            </td>
+                                        </tr>
+
+
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                                <!--// gridbody -->
+                            </div>
+                            <!-- //테이블 -->
+
+
+                            <div class="ddp-box-add-link3">
+                                <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- //그리드 영역 -->
+                </div>
+                <!-- 설명 -->
+
+                <div class="ddp-box-grid-detail">
+                    <a href="javascript:" class="ddp-btn-close-s"></a>
+                    <div class="ddp-data-detailinfo">
+                        <span class="ddp-data-name">데이터이름 OfficeSupplies </span>
+                    </div>
+                    <script>
+                        $(function(){
+                            var $dataNameHeight = $('.ddp-data-detailinfo').outerHeight();
+                            var $dataDetailHeight = $('.ddp-wrap-datadetail').outerHeight();
+                            $('.ddp-script-preview').css({
+                                'position' :'absolute',
+                                'top' : $dataNameHeight + $dataDetailHeight,
+                                'left' : '0px',
+                                'right' : '0px',
+                                'bottom' :'0px'
+                            });
+                        })
+                    </script>
+                    <!-- part -->
+                    <div class="ddp-wrap-datadetail ddp-pad0">
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Created
+                            </dt>
+                            <dd>
+                                2019.04.44
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Size
+                            </dt>
+                            <dd>
+                                505.50KB
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Row
+                            </dt>
+                            <dd>
+                                2,000
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <div class="ddp-wrap-datapreview ddp-pad0">
+                            <span class="ddp-label-name">데이터 미리보기</span>
+                        </div>
+                    </div>
+
+                    <div class=" ddp-script-preview">
+                        그리드 영역
+                    </div>
+                </div>
+                <!-- //설명 -->
+                <!-- bottom option -->
+                <div class="ddp-ui-bottomoption ddp-clear">
+                    <span class="ddp-data-type ddp-fleft">3개 항목 선택</span>
+
+                    <a href="javascript:" class="ddp-type-link3 ddp-fright"><em class="ddp-icon-linkplus"></em> Create a dataset</a>
+                </div>
+                <!-- //bottom option -->
+            </div>
+
+
+        </div>
+        <!-- //contents in  -->
+    </div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body class="thema-black">
+<!-- header -->
+<div class="ddp-layout-header">
+    <!-- lnb -->
+    <!-- menu 클릭시 ddp-selected 추가 -->
+    <div class="ddp-layout-lnb">
+        <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+        <ul class="ddp-list-lnb">
+            <li>
+                <div class="ddp-wrap-listmenu">
+                    <a href="javascript:">
+                        <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                        <em class="ddp-icon-menuview"></em>
+                    </a>
+                    <!-- sub -->
+                    <div class="ddp-list-sub">
+                        <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                        <ul class="ddp-list-submenu">
+                            <!-- 선택시 : ddp-selected -->
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                        <ul class="ddp-list-submenu">
+                            <li>
+                                <a href="javascript:">
+                                    <!-- new 일때 ddp-new -->
+                                    <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                    <em class="ddp-icon-afav"></em>
+                                </a>
+                            </li>
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- //sub -->
+                </div>
+
+            </li>
+            <!-- 클릭시 ddp-selected 추가 -->
+            <li class="ddp-selected">
+                <div class="ddp-wrap-listmenu">
+                    <a href="javascript:">
+                        <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                        <em class="ddp-icon-menuview"></em>
+                    </a>
+                    <!-- sub -->
+                    <div class="ddp-list-sub">
+                        <!-- submenu -->
+                        <ul class="ddp-list-sublnb">
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Storage
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Preparation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Settings
+                                </a>
+                            </li>
+                            <!-- 선택시 ddp-selected -->
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Monitoring
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- //submenu -->
+                    </div>
+                    <!-- //sub -->
+                </div>
+            </li>
+            <li>
+                <div class="ddp-wrap-listmenu">
+                    <a href="javascript:">
+                        <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                        <em class="ddp-icon-menuview"></em>
+                    </a>
+                    <!-- sub -->
+                    <div class="ddp-list-sub">
+                        <!-- submenu -->
+                        <ul class="ddp-list-sublnb">
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Storage
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Preparation
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Settings
+                                </a>
+                            </li>
+                            <!-- 선택시 ddp-selected -->
+                            <li class="ddp-selected">
+                                <a href="javascript:">
+                                    <em class="ddp-icon-dot"></em>
+                                    Data Monitoring
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- //submenu -->
+                    </div>
+                    <!-- //sub -->
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- //lnb -->
+    <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+    <div class="ddp-ui-headright">
+        <a href="javascript:" class="ddp-btn-search"></a>
+        <!-- photo -->
+        <!-- 클릭시 ddp-selected 추가 -->
+        <div class="ddp-wrap-myinfo">
+            <a href="javascript:" class="ddp-data-photo">
+                <img src="../images/img_photo.png" />
+            </a>
+            <!-- my info -->
+            <div class="ddp-ui-sub-myinfo">
+                <div class="ddp-wrap-data">
+                    <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                    <!--<span class="ddp-data-team">전략 2팀</span>-->
+                    <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                </div>
+
+                <ul class="ddp-list-sub-myinfo">
+                    <li><a href="javscript:">사용자 정보 관리</a></li>
+                    <li><a href="javscript:">로그아웃</a></li>
+                </ul>
+            </div>
+            <!-- //my info -->
+        </div>
+        <!-- //photo -->
+
+    </div>
+
+</div>
+<!-- //header -->
+
+
+<!-- contents -->
+<div class="ddp-layout-contents">
+    <em class="ddp-bg-back"></em>
+    <div class="ddp-ui-contents-in ddp-pad0">
+        <!-- top -->
+        <div class="ddp-layout-top-menu ddp-clear">
+            <!-- label -->
+            <div class="ddp-top-label">
+                Engine Monitoring
+            </div>
+            <!-- //label -->
+            <!-- menu -->
+            <div class="ddp-top-menu">
+                <ul class="ddp-list-top-menu">
+                    <li class="ddp-selected">
+                        <a href="javascript:">Overview</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">Ingestion</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">Query</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">Query Statistics</a>
+                    </li>
+                    <li>
+                        <a href="javascript:">Datasource</a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- menu -->
+            <!-- option -->
+            <div class="ddp-ui-header-option">
+                <a href="javascript:" class="ddp-link-info"></a>
+                <!--
+                    클릭시 ddp-selected 추가
+                -->
+                <div class="ddp-ui-more ">
+                    <a href="javascript:" class="ddp-icon-more"></a>
+                    <!-- popup -->
+                    <div class="ddp-wrap-popup2 ddp-types">
+                        <ul class="ddp-list-popup">
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-cluster"></em>
+                                    Set Druid Cluster
+                                </a>
+                            </li>
+                            <li>
+                                <a href="javascript:">
+                                    <em class="ddp-icon-drop-guide"></em>
+                                    Druid Guide
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- //popup -->
+                </div>
+            </div>
+            <!-- //option -->
+        </div>
+        <!-- //top -->
+
+        <!-- contents det -->
+        <div class="ddp-wrap-contents-det">
+            <div class="ddp-ui-contents-det">
+                <!-- box status -->
+                <div class="ddp-box-type">
+                    <div class="ddp-label-name ddp-clear">
+                        <span class="ddp-txt-label">Cluster name Status</span>
+                        <!-- info -->
+                        <div class="ddp-wrap-info ddp-selected">
+                            <a href="javascript:" class="ddp-btn-info2"></a>
+                            <div class="ddp-wrap-hover-layout">
+                                <!-- box layout -->
+                                <div class="ddp-box-layout4">
+                                    <div class="ddp-form-scroll">
+                                        <table class="ddp-table-info ddp-type">
+                                            <colgroup>
+                                                <col width="110px">
+                                                <col width="*">
+                                            </colgroup>
+                                            <tbody>
+                                            <tr>
+                                                <th>
+                                                    Host
+                                                </th>
+                                                <td>
+                                                    18.22.22.2222
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Port
+                                                </th>
+                                                <td>
+                                                    8080
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Server Count
+                                                </th>
+                                                <td>
+                                                    200
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th>
+                                                    Size (Curr/Max)
+                                                </th>
+                                                <td>
+                                                    16.6GB / 12TB
+                                                    <!-- bar -->
+                                                    <div class="ddp-bar-size">
+                                                        <span class="ddp-data-bar" style="width:20%;">
+                                                            <div class="ddp-ui-tooltip-info">
+                                                                <em class="ddp-icon-view-top"></em>
+                                                                20%
+                                                            </div>
+                                                        </span>
+                                                        <span class="ddp-data-line"></span>
+                                                    </div>
+                                                    <!-- //bar -->
+                                                </td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <!-- //box layout -->
+                            </div>
+                        </div>
+                        <!-- //info -->
+                    </div>
+
+                    <div class="ddp-wrap-status-value ddp-clear">
+                        <div class="ddp-ui-status-value">
+                            <div class="ddp-label-status type-broker">
+                                Broker
+                                <em class="ddp-icon-status-warning"></em>
+                            </div>
+                        </div>
+                        <div class="ddp-ui-status-value">
+                            <div class="ddp-label-status type-coordinator">
+                                Coordinator
+                                <em class="ddp-icon-status-success"></em>
+                            </div>
+                        </div>
+
+                         <div class="ddp-ui-status-value">
+                            <div class="ddp-label-status type-historical">
+                                Historical
+                                <em class="ddp-icon-status-error"></em>
+                            </div>
+                         </div>
+                        <div class="ddp-ui-status-value">
+                            <div class="ddp-label-status type-overlord">
+                                Overlord
+                                <em class="ddp-icon-status-success"></em>
+                            </div>
+                        </div>
+                        <div class="ddp-ui-status-value">
+                            <div class="ddp-label-status type-middleManager">
+                                Middle Manager
+                                <em class="ddp-icon-status-error "></em>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //box status -->
+
+                <div class="ddp-box-type ddp-type-server">
+                    <!-- top setting -->
+                    <div class="ddp-box-top-setting ddp-clear">
+                        <div class="ddp-type-search">
+                            <input type="text" placeholder="Search Column">
+                            <a href="javascript:" class="ddp-btn-delete"></a>
+                        </div>
+
+                        <div class="ddp-type-option">
+                            <!--<div class="ddp-form-label2">-->
+                                <!--<label class="ddp-label-type">Node</label>-->
+                                <!--<div class="ddp-wrap-dropdown">-->
+                                    <!--&lt;!&ndash; select box &ndash;&gt;-->
+                                    <!--&lt;!&ndash; 클릭시 ddp-selected 추가 &ndash;&gt;-->
+                                    <!--<div class="ddp-type-selectbox">-->
+                                        <!--<span class="ddp-txt-selectbox">모든타입</span>-->
+                                        <!--<ul class="ddp-list-selectbox ddp-selectdown">-->
+                                            <!--<li>-->
+                                                <!--<a href="javascript:">-->
+                                                    <!--1-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a href="javascript:">-->
+                                                    <!--2-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                            <!--<li>-->
+                                                <!--<a href="javascript:">-->
+                                                    <!--3-->
+                                                <!--</a>-->
+                                            <!--</li>-->
+                                        <!--</ul>-->
+                                    <!--</div>-->
+                                    <!--&lt;!&ndash; //select box &ndash;&gt;-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="ddp-wrap-edit3">
+                                <label class="ddp-label-type">Status</label>
+                                <!-- edit option -->
+                                <div class="ddp-ui-edit-option">
+                                    <div class="ddp-ui-option-in">
+                                        <label class="ddp-label-radio">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">
+                                               All
+                                            </span>
+                                        </label>
+                                        <label class="ddp-label-radio">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">
+                                                <span class="ddp-tag-status type-ok">
+                                                    Ok
+                                                </span>
+                                            </span>
+                                        </label>
+                                        <label class="ddp-label-radio">
+                                            <input type="radio">
+                                            <i class="ddp-icon-radio"></i>
+                                            <span class="ddp-txt-radio">
+                                                 <span class="ddp-tag-status type-error">
+                                                     Error
+                                                 </span>
+                                            </span>
+                                        </label>
+
+                                    </div>
+                                </div>
+                                <!-- //edit option -->
+                            </div>
+
+                            <ul class="ddp-list-tab-button">
+                                <li>
+                                    <a href="javascript:"><em class="ddp-icon-grid"></em></a>
+                                    <div class="ddp-ui-tooltip-info">
+                                        <em class="ddp-icon-view-top"></em>
+                                        그리드 뷰
+                                    </div>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:"><em class="ddp-icon-listgrid"></em></a>
+                                    <div class="ddp-ui-tooltip-info">
+                                        <em class="ddp-icon-view-top"></em>
+                                        리스트 뷰
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- //top setting -->
+
+                    <div class="ddp-box-detail">
+                        <div class="ddp-data-source-none">
+                            No data
+                        </div>
+                        <table class="ddp-table-detail3">
+                            <colgroup>
+                                <col width="33%">
+                                <col width="33%">
+                                <col width="33%">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th>
+                                    Server Name
+                                    <em class="ddp-icon-array-default2"></em>
+                                    <em class="ddp-icon-array-asc2"></em>
+                                    <em class="ddp-icon-array-des2"></em>
+                                </th>
+                                <th>Node Name</th>
+                                <th>Status</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Server1</td>
+                                <td>
+                                    <span class="ddp-data-node type-broker">Broker</span>
+                                    <!--<ul class="ddp-list-data">-->
+                                        <!--<li><span class="ddp-data-node type-broker">Broker</span></li>-->
+                                        <!--<li><span class="ddp-data-node type-coordinator">Coordinator</span></li>-->
+                                        <!--<li><span class="ddp-data-node type-historical">Historical</span></li>-->
+                                        <!--<li><span class="ddp-data-node type-overlord">Overlord</span></li>-->
+                                        <!--<li><span class="ddp-data-node type-manager">Middle Manager</span></li>-->
+                                    <!--</ul>-->
+                                </td>
+                                <td>
+                                    <div class="ddp-type-status-error">
+                                        <span class="ddp-tag-status type-error">Error</span>
+                                        <span class="ddp-txt-error"><em class="ddp-icon-error"></em>Lasting for 20 min
+                                            <!-- popup -->
+                                            <div class="ddp-box-layout4 ">
+                                                <div class="ddp-data-title">
+                                                    Error
+                                                    <span class="ddp-sub-title">(Lasting for 20 min)</span>
+                                                </div>
+                                                <div class="ddp-data-det">
+                                                    111.222.333.444:8090 Historical node<br>
+                                                    Failure time : yyyy-mm-dd hh:mm:ss
+                                                </div>
+                                            </div>
+                                            <!-- //popup -->
+                                        </span>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Server1</td>
+                                <td>
+                                    <span class="ddp-data-node type-coordinator">Coordinator</span>
+                                </td>
+                                <td>
+                                    <span class="ddp-tag-status type-ok">Ok</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Server1</td>
+                                <td>
+                                    <span class="ddp-data-node type-historical">Historical</span>
+                                </td>
+                                <td>
+                                    <span class="ddp-tag-status type-ok">Ok</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Server1</td>
+                                <td>
+                                    <span class="ddp-data-node type-overlord">Overlord</span>
+                                </td>
+                                <td>
+                                    <span class="ddp-tag-status type-ok">Ok</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Server1</td>
+                                <td>
+                                    <span class="ddp-data-node type-middleManager">Middle Manager</span>
+                                </td>
+                                <td>
+                                    <span class="ddp-tag-status type-ok">Ok</span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //contents det -->
+    </div>
+</div>
+<!-- //contents -->
+</body>
+</html>

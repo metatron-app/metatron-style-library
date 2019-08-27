@@ -1,0 +1,527 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <script src="../js/jquery/split.js"></script>
+
+    <!-- multydatasource js --->
+    <script type="text/javascript" src="../js/multidata/vis.js"></script>
+    <script>
+        $(function(){
+            $('.ddp-ui-tab li a').click(function(){
+                var $tabIdx = $(this).parent().index();
+                $(this).parent().addClass('ddp-selected');
+                $(this).parent().siblings().removeClass('ddp-selected');
+                $('.ddp-ui-tab-contents').eq($tabIdx).show();
+                $('.ddp-ui-tab-contents').eq($tabIdx).siblings().hide();
+            });
+        });
+    </script>
+    <style>
+        html,body {overflow:hidden;}
+    </style>
+</head>
+<body class="thema-black">
+
+<div class="ddp-type-contents ddp-resize">
+    <!-- 닫기 버튼 -->
+    <a href="javascript:" class="ddp-btn-close"></a>
+    <!-- //닫기 버튼 -->
+
+    <div class="ddp-type-contents-in ddp-type">
+        <!-- 편집 팝업 타이틀 -->
+        <!--<div class="ddp-data-board-title">-->
+            <!--<em class="ddp-icon-dashboard2"></em>-->
+            <!--Dashboard name Dashboard name name-->
+
+        <!--</div>-->
+        <!-- //편집 팝업 타이틀 -->
+
+        <!-- contents -->
+        <div class="ddp-box-popupcontents3 ddp-type-multidata page-multidata">
+            <!-- mutidata -->
+            <div class="ddp-ui-multidata">
+
+                <div class="ddp-view-multidata">
+                    <!-- buttons -->
+                    <div class="ddp-option-button">
+                        <a href="javascript:" class="ddp-btn-add-r" onclick="addNode()"></a>
+                        <a href="javascript:" class="ddp-btn-edit-r"><em class="ddp-icon-btn-edit"></em>Edit associations </a>
+                        <span class="ddp-txt-info">데이터소스 간의 관계를 설정하여야 차트 간의 연계가 가능합니다</span>
+                    </div>
+                    <!-- buttons -->
+                    <div class="ddp-size-button">
+                        <a href="javascript:" class="ddp-btn-sizeup"></a>
+                        <a href="javascript:" class="ddp-btn-sizedown ddp-disabled"></a>
+                        <a href="javascript:" class="ddp-btn-fit"></a>
+
+                    </div>
+                    <!-- network -->
+                    <div id="mynetwork" style="display:"></div>
+                    <!-- //network -->
+                </div>
+            </div>
+            <!-- //mutidata -->
+            <!--
+                full size 시 ddp-full 추가
+            -->
+            <div class="ddp-box-resultdata ">
+                <a href="javascript:" class="ddp-btn-area-close"></a>
+                <!-- top -->
+                <div class="ddp-ui-top-area">
+                    <div class="ddp-fright">
+                        <!--<a href="javascript:" class="ddp-link-type"><em class="ddp-icon-delete"></em>Delete datasource</a>-->
+
+                        <div class="ddp-part">
+                            <a href="javascript:" class="ddp-link-unlink">Unlink</a>
+
+                        </div>
+                        <div class="ddp-part">
+
+                            <a href="javascript:" class="ddp-icon-fullsize"></a>
+                        </div>
+                    </div>
+                    <div class="ddp-name">
+                        <span class="ddp-txt-name">Master data name</span>
+                        <span class="ddp-txt-det">데이터소스설명영역 있는 경우 보임</span>
+                    </div>
+                </div>
+                <!-- //top -->
+                <div class="ddp-wrap-tab-result">
+                    <!-- top option -->
+                    <div class="ddp-type-top-option ddp-type">
+                        <ul class="ddp-ui-tab ddp-type">
+                            <li>
+                                <a href="javascript:">Data preview</a>
+                            </li>
+                            <li class="ddp-selected">
+                                <a href="javascript:">Join</a>
+                            </li>
+                            <li>
+                                <a href="javascript:">Essential filter</a>
+                            </li>
+                        </ul>
+                        <!-- grid option -->
+                        <div class="ddp-wrap-grid-option ">
+                            <div class="ddp-part-right">
+                                <div class="ddp-data-form">
+                                    <strong>432.3</strong>
+                                    kb
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong>2</strong>
+                                    Clumns
+                                </div>
+                                <div class="ddp-data-form">
+                                    <input type="text" class="ddp-data-input">
+                                    <strong>/ 2,333</strong>
+                                    Row
+                                </div>
+                                <div class="ddp-data-form">
+                                    <strong class="ddp-cursor">3</strong>
+                                    Types
+                                    <!-- 팝업 -->
+                                    <div class="ddp-wrap-popup2 ddp-types">
+                                        <ul class="ddp-list-popup">
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-ab"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-tf"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="javascript:">
+                                                    <em class="ddp-icon-type-calen"></em>
+                                                    2열
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //팝업 -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- //grid option -->
+                        <!-- right -->
+                        <!--<div class="ddp-ui-rightoption ddp-type-option">-->
+
+                            <!--<a href="javascript:" class="ddp-link-type"><em class="ddp-icon-link-cut2"></em>Delete datasource</a>-->
+
+                            <!--<a href="javascript:" class="ddp-btn-box-close"></a>-->
+                        <!--</div>-->
+                        <!-- //right -->
+                    </div>
+                    <!-- //top option -->
+
+                    <div class="ddp-wrap-tab-contents">
+                        <!-- tab contents -->
+                        <div class="ddp-ui-tab-contents" style="display:none;">
+                            <!-- 그리드 옵션 -->
+                            <div class="ddp-wrap-grid-option ddp-clear">
+                                <span class="ddp-txt-title">
+                                    Result data
+                                    <span class="ddp-txt-title-info">데이터소스설명영역.있는경우만보임</span>
+
+                                </span>
+                                <div class="ddp-part-right">
+                                    <div class="ddp-data-form">
+                                        <strong>432.3</strong>
+                                        kb
+                                    </div>
+                                    <div class="ddp-data-form">
+                                        <strong>2</strong>
+                                        Clumns
+                                    </div>
+                                    <div class="ddp-data-form">
+                                        <input type="text" class="ddp-data-input">
+                                        <strong>/ 2,333</strong>
+                                        Row
+                                    </div>
+                                    <div class="ddp-data-form">
+                                        <strong class="ddp-cursor">3</strong>
+                                        Types
+                                        <!-- 팝업 -->
+                                        <div class="ddp-wrap-popup2 ddp-types">
+                                            <ul class="ddp-list-popup">
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <em class="ddp-icon-measure-ab"></em>
+                                                        2열
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <em class="ddp-icon-dimension-tf"></em>
+                                                        2열
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="javascript:">
+                                                        <em class="ddp-icon-dimension-calen"></em>
+                                                        2열
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <!-- //팝업 -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 그리드 옵션 -->
+                            <div class="ddp-ui-grid-form">
+
+                            </div>
+
+                        </div>
+                        <!-- //tab contents -->
+                        <!-- tab contents -->
+                        <div class="ddp-ui-tab-contents" style="display:none;">
+                            <div class="ddp-box-join-option">
+                                <!-- view join -->
+                                <div class="ddp-view-join">
+                                    <!-- data name -->
+                                    <a href="javascript:" class="ddp-data-name">
+                                        <em class="ddp-icon-database-w"></em>
+                                        FDC Databas A
+                                        <em class="ddp-icon-view"></em>
+                                    </a>
+                                    <!-- //data name -->
+                                    <!-- box -->
+                                    <div class="ddp-box-lookup">
+                                        <ul class="ddp-list-lookup">
+                                            <li>
+                                                <div class="ddp-ui-lookup">
+                                                    <!-- 조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-ui-joinicon">
+                                                        <!--
+                                                            en class="ddp-icon-join-left"
+                                                            en class="ddp-icon-join-right"
+                                                            en class="ddp-icon-join-inner"
+                                                            en class="ddp-icon-join-outer"
+                                                        -->
+                                                        <em class="ddp-icon-join-right"></em>
+                                                    </a>
+                                                    <!-- //조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-link-joinname">
+                                                        <em class="ddp-icon-database2"></em>
+                                                        <span class="ddp-data-joinname">Data Local 01</span>
+                                                        <div class="ddp-btn-edit">
+                                                            <em class="ddp-icon-control-edit"></em>
+                                                            <em class="ddp-icon-editdel"></em>
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                                <div class="ddp-ui-add-data">
+                                                    <a href="#" class="ddp-link-add-data">
+                                                        <em class="ddp-icon-add"></em>
+                                                        Add a datasource to join
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="ddp-ui-lookup">
+                                                    <!-- 조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-ui-joinicon">
+                                                        <!--
+                                                            en class="ddp-icon-join-left"
+                                                            en class="ddp-icon-join-right"
+                                                            en class="ddp-icon-join-inner"
+                                                            en class="ddp-icon-join-outer"
+                                                        -->
+                                                        <em class="ddp-icon-join-right"></em>
+                                                    </a>
+                                                    <!-- //조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-link-joinname">
+                                                        <em class="ddp-icon-database2"></em>
+                                                        <span class="ddp-data-joinname">Data Local 01</span>
+                                                        <div class="ddp-btn-edit">
+                                                            <em class="ddp-icon-control-edit"></em>
+                                                            <em class="ddp-icon-editdel"></em>
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+
+                                                <div class="ddp-ui-lookup">
+                                                    <!-- 조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-ui-joinicon">
+                                                        <!--
+                                                            en class="ddp-icon-join-left"
+                                                            en class="ddp-icon-join-right"
+                                                            en class="ddp-icon-join-inner"
+                                                            en class="ddp-icon-join-outer"
+                                                        -->
+                                                        <em class="ddp-icon-join-right"></em>
+                                                    </a>
+                                                    <!-- //조인 아이콘 -->
+                                                    <a href="javascript:" class="ddp-link-joinname">
+                                                        <em class="ddp-icon-database2"></em>
+                                                        <span class="ddp-data-joinname">Data Local 01</span>
+                                                        <div class="ddp-btn-edit">
+                                                            <em class="ddp-icon-control-edit"></em>
+                                                            <em class="ddp-icon-editdel"></em>
+                                                        </div>
+
+                                                    </a>
+                                                </div>
+                                            </li>
+                                            <li class="ddp-list-add">
+                                                <a href="#" class="ddp-link-add-data">
+                                                    <em class="ddp-icon-add"></em>
+                                                    Add a datasource to join
+                                                </a>
+
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+                                <!-- //view join -->
+
+                                <!-- view join -->
+                                <div class="ddp-view-join">
+                                    <!-- data name -->
+                                    <a href="javascript:" class="ddp-data-name">
+                                        <em class="ddp-icon-database-w"></em>
+                                        FDC Databas A
+                                        <em class="ddp-icon-view"></em>
+                                    </a>
+                                    <!-- //data name -->
+                                    <!-- box -->
+                                    <div class="ddp-box-lookup">
+                                        <ul class="ddp-list-lookup">
+                                            <li class="ddp-list-add">
+
+                                                <div class="ddp-ui-add-data">
+                                                    <a href="#" class="ddp-link-add-data">
+                                                        <em class="ddp-icon-add"></em>
+                                                        Add a datasource to join
+                                                    </a>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //box -->
+                                </div>
+                                <!-- //view join -->
+
+                            </div>
+
+                        </div>
+                        <!-- //tab contents -->
+                        <!-- tab contents -->
+                        <div class="ddp-ui-tab-contents">
+                            <div class="ddp-essential-filter">
+                                <!-- result -->
+                                <div class="ddp-ui-filter-result">
+                                    Master data name has <strong>4 essential filters</strong>
+                                    <a href="#" class="ddp-btn-line-s"><em class="ddp-icon-btn-edit2"></em>Edit</a>
+                                </div>
+                                <!-- //result -->
+                                <!-- list -->
+                               <ul class="ddp-list-essential">
+                                   <li>
+                                       <div class="ddp-data-filter">
+                                           <span class="ddp-txt-filter">
+
+                                                <em class="ddp-icon-dimension-ab"></em>
+                                                LOT A
+                                           </span>
+                                       </div>
+                                       <div class="ddp-data-det">
+                                           items1 / items 1 /
+                                       </div>
+
+                                   </li>
+                                   <li>
+                                       <div class="ddp-data-filter">
+                                           <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-longitude"></em>
+                                                LOT A
+                                           </span>
+                                       </div>
+                                       <div class="ddp-data-det">
+                                          2017 Q4
+                                       </div>
+
+                                   </li>
+                                   <li>
+                                       <div class="ddp-data-filter">
+                                           <span class="ddp-txt-filter">
+                                                <em class="ddp-icon-dimension-longitude"></em>
+                                                LOT A
+                                           </span>
+                                       </div>
+                                       <div class="ddp-data-det ddp-time">
+                                           <span class="ddp-txt-label">The earliest time</span> ~ 2016-12-31 24:00 /<br>
+                                           2016-12-31 24:00 ~ 2016-12-31 24:00 /<br>
+                                           2016-12-31 24:00 ~<span class="ddp-txt-label">The latest time</span>
+                                       </div>
+
+                                   </li>
+
+                               </ul>
+                                <!-- //list -->
+                            </div>
+                        </div>
+                        <!-- //tab contents -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- //contents -->
+    </div>
+    <!-- buttons -->
+    <div class="ddp-ui-buttons">
+        <a href="javascript:" class="ddp-btn-type-popup ">취소</a>
+        <!-- disabled 시 ddp-disabled 추가 -->
+        <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">다음</a>
+    </div>
+    <!-- //buttons -->
+</div>
+
+
+<!-- multydatasource option js --->
+
+<script type="text/javascript">
+
+    function startNetwork() {
+
+        // create an array with nodes
+        nodes = [
+            {id: 1, label: '1'},
+            {id: 2, label: 'DS n'},
+            {id: 3, label: 'Node 3'},
+            {id: 4, label: 'Node 4'},
+            {id: 5, label: 'Node 5'}
+        ];
+
+        // create an array with edges
+        var edges = new vis.DataSet([
+            {from: 1, to: 3, label: 'delete'},
+            {from: 1, to: 2},
+            {from: 2, to: 4},
+            {from: 2, to: 5}
+
+        ]);
+
+        // create a network
+        var container = document.getElementById('mynetwork');
+        var data = {
+            nodes: nodes,
+            edges: edges
+        };
+        var options = {
+            interaction:{hover:true},
+            manipulation:{
+                enabled:true
+            },
+            nodes : {
+                size:2,
+
+                borderWidth:1,
+                shadow:true,
+                widthConstraint:170,
+                heightConstraint:33,
+
+                color: {
+                    border:'#fff',
+                    background: '#fff',
+                    highlight: {
+                        border: '#666eb2',
+                        background: '#f0f4ff'
+                    },
+                    hover :{
+                        border: '#666eb2',
+                        background: '#f0f4ff'
+                    }
+                },
+                font:{
+                    size:16
+                },
+                labelHighlightBold:false
+            },
+            edges: {
+                width:40,
+                color:{
+                    color:'#d0d1d8',
+                    highlight:'#c1cef1',
+                    hover: '#b7b9c2',
+                    inherit: 'from',
+                    opacity:1.0
+                },
+                font:{
+                    color: '#343434',
+                    size:12
+                },
+                smooth:false,
+                length : 200
+            }
+        };
+        network = new vis.Network(container, data, options);
+
+    }
+
+
+    startNetwork();
+</script>
+<!-- multydatasource option js --->
+</body>
+</html>

@@ -134,6 +134,7 @@ pre code {background:none;}
 body.body-hidden {overflow:hidden;}
 /*body.ddp-body {background-color:#e7e7ea}*/
 em.ddp-bg-back {display:block; position:fixed; left:0; right:0; bottom:0; top:0; background-color:#e7e7ea;}
+em.ddp-bg-back.type-bg {background-color:#eff1f4;}
 em[class*="ddp-icon-"] {font-size:0px; vertical-align: middle;}
 textarea::-webkit-input-placeholder {color: #a7adb2;}
 textarea:-moz-placeholder {color: #a7adb2;}
@@ -225,6 +226,7 @@ textarea:-ms-input-placeholder {color: #a7adb2;}
 
 .ddp-layout-header .ddp-ui-searcing a.ddp-btn-search {display:inline-block; position:absolute; top:50%; left:14px; margin-top:-10px; width:20px; height:20px; background:url(../images/btn_search.png) no-repeat; box-sizing:border-box;}
 .ddp-layout-header .ddp-ui-searcing input {display:block; padding:10px 0 9px 0; width:100%; border:none; background:none; font-size:14px;}
+.ddp-layout-header .ddp-ui-searcing input::placeholder {color:#90969f;}
 .ddp-layout-header .ddp-ui-searcing .ddp-box-popup {top:44px; left:0; right:0; margin:0; width:inherit; height:inherit; max-height:486px; overflow:auto;}
 .ddp-layout-header .ddp-ui-searcing .ddp-box-popup span.ddp-label-type {display:block; padding:10px 20px; color:#b7b9c2; font-size:12px;}
 .ddp-layout-header .ddp-ui-searcing .ddp-box-popup ul.ddp-list-lately li a {display:block; position:relative; padding: 12px 77px 12px 20px; color:#4b515b; font-size:14px; white-space:nowrap; text-overflow:ellipsis; overflow:hidden; word-wrap: normal;}
@@ -254,6 +256,7 @@ textarea:-ms-input-placeholder {color: #a7adb2;}
 .ddp-layout-contents .ddp-ui-contents-in.ddp-scroll {position:relative; height:100%; box-sizing:border-box;}
 .ddp-layout-contents .ddp-ui-contents-in.ddp-scroll .ddp-ui-contents-list {position:absolute; top:113px; left:0; right:0; bottom:0; padding:0 80px 50px 80px; box-sizing:border-box; overflow:auto;}
 .ddp-layout-contents .ddp-ui-contents-in.ddp-scroll .ddp-ui-contents-list.type-list {top:54px;}
+.ddp-layout-contents .ddp-ui-contents-in.ddp-scroll .ddp-ui-contents-list .ddp-type-top-option .ddp-type-search input::placeholder {color:#90969f;}
 .ddp-layout-contents2 {position:relative; width:100%; height:100%; padding:47px 0 0 0; margin-top:-48px; box-sizing:border-box;}
 .ddp-layout-contents-in {position:relative;}
 .ddp-ui-contentsin {position:absolute;top:54px;left:0;right:0;bottom:0;}

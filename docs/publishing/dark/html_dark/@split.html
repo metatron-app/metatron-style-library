@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>toaster</title>
+	<!-- polaris -->
+	<link rel="stylesheet" href="../css/polaris.v2.css" />
+
+	<!-- jQuery -->
+	<script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+	<!-- toaster js -->
+	<script src="../js/jquery/toaster.js"></script>
+
+	<!-- polaris ui js -->
+	<script src="../js/common/polaris_ui.js"></script>
+	<script src="../js/jquery/split.js"></script>
+
+
+</head>
+
+
+<body>
+<div id="example-4" style="height:400px; border:1px solid blue;">
+	<div id="eight" style="height: calc(50% - 5px);">d</div>
+	<div id="nine" style="height: calc(50% - 5px);">d</div>
+</div>
+<script>
+	$(function(){
+        Split(['#eight', '#nine'], {
+            direction: 'vertical'
+        })
+	})
+</script>
+</body>
+
+</html>

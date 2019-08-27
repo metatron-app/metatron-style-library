@@ -1,0 +1,613 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <script src="../js/jquery/split.js"></script>
+
+     <!-- polaris ui js --->
+     <!-- <script src="../js/common/polaris_ui.js"></script> --->
+</head>
+<body class="thema-black">
+<div class="ddp-layout-wrap">
+    <!-- header -->
+    <div class="ddp-layout-header">
+        <!-- lnb -->
+        <!-- menu 클릭시 ddp-selected 추가 -->
+        <div class="ddp-layout-lnb">
+            <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+            <ul class="ddp-list-lnb">
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                            <ul class="ddp-list-submenu">
+                                <!-- 선택시 : ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                            <ul class="ddp-list-submenu">
+                                <li>
+                                    <a href="javascript:">
+                                        <!-- new 일때 ddp-new -->
+                                        <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                        <em class="ddp-icon-afav"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- //sub -->
+                    </div>
+
+                </li>
+                <!-- 클릭시 ddp-selected 추가 -->
+                <li class="ddp-selected">
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- //lnb -->
+        <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+        <div class="ddp-ui-headright">
+            <a href="javascript:" class="ddp-btn-search"></a>
+            <!-- photo -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-wrap-myinfo">
+                <a href="javascript:" class="ddp-data-photo">
+                    <img src="../images/img_photo.png">
+                </a>
+                <!-- my info -->
+                <div class="ddp-ui-sub-myinfo">
+                    <div class="ddp-wrap-data">
+                        <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                        <!--<span class="ddp-data-team">전략 2팀</span>-->
+                        <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                    </div>
+
+                    <ul class="ddp-list-sub-myinfo">
+                        <li><a href="javscript:">사용자 정보 관리</a></li>
+                        <li><a href="javscript:">로그아웃</a></li>
+                    </ul>
+                </div>
+                <!-- //my info -->
+            </div>
+            <!-- //photo -->
+
+        </div>
+
+    </div>
+	<!-- //header -->
+    <div class="ddp-type-contents2">
+		<!-- top -->
+        <div class="ddp-top-flow">
+
+            <!-- 수정 data -->
+    		<div class="ddp-data-form">
+                <span class="ddp-txt-date">최근수정 2017.03.06 08:22:35 by kko by kko by kk</span>
+                <a href="javascript:" class="ddp-btn-info"><em class="ddp-icon-myinfo"></em></a>
+                <div class="ddp-data-box" style="display:none;">
+
+                    <a href="#" class="ddp-list-link"><em class="ddp-icon-delete"></em>Delete this request</a>
+                    <span class="ddp-data-by">생성 2017.03.06 06:09:35 by오상식</span>
+                </div>
+            </div>
+            <!-- //수정 data -->
+            <!-- navi wrap -->
+            <div class="ddp-wrap-navi">
+                <a href="javascript:" class="ddp-btn-back"></a>
+                <!-- navi -->
+                <div class="ddp-ui-naviarea">
+                    <!-- name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navi">
+                        <div class="ddp-wrap-naviname">
+                            <span class="ddp-data-naviname">New Dashboard 01
+                            <em class="ddp-icon-edit2"></em></span>
+                        </div>
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+                            <input type="text" class="ddp-input-navi" placeholder="ew Dashboard 01">
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+                    </div>
+                    <!-- //name -->
+
+                    <!-- description -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-box-navidet">
+                        <div class="ddp-wrap-navidet">
+                            <span class="ddp-data-navidet">description description description description
+                            <em class="ddp-icon-edit2"></em></span>
+
+                        </div>
+                        <!-- 편집 input -->
+                        <div class="ddp-wrap-input">
+
+                            <textarea type="text" class="ddp-input-navi" placeholder="">escription description des</textarea>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <!-- //편집 input -->
+                    </div>
+                    <!-- //description -->
+                </div>
+                <!-- //navi -->
+
+            </div>
+            <!-- //navi wrap -->
+
+    	</div>
+		<!-- //top -->
+
+        <div class="ddp-wrap-flow2 ddp-type">
+            <div class="ddp-split-chart"id="boxchart">
+                <!-- 데이터 -->
+                <div class="ddp-ui-number">
+                    <a href="javascript:" class="ddp-link-set"><em class="ddp-icon-add"></em>데이터 셋 추가</a>
+                    <div class="ddp-data-number">
+                        <em class="ddp-icon-db-s"></em>Imported Data <strong class="ddp-data-num">2</strong>
+                    </div>
+                    <div class="ddp-data-number">
+                        <em class="ddp-icon-wrangled"></em>Wrangled <strong class="ddp-data-num">4</strong>
+                    </div>
+                </div>
+                <!-- //데이터 -->
+                <!-- chart 부분 -->
+                <!-- 자세히 보기 나올때 ddp-selected 추가 -->
+                <div class="ddp-box-chart ddp-selected">
+                    차트 부분
+                </div>
+                <!-- //chart 부분 -->
+            </div>
+
+            <!-- 상세 -->
+            <div class="ddp-box-flowdetail" id="flowdetail">
+                <div class="ddp-box-in">
+                    <a href="javascript:" class="ddp-btn-popup-close"></a>
+                    <!-- 파일 이름 -->
+                    <!-- edit 버튼 클릭시 ddp-selected 추가 -->
+
+                    <div class="ddp-data-filename">
+                        <em class="ddp-icon-file-svg">
+                            <svg class="icon-file-csv-b" style="display:none;">
+                                <g>
+                                    <rect x="10" y="13" class="st0" width="3" height="1"/>
+                                    <rect x="10" y="11" class="st0" width="4" height="1"/>
+                                    <rect x="9" y="12" class="st0" width="1" height="1"/>
+                                    <rect x="4" y="12" class="st0" width="1" height="4"/>
+                                    <rect x="5" y="11" class="st0" width="3" height="1"/>
+                                    <path class="st0" d="M19,7h-3.5C15.2,7,15,6.8,15,6.5V3H5.3C5.1,3,5,3.1,5,3.3V9h14V7z"/>
+                                    <polygon class="st0" points="16,3.4 16,6 18.5,6 	"/>
+                                    <rect x="13" y="14" class="st0" width="1" height="2"/>
+                                    <rect x="9" y="16" class="st0" width="4" height="1"/>
+                                    <rect x="19" y="11" class="st0" width="1" height="2"/>
+                                    <rect x="18" y="13" class="st0" width="1" height="2"/>
+                                    <rect x="5" y="16" class="st0" width="3" height="1"/>
+                                    <rect x="15" y="11" class="st0" width="1" height="2"/>
+                                    <rect x="17" y="15" class="st0" width="1" height="2"/>
+                                    <rect x="16" y="13" class="st0" width="1" height="2"/>
+                                    <path class="st0" d="M5,20.7C5,20.9,5.1,21,5.3,21h13.4c0.2,0,0.3-0.1,0.3-0.3V19H5V20.7z"/>
+                                    <path class="st1" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.2,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                            C1.7,9,1,9.7,1,10.5v7C1,18.4,1.7,19,2.6,19h1.5v1.7c0,0.7,0.6,1.3,1.3,1.3h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.4
+                                            c0.9,0,1.5-0.7,1.5-1.5v-7C23,9.7,22.3,9,21.5,9z M16,3.4L18.5,6H16V3.4z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7H19
+                                            v2H5V3.3z M13,13v1h1v2h-1v1H9v-1h4v-2h-3v-1H9v-1h1v-1h4v1h-4v1H13z M4,16v-4h1v-1h3v1H5v4h3v1H5v-1H4z M19,20.7
+                                            c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19h14V20.7z M20,13h-1v2h-1v2h-1v-2h-1v-2h-1v-2h1v2h1v2h1v-2h1v-2h1V13z"/>
+                                </g>
+                            </svg>
+                            <svg class="icon-file-json-b" style="display:;">
+                                <g>
+                                    <rect x="10" y="14" class="st0" width="1" height="2"/>
+                                    <rect x="15" y="12" class="st0" width="1" height="4"/>
+                                    <rect x="13" y="11" class="st0" width="2" height="1"/>
+                                    <rect x="13" y="16" class="st0" width="2" height="1"/>
+                                    <polygon class="st0" points="16,3.4 16,6 18.5,6 	"/>
+                                    <path class="st0" d="M19,7h-3.5C15.2,7,15,6.8,15,6.5V3H5.3C5.1,3,5,3.1,5,3.3V9h14V7z"/>
+                                    <rect x="7" y="16" class="st0" width="3" height="1"/>
+                                    <rect x="12" y="12" class="st0" width="1" height="4"/>
+                                    <polygon class="st0" points="18,13 18,12 18,11 17,11 17,12 17,17 18,17 18,14 19,14 19,13 	"/>
+                                    <polygon class="st0" points="20,14 19,14 19,15 20,15 20,17 21,17 21,11 20,11 	"/>
+                                    <path class="st0" d="M5,20.7C5,20.9,5.1,21,5.3,21h13.4c0.2,0,0.3-0.1,0.3-0.3V19H5V20.7z"/>
+                                    <polygon class="st0" points="6,17 6,12 6,11 3,11 3,12 5,12 5,16 3,16 3,17 5,17 	"/>
+                                    <rect x="8" y="11" class="st0" width="3" height="1"/>
+                                    <rect x="8" y="13" class="st0" width="2" height="1"/>
+                                    <rect x="7" y="12" class="st0" width="1" height="1"/>
+                                    <rect x="13" y="12" class="st1" width="2" height="4"/>
+                                    <path class="st1" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.2,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                            C1.7,9,1,9.7,1,10.5v7C1,18.4,1.7,19,2.6,19h1.5v1.7c0,0.7,0.6,1.3,1.3,1.3h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.4
+                                            c0.9,0,1.5-0.7,1.5-1.5v-7C23,9.7,22.3,9,21.5,9z M16,3.4L18.5,6H16V3.4z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7H19
+                                            v2H5V3.3z M12,16v-4h1v-1h2v1h1v4h-1v1h-2v-1H12z M10,13v1h1v2h-1v1H7v-1h3v-2H8v-1H7v-1h1v-1h3v1H8v1H10z M3,17v-1h2v-4H3v-1h3v1
+                                            v5H5H3z M19,20.7c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19h14V20.7z M21,17h-1v-2h-1v-1h-1v3h-1v-5v-1h1v1v1h1v1h1v-3h1
+                                            V17z"/>
+                                </g>
+                            </svg>
+                            <svg class="icon-file-txt-b" style="display:none;">
+                                <g>
+                                    <rect x="10" y="15" class="st0" width="1" height="2"/>
+                                    <rect x="13" y="15" class="st0" width="1" height="2"/>
+                                    <rect x="11" y="13" class="st0" width="2" height="2"/>
+                                    <path class="st0" d="M19,7h-3.5C15.2,7,15,6.8,15,6.5V3H5.3C5.1,3,5,3.1,5,3.3V9h14V7z"/>
+                                    <polygon class="st0" points="16,3.4 16,6 18.5,6 	"/>
+                                    <rect x="10" y="11" class="st0" width="1" height="2"/>
+                                    <polygon class="st0" points="15,12 17,12 17,17 18,17 18,12 20,12 20,11 15,11 	"/>
+                                    <rect x="13" y="11" class="st0" width="1" height="2"/>
+                                    <polygon class="st0" points="6,17 7,17 7,12 9,12 9,11 4,11 4,12 6,12 	"/>
+                                    <path class="st0" d="M5,20.7C5,20.9,5.1,21,5.3,21h13.4c0.2,0,0.3-0.1,0.3-0.3V19H5V20.7z"/>
+                                    <path class="st1" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.1,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                            C1.7,9,1,9.7,1,10.5v6.9C1,18.3,1.7,19,2.6,19H4v1.7C4,21.4,4.6,22,5.3,22h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.5
+                                            c0.9,0,1.5-0.7,1.5-1.5v-6.9C23,9.7,22.3,9,21.5,9z M16,3.4L18.5,6H16V3.4z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7
+                                            H19v2H5V3.3z M14,15v2h-1v-2h-2v2h-1v-2h1v-2h-1v-2h1v2h2v-2h1v2h-1v2H14z M4,12v-1h5v1H7v5H6v-5H4z M19,20.7
+                                            c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19h14V20.7z M20,12h-2v5h-1v-5h-2v-1h5V12z"/>
+                                </g>
+                            </svg>
+                            <svg class="icon-file-xml-b" style="display:none;">
+                                <g>
+                                    <rect x="8" y="11" class="st0" width="1" height="2"/>
+                                    <polygon class="st0" points="15,17 15,12 15,11 10,11 10,12 10,17 11,17 11,12 12,12 12,17 13,17 13,12 14,12 14,17 	"/>
+                                    <rect x="5" y="11" class="st0" width="1" height="2"/>
+                                    <path class="st0" d="M19,7h-3.5C15.2,7,15,6.8,15,6.5V3H5.3C5.1,3,5,3.1,5,3.3V9h14V7z"/>
+                                    <polygon class="st0" points="16,3.4 16,6 18.5,6 	"/>
+                                    <rect x="5" y="15" class="st0" width="1" height="2"/>
+                                    <rect x="6" y="13" class="st0" width="2" height="2"/>
+                                    <polygon class="st0" points="17,11 16,11 16,17 20,17 20,16 17,16 	"/>
+                                    <path class="st0" d="M5,20.7C5,20.9,5.1,21,5.3,21h13.4c0.2,0,0.3-0.1,0.3-0.3V19H5V20.7z"/>
+                                    <rect x="8" y="15" class="st0" width="1" height="2"/>
+                                    <path class="st1" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.2,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                            C1.7,9,1,9.7,1,10.5v7C1,18.4,1.7,19,2.6,19h1.5v1.7c0,0.7,0.6,1.3,1.3,1.3h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.4
+                                            c0.9,0,1.5-0.7,1.5-1.5v-7C23,9.7,22.3,9,21.5,9z M16,3.4L18.5,6H16V3.4z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7H19
+                                            v2H5V3.3z M13,12v5h-1v-5h-1v5h-1v-5v-1h5v1v5h-1v-5H13z M5,15h1v-2H5v-2h1v2h2v-2h1v2H8v2h1v2H8v-2H6v2H5V15z M19,20.7
+                                            c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19h14V20.7z M20,17h-4v-6h1v5h3V17z"/>
+                                </g>
+                            </svg>
+                            <svg class="icon-file-xls" style="display:none;">
+                                <g>
+                                    <g>
+                                        <path class="st0" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.1,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                                C1.7,9,1,9.7,1,10.5v6.9C1,18.3,1.7,19,2.6,19H4v1.7C4,21.4,4.6,22,5.3,22h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.5
+                                                c0.9,0,1.5-0.7,1.5-1.5v-6.9C23,9.7,22.3,9,21.5,9z M18.5,6H16V3.4L18.5,6z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7
+                                                H19v2H5V3.3z M14,16v1h-4v-6h1v5H14z M5,17H4v-2h1v-2H4v-2h1v2h2v-2h1v2H7v2h1v2H7v-2H5V17z M19,20.7c0,0.2-0.1,0.3-0.3,0.3H5.3
+                                                C5.1,21,5,20.9,5,20.7V19h14V20.7z M19,12h-3v1h2v1h1v2h-1v1h-3v-1h3v-2h-2v-1h-1v-1h1v-1h3V12z"/>
+                                    </g>
+                                </g>
+                            </svg>
+
+                            <svg class="icon-file-xlsx" style="display:none;">
+                                <g>
+                                    <g>
+                                        <path class="st0" d="M21.5,9H20V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3C16.2,2.1,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9H2.6
+                                                C1.7,9,1,9.7,1,10.5v6.9C1,18.3,1.7,19,2.6,19H4v1.7C4,21.4,4.6,22,5.3,22h13.4c0.7,0,1.3-0.6,1.3-1.3V19h1.5
+                                                c0.9,0,1.5-0.7,1.5-1.5v-6.9C23,9.7,22.3,9,21.5,9z M18.5,6H16V3.4L18.5,6z M5,3.3C5,3.1,5.1,3,5.3,3H15v3.5C15,6.8,15.2,7,15.5,7
+                                                H19v2H5V3.3z M15,13v1h1v2h-1v1h-3v-1h3v-2h-2v-1h-1v-1h1v-1h3v1h-3v1H15z M11,16v1H8v-6h1v5H11z M4,15v2H3v-2H4v-2H3v-2h1v2h2v-2
+                                                h1v2H6v2h1v2H6v-2H4z M19,20.7c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19h14V20.7z M21,13h-1v2h1v2h-1v-2h-2v2h-1v-2h1
+                                                v-2h-1v-2h1v2h2v-2h1V13z"/>
+                                    </g>
+                                </g>
+                                <rect class="st1" width="24" height="24"/>
+                            </svg>
+                            <svg class="icon-file-b" style="display:none;">
+                                <g>
+                                    <g>
+                                        <path class="st0" d="M4,19v1.7C4,21.4,4.6,22,5.3,22h13.4c0.7,0,1.3-0.6,1.3-1.3V19V9V6.5c0-0.4-0.2-0.6-0.4-0.8l-3.2-3.3
+                                                C16.2,2.1,15.8,2,15.5,2H5.3C4.6,2,4,2.6,4,3.3V9V19z M18.5,6H16V3.4L18.5,6z M5,9V3.3C5,3.1,5.1,3,5.3,3H15v3.5
+                                                C15,6.8,15.2,7,15.5,7H19v2v10v1.7c0,0.2-0.1,0.3-0.3,0.3H5.3C5.1,21,5,20.9,5,20.7V19V9z"/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </em>
+                        <div class="ddp-ui-input">
+
+                            <input type="text" value="OfficeSuOfficeSuOfficeSuOfficeSuppOfficeSuppppOfficeSuOfficeSuppOfficeSuppppppOfficeSupppp"/>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <span class="ddp-txt-filename">
+
+                            OfficeSuOfficeSuppOfficOfficeSuOfficeSuppOfficeSuppppOfficeSuOfficeSuppOfficeSuppppeSupppp <a href="javascript:" class="ddp-link-edit"><em class="ddp-icon-edit2"></em></a>
+
+
+                        </span>
+                    </div>
+                    <!-- //파일 이름 -->
+
+                    <!-- 설명 -->
+                    <!-- edit 버튼 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-data-explain  ">
+                        <div class="ddp-ui-input">
+                            <textarea placeholder="">설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</textarea>
+                            <span class="ddp-btn-check"></span>
+                        </div>
+                        <span class="ddp-txt-explain">설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명
+                            <a href="javascript:" class="ddp-link-edit"><em class="ddp-icon-edit2"></em></a>
+                        </span>
+
+
+                    </div>
+                    <!-- //설명 -->
+                    <div class="ddp-ui-databuttons ddp-type">
+                        <!-- buttons -->
+                        <div class="ddp-databuttons ddp-clear">
+                            <div class="ddp-col-5">
+                                <a href="javscript:" class="ddp-btn-line ddp-full">Replace dataset</a>
+                            </div>
+                            <div class="ddp-col-7">
+                                <a href="javscript:" class="ddp-btn-solid ddp-bg-black ddp-full">Generate new dataset</a>
+                            </div>
+                        </div>
+                        <!-- //buttons -->
+                    </div>
+
+                    <!-- part -->
+                    <div class="ddp-wrap-part ddp-bg">
+                        <!-- 데이터 미리보기 -->
+                        <div class="ddp-ui-preview">
+                            <div class="ddp-txt-title">
+                                데이터 미리보기
+                            </div>
+
+                            <div class="ddp-box-preview">
+                                미리보기데이터
+                            </div>
+                        </div>
+                        <!-- //데이터 미리보기 -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                타입
+                            </dt>
+                            <dd>
+                                타입
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                파일
+                            </dt>
+                            <dd>
+                                file
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                용량
+                            </dt>
+                            <dd>
+                                65.65KB
+                                <div class="ddp-wrap-alart">
+                                    <em class="ddp-icon-alart"></em>
+
+                                    <div class="ddp-ui-tooltip-info" style="display:;">
+                                        <em class="ddp-icon-view-top"></em>
+                                        TThis information  may differ <br />from the actual data
+
+                                    </div>
+
+                                </div>
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                시트
+                            </dt>
+                            <dd>
+                                sheet name
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                Summary
+                            </dt>
+                            <dd>
+                                53.53.53.53
+
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail">
+                            <dt>
+                                사용
+                            </dt>
+                            <dd>
+                                <span class="ddp-data-num">1</span>개의 데이터 플로우
+                                <!-- popup -->
+
+                                <div class="ddp-wrap-popup2 ddp-types2" style="display:none">
+                                    <ul class="ddp-list-popup">
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-flow"></em>
+                                                데이터 프로우 01
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-flow"></em>
+                                                데이터 프로우 01
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                <em class="ddp-icon-flow"></em>
+                                                데이터 프로우 01
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                    </div>
+                    <!-- //part -->
+
+
+
+                    <div class="ddp-wrap-date">
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail ddp-dl-date">
+                            <dt>
+                                생성
+                            </dt>
+                            <dd>
+                                2017.05.22 12:00:01 by kko
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                        <!-- detail -->
+                        <dl class="ddp-dl-detail ddp-dl-date">
+                            <dt>
+                                최근수정
+                            </dt>
+                            <dd>
+                                2017.05.22 12:00:01 by kko
+                            </dd>
+                        </dl>
+                        <!-- //detail -->
+                    </div>
+
+                </div>
+                <!-- 링크 -->
+                <div class="ddp-ui-footbutton">
+                    <a href="javascript:" class="ddp-type-link2"><em class="ddp-icon-delete2"></em>이 데이터 삭제</a>
+
+                </div>
+                <!-- //링크 -->
+
+
+            </div>
+            <!-- //상세 -->
+            <script>
+                $(function(){
+                    Split(['#boxchart', '#flowdetail'], {
+                        sizes: [80, 20],
+                        minSize: 200
+                    })
+                })
+            </script>
+
+        </div>
+
+
+    </div>
+</div>
+
+</body>
+</html>

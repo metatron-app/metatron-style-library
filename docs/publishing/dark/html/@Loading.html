@@ -1,25 +1,169 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="../css/polaris.v2.css" />
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>metatron</title>
 
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<title>METATRON APM</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+
 </head>
+<body>
 
-<body class="thema-black">
 
-	<!-- Loading -->
-	<div class="apm-loading">
-		<div class="lds-wedges">
-			<div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div>
-		</div>
-	</div>
-	<!-- //Loading -->
+<!-- loading -->
+<div class="ddp-loading" style="display:none;">
+    <div style="" class="lds-wedges">
+        <div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div></div>
+</div>
+<!-- //loading -->
+
+<!-- loading -->
+<div class="ddp-loading-part " style="display:none;">
+    <div style="" class="lds-wedges">
+        <div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div></div>
+</div>
+<!-- //loading -->
+
+
+<!-- loading -->
+<div class="ddp-loading-part " style="display:none;">
+    <div class="ddp-ui-loading">
+        <div style="" class="lds-wedges">
+            <div><div><div></div></div><div><div></div></div><div><div></div></div><div><div></div></div></div></div>
+        <div class="ddp-btn-cancel">
+            <a href="#">취소</a>
+        </div>
+    </div>
+</div>
+<!-- //loading -->
+
+
+<div class="ddp-wrap-loading" style="display:;">
+
+    <!-- box -->
+    <div class="ddp-box-loading ddp-pop" style="display:none; ">
+
+        <span class="ddp-data-loading">Canceled</span>
+        <a href="#" class="ddp-btn-cancel">Cancel</a>
+        <!-- bar -->
+        <div class="ddp-type-progressbar">
+            <em class="ddp-data-progressbar"></em>
+        </div>
+        <!-- //bar -->
+
+        <span class="ddp-data-date">A데이터스냅샷,2018-07-0110:02:12</span>
+    </div>
+    <!-- //box -->
+
+    <!-- box -->
+    <div class="ddp-box-loading ddp-pop" style="display:none;">
+        <span class="ddp-data-loading">I스냅샷테이블을생성하고있습니다 <strong>(1/n)</strong></span>
+        <a href="#" class="ddp-btn-cancel">Cancel</a>
+        <!-- bar -->
+        <div class="ddp-type-progressbar2">
+            <em class="ddp-data-progressbar" style="width:70%"></em>
+        </div>
+        <!-- //bar -->
+        <span class="ddp-data-date">A데이터스냅샷,2018-07-0110:02:12</span>
+        <!-- button -->
+        <div class="ddp-pop-buttons">
+            <a href="#" class="ddp-btn-line">Close</a>
+
+            <a href="#" class="ddp-btn-solid ddp-bg-black ">Go to snapshot list</a>
+        </div>
+        <!-- //button -->
+
+    </div>
+    <!-- //box -->
+
+    <!-- box -->
+    <!-- cancel 일때 ddp-disabled 추가 -->
+    <div class="ddp-box-loading ddp-pop ddp-disabled" style="display:none;">
+        <span class="ddp-data-loading">I스냅샷테이블을생성하고있습니다 <strong>(1/n)</strong></span>
+        <a href="#" class="ddp-btn-cancel">Cancel</a>
+        <!-- bar -->
+        <div class="ddp-type-progressbar2">
+            <em class="ddp-data-progressbar" style="width:70%"></em>
+        </div>
+        <!-- //bar -->
+        <span class="ddp-data-date">A데이터스냅샷,2018-07-0110:02:12</span>
+        <!-- buttons -->
+        <div class="ddp-pop-buttons">
+            <div class="ddp-txt-info">Sure to cancel snapshot creation?</div>
+            <a href="#" class="ddp-btn-line">No</a>
+
+            <a href="#" class="ddp-btn-solid ddp-bg-black ">Yes</a>
+        </div>
+        <!-- //buttons -->
+
+    </div>
+    <!-- //box -->
+    <!-- box -->
+    <div class="ddp-box-loading ddp-box-s ddp-pop" style="display:;">
+        <div class="ddp-box-in">
+            <a href="#" class="ddp-btn-close"></a>
+            <em class="ddp-icon-success"></em>
+            <div class="ddp-txt-info">
+                <span class="ddp-txt-success">Success!</span>
+                <span class="ddp-data-date">A데이터스냅샷,2018-07-0110:02:12</span>
+            </div>
+
+            <!-- button -->
+            <div class="ddp-pop-buttons">
+                <a href="#" class="ddp-btn-line">Close</a>
+
+                <a href="#" class="ddp-btn-solid ddp-bg-black ">Go to snapshot list</a>
+            </div>
+            <!-- //button -->
+        </div>
+
+
+    </div>
+    <!-- //box -->
+    <!-- box -->
+    <div class="ddp-box-loading ddp-box-s ddp-pop" style="display:;">
+        <div class="ddp-box-in">
+            <a href="#" class="ddp-btn-close"></a>
+            <a href="#" class="ddp-btn-again"></a>
+            <div class="ddp-txt-info ddp-again">
+                <span class="ddp-txt-fail">Failed. Please try again..</span>
+            </div>
+
+        </div>
+    </div>
+    <!-- //box -->
+
+</div>
+
+
+<div class="ddp-wrap-loading ddp-table" style="display:;">
+    <div class="ddp-view-loading">
+        <!-- box -->
+        <div class="ddp-box-loading ddp-box-s ddp-pop" style="display:;">
+            <div class="ddp-box-in">
+                <a href="#" class="ddp-btn-close"></a>
+                <em class="ddp-icon-fail"></em>
+                <div class="ddp-txt-info">
+                    <span class="ddp-txt-fail">Failed.</span>
+                    <span class="ddp-data-date">A데이A데이터스A데이터스A데A데이A데이터스A데이터스A데이터스A데이터스터스A데이A데이터스A데이터스A데이터스A데이터스터스이터스A데이터스터스</span>
+                </div>
+                <!-- button -->
+                <div class="ddp-pop-buttons">
+                    <a href="#" class="ddp-btn-line">Close</a>
+
+                    <a href="#" class="ddp-btn-solid ddp-bg-black ">Go to snapshot list</a>
+                </div>
+                <!-- //button -->
+            </div>
+        </div>
+        <!-- //box -->
+    </div>
+</div>
 
 </body>
-</html>
+</head>

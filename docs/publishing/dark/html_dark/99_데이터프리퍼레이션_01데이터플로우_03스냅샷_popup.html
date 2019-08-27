@@ -1,0 +1,243 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+
+</head>
+<body class="thema-black">
+    <div class="ddp-wrap-layout-popup">
+        <div class="ddp-ui-layout-popup">
+            <div class="ddp-box-popup3 ">
+                <a href="javascript:" class="ddp-btn-close"></a>
+                <!-- title -->
+                <div class="ddp-pop-title">Create a snapshot</div>
+                <!-- //title -->
+                <!-- detail -->
+                <div class="ddp-box-detail ddp-type ddp-label-size">
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit3 ddp-type">
+                        <label class="ddp-label-type">Snapshot name</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option">
+                            <input type="text" class="ddp-input-typebasic " placeholder="Enter table name">
+                        </div>
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit3 ddp-type ddp-mgb20">
+                        <label class="ddp-label-type">Snapshot type</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option">
+                            <label class="ddp-label-radio ddp-inline">
+                                <input type="radio">
+                                <i class="ddp-icon-radio"></i>
+                                <span class="ddp-txt-radio">Filesystem</span>
+                            </label>
+                            <label class="ddp-label-radio ddp-inline">
+                                <input type="radio">
+                                <i class="ddp-icon-radio"></i>
+                                <span class="ddp-txt-radio">HIVE</span>
+                            </label>
+                        </div>
+                        <!-- //edit option -->
+
+                    </div>
+                    <!-- //edit -->
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit3 ddp-type">
+                        <label class="ddp-label-type">DB name</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-type-selectbox ddp-full">
+                                <span class="ddp-txt-selectbox">ORC</span>
+                                <ul class="ddp-list-selectbox ddp-selectdown">
+                                    <li>
+                                        <a href="#">
+                                            1
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            2
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            3
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit3 ddp-type">
+                        <label class="ddp-label-type">Table name</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option ddp-error">
+                            <input type="text" class="ddp-input-typebasic " placeholder="Enter table name">
+                            <span class="ddp-data-error"> 알파벳숫자..만 입력할 수 잇습니다.</span>
+                        </div>
+
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+
+                    <!-- 고급설정 -->
+                    <!-- ddplink-high 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-wrap-high ddp-selected">
+                        <div class="ddp-ui-high-option">
+                            <a href="javascript:" class="ddp-link-high">고급설정<em class="ddp-icon-view"></em></a>
+                        </div>
+                        <div class="ddp-high-setting">
+                            <!-- edit -->
+                            <div class="ddp-wrap-edit3 ddp-type">
+                                <label class="ddp-label-type">File format</label>
+                                <!-- edit option -->
+                                <div class="ddp-ui-edit-option">
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-full">
+                                        <span class="ddp-txt-selectbox">None</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //edit option -->
+                            </div>
+                            <!-- //edit -->
+                            <!-- edit -->
+                            <div class="ddp-wrap-edit3 ddp-type ddp-mgb20">
+                                <label class="ddp-label-type">Full data ETL engine</label>
+                                <!-- edit option -->
+                                <div class="ddp-ui-edit-option">
+                                    <label class="ddp-label-radio ddp-inline">
+                                        <input type="radio">
+                                        <i class="ddp-icon-radio"></i>
+                                        <span class="ddp-txt-radio">Embedded engine</span>
+                                    </label>
+                                    <label class="ddp-label-radio ddp-inline">
+                                        <input type="radio">
+                                        <i class="ddp-icon-radio"></i>
+                                        <span class="ddp-txt-radio">Spark</span>
+                                    </label>
+                                </div>
+                                <!-- //edit option -->
+
+                            </div>
+                            <!-- //edit -->
+                            <!-- edit -->
+                            <div class="ddp-wrap-edit3 ddp-type">
+                                <label class="ddp-label-type">Compression</label>
+                                <!-- edit option -->
+                                <div class="ddp-ui-edit-option">
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-full">
+                                        <span class="ddp-txt-selectbox">Overwrite</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown ">
+                                            <li>
+                                                <a href="#">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //edit option -->
+                            </div>
+                            <!-- //edit -->
+
+                            <!-- edit -->
+                            <div class="ddp-wrap-edit3 ddp-type">
+                                <label class="ddp-label-type">Partition keys</label>
+                                <!-- edit option -->
+                                <div class="ddp-ui-edit-option">
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-full">
+                                        <span class="ddp-txt-selectbox">None</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    1
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    2
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    3
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!-- //edit option -->
+                            </div>
+                            <!-- //edit -->
+                        </div>
+                    </div>
+                    <!-- //고급설정 -->
+                    <!-- detail -->
+                    <div class="ddp-ui-message">
+                        <div class="ddp-box-synch type-error">
+                            <div class="ddp-txt-synch">
+                                <em class="ddp-icon-info"></em>
+                                에러 항목을 확인해 주세요.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button -->
+                </div>
+
+                <div class="ddp-ui-buttons">
+                    <a href="javascript:" class="ddp-btn-type-popup">Cancel</a>
+                    <!-- disabled 시 ddp-disabled 추가 -->
+                    <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">Done</a>
+                </div>
+                <!-- //button -->
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>

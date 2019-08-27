@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+
+</head>
+<body class="thema-black">
+    <!-- header -->
+    <div class="ddp-layout-header">
+        <!-- lnb -->
+        <!-- menu 클릭시 ddp-selected 추가 -->
+        <div class="ddp-layout-lnb">
+            <a href="javascript:" class="ddp-btn-lnbmenu"></a>
+
+            <ul class="ddp-list-lnb">
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">WORKSPACE</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <span class="ddp-txt-title"><em class="ddp-icon-personal"></em> 개인 워크스페이스</span>
+                            <ul class="ddp-list-submenu">
+                                <!-- 선택시 : ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu ">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <span class="ddp-txt-title">
+                                <em class="ddp-icon-share"></em> 공유 워크스페이스
+                                <em class="ddp-icon-fav"></em>
+                            </span>
+                            <ul class="ddp-list-submenu">
+                                <li>
+                                    <a href="javascript:">
+                                        <!-- new 일때 ddp-new -->
+                                        <span class="ddp-data-listmenu ddp-new">Nick's 워크스페이스 <em class="ddp-icon-new">NEW</em></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 1팀 데이터 </span>
+                                        <em class="ddp-icon-afav"></em>
+                                    </a>
+                                </li>
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <span class="ddp-data-listmenu">전략 2팀 데이터 </span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <!-- //sub -->
+                    </div>
+
+                </li>
+                <!-- 클릭시 ddp-selected 추가 -->
+                <li class="ddp-selected">
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">MANAGEMENT</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+                <li>
+                    <div class="ddp-wrap-listmenu">
+                        <a href="javascript:">
+                            <span class="ddp-txt-lnbmenu">ADMINSTRATION</span>
+                            <em class="ddp-icon-menuview"></em>
+                        </a>
+                        <!-- sub -->
+                        <div class="ddp-list-sub">
+                            <!-- submenu -->
+                            <ul class="ddp-list-sublnb">
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Storage
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Preparation
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Settings
+                                    </a>
+                                </li>
+                                <!-- 선택시 ddp-selected -->
+                                <li class="ddp-selected">
+                                    <a href="javascript:">
+                                        <em class="ddp-icon-dot"></em>
+                                        Data Monitoring
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- //submenu -->
+                        </div>
+                        <!-- //sub -->
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- //lnb -->
+        <h1 class="ddp-h1-logo"><a href="javascript:"><em class="ddp-icon-logo"></em></a></h1>
+        <div class="ddp-ui-headright">
+            <a href="javascript:" class="ddp-btn-search"></a>
+            <!-- photo -->
+            <!-- 클릭시 ddp-selected 추가 -->
+            <div class="ddp-wrap-myinfo">
+                <a href="javascript:" class="ddp-data-photo">
+                    <img src="../images/img_photo.png" />
+                </a>
+                <!-- my info -->
+                <div class="ddp-ui-sub-myinfo">
+                    <div class="ddp-wrap-data">
+                        <span class="ddp-data-name">Brittany Eutychia Sadler</span>
+                        <!--<span class="ddp-data-team">전략 2팀</span>-->
+                        <span class="ddp-data-mail">brittanyemailme@international.com</span>
+                    </div>
+
+                    <ul class="ddp-list-sub-myinfo">
+                        <li><a href="javscript:">사용자 정보 관리</a></li>
+                        <li><a href="javscript:">로그아웃</a></li>
+                    </ul>
+                </div>
+                <!-- //my info -->
+            </div>
+            <!-- //photo -->
+
+        </div>
+
+    </div>
+    <!-- //header -->
+
+
+    <!-- contents -->
+    <div class="ddp-layout-contents">
+        <div class="ddp-type-contents2">
+
+            <div class="ddp-top-flow">
+                <!-- navi wrap -->
+                <div class="ddp-wrap-navi">
+                    <a href="javascript:" class="ddp-btn-back"></a>
+                    <!-- navi -->
+                    <div class="ddp-ui-naviarea">
+                        <!-- name -->
+                        <div class="ddp-box-navi">
+                            <div class="ddp-wrap-naviname">
+                                <span class="ddp-data-naviname ddp-readonly">User name
+
+                            </div>
+
+                        </div>
+                        <!-- //name -->
+                    </div>
+                    <!-- //navi -->
+
+                </div>
+                <!-- //navi wrap -->
+
+
+            </div>
+
+            <!-- 상세 -->
+            <div class="ddp-wrap-datadetail">
+                <div class="ddp-ui-option ddp-clear">
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit">
+                        <label class="ddp-label-type">Join on</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option">
+                            <div class="ddp-data-txt">
+                                2011.01.01 00:00:00 by
+                                <div class="ddp-wrap-link-detail2">
+                                    <a href="javascript:" class="ddp-link-info">admin
+                                    </a>
+                                    <!-- popup -->
+                                    <div class="ddp-box-layout4">
+                                        <div class="ddp-wrap-data-detail">
+                                            <div class="ddp-ui-top-title">
+                                                User Information
+                                            </div>
+                                            <table class="ddp-table-pop">
+                                                <colgroup>
+                                                    <col width="">
+                                                    <col width="">
+                                                </colgroup>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Name</th>
+                                                        <td>John Smith</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>ID</th>
+                                                        <td>smith00</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Email</th>
+                                                        <td><a href="mailto:email@email.com">email@email.com</a></td>
+                                                    </tr>
+
+                                                </tbody>
+                                            </table>
+
+                                            <a href="javascript:" class="ddp-link-view"><em class="ddp-icon-view"></em>View detail</a>
+                                        </div>
+
+                                    </div>
+                                    <!-- //popup -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit">
+                        <label class="ddp-label-type">Last updated on</label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option">
+                            <div class="ddp-data-txt">
+                                2011.01.01 00:00:00 by
+                                <div class="ddp-wrap-link-detail2">
+                                    <a href="javascript:" class="ddp-link-info">admin
+                                    </a>
+                                    <!-- popup -->
+                                    <div class="ddp-box-layout4">
+                                        <div class="ddp-wrap-data-detail">
+                                            <div class="ddp-ui-top-title">
+                                                User Information
+                                            </div>
+                                            <table class="ddp-table-pop">
+                                                <colgroup>
+                                                    <col width="">
+                                                    <col width="">
+                                                </colgroup>
+                                                <tbody>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <td>John Smith</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>ID</th>
+                                                    <td>smith00</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Email</th>
+                                                    <td><a href="mailto:email@email.com">email@email.com</a></td>
+                                                </tr>
+
+                                                </tbody>
+                                            </table>
+
+                                            <a href="javascript:" class="ddp-link-view"><em class="ddp-icon-view"></em>View detail</a>
+                                        </div>
+
+                                    </div>
+                                    <!-- //popup -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+
+                    <!-- right -->
+                    <div class="ddp-ui-rightoption">
+                        <a href="#" class="ddp-btn-selection ddp-reject"><em class="ddp-icon-delete"></em>Delete this user </a>
+                    </div>
+                    <!-- //right -->
+                </div>
+                <div class="ddp-ui-datadetail">
+                    <label class="ddp-label-detail">information</label>
+                     <table class="ddp-table-detail">
+                            <colgroup>
+                                <col width="160px">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <th>
+                                        Name
+                                    </th>
+                                    <td>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-txt-edit">
+                                            <!-- data -->
+                                            <span class="ddp-data-name">
+                                                Name
+                                                <em class="ddp-icon-edit2"></em>
+                                            </span>
+                                            <!-- //data -->
+
+                                            <!-- edit -->
+                                            <div class="ddp-wrap-input">
+                                                <input type="text" class="ddp-input-edit" placeholder="escription description des">
+                                                <span class="ddp-btn-check"></span>
+                                            </div>
+                                            <!-- //edit -->
+                                        </div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>
+                                        Description
+                                    </th>
+                                    <td>
+                                        <!-- 클릭시 ddp-selected 추가 -->
+                                        <div class="ddp-txt-edit ">
+                                            <!-- data -->
+                                            <span class="ddp-data-name ddp-data-none">data none
+                                            <em class="ddp-icon-edit2"></em>
+                                        </span>
+                                            <!-- //data -->
+
+                                            <!-- edit -->
+                                            <div class="ddp-wrap-input">
+                                                <!--<input type="text" class="ddp-input-edit" placeholder="escription description des">-->
+                                                <textarea placeholder="">New Da </textarea>
+                                                <span class="ddp-btn-check"></span>
+                                            </div>
+                                            <!-- //edit -->
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    <!-- table detail -->
+                    <div class="ddp-wrap-table-detail">
+                        <div class="ddp-type-plan">
+                            <label class="ddp-label-detail">Members(12)
+                                <a href="javascript:" class="ddp-btn-option2"></a></label>
+                            <a href="#" class="ddp-btn-pop "><em class="ddp-icon-email"></em>email to all users</a>
+                        </div>
+
+                        <table class="ddp-list-form2">
+                            <colgroup>
+                                <col width="25%">
+                                <col width="*">
+                            </colgroup>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="ddp-wrap-link-detail2">
+                                            <a href="javascript:" class="ddp-link-info ddp-normal">admin
+                                            </a>
+                                            <!-- popup -->
+                                            <div class="ddp-box-layout4 ddp-left">
+                                                <div class="ddp-wrap-data-detail">
+                                                    <div class="ddp-ui-top-title">
+                                                        User Information
+                                                    </div>
+                                                    <table class="ddp-table-pop">
+                                                        <colgroup>
+                                                            <col width="">
+                                                            <col width="">
+                                                        </colgroup>
+                                                        <tbody>
+                                                        <tr>
+                                                            <th>Name</th>
+                                                            <td>John Smith</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <td>smith00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Email</th>
+                                                            <td><a href="mailto:email@email.com">email@email.com</a></td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+                                                    <a href="javascript:" class="ddp-link-view"><em class="ddp-icon-view"></em>View detail</a>
+                                                </div>
+
+                                            </div>
+                                            <!-- //popup -->
+                                        </div>
+                                    </td>
+                                    <td>Last access on 2017–07-08 00:00:00</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div class="ddp-wrap-link-detail2">
+                                            <a href="javascript:" class="ddp-link-info ddp-normal">admin
+                                            </a>
+                                            <!-- popup -->
+                                            <div class="ddp-box-layout4 ddp-left">
+                                                <div class="ddp-wrap-data-detail">
+                                                    <div class="ddp-ui-top-title">
+                                                        User Information
+                                                    </div>
+                                                    <table class="ddp-table-pop">
+                                                        <colgroup>
+                                                            <col width="">
+                                                            <col width="">
+                                                        </colgroup>
+                                                        <tbody>
+                                                        <tr>
+                                                            <th>Name</th>
+                                                            <td>John Smith</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>ID</th>
+                                                            <td>smith00</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>Email</th>
+                                                            <td><a href="mailto:email@email.com">email@email.com</a></td>
+                                                        </tr>
+
+                                                        </tbody>
+                                                    </table>
+
+                                                    <a href="javascript:" class="ddp-link-view"><em class="ddp-icon-view"></em>View detail</a>
+                                                </div>
+
+                                            </div>
+                                            <!-- //popup -->
+                                        </div>
+                                    </td>
+                                    <td>Last access on 2017–07-08 00:00:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!-- //table detail -->
+
+                </div>
+            </div>
+            <!-- //상세 -->
+
+
+        </div>
+    </div>
+    <!-- //contents -->
+</body>
+</html>

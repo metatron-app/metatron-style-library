@@ -62,8 +62,6 @@ em.ddp-icon-dataset {display:inline-block; position:relative; top:-3px; width:19
 
 .ddp-icon-database3 {display:inline-block; width:12px; height:14px; background:url(../../../images/icon_database.png) no-repeat; background-position:-13px -31px; vertical-align: middle;}
 
-
-
 em.ddp-icon-lock {display:inline-block; width:11px; height:13px; background:url(../../../images/icon_lock.png) no-repeat; background-position:left top;}
 
 em.ddp-icon-alias {display:inline-block; position:relative; top:-2px;height:11px; font-size:12px; color:#656d7b; vertical-align: middle; font-family:sans-serif; font-weight:bold;}
@@ -410,7 +408,7 @@ em.ddp-icon-download {display:inline-block; background:url(../../../images/icon_
 em.ddp-icon-upload {width:11px; height:12px; background-position:left -244px;}
 em.ddp-icon-download {width:13px; height:13px; background-position:left -230px;}
 em.ddp-icon-download2 {display:inline-block; width:11px; height:13px;background:url(../../../images/icon_download.png) no-repeat;}
-
+em.ddp-icon-download2.type-download {background-position:left -14px;}
 em.ddp-icon-control-copy,
 em.ddp-icon-control-copy-s,
 em.ddp-icon-control-cut,

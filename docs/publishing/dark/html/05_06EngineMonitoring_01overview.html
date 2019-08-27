@@ -12,7 +12,7 @@
     <script src="../js/jquery/jquery.1.9.1.min.js"></script>
 
 </head>
-<body class="thema-black">
+<body>
 <!-- header -->
 <div class="ddp-layout-header">
     <!-- lnb -->
@@ -252,9 +252,11 @@
 
         <!-- contents det -->
         <div class="ddp-wrap-contents-det">
+
             <div class="ddp-ui-contents-det">
-                <!-- box status -->
-                <div class="ddp-box-type">
+                <!-- setting -->
+                <div class="ddp-view-setting ddp-clear">
+                    <!-- name -->
                     <div class="ddp-label-name ddp-clear">
                         <span class="ddp-txt-label">Cluster name Status</span>
                         <!-- info -->
@@ -302,12 +304,12 @@
                                                     16.6GB / 12TB
                                                     <!-- bar -->
                                                     <div class="ddp-bar-size">
-                                                        <span class="ddp-data-bar" style="width:20%;">
-                                                            <div class="ddp-ui-tooltip-info">
-                                                                <em class="ddp-icon-view-top"></em>
-                                                                20%
-                                                            </div>
-                                                        </span>
+                                                            <span class="ddp-data-bar" style="width:20%;">
+                                                                <div class="ddp-ui-tooltip-info">
+                                                                    <em class="ddp-icon-view-top"></em>
+                                                                    20%
+                                                                </div>
+                                                            </span>
                                                         <span class="ddp-data-line"></span>
                                                     </div>
                                                     <!-- //bar -->
@@ -322,44 +324,200 @@
                         </div>
                         <!-- //info -->
                     </div>
+                    <!-- //name -->
 
+                    <div class="ddp-date-setting">
+                        <span class="ddp-data-date">
+                            2017.03.06 06:09:35 <a href="javascript:" class="ddp-btn-refresh"></a>
+                        </span>
+                        <a href="#" class="ddp-btn-toggle ddp-selected">Last 1 hour</a>
+                        <a href="#" class="ddp-btn-toggle">Last 1 day</a>
+                        <a href="#" class="ddp-btn-toggle">Last 7 days</a>
+                        <a href="#" class="ddp-btn-toggle">Last 30 days</a>
+                    </div>
+
+                </div>
+                <!-- //setting -->
+                <!-- engine graph -->
+                <div class="ddp-wrap-engine-graph ddp-clear">
+
+                    <!-- box graph -->
+                    <!--
+                        warning 일때 : type-warning 추가
+                        error 일때 : type-error 추가
+                    -->
+                    <div class="ddp-box-graph type-cpu ">
+                        <div class="ddp-box-label">GC CPU</div>
+                        <!-- 아이콘 -->
+                        <div class="ddp-icon-status">
+                            <em class="ddp-icon-warning"></em>
+                            <em class="ddp-icon-error"></em>
+                        </div>
+                        <!-- //아이콘 -->
+                        <!-- 그래프 영역 -->
+                        <div class="ddp-graph-round" style="background-color:;">
+                            <div class="ddp-graph-in">
+                                <span class="ddp-data-num">30</span>
+                                <span class="ddp-data-per"><em class="ddp-icon-up"></em>10%</span>
+                            </div>
+                        </div>
+                        <!-- //그래프 영역 -->
+
+                    </div>
+                    <!-- //box graph -->
+                    <!-- box graph -->
+                    <!--
+                        warning 일때 : type-warning 추가
+                        error 일때 : type-error 추가
+                    -->
+                    <div class="ddp-box-graph type-memory ">
+                        <div class="ddp-box-label">GC CPU</div>
+                        <!-- 아이콘 -->
+                        <div class="ddp-icon-status">
+                            <em class="ddp-icon-warning"></em>
+                            <em class="ddp-icon-error"></em>
+                        </div>
+                        <!-- //아이콘 -->
+                        <!-- 그래프 영역 -->
+                        <div class="ddp-graph-round" style="background-color:;">
+                            <div class="ddp-graph-in">
+                                <span class="ddp-data-num">30</span>
+                                <span class="ddp-data-per"><em class="ddp-icon-up"></em>10%</span>
+                            </div>
+                        </div>
+                        <!-- //그래프 영역 -->
+
+                    </div>
+
+                    <div class="ddp-wrap-line-graph">
+                        <!-- box graph -->
+                        <div class="ddp-box-graph type-count type-error">
+                            <div class="ddp-box-label">GC Count</div>
+                            <!-- 아이콘 -->
+                            <div class="ddp-icon-status">
+                                <em class="ddp-icon-error"></em>
+                            </div>
+                            <!-- //아이콘 -->
+                            <!-- 그래프 영역 -->
+                            <div class="ddp-graph-line" style="background-color:;">
+
+                            </div>
+                            <!-- //그래프 영역 -->
+                        </div>
+                        <!-- //box graph -->
+                        <!-- box graph -->
+                        <div class="ddp-box-graph type-count">
+                            <div class="ddp-box-label">Avg Query Time</div>
+                            <!-- 아이콘 -->
+                            <div class="ddp-icon-status">
+                                <em class="ddp-icon-error"></em>
+                            </div>
+                            <!-- //아이콘 -->
+                            <!-- 그래프 영역 -->
+                            <div class="ddp-graph-line" style="background-color:;">
+
+                            </div>
+                            <!-- //그래프 영역 -->
+                        </div>
+                        <!-- //box graph -->
+                    </div>
+                    <div class="ddp-wrap-num-graph">
+                        <!-- box graph -->
+                        <!--
+                           warning 일때 : type-warning 추가
+                       -->
+                        <div class="ddp-box-graph type-count-num ">
+                            <div class="ddp-box-label">Query Count</div>
+                            <!-- 아이콘 -->
+                            <div class="ddp-icon-status2">
+                                <em class="ddp-icon-warning"></em>
+                                <span class="ddp-data-per"><em class="ddp-icon-down"></em>10%</span>
+                            </div>
+                            <!-- //아이콘 -->
+
+                            <!-- 그래프 영역 -->
+                            <div class="ddp-graph-num" style="background-color:;">
+                                1,234,567
+
+                            </div>
+                            <!-- //그래프 영역 -->
+                        </div>
+                        <!-- //box graph -->
+                        <!-- box graph -->
+                        <div class="ddp-box-graph type-task ">
+                            <div class="ddp-box-label">Running Task</div>
+                            <!-- 아이콘 -->
+                            <div class="ddp-icon-status">
+                                <em class="ddp-icon-error"></em>
+                            </div>
+                            <!-- //아이콘 -->
+                            <!-- 그래프 영역 -->
+                            <div class="ddp-graph-num" style="background-color:;">
+                                1,234,567
+                            </div>
+                            <!-- //그래프 영역 -->
+                        </div>
+                        <!-- //box graph -->
+                    </div>
+
+                </div>
+                <!-- //engine graph -->
+
+
+                <div class="ddp-box-type ddp-type-server">
+                    <!-- status value -->
                     <div class="ddp-wrap-status-value ddp-clear">
+                        <div class="ddp-ui-status-value type-all">
+                            <!-- 선택시 type-selected 추가 -->
+                            <div class="ddp-label-status type-all ">
+                                All
+                            </div>
+                        </div>
                         <div class="ddp-ui-status-value">
+                            <!-- 선택시 type-selected 추가 -->
+                            <div class="ddp-label-status type-broker type-selected">
+                                Broker
+                                <em class="ddp-icon-status-warning"></em>
+                            </div>
+                        </div>
+                        <div class="ddp-ui-status-value">
+                            <!-- 선택시 type-selected 추가 -->
                             <div class="ddp-label-status type-broker">
                                 Broker
                                 <em class="ddp-icon-status-warning"></em>
                             </div>
                         </div>
                         <div class="ddp-ui-status-value">
+                            <!-- 선택시 type-selected 추가 -->
                             <div class="ddp-label-status type-coordinator">
                                 Coordinator
-                                <em class="ddp-icon-status-success"></em>
+                                <em class="ddp-icon-status-error"></em>
                             </div>
                         </div>
 
-                         <div class="ddp-ui-status-value">
+                        <div class="ddp-ui-status-value">
+                            <!-- 선택시 type-selected 추가 -->
                             <div class="ddp-label-status type-historical">
                                 Historical
-                                <em class="ddp-icon-status-error"></em>
+                                <em class="ddp-icon-status-success"></em>
                             </div>
-                         </div>
+                        </div>
                         <div class="ddp-ui-status-value">
+                            <!-- 선택시 type-selected 추가 -->
                             <div class="ddp-label-status type-overlord">
                                 Overlord
                                 <em class="ddp-icon-status-success"></em>
                             </div>
                         </div>
                         <div class="ddp-ui-status-value">
-                            <div class="ddp-label-status type-middleManager">
+                            <!-- 선택시 type-selected 추가 -->
+                            <div class="ddp-label-status type-middleManager type-selected">
                                 Middle Manager
                                 <em class="ddp-icon-status-error "></em>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- //box status -->
-
-                <div class="ddp-box-type ddp-type-server">
+                    <!-- //status value -->
                     <!-- top setting -->
                     <div class="ddp-box-top-setting ddp-clear">
                         <div class="ddp-type-search">
@@ -456,6 +614,322 @@
                         <div class="ddp-data-source-none">
                             No data
                         </div>
+                        <!-- grid detail -->
+                        <div class="ddp-grid-detail">
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                M
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                B
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                O
+                            </div>
+                            <div class="ddp-grid-box type-error">
+                                M
+                            </div>
+                            <div class="ddp-grid-box">
+                                H
+                            </div>
+                            <div class="ddp-grid-box">
+                                A
+                            </div>
+                            <div class="ddp-grid-box">
+                                C
+                            </div>
+                            <div class="ddp-grid-box">
+                                B
+                            </div>
+                        </div>
+                        <!-- //grid detail -->
                         <table class="ddp-table-detail3">
                             <colgroup>
                                 <col width="33%">

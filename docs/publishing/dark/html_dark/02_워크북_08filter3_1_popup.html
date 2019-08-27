@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <link rel="stylesheet" href="../css/lib/rome.css"/>
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+    <script>
+        $(function(){
+            $('.ddp-toggle .ddp-list-buttons li').click(function(){
+                var $buttonsIdx = $(this).index();
+                $(this).addClass('ddp-selected');
+                $(this).siblings().removeClass('ddp-selected');
+
+                $('.ddp-ui-toggle-contents').eq($buttonsIdx).show();
+                $('.ddp-ui-toggle-contents').eq($buttonsIdx).siblings().hide();
+
+            })
+        })
+    </script>
+
+</head>
+<body class="thema-black">
+<!--
+       filter : 차원값 > 시간타입 > Granularity : Discontinuous
+   -->
+    <div class="ddp-layout-popuptype" style="display:;">
+        <em class="ddp-bg-popup"></em>
+        <div class="ddp-pop-filter">
+            <!-- top -->
+           <div class="ddp-top-filter">
+               <!-- tag -->
+               <div class="ddp-ui-tags">
+                   <span class="ddp-data-chartname">Chart name chart name</span>
+                   <!-- Slide THREE -->
+                   <div class="ddp-tag-type ddp-checkbox-slide ">
+                       <input type="checkbox" value="None" id="check2" name="check">
+                       <label for="check2"><span class="ddp-slide"></span></label>
+                       <span class="ddp-txt-slide"><em class="ddp-icon-global"></em></span>
+
+                   </div>
+                   <!-- //Slide THREE -->
+                   <span class="ddp-tag-type ddp-type"><em class="ddp-icon-global"></em>Global</span>
+                   <span class="ddp-tag-type ddp-type" style="display:none;"><em class="ddp-icon-recommend"></em>recommended</span>
+                   <span class="ddp-tag-type ddp-type" style="display:none;"><em class="ddp-icon-lock"></em>Essential</span>
+                   <span class="ddp-tag-type ddp-type" style="display:none;"><em class="ddp-icon-time4"></em>Timestamp</span>
+               </div>
+               <!-- //tag -->
+               <!-- title -->
+               <div class="ddp-title">
+                   <div class="ddp-icons">
+                       <a href="javascript" class="ddp-btn-back"></a>
+                       <span class="ddp-icon-box">
+                            <em class="ddp-icon-dimension-calen" style="display:none"></em>
+                             <em class="ddp-icon-dimension-ab" style="display:"></em>
+                             <em class="ddp-icon-dimension-tf" style="display:none"></em>
+                             <em class="ddp-icon-dimension-longitude" style="display:none"></em>
+                           <em class="ddp-icon-dimension-latitude" style="display:none"></em>
+                           <em class="ddp-icon-dimension-int" style="display:none"></em>
+                            <em class="ddp-icon-dimension-float" style="display:none"></em>
+                       </span>
+                       <span class="ddp-icon-box ddp-measure">
+                           <em class="ddp-icon-measure-int" style="display:none"></em>
+                           <em class="ddp-icon-measure-float" style="display:"></em>
+                       </span>
+                   </div>
+                   <div class="ddp-txt-name ddp-type">
+                       <span class="ddp-txt-data"> Category</span>
+                       <span class="ddp-txt-sub"> Category</span>
+                   </div>
+               </div>
+               <!-- //title -->
+               <script>
+                   $(function(){
+                       $('.ddp-txt-name .ddp-txt-sub').mouseover(function(){
+                           $('.ddp-top-filter').find('.ddp-ui-tooltip-info').show();
+
+                       });
+                       $('.ddp-txt-name .ddp-txt-sub').mouseout(function(){
+                           $('.ddp-top-filter').find('.ddp-ui-tooltip-info').hide();
+                       })
+                   })
+               </script>
+               <!-- tooltip -->
+               <div class="ddp-ui-tooltip-info" style="display:;">
+                   <em class="ddp-icon-view-top"></em>
+                   datasource name na
+               </div>
+               <!-- //tooltip -->
+
+           </div>
+            <!-- //top -->
+            <div class="ddp-filter1">
+                <!-- summary -->
+                <div class="ddp-top-summary">Granularity : Second</div>
+                <!-- //summary -->
+                <div class="ddp-filter-form">
+                    <!-- option -->
+                    <div class="ddp-option">
+                        <span class="ddp-data-num"><strong>2</strong> default value</span>
+                        <div class="ddp-option-btn">
+
+                            <!-- sort -->
+                            <!-- 클릭시 ddp-selected 추가 -->
+                            <div class="ddp-ui-sort ddp-btn-box ">
+                                <a href="javascript:" class="ddp-icon-sort"></a>
+                                <!-- hover -->
+                                <div class="ddp-ui-tooltip-info">
+                                    <em class="ddp-icon-view-top"></em>
+                                    정렬순서
+                                </div>
+                                <!-- //hover -->
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                제목 오름차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                제목 내림차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                업데이트 오름차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                업데이트 내림차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                생성일 오름차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                생성일 내림차순
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+                            <!-- //sort -->
+                            <!-- on 일때 ddp-selected 추가 -->
+                            <a href="#" class="ddp-btn-eyes ddp-btn-box ddp-selected"><em class="ddp-icon-eyes2"></em></a>
+                        </div>
+
+                    </div>
+                    <!-- //option -->
+                    <!-- item search -->
+                    <div class="ddp-box-item-search ddp-edit-none">
+
+                        <!-- check -->
+                        <ul class="ddp-list-checktype ddp-type-list">
+                            <li class="ddp-list-all">
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">All</span>
+                                </label>
+                            </li>
+
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">yyyy-mm-dd hh:mm:ss <span class="ddp-data-valuenum">1220</span></span>
+                                </label>
+
+                                <em class="ddp-icon-eyes2-on"></em>
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">yyyy-mm-dd hh:mm:ss <span class="ddp-data-valuenum">1220</span></span>
+                                </label>
+
+                                <em class="ddp-icon-eyes2-none"></em>
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">yyyy-mm-dd hh:mm:ss <span class="ddp-data-valuenum">1220</span></span>
+                                </label>
+
+                                <em class="ddp-icon-eyes2-on"></em>
+                            </li>
+
+                        </ul>
+                        <!-- //check -->
+                        <div class="ddp-data-result">
+
+                            <!-- page -->
+                            <div class="ddp-ui-page">
+                                <a href="#" class="ddp-btn-prev"></a>
+                                <span class="ddp-data-page"><em>1</em>/<em>5</em></span>
+                                <a href="#" class="ddp-btn-next ddp-disabled"></a>
+                            </div>
+                            <!-- //page -->
+
+                        </div>
+
+                    </div>
+                    <!-- //item search -->
+
+                </div>
+
+                <div class="ddp-ui-buttons">
+                    <a href="javascript:" class="ddp-btn-type-popup">Cancel</a>
+                    <!-- disabled 시 ddp-disabled 추가 -->
+                    <a href="javascript:" class="ddp-btn-type-popup ddp-bg-black ">Done</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

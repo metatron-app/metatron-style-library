@@ -1,0 +1,580 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>METATRON</title>
+    <!-- polaris css --->
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/integrator/import.integrator.css"/>
+</head>
+<body class="thema-black">
+
+<div class="ddp-layout-popuptype">
+    <em class="ddp-bg-popup"></em>
+    <div class="ddp-ui-popup">
+        <div class="ddp-ui-popup-title">
+            	<span class="ddp-txt-title-name">
+                    Create a New Trigger Execution
+                </span>
+
+            <div class="ddp-ui-pop-buttons">
+                <a href="javascript:" class="ddp-btn-pop">Cancel</a>
+                <a href="javascript:" class="ddp-btn-pop ddp-bg-black">Create</a>
+            </div>
+            <!-- det -->
+        </div>
+
+        <div class="ddp-ui-popup-contents ddp-integrator  ">
+            <div class="ddp-wrap-create2">
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Name</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type">
+                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- //edit -->
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Description</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type">
+                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Please enter a description">
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Tags</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type ddp-pad0">
+                        <div class="ddp-list-tags">
+                            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+                            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+                            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+                            <!-- 검색시 popup : ddp-selected 추가 -->
+                            <div class="ddp-tag-default ddp-wrap-drop-search ddp-selected"><input type="text" placeholder="태그명을 입력하세요">
+                                <!-- drop -->
+                                <div class="ddp-ui-drop-search">
+
+                                    <ul class="ddp-list-selectbox2">
+                                        <li>
+
+                                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+
+                                        </li>
+                                        <li>
+                                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                        </li>
+                                        <li>
+                                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                        </li>
+                                        <li>
+                                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- //drop -->
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- //edit -->
+
+            </div>
+            <div class="ddp-wrap-create2">
+
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Period</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type">
+                        <div class="ddp-wrap-dateinfo ddp-filter-dateinfo ddp-period">
+                            <!-- 날짜 -->
+                            <div class="ddp-ui-dateinfo ddp-from">
+                                <div class="ddp-dateinfo-in">
+                                    <span class="ddp-txt-date">From</span>
+                                    <div class="ddp-box-rome">
+                                        <div class="ddp-box-dateinfo ddp-clear">
+                                            <!-- 달력 -->
+                                            <div class="ddp-box-date">
+                                                <em class="ddp-icon-calen"></em>
+
+                                                <input type="text" class="ddp-txt-calen" value="1988-02-02">
+                                            </div>
+                                            <!-- //달력 -->
+                                            <!-- 시간 -->
+                                            <div class="ddp-box-date">
+                                                <em class="ddp-icon-time"></em>
+                                                <span class="ddp-txt-time">13:44</span>
+                                            </div>
+                                            <!-- //시간 -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //날짜 -->
+
+                            <!-- 날짜 -->
+                            <div class="ddp-ui-dateinfo ddp-to">
+                                <div class="ddp-dateinfo-in">
+                                    <span class="ddp-txt-date">To</span>
+                                    <div class="ddp-box-rome">
+                                        <div class="ddp-box-dateinfo ddp-clear">
+                                            <div class="ddp-box-date">
+                                                <em class="ddp-icon-calen"></em>
+
+                                                <input type="text" class="ddp-txt-calen" value="1988-02-02">
+                                            </div>
+                                            <div class="ddp-box-date">
+                                                <em class="ddp-icon-time"></em>
+                                                <span class="ddp-txt-time">13:44</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- //날짜 -->
+                        </div>
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- //edit -->
+
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Condition</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type ">
+                        <!-- clear -->
+                        <div class="ddp-clear">
+                            <!-- col -->
+                            <div class="ddp-col-6">
+                                <div class="ddp-type-selectbox ddp-full">
+                                    <span class="ddp-txt-selectbox">Execution schedule lists</span>
+                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists3
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //col -->
+
+                            <!-- col -->
+                            <div class="ddp-col-6 ddp-form-edit">
+                                <label class="ddp-label-sub">When</label>
+                                <div class="ddp-type-selectbox ddp-full">
+                                    <span class="ddp-txt-selectbox">Execution schedule lists</span>
+                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists3
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //col -->
+                        </div>
+                        <!-- //clear -->
+
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- //edit -->
+
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <label class="ddp-label-type">Nominal time</label>
+                    <!-- edit option -->
+                    <div class="ddp-ui-edit-option ddp-type ">
+                        <!-- clear -->
+                        <div class="ddp-clear">
+                            <!-- col -->
+                            <div class="ddp-col-6">
+                                <div class="ddp-type-selectbox ddp-full">
+                                    <span class="ddp-txt-selectbox">Nominal time</span>
+                                    <ul class="ddp-list-selectbox ddp-selectdown">
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists2
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Execution schedule lists3
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- //col -->
+
+                        </div>
+                        <!-- //clear -->
+                    </div>
+                    <!-- //edit option -->
+                </div>
+                <!-- //edit -->
+
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <div class="ddp-label-type ddp-bold">Configuration
+                        <div class="ddp-wrap-hover-info ddp-type">
+                            <em class="ddp-icon-info3"></em>
+                            <!-- popup -->
+                            <div class="ddp-box-layout4 ">
+                                <div class="ddp-data-title">
+                                    What is Job properties?
+                                </div>
+                                <div class="ddp-data-det">
+                                    Ingestion tuning configuration describes effective options
+                                    when ingestion. Now put it in the corresponding text box
+                                    in JSON format
+                                </div>
+                            </div>
+                            <!-- //popup -->
+                        </div>
+                    </div>
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2">
+                        <!-- list code -->
+                        <div class="ddp-clear ddp-list-code">
+                            <div class="ddp-col-5">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                            </div>
+                            <div class="ddp-col-7">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                            </div>
+                            <a href="javascript:" class="ddp-icon-close"></a>
+
+                        </div>
+                        <!-- //list code -->
+                        <!-- list code -->
+                        <div class="ddp-clear ddp-list-code">
+                            <div class="ddp-col-5">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                            </div>
+                            <div class="ddp-col-7">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                            </div>
+                            <a href="javascript:" class="ddp-icon-close"></a>
+
+                        </div>
+                        <!-- //list code -->
+                        <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> Add</a>
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type">
+                    <div class="ddp-label-type ddp-bold">User Variables </div>
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2">
+                        <!-- list code -->
+                        <div class="ddp-clear ddp-list-code">
+                            <div class="ddp-col-5">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                            </div>
+                            <div class="ddp-col-7">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                            </div>
+                            <a href="javascript:" class="ddp-icon-close"></a>
+
+                        </div>
+                        <!-- //list code -->
+                        <!-- list code -->
+                        <div class="ddp-clear ddp-list-code">
+                            <div class="ddp-col-5">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                            </div>
+                            <div class="ddp-col-7">
+                                <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                            </div>
+                            <a href="javascript:" class="ddp-icon-close"></a>
+
+                        </div>
+                        <!-- //list code -->
+                        <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> Add</a>
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+                <!-- edit -->
+                <div class="ddp-wrap-edit3 ddp-type ddp-part">
+                    <!-- label -->
+                    <div class="ddp-label-type">
+                        Alert
+                        <div class="ddp-wrap-hover-info ddp-type">
+                            <em class="ddp-icon-info3"></em>
+
+                            <!-- popup -->
+                            <div class="ddp-box-layout4 ddp-alert">
+                                <div class="ddp-data-det">
+
+                                    <table class="ddp-table-pop">
+                                        <colgroup>
+                                            <col width="100px">
+                                            <col width="*">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>Job start :</th>
+                                            <td>Receive an alert when the Workflow Job is in RUNNING state.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Job Succeed :</th>
+                                            <td>Receive an alert when the Workflow Job is in SUCCEEDED state.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Job Failed : </th>
+                                            <td>Receive an alert when the Workflow Job is in terminal state other than SUCCEEDED.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Job Should start :</th>
+                                            <td> Receive an alert when relative to nominal-time this is the amount of time within which your workflow job should start running to meet SLA..</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Job Should end :</th>
+                                            <td> Receive an alert when relative to nominal-time this is the amount of time within which your workflow job should finish to meet SLA.</td>
+                                        </tr>
+                                        <tr>
+                                            <th>Max duration :</th>
+                                            <td> Receive an alert when the maximum amount of time your workflow job is expected to run.</td>
+                                        </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- //popup -->
+                        </div>
+                        <div class="ddp-checkbox-slide ddp-checkbox-automatic2">
+                            <input type="checkbox" value="None" id="check2" name="check">
+                            <label for="check2"><span class="ddp-slide"></span></label>
+                        </div>
+                    </div>
+                    <!-- //label -->
+                    <!-- edit sub -->
+                    <div class="ddp-edit-sub">
+                        <!-- //list -->
+                        <ul class="ddp-list-checktype">
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Job Start</span>
+                                </label>
+
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Job Succeed</span>
+                                </label>
+
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Job Failed</span>
+                                </label>
+
+                            </li>
+
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Job Should Start</span>
+                                </label>
+                                <!-- form -->
+                                <div class="ddp-form-duration">
+                                    <input type="text" class="ddp-input-typebasic ddp-disabled" placeholder="Name">
+                                    <!-- selectbox -->
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ddp-disabled">
+                                        <span class="ddp-txt-selectbox">Minutes</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    10
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    9
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //selectbox -->
+                                </div>
+
+                                <!-- //form -->
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Job Should End</span>
+                                </label>
+                                <!-- form -->
+                                <div class="ddp-form-duration">
+                                    <input type="text" class="ddp-input-typebasic " placeholder="Name">
+                                    <!-- selectbox -->
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ">
+                                        <span class="ddp-txt-selectbox">Minutes</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    10
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    9
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //selectbox -->
+                                </div>
+
+                                <!-- //form -->
+                            </li>
+                            <li>
+                                <label class="ddp-label-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                    <span class="ddp-txt-checkbox">Max Duration</span>
+                                </label>
+                                <!-- form -->
+                                <div class="ddp-form-duration">
+                                    <input type="text" class="ddp-input-typebasic " placeholder="Name">
+                                    <!-- selectbox -->
+                                    <!-- 선택시 ddp-selected 추가 -->
+                                    <div class="ddp-type-selectbox ">
+                                        <span class="ddp-txt-selectbox">Minutes</span>
+                                        <ul class="ddp-list-selectbox ddp-selectdown">
+                                            <li>
+                                                <a href="#">
+                                                    10
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    9
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- //selectbox -->
+                                </div>
+
+                                <!-- //form -->
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!-- //edit sub -->
+                    <!-- sub box -->
+                    <div class="ddp-box-sub2">
+                        <div class="ddp-wrap-edit3 ddp-type">
+                            <label class="ddp-label-type ddp-bold">To
+                                <!-- info -->
+                                <div class="ddp-wrap-hover-info ddp-type">
+                                    <em class="ddp-icon-info3"></em>
+                                    <!-- popup -->
+                                    <div class="ddp-ui-tooltip-info">
+                                        <em class="ddp-icon-view-left"></em>
+                                        설명설명설명
+                                    </div>
+                                    <!-- //popup -->
+                                </div>
+                                <!-- //info -->
+                            </label>
+                            <div class="ddp-ui-edit-option ddp-type">
+                                <!-- list code -->
+                                <div class="ddp-clear ddp-list-code">
+                                    <div class="ddp-col-5">
+                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                                    </div>
+                                    <div class="ddp-col-7">
+                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                                    </div>
+                                    <a href="javascript:" class="ddp-icon-close"></a>
+
+                                </div>
+                                <!-- //list code -->
+                                <!-- list code -->
+                                <div class="ddp-clear ddp-list-code">
+                                    <div class="ddp-col-5">
+                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Name">
+                                    </div>
+                                    <div class="ddp-col-7">
+                                        <input type="text" class="ddp-input-typebasic ddp-full" placeholder="Value">
+                                    </div>
+                                    <a href="javascript:" class="ddp-icon-close"></a>
+
+                                </div>
+                                <!-- //list code -->
+
+                                <a href="javascript:" class="ddp-btn-add"><em class="ddp-icon-plus"></em> Add</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- //sub box -->
+                </div>
+                <!-- //edit -->
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
+<title>METATRON</title>
+    <!-- polaris css --->
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+<body class="thema-black">
+    <!-- 미리보기 팝업 -->
+    <!-- 스키마정보팝업 ddp-type-scheme 추가 -->
+    <div class="ddp-pop-preview ddp-column-detail ddp-type-scheme popup-workbench" style="display:;">
+        <!-- top -->
+        <div class="ddp-ui-top">
+
+            <div class="ddp-data-name">
+                <em class="ddp-icon-scheme"></em>
+                Scheme Information
+            </div>
+            <a href="javascript:" class="ddp-btn-window"></a>
+            <em class="ddp-btn-popup-close"></em>
+        </div>
+        <!-- //top -->
+        <!-- contents -->
+        <div class="ddp-ui-preview-contents ddp-preview-type">
+
+            <!-- data list -->
+            <div class="ddp-wrap-list ">
+                <!-- top -->
+                <div class="ddp-ui-dataname">
+                    <div class="ddp-top-title ddp-dbtype">
+                        <!-- icons -->
+                        <div class="ddp-db-icons">
+                           <img src="../images/img_db/ic_db_custom.png">
+                            <img src="../images/img_db/ic_db_druid.png">
+                            <img src="../images/img_db/ic_db_hive.png">
+                            <img src="../images/img_db/ic_db_oracle.png">
+                            <img src="../images/img_db/ic_db_phoenix.png">
+                            <img src="../images/img_db/ic_db_post.png">
+                            <img src="../images/img_db/ic_db_presto.png">
+                            <img src="../images/img_db/ic_db_rds.png">
+                            <img src="../images/img_db/ic_db_tibero.png">
+                            <img src="../images/img_db/ic_db.png">
+                        </div>
+                        <script>
+                            $(function(){
+                                function infopopup(){
+                                    $('.ddp-wrap-list .ddp-ui-dataname .ddp-wrap-info').click(function(){
+                                        var $infoLeft = $(this).offset().left;
+                                        var $infoTop = $(this).offset().top;
+                                        $(this).parent().find('.ddp-box-layout4').css('left',$infoLeft-30);
+                                        $(this).parent().find('.ddp-box-layout4').css('top',$infoTop+15);
+                                    });
+                                };infopopup();
+                                $(window).resize(function(){
+                                    infopopup();
+                                });
+
+                            })
+                        </script>
+                        <!-- icons -->
+                        <span class="ddp-txt-name">Data Connection Name</span>
+                        <!-- 클릭시 ddp-selected 추가 -->
+                        <div class="ddp-wrap-info ddp-selected">
+                            <a href="javascript:" class="ddp-btn-info2"></a>
+                            <!-- box layout -->
+                            <div class="ddp-box-layout4 ddp-scheme" style="top:300px;">
+                                <div class="ddp-data-explain">
+                                    DB Connection 설명...설명...설명...
+                                </div>
+                                <table class="ddp-table-info">
+                                    <colgroup>
+                                        <col width="150px">
+                                        <col width="*">
+                                    </colgroup>
+                                    <tbody>
+                                    <tr>
+                                        <th>
+                                            DB Type
+                                        </th>
+                                        <td>
+                                            OracleOracleOracleOracle
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Host
+                                        </th>
+                                        <td>
+                                            metatron-poc-01
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>
+                                            Port
+                                        </th>
+                                        <td>
+                                            10000
+                                        </td>
+                                    </tr>
+                                    </tbody>
+
+                                </table>
+
+                            </div>
+                            <!-- //box layout -->
+                        </div>
+                    </div>
+                    <!-- database name -->
+                    <!-- 클릭시 ddp-selected 추가 -->
+                    <div class="ddp-data-namesub ">
+                        <div class="ddp-data-in">
+                            <em class="ddp-icon-database3"></em>
+                            <span class="ddp-txt-dataname">Database name 004</span>
+
+                            <em class="ddp-icon-view"></em>
+                        </div>
+
+
+                        <!-- box layout -->
+                        <div class="ddp-box-layout4" style="display:;">
+                            <div class="ddp-wrap-search">
+                                <!-- search -->
+                                <div class="ddp-form-search">
+                                    <em class="ddp-icon-search"></em>
+                                    <input type="text" placeholder="search">
+                                    <em class="ddp-btn-search-close"></em>
+                                </div>
+                                <!-- //search -->
+                            </div>
+                            <div class="ddp-ui-list-type">
+                                <ul class="ddp-list-type ddp-list-popup">
+                                    <li class="ddp-selected">
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:">
+                                            <em class="ddp-icon-database-s"></em>
+                                            <span class="ddp-data-name">Database Name 001</span>
+                                            <em class="ddp-icon-check"></em>
+                                        </a>
+                                    </li>
+
+                                </ul>
+
+                                <a href="javascript:" class="ddp-btn-more">+ more</a>
+                            </div>
+
+
+                        </div>
+                        <!-- //box layout -->
+                    </div>
+                    <!-- //database name -->
+                </div>
+                <!-- //top -->
+                <!-- title -->
+                <div class="ddp-ui-title ddp-bottom">
+
+                    <div class="ddp-ui-topTit ">
+                        Table list
+                        <div class="ddp-view-option">
+                            <span class="ddp-txt-tbNum">36</span>
+                            <span class="ddp-txt-table">Tables</span>
+
+                        </div>
+                    </div>
+
+                    <!-- 검색 -->
+                    <div class="ddp-wrap-list-search">
+                        <a href="javascript:" class="ddp-btn-refresh"></a>
+                        <div class="ddp-ui-list-search">
+                            <input type="text" placeholder="search table">
+
+                            <em class="ddp-btn-search-close"></em>
+                        </div>
+                    </div>
+                    <!-- //검색 -->
+                    <!-- head -->
+                    <div class="ddp-tablelist-header">
+                        <!-- ;num -->
+                        <div class="ddp-table-num">
+                            <span class="ddp-number">2,000</span>
+                            Tables
+                        </div>
+                        <!-- //num -->
+                        <span class="ddp-table-title">
+                                Physical Table Name
+                                <em class="ddp-icon-sort-default"></em>
+                                <em class="ddp-icon-sort-asc" style="display:none;"></em>
+                                <em class="ddp-icon-sort-des" style="display:none;"></em>
+                            </span>
+
+
+                    </div>
+                    <!-- ///head -->
+
+                </div>
+                <!-- //title -->
+
+                <div class="ddp-pop-wrapList">
+
+                </div>
+            </div>
+            <!-- //data list -->
+            <!-- detail -->
+            <div class="ddp-ui-datadetail2">
+                <!-- option -->
+                <div class="ddp-type-top-option">
+                    <ul class="ddp-ui-tab ddp-type">
+                        <li>
+                            <a href="javascript:">Columns</a>
+                        </li>
+                        <li class="ddp-selected">
+                            <a href="javascript:">Information</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">Data</a>
+                        </li>
+                    </ul>
+
+                    <!-- tab contents -->
+                    <div class="ddp-ui-tab-contents">
+                        <!-- searching -->
+                        <div class="ddp-wrap-searching" style="display:;">
+
+                            <!-- 검색 -->
+                            <div class="ddp-wrap-list-search">
+
+                                <div class="ddp-ui-list-search">
+                                    <input type="text" placeholder="search Column">
+                                </div>
+                            </div>
+                            <!-- //검색 -->
+                        </div>
+                        <!-- //searching -->
+
+                        <!-- no data -->
+                        <div class="ddp-nodata" style="display:;">
+                            No data
+                        </div>
+                        <!-- //no data -->
+                        <div class="ddp-wrap-grid">
+
+
+                        </div>
+                        <!-- detail -->
+                        <div class="ddp-wrap-detail-column" style="display:none;">
+                            <!-- detail -->
+                            <div class="ddp-ui-detail ddp-clear ddp-padt0">
+                                <!-- col -->
+                                <div class="ddp-col-12">
+                                    <div class="ddp-ui-title">
+                                        Partition Information
+                                    </div>
+                                    <table class="ddp-table-detail2">
+                                        <colgroup>
+                                            <col width="190px">
+                                            <col width="*">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>
+                                                ym
+                                            </th>
+                                            <td>
+                                                string
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                dd
+                                            </th>
+                                            <td>
+                                                string
+                                            </td>
+                                        </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                                <!-- //col -->
+                            </div>
+                            <!-- //detail -->
+
+
+                            <!-- detail -->
+                            <div class="ddp-ui-detail ddp-clear ">
+                                <!-- col -->
+                                <div class="ddp-col-12">
+                                    <div class="ddp-ui-title">
+                                        Detailed Table Information
+                                    </div>
+                                    <table class="ddp-table-detail2">
+                                        <colgroup>
+                                            <col width="190px">
+                                            <col width="*">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>
+                                                Database
+                                            </th>
+                                            <td>
+                                                default
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Owner
+                                            </th>
+                                            <td>
+                                                metatron
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                CreateTime
+                                            </th>
+                                            <td>
+                                                Mon Jun 25 02:21:04 UTC 2018
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                LastAccessTime
+                                            </th>
+                                            <td>
+                                                UNKNOWN
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Retention
+                                            </th>
+                                            <td>
+                                                0
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Location
+                                            </th>
+                                            <td>
+
+                                                <a href="javascript:" class="ddp-link-url">hdfs://metatron-cluster/user/hive/warehouse/sample_ingestion_partition</a></td>
+                                        </tr>
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                                <!-- //col -->
+
+                            </div>
+                            <!-- //detail -->
+
+                            <!-- detail -->
+                            <div class="ddp-ui-detail ddp-clear ">
+                                <!-- col -->
+                                <div class="ddp-col-12">
+                                    <div class="ddp-ui-title">
+                                        Storage Information
+                                    </div>
+                                    <table class="ddp-table-detail2">
+                                        <colgroup>
+                                            <col width="190px">
+                                            <col width="*">
+                                        </colgroup>
+                                        <tbody>
+                                        <tr>
+                                            <th>
+                                                SerDe Library 
+                                            </th>
+                                            <td>
+                                                org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe일자
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                InputFormat
+                                            </th>
+                                            <td>
+                                                org.apache.hadoop.mapred.TextInputFormat
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                 OutputFormat
+                                            </th>
+                                            <td>
+                                                org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputForma
+                                                dfajeoijfakdjf 줄바꿈
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Compressed
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Num Buckets
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Bucket Columns
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Sort Columns
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                Storage Desc Params
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                field.delim
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                serialization.format
+                                            </th>
+                                            <td>
+                                                xxxx
+                                            </td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <!-- //col -->
+                            </div>
+                            <!-- //detail -->
+
+                        </div>
+
+                        <!-- //detail -->
+                    </div>
+                    <!-- //tab contents -->
+                </div>
+                <!-- //option -->
+            </div>
+            <!-- //detail -->
+
+
+
+
+        </div>
+        <!-- //contents -->
+    </div>
+    <!-- //미리보기 팝업 -->
+
+
+
+
+</body>
+</html>
