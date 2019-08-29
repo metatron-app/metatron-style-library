@@ -15,7 +15,7 @@ Introduction to Metatron UI/UX
 
 Introduction to Metatron UI Components
 ---
-- [Button](https://metatron-app.github.io/guide/docs/index.html)
+- [Button](https://metatron-app.github.io/metatron-style-library/guide/docs/index.html)
 - Modal Popup
 - List
 - Widget
