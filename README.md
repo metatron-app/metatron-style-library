@@ -4,10 +4,10 @@ Welcome to Metatron UI/UX Guide
 UI Publishing
 ---
 - 기존 퍼블(Original) <https://metatron-app.github.io/metatron-style-library/publishing/new/html/@index.html>
-<img width="500px" src="/docs/guide/static/img/white.png" alt="White" title="White Thema">
+<img width="500px" src="https://metatron-app.github.io/metatron-style-library/guide/static/img/white.png" alt="White" title="White Thema">
 
 - 테마 작업중(Add Dark Thema) <https://metatron-app.github.io/metatron-style-library/publishing/new/html_dark/@index.html>
-<img width="500px" src="/docs/guide/static/img/dark.png" alt="Dark" title="Dark Thema">
+<img width="500px" src="https://metatron-app.github.io/metatron-style-library/guide/static/img/dark.png" alt="Dark" title="Dark Thema">
 
 Introduction to Metatron UI/UX
 ---
@@ -15,14 +15,14 @@ Introduction to Metatron UI/UX
 
 Introduction to Metatron UI Components
 ---
-- [Button](file:///Users/ayhwang/metatron-design/guide/part01/button.html)
-- [Popup](file:///Users/ayhwang/metatron-design/guide/part01/popup.html)
-- [List](file:///Users/ayhwang/metatron-design/guide/part01/list.html)
-- [Widget](file:///Users/ayhwang/metatron-design/guide/part01/widget.html)
-- [Icons](file:///Users/ayhwang/metatron-design/guide/part01/icons.html)
-- [Toaster](file:///Users/ayhwang/metatron-design/guide/part01/toaster.html)
-- [Loading](file:///Users/ayhwang/metatron-design/guide/part01/loading.html)
-- [Grid/Table](file:///Users/ayhwang/metatron-design/guide/part01/grid.html)
+- [Button](https://metatron-app.github.io/metatron-style-library/guide/part01/button.html)
+- [Popup](https://metatron-app.github.io/metatron-style-library/guide/part01/popup.html)
+- [List](https://metatron-app.github.io/metatron-style-library/guide/part01/list.html)
+- [Widget](https://metatron-app.github.io/metatron-style-library/guide/part01/widget.html)
+- [Icons](https://metatron-app.github.io/metatron-style-library/guide/part01/icons.html)
+- [Toaster](https://metatron-app.github.io/metatron-style-library/guide/part01/toaster.html)
+- [Loading](https://metatron-app.github.io/metatron-style-library/guide/part01/loading.html)
+- [Grid/Table](https://metatron-app.github.io/metatron-style-library/guide/part01/grid.html)
 
 How to contribute to Metatron
 ---

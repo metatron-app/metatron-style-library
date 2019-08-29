@@ -2,235 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part01/button.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part01/grid.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part01/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part01/popup.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part01/toast.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part02/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/_sources/part02/overview.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/objects.inv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/searchindex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/source/part01/icons.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/source/part01/list.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/source/part01/loading.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/source/part01/widget.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part00/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part00/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part01/button.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/button.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part01/grid.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/grid.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part01/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part01/popup.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/popup.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part01/toast.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/toast.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part02/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part02/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/_sources/part02/overview.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part02/overview.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part01/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part01/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part01/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part01/toast.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/toast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/part02/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/comment-bright.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/comment-bright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/comment-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/comment-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/comment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/comment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/css/badge_only.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/css/badge_only.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/doctools.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/doctools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/down-pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/down-pressed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Inconsolata-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Inconsolata-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Inconsolata.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/Lato/lato-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/jquery-3.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/jquery-3.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/js/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/js/modernizr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/minus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/plus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/pygments.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/pygments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/searchtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/searchtools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/translations.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/translations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/underscore-1.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/underscore-1.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/underscore.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/underscore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/up-pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/up-pressed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/docs/static/websupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/websupport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/images/dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/dark.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/images/white.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/white.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/.tx/config" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/.tx/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/img/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/_templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/_templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part00/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part00/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/button.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/button.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/grid.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/grid.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/popup.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/popup.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/toast.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part01/toast.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part02/index.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/overview.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_sources/part02/overview.rst.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/ajax-loader.gif" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/ajax-loader.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/basic.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/basic.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment-bright.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/comment-bright.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment-close.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/comment-close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/comment.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/badge_only.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/css/badge_only.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/_static/css/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/doctools.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/doctools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/down-pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/down-pressed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/down.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/file.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/file.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Inconsolata-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Inconsolata-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Inconsolata.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bolditalic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bolditalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bolditalic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-bolditalic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-italic.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-italic.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-italic.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/Lato/lato-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/logo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/_static/img/logo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/jquery-3.1.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/jquery-3.1.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/js/modernizr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/js/modernizr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/js/theme.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/js/theme.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/_static/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/minus.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/minus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/plus.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/plus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/pygments.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/pygments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/searchtools.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/searchtools.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/translations.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/translations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/underscore-1.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/underscore-1.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/underscore.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/underscore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/up-pressed.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/up-pressed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/up.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/websupport.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/_static/websupport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/genindex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/objects.inv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part00/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part01/button.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part01/grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part01/popup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/toast.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part01/toast.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part02/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/part02/overview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/search.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/docs/searchindex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/index.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/index.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/index.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/index.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part01.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part01.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part01.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part01.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part02.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part02.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part02.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part02.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part03.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part03.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part03.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part03.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part04.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part04.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part04.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part04.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part05.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part05.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part05.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part05.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part06.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part06.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part06.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part06.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part07.mo" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part07.mo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/locales/en/LC_MESSAGES/part07.po" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/locales/en/LC_MESSAGES/part07.po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/metatron-doc-style.iml" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/metatron-doc-style.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part00/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/button.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/button.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/grid.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/grid.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/popup.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/popup.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/toast.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/toast.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part02/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part02/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/part02/overview.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part02/overview.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/requirements.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -255,9 +28,9 @@
           <entry key="config" value="1" />
           <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="43" />
+          <entry key="html" value="45" />
           <entry key="iml" value="1" />
-          <entry key="md" value="5" />
+          <entry key="md" value="6" />
           <entry key="png" value="5" />
           <entry key="py" value="1" />
           <entry key="rst" value="23" />
@@ -267,10 +40,10 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="43" />
+          <entry key="HTML" value="45" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="5" />
-          <entry key="Markdown" value="5" />
+          <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="28" />
         </counts>
       </usages-collector>
@@ -298,6 +71,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="135">
+                <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="122" selection-start-line="18" selection-start-column="122" selection-end-line="18" selection-end-column="122" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/part00/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -315,37 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/toast.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/popup.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part02/overview.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -359,11 +126,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/widget.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/genindex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#2815#2822#0" expanded="true" />
+                <element signature="e#3326#3332#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -441,10 +220,11 @@
         <option value="$PROJECT_DIR$/docs/guide/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/loading.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/index.rst" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/icons.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/list.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/widget.rst" />
+        <option value="$PROJECT_DIR$/docs/guide/genindex.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -455,9 +235,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="176" />
-    <option name="y" value="23" />
-    <option name="width" value="1488" />
+    <option name="x" value="360" />
+    <option name="y" value="164" />
+    <option name="width" value="1352" />
     <option name="height" value="1011" />
   </component>
   <component name="ProjectView">
@@ -488,22 +268,7 @@
               <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="part01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="part01" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
@@ -523,7 +288,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567056197225" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567056607263" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -603,12 +368,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
-      <workItem from="1567043897321" duration="4594000" />
+      <workItem from="1567043897321" duration="5003000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13410000" />
+    <option name="totallyTimeSpent" value="13819000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -620,10 +385,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="176" y="23" width="1488" height="1011" extended-state="0" />
+    <frame x="360" y="164" width="1352" height="1011" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.18326418" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.20229007" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.4404412" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -640,7 +405,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19804135" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30576715" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.6012739" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -661,13 +426,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/publishing/new/html/90_Anomaly_01_04Notification.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/publishing/new/html/90_Anomaly_02CompleteRuleCreation_popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -784,13 +542,6 @@
     <entry file="file://$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/img/_org_imgs/concepts/90-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="122" selection-start-line="18" selection-start-column="122" selection-end-line="18" selection-end-column="122" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/_build/html/part00/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -898,7 +649,7 @@
     <entry file="file://$PROJECT_DIR$/docs/guide/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -906,16 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -949,6 +690,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/genindex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#2815#2822#0" expanded="true" />
+            <element signature="e#3326#3332#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="122" selection-start-line="18" selection-start-column="122" selection-end-line="18" selection-end-column="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
