@@ -3,457 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/.nojekyll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/00-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-004.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-011.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-012.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-013.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-014.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-021.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-032.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-033.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-041.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-042.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-051.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/01-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/02-001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/02-002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/02-003.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/02-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/03-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/03-001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/03-002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/03-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/04-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_images/05-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part00/cloud.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part00/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part00/install.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part00/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/button.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/grid.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/popup.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part01/toast.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/alarm.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/alarmrule.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/createasset.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part02/parameter.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part03/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part03/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part03/sharing.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part04/alarm.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part04/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part04/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part04/parameter.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/assethierarchy.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/assettemplate.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/assettype.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/model.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/parametertemplate.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part05/statusconf.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part06/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_sources/part06/overview.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment-bright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment-close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/comment.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/badge_only.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/css/theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/down-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/down.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Inconsolata.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/Lato/lato-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/1-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/14-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/144-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/157-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/78-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/concepts/90-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/108-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/109-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/110-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/110-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/111-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/112-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/113-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/114-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/115-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/116-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/119-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/119-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/129-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/129-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/129-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/129-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/135-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/135-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/136-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/136-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/137-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/137-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/147-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/147-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/147-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/148-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/148-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/149-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/150-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/151-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/152-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/153-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/154-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/155-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/156-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/156-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/81-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/83-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/83-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/83-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/83-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/84-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/85-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/85-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/86-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/86-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/88-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/88-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/89-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/89-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/93-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/93-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/94-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/94-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/95-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/96-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/96-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/96-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/96-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/96-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/97-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/99-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/99-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/i-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/task/i-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/100-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/101-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/101-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/102-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/103-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/104-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/104-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/105-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/105-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/106-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/106-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/106-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/107-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/117-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/118-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/118-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/120-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/121-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/121-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/122-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/122-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/123-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/124-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/130-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/130-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/130-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/130-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/131-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/131-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/131-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/132-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/133-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/133-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/134-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/138-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/139-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/140-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/141-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/142-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/143-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/146-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/159-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/162-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/162-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/162-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/162-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/163-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/164-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/164-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/164-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/164-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/164-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/165-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/165-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/165-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/166-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/167-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/168-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/17-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/18-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/20-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/21-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/22-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/22-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/23-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/24-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/25-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/25-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/26-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/26-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/26-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/27-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/28-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/29-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/30-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/31-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/32-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/33-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/34-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/35-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/35-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/36-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/38-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/39-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/39-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/40-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/41-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/43-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/44-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/46-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/47-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/48-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/49-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/50-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/51-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/52-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/53-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/54-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/55-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/56-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/57-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/58-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/59-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/60-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/60-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/60-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/62-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/62-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/63-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/64-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/65-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/66-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/68-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/69-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/70-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/71-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/72-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/74-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/75-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/76-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/77-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/77-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/77-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/77-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/80-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/87-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/87-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/92-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figd.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Fige.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figj.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figm.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Fign.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figp.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/_org_imgs/topics/Figq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/00-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/01-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part00/02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/01-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/03-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/03-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part02/04-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part03/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part03/01-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part03/01-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part04/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part04/02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part04/03-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/02-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/02-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/03-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/04-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part05/05-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-00.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/img/part06/01-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/jquery-3.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/js/modernizr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/js/theme.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/translations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/up-pressed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/_static/websupport.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part00/cloud.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part00/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part00/install.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part00/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/button.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/popup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part01/toast.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/alarm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/alarmrule.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/createasset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part02/parameter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part03/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part03/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part03/sharing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part04/alarm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part04/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part04/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part04/parameter.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/assethierarchy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/assettemplate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/assettype.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/model.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/parametertemplate.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part05/statusconf.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part06/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/part06/overview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/metatron-doc-style/docs/searchindex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -502,7 +52,7 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="230" />
-          <entry key="md" value="714" />
+          <entry key="md" value="729" />
           <entry key="rst" value="481" />
         </counts>
       </usages-collector>
@@ -510,7 +60,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="230" />
-          <entry key="Markdown" value="714" />
+          <entry key="Markdown" value="729" />
           <entry key="PLAIN_TEXT" value="486" />
         </counts>
       </usages-collector>
@@ -525,8 +75,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
@@ -642,7 +192,6 @@
         <option value="$PROJECT_DIR$/docs/publishing/dark/html/90_Anomaly_02SelectingMeasuresCustomfield_popup.html" />
         <option value="$PROJECT_DIR$/docs/publishing/dark/html/90_Anomaly_02SelectingMeasuresFilter_popup.html" />
         <option value="$PROJECT_DIR$/docs/publishing/dark/html/90_Anomaly_02SelectingMeasuresTimeFilter_popup.html" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/Makefile" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/conf.py" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/overview.rst" />
@@ -658,6 +207,7 @@
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part02/overview.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/index.rst" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -667,8 +217,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="353" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="176" />
     <option name="y" value="23" />
     <option name="width" value="1293" />
     <option name="height" value="1011" />
@@ -700,6 +250,13 @@
               <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="publishing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -714,7 +271,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567053149475" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567054284694" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -794,12 +351,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
-      <workItem from="1567043897321" duration="2564000" />
+      <workItem from="1567043897321" duration="3178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11380000" />
+    <option name="totallyTimeSpent" value="11994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -811,9 +368,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="353" y="23" width="1293" height="1011" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.21183054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.16178267" />
       <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.4404412" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -830,7 +388,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4069641" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.38163266" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.6012739" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1143,8 +701,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           </first_editor>
           <second_editor />
         </state>
