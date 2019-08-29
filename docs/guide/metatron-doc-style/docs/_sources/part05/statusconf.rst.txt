@@ -1,7 +1,0 @@
-Status Configuration
-----------------------------------------
-Advanced APM에서는 Asset의 상태를 나타내줍니다. Status는 이때 Asset의 상태를 나타내주는 단계를 의미합니다.
-
-.. figure:: /_static/img/part05/05-00.png
-   :align: center
-   :alt: XXXX

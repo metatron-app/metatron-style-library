@@ -1,5 +1,0 @@
-Asset Type
-----------------------------------------
-.. figure:: /_static/img/part05/03-00.png
-   :align: center
-   :alt: XXXX

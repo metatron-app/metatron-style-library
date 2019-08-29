@@ -1,8 +1,0 @@
-Asset Hierarchy
-----------------------------------------
-Asset Hierarchy이란, 기업 별로 Asset을 체계적으로 관리하기 위한 카타로그 정의를 의미합니다.
-각 기업에 상황에 맞게 정의할 수 있습니다.
-
-.. figure:: /_static/img/part05/04-00.png
-   :align: center
-   :alt: XXXX
