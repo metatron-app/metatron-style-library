@@ -9,6 +9,5 @@ UI Component
    /part01/list
    /part01/widget
    /part01/icons
-   /part01/toaster
    /part01/loading
    /part01/grid

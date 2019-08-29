@@ -20,7 +20,6 @@ Introduction to Metatron UI Components
 - [List](https://metatron-app.github.io/metatron-style-library/guide/part01/list.html)
 - [Widget](https://metatron-app.github.io/metatron-style-library/guide/part01/widget.html)
 - [Icons](https://metatron-app.github.io/metatron-style-library/guide/part01/icons.html)
-- [Toaster](https://metatron-app.github.io/metatron-style-library/guide/part01/toaster.html)
 - [Loading](https://metatron-app.github.io/metatron-style-library/guide/part01/loading.html)
 - [Grid/Table](/docs/guide/part01/grid.html)
 
