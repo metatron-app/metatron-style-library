@@ -1,0 +1,9 @@
+Dashboard
+---------------------------
+
+.. toctree::
+   :maxdepth: 4
+
+   /part04/overview
+   /part04/parameter
+   /part04/alarm

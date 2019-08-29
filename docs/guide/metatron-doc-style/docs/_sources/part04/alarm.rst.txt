@@ -1,0 +1,6 @@
+Alarm Dashboard
+----------------------------------------
+
+.. figure:: /_static/img/part04/03-00.png
+   :align: center
+   :alt: XXXX

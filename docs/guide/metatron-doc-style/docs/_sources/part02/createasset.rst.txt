@@ -1,0 +1,14 @@
+Create Asset
+---------------------------------------------
+빠르게 Asset을 생성할 수 있는것은, Advanced APM의 가장 큰 장점입니다.
+
+.. figure:: /_static/img/part02/01-10.png
+   :align: center
+   :alt: XXXX
+
+.. figure:: /_static/img/part02/01-11.png
+   :align: center
+   :alt: XXXX
+
+
+

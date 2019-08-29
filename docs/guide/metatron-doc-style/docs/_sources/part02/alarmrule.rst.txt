@@ -1,0 +1,11 @@
+Alarm Rule
+---------------------------------------------
+Asset Score에 Alarm Rule을 추가하여 이상이 발생할 때 빠르게 알람을 받을 수 있습니다.
+
+.. figure:: /_static/img/part02/03-00.png
+   :align: center
+   :alt: XXXX
+
+.. figure:: /_static/img/part02/03-01.png
+   :align: center
+   :alt: XXXX

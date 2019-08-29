@@ -1,0 +1,12 @@
+Management
+---------------------------
+
+.. toctree::
+   :maxdepth: 4
+
+   /part05/parametertemplate
+   /part05/assettype
+   /part05/assettemplate
+   /part05/assethierarchy
+   /part05/statusconf
+   /part05/model

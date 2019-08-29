@@ -1,0 +1,15 @@
+Asset Template
+----------------------------------------
+Asset Template이란, Asset 타입 별로 Asset의 템플릿을 만들어 라이브러리화 할 수 있습니다.
+제조사, 센서에 상관없이 여러 형태로 템플릿을 생성할 수 있습니다.
+예를 들어, 핸드폰이라는 Asset 타입이 있다면 해당 휴대폰의 템플릿은 삼성전자 갤럭시S9, LG전자 V20 등과 같은 Asset 템플릿이 있을 수 있겠습니다.
+
+Asset Template을 만들기 위해서는 Parameter Template을 미리 정의해둬야 합니다. 물론 여기서 개별 Parameter를 추가할 수도 있습니다.
+
+.. figure:: /_static/img/part05/02-00.png
+   :align: center
+   :alt: XXXX
+
+.. figure:: /_static/img/part05/02-01.png
+   :align: center
+   :alt: XXXX

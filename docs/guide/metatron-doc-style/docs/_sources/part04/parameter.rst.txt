@@ -1,0 +1,6 @@
+Parameter Dashboard
+----------------------------------------
+
+.. figure:: /_static/img/part04/02-00.png
+   :align: center
+   :alt: XXXX

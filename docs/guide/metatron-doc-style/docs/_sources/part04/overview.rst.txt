@@ -1,0 +1,10 @@
+Overview Dashboard
+----------------------------------------
+Dashboard 를 통해 Today(or 특정기간) 기준으로 전체 Asset에 대한 상태별 비율과 목록이 표시됩니다.
+Asset List에서 Asset을 선택하게 되면 해당 Asset에 대한 Status, Parameter Analysis, RUL(설비잔존수명), Alarm Count를 손쉽게 확인할 수 있습니다.
+
+특정 Asset에 대한 보다 자세한 상태를 확인하고자 할 경우에는 Status widget을 클릭하면 해당 Asset에 대한 상세정보를 확인할 수 있습니다.
+
+.. figure:: /_static/img/part04/01-00.png
+   :align: center
+   :alt: XXXX
