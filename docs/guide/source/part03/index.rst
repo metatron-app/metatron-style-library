@@ -1,7 +1,8 @@
-UI Pattern
+UX Pattern
 ---------------------------
 
 .. toctree::
    :maxdepth: 4
 
-   /part02/overview
+   /part03/overview
+   /part03/multilist

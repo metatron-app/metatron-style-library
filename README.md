@@ -3,10 +3,10 @@ Welcome to Metatron UI/UX Guide
 
 UI Publishing
 ---
-- 기존 퍼블(Original) <https://metatron-app.github.io/metatron-style-library/publishing/new/html/@index.html>
+- 기존 퍼블(Original) <https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html>
 <img width="500px" src="/docs/guide/image/white.png" alt="White" title="White Thema">
 
-- 테마 작업중(Add Dark Thema) <https://metatron-app.github.io/metatron-style-library/publishing/new/html_dark/@index.html>
+- 테마 작업중(Add Dark Thema) <https://metatron-app.github.io/metatron-style-library/publishing/html_dark/@index.html>
 <img width="500px" src="/docs/guide/image/black.png" alt="Dark" title="Dark Thema">
 
 Introduction to Metatron UI/UX
@@ -23,6 +23,10 @@ Introduction to Metatron UI Components
 - [Loading](https://metatron-app.github.io/metatron-style-library/guide/part01/loading.html)
 - [Grid/Table](/docs/guide/part01/grid.html)
 
+
+Introduction to Metatron UX Patterns
+---
+- List
 
 How to contribute to Metatron
 ---

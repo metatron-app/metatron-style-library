@@ -1,4 +1,4 @@
-Usecase
+UI Pattern
 ---------------------------
 
 .. toctree::
