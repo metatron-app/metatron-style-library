@@ -10,12 +10,12 @@ We have two themes. Each is available for download and all sources are open.
 <img width="300px" src="/docs/guide/img/white01.png" alt="White" title="White Thema">
 
 ### 2. Black Theme (Comming Soon)
-<p>
+<p align="left">
 <img align="left" width="300px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
 <img align="left" width="300px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
 </p>
 
-
+---
 
 How to contribute to Metatron UI/UX
 ---
