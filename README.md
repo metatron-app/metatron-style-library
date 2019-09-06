@@ -15,7 +15,7 @@ How to contribute to Metatron UI/UX
 
 Introduction to Style Guide
 ---
-- Tone & Manner (Color)
+- [Tone & Manner (Color)](https://metatron-app.github.io/metatron-style-library/guide/part00/tonandmanner.html)
 - Font
 
 Introduction to Metatron UI Components
