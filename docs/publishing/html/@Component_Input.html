@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+</style>
+<body>
+    <div style="width:900px; margin:0 auto;">
+
+        <h1> input (component.input.css)</h1>
+        <h2>1. input line</h2>
+        <input type="text" class="ddp-input-type" value="text">
+
+
+        <h2>2. input basic</h2>
+        <input type="text" class="ddp-input-typebasic" value="text">
+
+        <h2>3. input basic disabled</h2>
+        <input type="text" class="ddp-input-typebasic ddp-disabled" value="text">
+
+        <h2>4. input basic error</h2>
+        <input type="text" class="ddp-input-typebasic ddp-error" value="red">
+
+        <h2>5. input basic font size 12px</h2>
+        <input type="text" class="ddp-input-typebasic ddp-font-size" value="text">
+
+        <h2>6. input basic border transparent</h2>
+        <input type="text" class="ddp-input-typebasic ddp-readonly">
+
+        <h2>7. input apply text right</h2>
+        <!--
+           focus 일때 ddp-focus 추가
+          글씨쓸때 ddp-edit 추가
+      -->
+        <div class="ddp-input-apply2 ddp-focus ddp-edit">
+            <div class="txt-apply">
+                <span class="txt-data">px</span>
+
+                <em class="ddp-icon-apply"></em>
+            </div>
+            <div class="ddp-wrap-input">
+                <input type="text" value="test" class="ddp-input-txt ddp-txt-right">
+            </div>
+        </div>
+
+        <h2>8. input apply edit</h2>
+        <div class="ddp-input-apply ddp-edit">
+            <input type="text" value="test" class="ddp-input-txt">
+            <em class="ddp-icon-apply"></em>
+            <em class="ddp-icon-apply-loading"></em>
+        </div>
+        <h2>9. input apply loading</h2>
+        <div class="ddp-input-apply ddp-loading">
+            <input type="text" value="test" class="ddp-input-txt">
+            <em class="ddp-icon-apply"></em>
+            <em class="ddp-icon-apply-loading"></em>
+        </div>
+
+        <h2>10. input calen</h2>
+        <div class="ddp-form-calen">
+            <input type="text" class="ddp-input-typebasic ddp-value ddp-calen" placeholder="변수명 입력">
+        </div>
+
+        <h2>11. textarea</h2>
+        <textarea class="ddp-textarea-auto" placeholder="text"></textarea>
+    </div>
+
+
+</body>
+</html>

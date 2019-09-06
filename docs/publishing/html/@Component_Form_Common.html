@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+
+</style>
+<body >
+    <div style="width:900px; margin:0 auto;">
+
+        <h1>1. bar</h1>
+        <!-- bar per -->
+        <div class="ddp-ui-bar-per">
+            <!-- bar -->
+            <div class="ddp-ui-bar" style="width:20%;">
+                <!-- tooltip -->
+                <div class="ddp-ui-tooltip-info">
+                    <em class="ddp-icon-view-top"></em>
+                    20%
+                </div>
+                <!-- //tooltip -->
+            </div>
+            <!-- //bar -->
+            <em class="ddp-bar-line" style="left:140px;"></em>
+        </div>
+        <!-- //bar per -->
+        <div style="height:100px"></div>
+
+
+        <h1>2. dropdown folder</h1>
+
+        <!-- 클릭시 ddp-selected 추가 -->
+        <div class="ddp-edit-setting ddp-type ddp-selected" >
+            <!--
+                ddp-fold-link 클릭시 ddp-selected 추가
+            -->
+            <div class="ddp-wrap-fold ddp-selected">
+                <a href="javascript:" class="ddp-fold-link">Advanced setting</a>
+                <div class="ddp-wrap-down">
+                    down contents
+                </div>
+            </div>
+        </div>
+
+        <div style="border-bottom:1px solid #eee; margin:20px -50px 20px -50px"></div>
+
+        <div class="ddp-wrap-column-option" style="position:relative;">
+            <!--
+                ddp-fold-link 클릭시 ddp-selected 추가
+            -->
+            <div class="ddp-wrap-fold ddp-selected ddp-clear">
+                <a href="javascript:" class="ddp-fold-link">Advanced setting</a>
+                <div class="ddp-fold-det">
+
+                    <!-- edit -->
+                    <div class="ddp-wrap-edit3 ddp-type ddp-error">
+                        <label class="ddp-label-type">Column count </label>
+                        <!-- edit option -->
+                        <div class="ddp-ui-edit-option ddp-type">
+
+                            <!-- apply -->
+                            <div class="ddp-input-apply">
+                                <input type="text" placeholder="Enter column count" class="ddp-input-txt">
+                                <em class="ddp-icon-apply"></em>
+                            </div>
+                            <!-- //apply -->
+                            <span class="ddp-data-error">Required</span>
+                        </div>
+                        <!-- //edit option -->
+                    </div>
+                    <!-- //edit -->
+                </div>
+            </div>
+        </div>
+
+
+        <div style="border-bottom:1px solid #eee; margin:20px -50px 20px -50px"></div>
+
+        <!-- 클릭시 ddp-selected 추가 -->
+        <div class="ddp-ui-folding ddp-selected">
+            <div class="ddp-fold-label">
+                Advanced setting (Opt.)
+                <em class="ddp-icon-view"></em>
+            </div>
+            <div class="ddp-ui-sub-folding">
+                <!-- option in -->
+                <div class="ddp-ui-option-in">
+                    <span class="ddp-type-label">Socket timeout</span>
+                    <div class="ddp-box-option-input ddp-inline">
+                        <input type="text" value="220">
+                        <span class="ddp-txt-input">Sec.</span>
+                    </div>
+                </div>
+                <!-- //option in -->
+            </div>
+
+        </div>
+        <!-- //folding -->
+    </div>
+
+</body>
+</html>

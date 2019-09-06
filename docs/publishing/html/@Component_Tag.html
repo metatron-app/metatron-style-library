@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+</style>
+<body >
+    <div style="width:900px; margin:0 auto;">
+        <h1>Tag(component.tag.css) </h1>
+
+        <em class="ddp-icon-new">NEW</em><br><br>
+        <!-- tag -->
+        <div class="ddp-list-tags" style="margin-top:0;">
+            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+            <div class="ddp-tags"># 사업부 <a href="javascript:" class="ddp-btn-delete"></a></div>
+            <!-- 검색시 popup : ddp-selected 추가 -->
+            <div class="ddp-tag-default ddp-wrap-drop-search "><input type="text" placeholder="태그명을 입력하세요">
+                <!-- drop -->
+                <div class="ddp-ui-drop-search">
+
+                    <ul class="ddp-list-selectbox2">
+                        <li>
+
+                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+
+                        </li>
+                        <li>
+                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                        </li>
+                        <li>
+                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                        </li>
+                        <li>
+                            Wrangled <span class="ddp-txt-search">데이터셋</span> 00
+                        </li>
+                    </ul>
+                </div>
+                <!-- //drop -->
+            </div>
+
+        </div>
+        <!-- //tag -->
+        <br><br>
+
+        <em class="ddp-box-tag">WORKBOOK</em>
+
+        <em class="ddp-box-tag ddp-workbook">WORKBOOK</em>
+        <em class="ddp-box-tag ddp-notebook">notebook</em>
+        <em class="ddp-box-tag ddp-workbench">workbench</em>
+        <em class="ddp-box-tag ddp-wargled">wargled</em>
+        <em class="ddp-box-tag ddp-imported">imported</em>
+        <em class="ddp-box-tag ddp-personal">personal</em>
+        <em class="ddp-box-tag ddp-shared">shared</em>
+        <em class="ddp-box-tag ddp-wargled">wargled</em>
+        <em class="ddp-box-tag-value ddp-datasource">datasource</em>
+        <em class="ddp-box-tag-value ddp-hive">hive</em>
+        <em class="ddp-box-tag-value ddp-stagingdb">stagingdb</em>
+        <br><br>
+        <span class="ddp-box-power ddp-watcher">Watcher</span>
+        <span class="ddp-box-power ddp-editor">Editor</span>
+        <span class="ddp-box-power ddp-owner">Owner</span>
+        <span class="ddp-box-power ddp-manager">Manager</span>
+        <br><br>
+
+        <span class="ddp-status-pending">pending</span>
+        <span class="ddp-status-rejected">rejected</span>
+        <span class="ddp-status-approved">approved</span>
+        <span class="ddp-status-active">active</span>
+        <span class="ddp-status-active ddp-inactive">inactive</span>
+        <br><br>
+        <span class="ddp-data-state ddp-waiting">waiting</span>
+        <span class="ddp-data-state ddp-rejected">rejected</span>
+        <span class="ddp-data-state ddp-approved">approved</span>
+        <span class="ddp-data-state ddp-inprogress">inprogress</span>
+        <span class="ddp-data-state ddp-fail">fail</span>
+        <span class="ddp-data-state ddp-success">success</span>
+        <span class="ddp-data-state ddp-preparing">preparing</span>
+
+        <span class="ddp-data-state ddp-scheduling">scheduling</span>
+        <span class="ddp-data-state ddp-creating">creating</span>
+        <span class="ddp-data-state ddp-unscheduled">unscheduled</span>
+        <span class="ddp-data-state ddp-warning">warning</span>
+        <span class="ddp-data-state ddp-ok">ok</span>
+
+        <span class="ddp-data-state ddp-running">RUNNING</span>
+        <span class="ddp-data-state ddp-cancelled">CANCELLED</span>
+
+        <br><br>
+        <span class="ddp-data-state ddp-inprogress">
+            Inprogress
+
+             <em class="ddp-icon-error2"></em>
+            <!-- 툴팁 -->
+            <div class="ddp-ui-tooltip-info">
+                <em class="ddp-icon-view-left"></em>
+                데이터 소스 삭제로 생성이 지연되고 있습니다.
+            </div>
+            <!-- //툴팁 -->
+        </span>
+
+        <br><br>
+
+        <span class="ddp-data-status ddp-fail">fail</span>
+        <span class="ddp-data-status ddp-enabled">enabled</span>
+        <span class="ddp-data-status ddp-preparing">preparing</span>
+        <span class="ddp-data-status ddp-disabled">disabled</span>
+
+        <span class="ddp-data-status ddp-running">running</span>
+        <span class="ddp-data-status ddp-pending">pending</span>
+        <span class="ddp-data-status ddp-waiting">waiting</span>
+        <span class="ddp-data-status ddp-fail">fail</span>
+        <span class="ddp-data-status ddp-success">success</span>
+        <br><br>
+        <span class="ddp-tag-status ">Ok</span>
+        <span class="ddp-tag-status type-error">Error</span>
+    </div>
+
+</body>
+</html>

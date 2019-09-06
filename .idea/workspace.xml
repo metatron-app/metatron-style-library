@@ -2,8 +2,848 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/icons.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/icons.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/loading.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/loading.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/widget.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/widget.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/multilist.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/multilist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/source/part00/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part00/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/comment-bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/comment-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/css/badge_only.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/down-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Inconsolata.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/Lato/lato-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/jquery-3.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/translations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/underscore-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/up-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/websupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000_공통_GNB_LNB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000_공통_GNB_검색결과.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/publishing/html/000_GNB_Search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000_공통_GNB_프로필.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/publishing/html/000_GNB_Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000_공통_GNB_프로필수정_popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/publishing/html/000_GNB_Pro_popup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_navi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업2_small.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업5_scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/000공통_팝업_small.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/00_Login 복사본.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/00_Login_Center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/00_이용약관.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_01Workspaces_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_01Workspaces_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_01Workspaces_01상세_member,group_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_01Workspaces_01상세_more_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_02WSpermission_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_02WSpermission_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_01워크스페이스관리_02WSpermission_02수정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_01목록_empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_02공유_01그룹,멤버set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_02공유_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_02데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_03편집_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_04노트북서버set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_05스키마_01변경스키마_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_05스키마_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_06changeOwner_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/01_워크스페이스_07changeOwner_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_00nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_01생성_poup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_01생성_01데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_01추가_02룩업조인_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_01추가_03조인옵션_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_02열람.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_02열람_alias설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_02열람_nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_02열람_데이터보기_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_02열람_데이터소스연결해체.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_03편집.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_03편집_00text_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_03편집_01데이터소스bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_03편집_01오른쪽메뉴.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_03편집_02차트hierachy_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_04프리젠테이션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_02대시보드_05데이터보기(데이터그리드,컬럼)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_00apply_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_01main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_02main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_03main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_03main_kpi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_03main_sankey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_04컬럼상세_차원값(string,위치속성)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_04컬럼상세_차원값(시간)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_04컬럼상세_차원값(측정)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_05알리아스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_03차트_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_04사용자필드_01_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_04사용자필드_02_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_05데이터소스상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_06사용자모델_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_07대시보드순서설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter0_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter3_1_1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter3_1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter3_2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08filter3_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08필터1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08필터2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08필터_01essential2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02_워크북_08필터_01essential_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_01데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_02연결키선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/02대시보드_01멀티데이터소스_01추가_5가이드.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_01데이터타입_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_02생성_00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_02생성_01차트데이터소스.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_02생성_02완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_03상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_03상세_00API생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/03_노트북_04모델등록요청_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01ExploreDAta_00list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01ExploreDAta_00list2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_01overview_list_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_01overview_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_01usedWorkspace_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_02columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_03sampleData_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_04discussion_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01detail_04lineage_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01user_02FavoriteData_01Data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_01user_02FavoriteData_02DataCreator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_01detail_01Information.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_01detail_06lineage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_01detail_06lineage_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_01detail_06lineage_nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_02ColumnDictionary_02Create_01file_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_02ColumnDictionary_02Create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_01List_EditLineage_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create2_02multi1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create2_02multi2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create2_Error_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create2_Noresult_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Create_Select_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_01메타데이터_02Admin_04lineage_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_00Common_01DruidInfo_00Common_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_00Common_01DruidInfo_06Common_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_01overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_01overview_00List_AvgQueryTime_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_01overview_00List_NodeInfo_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_01Task_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_01Task_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_02Supervior_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_02Supervior_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_03REmoteWorker_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_06EngineMonitoring_02Ingestion_03REmoteWorker_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_00목록_01데이터소스.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_00목록_02DB커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile2_01스키마설정_filterOrder_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile2_01스키마설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile3_01항목설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile3_01항목설정_워크스페이스설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile4_01Create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile_01시트선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_00myfile_01시트선택_데이터추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB3_01스키마설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB4_01항목설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB_sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_01DB_쿼리상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_02커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_02커넥션_Test_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_02커넥션_WorkbenchLogin_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_03StringDb_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_03StringDb_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_03StringDb_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_03StringDb_04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_04Druid_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01생성_05Snapshot_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_01편집_02커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_configureSchema_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_edit_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_02쿼리로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_02쿼리로그_size_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_03BatchHistory_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_03컬럼정보설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_02데이터소스상세_04Ingestion_schema.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_03메타데이터_01생성_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_03메타데이터_01생성_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_00데이터저장소_03메타데이터_01생성_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_01모델승인_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_01모델승인_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_01모델승인_03성공로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_01모델승인_03에러로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_02노트북서버관리_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_02노트북서버관리_02노트북서버추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_01JogStatistics_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_01JogStatistics_00리스트_more_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_01JogStatistics_01detail_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_02JobLog_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_02JobLog_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_03DataLineage_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_03DataLineage_01flow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_04모니터링_03DataLineage_01flow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_01메타데이터_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_01메타데이터_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_01메타데이터_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_01메타데이터_02상세_selectCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_01메타데이터_02상세_컬럼사전선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_02Column_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_02Column_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_02Column_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_02Column_03Columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_02Column_04코드테이블_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_03CodeTable_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_03CodeTable_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_03CodeTable_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_03CodeTable_03Columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/05_매니지먼트_05메타데이터_05카탈로그_리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_01membership_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_01membership_02deny.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_01membership_02deny2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_02member_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_02member_01new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_02member_02사용자정보.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_02member_03set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_03group_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_03group_01new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_03group_01new2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_03group_02detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_03group_03group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_04권한_01리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_04권한_02detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/06_사용자_04권한_03set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/07_클러스터_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/07_클러스터_01Add_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/07_클러스터_01Add_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/07_클러스터_02생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_01데이터선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_02워크벤치생성완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_03상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_03상세_01Scheme_01Columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_03상세_01Scheme_02Metadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_03상세_01Scheme_03Data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_03상세_02차트preview_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/09_워크벤치_04Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_01resetpsw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_02signup(admin).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_02signup(denied).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_02signup(user).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_03signup(admincreated).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/100mail_04adminresetpw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/10_에러_401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/10_에러_403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/10_에러_404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/10_에러_500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_00Common_NoCluster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_confirm2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_confirm_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_create_trigger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_01workflowSetting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_02Java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_03Hive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_03Hive_query_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_04Mr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_05EXEC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_06SSH.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_07SubWorkflow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_08DISTCP.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_09Sqoop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_10Spark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_11HDFS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_12Druid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_13Done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_14Decision.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_Viewsource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_excutionSchedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_detail_setShareMember_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_enterArgument2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_enterArgument_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_list_iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_scheduleChange_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_selectDatasource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_selectHDFSfile_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_selectWorkflow_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_taskSelect_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01Workflow_taskToReturn_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_01confirm_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_02Monitoring_jobdetail_Information_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_02Monitoring_jobdetail_Log_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_02Monitoring_jobdetail_XMLsource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_02Monitoring_jobdetail_progress_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_02Monitoring_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_04CodeManagement_Codetablel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_04CodeManagement_Codetablel_00Create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01ClusterInformation_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_00Set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_01Create_00newCluster_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_01Create_01Hadoop_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_01Create_02Oozie_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_01Create_03JMS_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_01Cluster_01Create_04Hive_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_02ConfigureAlarm_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05Overflow_03ConfigureComponent_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/80_Integrator_05newWorkflow_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_01build_01Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_02UDF_Management1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_02UDF_Management2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_02UDF_Management3_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/81_flow_split_sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_000Guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_00popup_005deleteAlarm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_00popup_006deleteAlarmrule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_00popup_007customField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_01Statistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_02AlarmList_Card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_02AlarmList_Card2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_02AlarmList_List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_02Alarm_Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_03AlarmRule_List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_03AlarmRule_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_01_04Notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02CompleteRuleCreation_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02CreatingAlarmRule_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02Model_Condition_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02Notification_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02SelectingMeasuresCustomfield_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02SelectingMeasuresFilter_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02SelectingMeasuresTimeFilter_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_02SelectingMeasures_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_04Email_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_04Email_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/90_Anomaly_04Email_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/98_SSO_welcome_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/98_SSO_로딩.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_01생성2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_01생성_popup2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋변경.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋치환.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_imported(db).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_imported(file).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_wrangled(Another).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_02플로우_wrangled(Current).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_03데이터셋선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_03데이터셋추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_03룰1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_03룰2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_03스냅샷_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_04조인_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_04조인_resultdata_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_05유니온_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_01데이터플로우_05유니온_데이터셋추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_DB1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_DB2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_file1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_file2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_file3_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_file_single_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성_url_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_01생성완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_02생성완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_02파일업로드1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_02데이터셋_02파일업로드2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_03데이터스냅샷_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_03데이터스냅샷_01상세_error_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_03데이터스냅샷_01상세_progress_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_03데이터스냅샷_01상세_success_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_03데이터스냅샷_02삭제_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/99_데이터프리퍼레이션_리네임_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@@flex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@Component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@Component_Button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@Component_Icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@Loading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@aire_datepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@gradation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@split.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@toasterSample 복사본.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/@toasterSample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/colorpicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000_공통_GNB_LNB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000_공통_GNB_검색결과.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000_공통_GNB_프로필.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000_공통_GNB_프로필수정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_navi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업2_small.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업5_scroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/000공통_팝업_small.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login 복사본.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login_Center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login_Userrequest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login_pwReset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_Login_userRequest_Finish.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/00_이용약관.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_01Workspaces_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_01Workspaces_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_01Workspaces_01상세_member,group_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_01Workspaces_01상세_more_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_02WSpermission_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_02WSpermission_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_01워크스페이스관리_02WSpermission_02수정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_01목록_empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_02공유_01그룹,멤버set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_02공유_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_02데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_03편집_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_04노트북서버set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_05스키마_01변경스키마_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_05스키마_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_06changeOwner_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_07changeOwner_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_00nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_01생성_poup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_01생성_01데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_01추가_02룩업조인_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_01추가_03조인옵션_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_02열람.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_02열람_alias설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_02열람_nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_02열람_데이터보기_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_02열람_데이터소스연결해체.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_03편집.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_03편집_00text_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_03편집_01데이터소스bottom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_03편집_01오른쪽메뉴.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_03편집_02차트hierachy_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_04프리젠테이션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_02대시보드_05데이터보기(데이터그리드,컬럼)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_00apply_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_01main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_02main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_03main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_03main_kpi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_03main_sankey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_04컬럼상세_차원값(string,위치속성)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_04컬럼상세_차원값(시간)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_04컬럼상세_차원값(측정)_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_05알리아스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_03차트_map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_04사용자필드_01_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_04사용자필드_02_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_05데이터소스상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_06사용자모델_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_07대시보드순서설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter0_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter3_1_1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter3_1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter3_2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08filter3_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08필터1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08필터2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08필터_01essential2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02_워크북_08필터_01essential_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_01데이터소스_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_02연결키선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/02대시보드_01멀티데이터소스_01추가_5가이드.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_01데이터타입_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_02생성_00.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_02생성_01차트데이터소스.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_02생성_02완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_03상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_03상세_00API생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/03_노트북_04모델등록요청_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01ExploreDAta_00list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01ExploreDAta_00list2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_01overview_list_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_01overview_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_01usedWorkspace_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_02columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_03sampleData_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_04discussion_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_01detail_04lineage_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_01detail_06lineage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_01detail_06lineage_grid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_01detail_06lineage_nodata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_01List_EditLineage_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Create1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Create2_Error_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Create2_Noresult_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Create2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Create_Select_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_01메타데이터_02Admin_04lineage_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_01overview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_01overview_01DruidInfo_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_01Task_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_01Task_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_02Supervior_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_02Supervior_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_03REmoteWorker_01List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_06EngineMonitoring_02Ingestion_03REmoteWorker_02Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_00목록_01데이터소스.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_00목록_02DB커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile2_01스키마설정_filterOrder_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile2_01스키마설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile3_01항목설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile3_01항목설정_워크스페이스설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile4_01Create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile_01시트선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_00myfile_01시트선택_데이터추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB3_01스키마설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB4_01항목설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB_sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_01DB_쿼리상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_02커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_02커넥션_Test_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_02커넥션_WorkbenchLogin_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_03StringDb_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_03StringDb_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_03StringDb_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_03StringDb_04.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_04Druid_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01생성_05Snapshot_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_01편집_02커넥션.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_configureSchema_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_edit_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_01데이터상세_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_02쿼리로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_02쿼리로그_size_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_03BatchHistory_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_03컬럼정보설정_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_02데이터소스상세_04Ingestion_schema.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_03메타데이터_01생성_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_03메타데이터_01생성_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_00데이터저장소_03메타데이터_01생성_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_01모델승인_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_01모델승인_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_01모델승인_03성공로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_01모델승인_03에러로그_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_02노트북서버관리_01목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_02노트북서버관리_02노트북서버추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_01JogStatistics_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_01JogStatistics_00리스트_more_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_01JogStatistics_01detail_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_02JobLog_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_02JobLog_01상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_03DataLineage_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_03DataLineage_01flow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_04모니터링_03DataLineage_01flow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_01메타데이터_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_01메타데이터_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_01메타데이터_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_01메타데이터_02상세_selectCatalog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_01메타데이터_02상세_컬럼사전선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_02Column_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_02Column_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_02Column_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_02Column_03Columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_02Column_04코드테이블_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_03CodeTable_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_03CodeTable_01생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_03CodeTable_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_03CodeTable_03Columns_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/05_매니지먼트_05메타데이터_05카탈로그_리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_01membership_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_01membership_02deny.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_01membership_02deny2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_02member_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_02member_01new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_02member_02사용자정보.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_02member_03set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_03group_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_03group_01new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_03group_01new2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_03group_02detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_03group_03group.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_04권한_01리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_04권한_02detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/06_사용자_04권한_03set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/07_클러스터_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/07_클러스터_01Add_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/07_클러스터_01Add_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/07_클러스터_02생성.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_01데이터선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_02워크벤치생성완료.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_03상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_03상세_01Scheme_01Columns.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_03상세_01Scheme_02Metadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_03상세_01Scheme_03Data.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_03상세_02차트preview_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/09_워크벤치_04Login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_01resetpsw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_02signup(admin).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_02signup(denied).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_02signup(user).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_03signup(admincreated).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/100mail_04adminresetpw.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/10_에러_401.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/10_에러_403.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/10_에러_404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/10_에러_500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_00Common_NoCluster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_confirm2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_confirm_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_create_trigger.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_01workflowSetting.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_02Java.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_03Hive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_03Hive_query_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_04Mr.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_05EXEC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_06SSH.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_07SubWorkflow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_08DISTCP.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_09Sqoop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_10Spark.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_11HDFS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_12Druid.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_13Done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_14Decision.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_Viewsource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_excutionSchedule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_detail_setShareMember_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_enterArgument2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_enterArgument_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_list_iframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_scheduleChange_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_selectDatasource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_selectHDFSfile_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_selectWorkflow_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_taskSelect_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01Workflow_taskToReturn_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_01confirm_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_02Monitoring_jobdetail_Information_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_02Monitoring_jobdetail_Log_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_02Monitoring_jobdetail_XMLsource_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_02Monitoring_jobdetail_progress_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_02Monitoring_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_04CodeManagement_Codetablel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_04CodeManagement_Codetablel_00Create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01ClusterInformation_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_00Set_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_01Create_00newCluster_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_01Create_01Hadoop_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_01Create_02Oozie_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_01Create_03JMS_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_01Cluster_01Create_04Hive_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_02ConfigureAlarm_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05Overflow_03ConfigureComponent_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/80_Integrator_05newWorkflow_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/81_flow_01build_01Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/81_flow_create_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/81_flow_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/81_flow_split_sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_000Guide.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_00popup_005deleteAlarm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_00popup_006deleteAlarmrule.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_00popup_007customField.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_01Statistics.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02AlarmList_Card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02AlarmList_Card2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02AlarmList_List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02Alarm_Detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_03AlarmRule_List.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_03AlarmRule_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_04Notification.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02CompleteRuleCreation_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02CreatingAlarmRule_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02Model_Condition_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02Notification_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02SelectingMeasuresCustomfield_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02SelectingMeasuresFilter_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02SelectingMeasuresTimeFilter_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_02SelectingMeasures_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_04Email_01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_04Email_02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_04Email_03.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/98_SSO_welcome_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/98_SSO_로딩.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_00리스트.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_01생성2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_01생성_popup2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋변경.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋선택.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_01데이터셋치환.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_empty.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_imported(db).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_imported(file).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_wrangled(Another).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_02플로우_wrangled(Current).html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_03데이터셋선택_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_03데이터셋추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_03룰1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_03룰2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_03스냅샷_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_04조인_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_04조인_resultdata_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_05유니온_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_01데이터플로우_05유니온_데이터셋추가_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_DB1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_DB2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_file1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_file2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_file3_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_file_single_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성_url_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_01생성완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_02상세.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_02생성완료_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_02파일업로드1_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_02데이터셋_02파일업로드2_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_03데이터스냅샷_00목록.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_03데이터스냅샷_01상세_error_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_03데이터스냅샷_01상세_progress_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_03데이터스냅샷_01상세_success_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_03데이터스냅샷_02삭제_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/99_데이터프리퍼레이션_리네임_popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@@flex.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@Component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@Component_Button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@Component_Icons.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@Error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@Loading.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@aire_datepicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@gradation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@split.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@toasterSample 복사본.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/@toasterSample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/colorpicker.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/sample.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/publishing/html_dark/test.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,10 +856,11 @@
     <session id="-1355266965">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -28,40 +869,40 @@
           <entry key="config" value="1" />
           <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="77" />
+          <entry key="html" value="83" />
           <entry key="iml" value="1" />
           <entry key="md" value="9" />
           <entry key="png" value="5" />
           <entry key="py" value="1" />
-          <entry key="rst" value="34" />
+          <entry key="rst" value="43" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="77" />
+          <entry key="HTML" value="83" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="5" />
           <entry key="Markdown" value="9" />
-          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="PLAIN_TEXT" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
-          <entry key="html" value="239" />
-          <entry key="md" value="1011" />
-          <entry key="rst" value="688" />
+          <entry key="html" value="300" />
+          <entry key="md" value="1106" />
+          <entry key="rst" value="735" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="239" />
-          <entry key="Markdown" value="1011" />
-          <entry key="PLAIN_TEXT" value="693" />
+          <entry key="HTML" value="300" />
+          <entry key="Markdown" value="1106" />
+          <entry key="PLAIN_TEXT" value="740" />
         </counts>
       </usages-collector>
     </session>
@@ -71,14 +912,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/part00/tonandmanner.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2752" />
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="375">
-                <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/docs/guide/part01/button.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1995" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/grid.rst">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/button.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part02/overview.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/index.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/multilist.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/overview.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -103,10 +1014,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/publishing/dark/html/90_Anomaly_02SelectingMeasuresFilter_popup.html" />
-        <option value="$PROJECT_DIR$/docs/publishing/dark/html/90_Anomaly_02SelectingMeasuresTimeFilter_popup.html" />
-        <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/Makefile" />
-        <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/conf.py" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/overview.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/install.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/overview.rst" />
@@ -149,11 +1056,15 @@
         <option value="$PROJECT_DIR$/docs/publishing/new/html_dark/90_Anomaly_02SelectingMeasuresCustomfield_popup.html" />
         <option value="$PROJECT_DIR$/docs/publishing/new/html_dark/90_Anomaly_02SelectingMeasuresFilter_popup.html" />
         <option value="$PROJECT_DIR$/docs/publishing/new/html_dark/90_Anomaly_02SelectingMeasuresTimeFilter_popup.html" />
-        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/guide/source/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part03/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part02/index.rst" />
+        <option value="$PROJECT_DIR$/docs/publishing/html2/@index.html" />
+        <option value="$PROJECT_DIR$/docs/publishing/html/@index.html" />
+        <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/guide/source/part00/index.rst" />
+        <option value="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" />
       </list>
     </option>
   </component>
@@ -164,16 +1075,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="28" />
-    <option name="width" value="1942" />
-    <option name="height" value="1052" />
+    <option name="x" value="268" />
+    <option name="y" value="47" />
+    <option name="width" value="1747" />
+    <option name="height" value="892" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,12 +1094,35 @@
               <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
               <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="part00" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="part01" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,24 +1130,24 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567133807266" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567762561839" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/docs/guide/source/part03" />
-      <recent name="$PROJECT_DIR$/docs/guide/source" />
-      <recent name="$PROJECT_DIR$/docs/guide/source/part01" />
-      <recent name="$PROJECT_DIR$/docs/guide/docs/static" />
-      <recent name="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/publishing" />
       <recent name="$PROJECT_DIR$/docs/guide/image" />
       <recent name="$PROJECT_DIR$/docs/guide/static/img" />
       <recent name="$PROJECT_DIR$/docs/guide" />
       <recent name="$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/guide/source/part00" />
+      <recent name="$PROJECT_DIR$/docs/guide/source/part03" />
+      <recent name="$PROJECT_DIR$/docs/guide/source" />
+      <recent name="$PROJECT_DIR$/docs/guide/source/part01" />
+      <recent name="$PROJECT_DIR$/docs/guide/docs/static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,12 +1210,13 @@
       <option name="presentableId" value="Default" />
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
-      <workItem from="1567043897321" duration="9577000" />
+      <workItem from="1567043897321" duration="10538000" />
+      <workItem from="1567750409793" duration="2147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18393000" />
+    <option name="totallyTimeSpent" value="21501000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,11 +1228,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="28" width="1942" height="1052" extended-state="0" />
-    <editor active="true" />
+    <frame x="268" y="47" width="1747" height="892" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49853373" visible="true" weight="0.1731579" />
-      <window_info id="Structure" order="1" sideWeight="0.50190115" side_tool="true" weight="0.4404412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88206786" visible="true" weight="0.1947214" />
+      <window_info id="Structure" order="1" sideWeight="0.11793215" side_tool="true" visible="true" weight="0.1947214" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -311,7 +1247,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32951653" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.44479167" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22625" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.6012739" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -332,82 +1268,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/popup.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/toast.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/loading.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/part00/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-56" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/icons.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/list.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/widget.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/genindex.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/button.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -421,27 +1289,10 @@
     <entry file="file://$PROJECT_DIR$/docs/guide/part02/overview.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/overview.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/multilist.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/publishing/html_dark/01_워크스페이스_02공유_01그룹,멤버set_popup.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="30" column="40" lean-forward="true" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,31 +1455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part02/overview.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -644,14 +1474,105 @@
     <entry file="file://$PROJECT_DIR$/docs/publishing/html/90_Anomaly_04Email_03.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/publishing/html/000_GNB_LNB.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/publishing/html/@index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="375">
-            <caret line="34" column="10" lean-forward="true" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+          <first_editor relative-caret-position="450">
+            <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/part00/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1082" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/grid.rst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/button.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part02/overview.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/multilist.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part03/overview.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/part00/tonandmanner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/part01/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1995" />
       </provider>
     </entry>
   </component>

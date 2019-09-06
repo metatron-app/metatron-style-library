@@ -1,0 +1,707 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+</style>
+<body >
+
+    <div style="width:900px; margin:0 auto;">
+        <h1>Table(component.table.css) </h1>
+        <h2>Table1 </h2>
+        <div class="ddp-wrap-viewtable">
+            <!-- 테이블 -->
+            <div class="ddp-box-viewtable">
+                <!-- gridhead -->
+                <div class="ddp-ui-gridhead">
+                    <table class="ddp-table-form ddp-table-type2">
+                        <colgroup>
+                            <col width="51px">
+                            <col width="*">
+                            <col width="10%">
+                            <col width="15%">
+                            <col width="15%">
+                        </colgroup>
+                        <thead>
+                        <tr>
+                            <th class="ddp-txt-center">
+                                No.
+
+                            </th>
+                            <th>
+                                Data
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                                <!-- hover info -->
+                                <div class="ddp-wrap-hover-info">
+                                    <em class="ddp-icon-info3 "></em>
+
+                                    <!-- popup -->
+                                    <div class="ddp-box-layout4 ">
+                                        <div class="ddp-data-title">
+                                            What is Ingestion tunning
+                                            configuration?
+                                        </div>
+                                        <div class="ddp-data-det">
+                                            Ingestion tunning configuration describes effective options when ingestion.Now put it in the corresponding text box in JSON format. Here is an example:<br><br>
+                                            “maxRowsInMemory” : 75000,<br>
+                                            “maxOccupationInMemory” : -1,<br>
+                                            “maxShardLength” : -2147483648,  <br>   “leaveIntermediate” : false,<br>
+                                            “cleanupOnFailure” : true,<br>
+                                            “overwriteFiles” : false,<br>
+                                            “ignoreInvalidRows” : false,<br>
+                                            “assumeTimeSorted” : false
+                                        </div>
+                                    </div>
+                                    <!-- //popup -->
+                                </div>
+                                <!-- //hover info -->
+                            </th>
+                            <th>
+                                Type
+                            </th>
+                            <th>
+                                Used in
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+                            <th>
+                                Updated
+                                <em class="ddp-icon-array-default2"></em>
+                                <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                                <em class="ddp-icon-array-des2" style="display:none;"></em>
+                            </th>
+                        </tr>
+                        </thead>
+
+                    </table>
+                </div>
+                <!--// gridhead -->
+
+                <!-- gridbody -->
+                <div class="ddp-ui-gridbody">
+                    <table class="ddp-table-form ddp-table-type2 ddp-table-select  ">
+                        <colgroup>
+                            <col width="51px">
+                            <col width="*">
+                            <col width="10%">
+                            <col width="15%">
+                            <col width="15%">
+                        </colgroup>
+
+                        <tbody>
+                        <tr>
+                            <td class="ddp-nodata " colspan="5">
+                                2Workbooks
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-data-none " colspan="5">
+                                2Workbooks
+                            </td>
+                        </tr>
+                        <tr class="ddp-selected">
+                            <td class="ddp-txt-center">
+                                1
+                            </td>
+                            <td>
+                                <div class="ddp-txt-long ddp-global">
+                                    <span class="ddp-box-tag ddp-wargled">Wrangled</span>
+                                    Data set _EQPID ALL
+                                    <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+
+                                </div>
+                            </td>
+                            <td class="">
+                                수집형
+                            </td>
+                            <td class="">
+                                2Workbooks
+                            </td>
+                            <td>
+                                2017.05.22
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                <div class="ddp-ui-checkbox">
+                                    <input type="checkbox">
+                                    <i class="ddp-icon-checkbox"></i>
+                                </div>
+                            </td>
+                            <td class="ddp-disabled">
+                                <!-- 글로벌 추가 될때 ddp-global 추가 -->
+                                <div class=" ddp-txt-long ddp-global">
+                                    Data set _EQPID ALL
+                                    <span class="ddp-txt-colortype">-설명설명설명</span>
+                                    <em class="ddp-tag-global">global</em>
+                                </div>
+                            </td>
+                            <td>
+                                수집형
+                            </td>
+                            <td>
+                                2Workbooks
+                            </td>
+                            <td>
+                                2017.05.22
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="ddp-txt-center">
+                                1
+                            </td>
+                            <td>
+                                <div class=" ddp-txt-long ddp-global">
+                                    Data set _EQPID ALL
+                                    <span class="ddp-txt-colortype">-설명설명</span>
+                                    <em class="ddp-tag-global">global</em>
+                                </div>
+                            </td>
+                            <td>
+                                수집형
+                            </td>
+                            <td>
+                                2Workbooks
+                            </td>
+                            <td>
+                                2017.05.22
+                            </td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+                <!--// gridbody -->
+            </div>
+            <!-- //테이블 -->
+
+            <div class="ddp-box-add-link3">
+                <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+            </div>
+        </div>
+
+        <div style="padding:20px"></div>
+
+        <h2>Table2 </h2>
+        <div class="ddp-box-viewtable2" style="position:relative; height:200px;">
+            <!-- head -->
+            <div class="ddp-ui-gridhead2">
+                <table class="ddp-table-form2">
+                    <colgroup>
+                        <col width="*">
+                        <col width="28%">
+                        <col width="20%">
+                        <col width="30px">
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            UserName
+                        </th>
+                        <th>
+                            Role
+                        </th>
+                        <th class="ddp-table-icons">
+
+                        </th>
+                    </tr>
+                    </thead>
+
+                </table>
+            </div>
+            <!-- //head -->
+            <!-- body -->
+            <div class="ddp-ui-gridbody2">
+                <table class="ddp-table-form2">
+                    <colgroup>
+                        <col width="*">
+                        <col width="28%">
+                        <col width="20%">
+                        <col width="30px">
+                    </colgroup>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <div class="ddp-ui-photo">
+                                <img src="../images/img_photo.png" class="ddp-data-photo">
+                                Tammayrekjkel
+                            </div>
+                        </td>
+                        <td>
+                            UserName
+                        </td>
+                        <td class="ddp-inherit">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-ui-selected-option">
+                                                        <span class="ddp-link-text">관리권한
+                                                            <span class="ddp-wrap-icons"></span>
+                                                        </span>
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <!-- 선택시 li class="ddp-selected" -->
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+
+                        </td>
+                        <td class="ddp-table-icons">
+
+                            <em class="ddp-icon-sclose"></em>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="ddp-ui-photo">
+                                <img src="../images/img_photo.png" class="ddp-data-photo">
+                                Tammayrekjkel
+                            </div>
+                        </td>
+                        <td>
+                            UserName
+                        </td>
+                        <td class="ddp-inherit">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-ui-selected-option">
+                                                        <span class="ddp-link-text">관리권한
+                                                            <span class="ddp-wrap-icons"></span>
+                                                        </span>
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <!-- 선택시 li class="ddp-selected" -->
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+
+                        </td>
+                        <td class="ddp-table-icons">
+
+                            <em class="ddp-icon-sclose"></em>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="ddp-ui-photo">
+                                <img src="../images/img_photo.png" class="ddp-data-photo">
+                                Tammayrekjkel
+                            </div>
+                        </td>
+                        <td>
+                            UserName
+                        </td>
+                        <td class="ddp-inherit">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-ui-selected-option">
+                                                        <span class="ddp-link-text">관리권한
+                                                            <span class="ddp-wrap-icons"></span>
+                                                        </span>
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <!-- 선택시 li class="ddp-selected" -->
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+
+                        </td>
+                        <td class="ddp-table-icons">
+
+                            <em class="ddp-icon-sclose"></em>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="ddp-ui-photo">
+                                <img src="../images/img_photo.png" class="ddp-data-photo">
+                                Tammayrekjkel
+                            </div>
+                        </td>
+                        <td>
+                            UserName
+                        </td>
+                        <td class="ddp-inherit">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-ui-selected-option">
+                                                        <span class="ddp-link-text">관리권한
+                                                            <span class="ddp-wrap-icons"></span>
+                                                        </span>
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <!-- 선택시 li class="ddp-selected" -->
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+
+                        </td>
+                        <td class="ddp-table-icons">
+
+                            <em class="ddp-icon-sclose"></em>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="ddp-ui-photo">
+                                <img src="../images/img_photo.png" class="ddp-data-photo">
+                                Tammayrekjkel
+                            </div>
+                        </td>
+                        <td>
+                            UserName
+                        </td>
+                        <td class="ddp-inherit">
+                            <!-- 선택시 ddp-selected 추가 -->
+                            <div class="ddp-ui-selected-option">
+                                                        <span class="ddp-link-text">관리권한
+                                                            <span class="ddp-wrap-icons"></span>
+                                                        </span>
+                                <!-- popup -->
+                                <div class="ddp-wrap-popup2">
+                                    <!-- 선택시 li class="ddp-selected" -->
+                                    <ul class="ddp-list-popup">
+                                        <li class="ddp-selected">
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:">
+                                                관리권한
+                                                <em class="ddp-icon-check"></em>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- //popup -->
+
+                            </div>
+
+                        </td>
+                        <td class="ddp-table-icons">
+                            <em class="ddp-icon-sclose"></em>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <!-- //body -->
+        </div>
+
+        <div style="padding:20px"></div>
+        <h2>Table3 </h2>
+        <!-- table -->
+        <table class="ddp-table-form ddp-table-type3 ddp-inherit">
+            <colgroup>
+                <col width="51px">
+                <col width="*">
+                <col width="23%">
+                <col width="23%">
+            </colgroup>
+            <thead>
+            <tr>
+                <th class="ddp-txt-center">
+                    <div class="ddp-ui-checkbox">
+                        <input type="checkbox" class="ddp-checkbox-form">
+                        <i class="ddp-icon-checkbox"></i>
+                    </div>
+                </th>
+                <th>
+                    데이터셋
+                </th>
+                <th>
+                    타입
+                </th>
+                <th>
+                    업데이트
+                    <em class="ddp-icon-array-default2"></em>
+                    <em class="ddp-icon-array-asc2" style="display:none;"></em>
+                    <em class="ddp-icon-array-des2" style="display:none;"></em>
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td class="ddp-txt-center">
+                    <div class="ddp-ui-checkbox">
+                        <input type="checkbox" class="ddp-checkbox-form">
+                        <i class="ddp-icon-checkbox"></i>
+                    </div>
+                </td>
+                <td>
+                    <div class=" ddp-txt-long" title="Data set _">
+                        Data set _EQPID ALL
+                        <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+                        <em class="ddp-icon-global"></em>
+                    </div>
+                </td>
+                <td>
+                    Wranggled Data Set
+                </td>
+                <td>
+                    2017.05.22 by오상식
+                </td>
+            </tr>
+            <tr>
+                <td class="ddp-txt-center">
+                    <div class="ddp-ui-checkbox">
+                        <input type="checkbox" class="ddp-checkbox-form">
+                        <i class="ddp-icon-checkbox"></i>
+                    </div>
+                </td>
+                <td>
+                    <div class=" ddp-txt-long" title="Data set _EQPID ALL">
+                        Data set _EQPID ALL
+                        <span class="ddp-txt-colortype">-설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명</span>
+                        <em class="ddp-icon-global"></em>
+                    </div>
+                </td>
+                <td>
+                    Wranggled Data Set
+                </td>
+                <td>
+                    2017.05.22 by오상식
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+        <!--// table -->
+
+        <div style="padding:20px"></div>
+
+        <h2>Table4 </h2>
+        <table class="ddp-table-detail4">
+            <colgroup>
+                <col width="*">
+                <col width="20%">
+                <col width="20%">
+            </colgroup>
+            <thead>
+            <tr>
+                <th>Updated contents</th>
+                <th>Updated at</th>
+                <th>User</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td><span class="ddp-txt-long type-new" title="InformatiInformationInformationInformationInformationon">InformatiInformationInformationInfoInformatiInformationInformationInformationInformationonrmationInformationon > Description1 > Description3 > Description6</span></td>
+                <td>yyyy-mm-dd hh:mm:ss</td>
+                <td>
+                    <div class="ddp-txt-long">
+                        <em class="ddp-icon-control-fav ddp-fright"></em>
+                        <span class="ddp-txt-link type-default" title="TammarneyTamTammarneyTammarneTammarneyTammarneTammarneyTammarneTammarneyTammarnemarne">TammarneyTamTammarneyTammarneTammarneyTammarneTammarneyTammarneTammarneyTammarnemarne</span>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td><span class="ddp-txt-long type-new" title="InformatiInionInfoInfo">InformatiInionInfoInfo</span></td>
+                <td>yyyy-mm-dd hh:mm:ss</td>
+                <td>
+                    <div class="ddp-txt-long">
+                        <em class="ddp-icon-control-fav ddp-fright ddp-selected"></em>
+                        <span class="ddp-txt-link" title="TammarneyTamTamm">TammarneyTamTamm</span>
+                    </div>
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+
+        <div style="padding:20px"></div>
+
+        <h2>Table5 </h2>
+        <table class="ddp-table-detail">
+            <colgroup>
+                <col width="160px">
+                <col width="*">
+            </colgroup>
+            <tbody>
+            <tr>
+                <th>
+                    Name
+                </th>
+                <td>
+                    John Smith
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <td>
+                    smith001
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Email
+                </th>
+                <td>
+                    <a href="javascript:" class="ddp-link-window">Smith001@email.com</a>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    Permission
+                </th>
+                <td>
+                    Grants access to personal workspace, Shared workspace, Data management & System setting 길어지면 개행 Grants access to personal workspace, Shared workspace,
+                    Data management & System setting 길어지면 개행
+
+                </td>
+            <tr>
+                <th>
+                    Phone
+                </th>
+                <td>
+                    <span class="ddp-data-none">None</span>
+
+                </td>
+            </tr>
+            </tbody>
+        </table>
+
+        <h1>더보기(component.table.css) </h1>
+        <div class="ddp-box-add-link">
+            <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+        </div>
+        <br>
+        <br>
+        <div class="ddp-box-add-link2">
+            <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+        </div>
+        <br>
+        <br>
+        <div class="ddp-box-add-link3">
+            <span class="ddp-link-type">더보기 <em class="ddp-icon-view"></em></span>
+        </div>
+        <br>
+        <br>
+        <div style="position:relative; height:30px; border:1px solid #ccc;">
+            <div class="ddp-ui-moretype">
+                <a href="#" class="ddp-btn-moretype">More</a>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+</style>
+<body >
+
+
+<div style="width:900px; margin:0 auto;">
+    <h1> calen (component.form.css)</h1>
+    <!-- edit option -->
+    <div class="ddp-wrap-edit ddp-clear">
+        <label class="ddp-label-type">Time</label>
+
+        <!-- edit option -->
+        <div class="ddp-ui-edit-option">
+
+            <a href="#" class="ddp-btn-toggle ddp-all ddp-selected">All</a>
+            <a href="#" class="ddp-btn-toggle ddp-today">Today</a>
+            <a href="#" class="ddp-btn-toggle ddp-last">Last 7 days</a>
+
+            <div class="ddp-ui-calen ddp-clear" style="width:320px;">
+                <!-- disabled 시 ddp-disabled 추가 -->
+                <div class="ddp-box-calen ">
+                    <input type="text" id="calen1" class="ddp-input-typebasic ddp-data-calen ddp-top" value="2017-30-30">
+                    <!--<input type="text" id="time1" class="ddp-input-typebasic ddp-data-time" value="00:00">-->
+                </div>
+
+                <span class="ddp-bar">~</span>
+                <div class="ddp-box-calen">
+                    <input type="text" id="calen4 " class="ddp-input-typebasic ddp-data-calen " value="2017-30-30">
+                    <!--<input type="text" id="time2" class="ddp-input-typebasic ddp-data-time " value="00:00">-->
+                </div>
+            </div>
+            <a href="#" class="ddp-btn-line-s">적용</a>
+        </div>
+        <!-- //edit option -->
+    </div>
+    <!-- //edit option -->
+    <br><br>
+    <!-- filter time -->
+    <div class="ddp-filter-time ddp-clear">
+        <div class="ddp-col-4">
+            <!-- selectbox -->
+            <div class="ddp-type-selectbox ">
+                <span class="ddp-txt-selectbox">Last</span>
+                <ul class="ddp-list-selectbox ddp-selectdown">
+                    <li>
+                        <a href="#">
+                            Last
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Last
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- //selectbox -->
+
+        </div>
+        <div class="ddp-col-8">
+            <!-- multy -->
+            <div class="ddp-box-multy ddp-clear ddp-form-time">
+                <input class="ddp-input-typebasic" type="text" value="2">
+
+                <div class="ddp-type-selectbox">
+                    <span class="ddp-txt-selectbox">Year</span>
+                    <ul class="ddp-list-selectbox ddp-selectdown">
+                        <li>
+                            <a href="javascript:">Year</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- //multy -->
+        </div>
+    </div>
+    <!-- //filter time -->
+    <br><br>
+    <!-- dateinfo -->
+    <div class="ddp-wrap-dateinfo ddp-readonly">
+        <div class="ddp-ui-dateinfo ddp-to">
+            <span class="ddp-txt-date">to</span>
+            <div class="ddp-box-dateinfo ddp-clear">
+                <input type="text" class="ddp-input-calen" value="2016-01-10">
+                <input type="text" class="ddp-input-time" value="00:00:00">
+            </div>
+        </div>
+    </div>
+    <!-- //dateinfo -->
+    <br><br>
+    <!-- dateinfo -->
+    <div class="ddp-wrap-dateinfo ddp-disabled">
+        <div class="ddp-ui-dateinfo">
+            <span class="ddp-txt-date">from</span>
+            <div class="ddp-box-dateinfo ddp-clear">
+                <div class="ddp-disabled">
+                    <span>disabled</span>
+                </div>
+                <input type="text" class="ddp-input-calen" value="2016-01-10">
+                <input type="text" class="ddp-input-time" value="00:00:00">
+            </div>
+        </div>
+
+        <div class="ddp-ui-dateinfo ddp-to">
+            <span class="ddp-txt-date">to</span>
+            <div class="ddp-box-dateinfo ddp-clear">
+                <input type="text" class="ddp-input-calen" value="2016-01-10">
+                <input type="text" class="ddp-input-time" value="00:00:00">
+            </div>
+        </div>
+    </div>
+    <!-- //dateinfo -->
+    <br><br>
+    <!-- form date -->
+    <div class="ddp-form-date ddp-inline">
+        <!-- day -->
+        <div class="ddp-day">
+            <span class="ddp-label-date">From</span>
+            <!--
+                  focus 시 ddp-focus 추가
+                  수정시 ddp-edit 추가
+              -->
+            <div class="ddp-box-date ddp-focus ddp-edit">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input">
+                    <em class="ddp-icon-calen"></em>
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+        <!-- day -->
+        <div class="ddp-day">
+            <span class="ddp-label-date">To</span>
+            <!--
+                 focus 시 ddp-focus 추가
+                 수정시 ddp-edit 추가
+             -->
+            <div class="ddp-box-date">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input">
+                    <em class="ddp-icon-calen"></em>
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+    </div>
+    <!-- //form date -->
+    <br><br>
+    <!-- form date -->
+    <div class="ddp-form-date ">
+        <!-- day -->
+        <div class="ddp-day">
+            <span class="ddp-label-date">From</span>
+            <!--
+                  focus 시 ddp-focus 추가
+                  수정시 ddp-edit 추가
+              -->
+            <div class="ddp-box-date ddp-focus ddp-edit">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input">
+                    <em class="ddp-icon-calen"></em>
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+        <!-- day -->
+        <div class="ddp-day">
+            <span class="ddp-label-date">To</span>
+            <!--
+                 focus 시 ddp-focus 추가
+                 수정시 ddp-edit 추가
+             -->
+            <div class="ddp-box-date">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input">
+                    <em class="ddp-icon-calen"></em>
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+    </div>
+    <!-- //form date -->
+    <br><br>
+    <!-- form date -->
+    <div class="ddp-form-date ">
+        <!-- day -->
+        <div class="ddp-day">
+            <!--
+                  focus 시 ddp-focus 추가
+                  수정시 ddp-edit 추가
+              -->
+            <div class="ddp-box-date ddp-focus ddp-edit">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input">
+                    <em class="ddp-icon-calen"></em>
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+
+    </div>
+    <!-- //form date -->
+    <br><br>
+    <!-- form date -->
+    <div class="ddp-form-date ">
+        <!-- day -->
+        <div class="ddp-day">
+            <!--
+                  focus 시 ddp-focus 추가
+                  수정시 ddp-edit 추가
+              -->
+            <div class="ddp-box-date ddp-focus ddp-edit">
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input icon-none">
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+        <!-- day -->
+        <div class="ddp-day">
+            <span class="ddp-label-date ddp-txt-left">From</span>
+            <!--
+                  focus 시 ddp-focus 추가
+                  수정시 ddp-edit 추가
+                  disabled 시 ddp-disabled
+              -->
+            <div class="ddp-box-date ddp-disabled">
+                <div class="ddp-txt-disabled">
+                    <span>disabled</span>
+                </div>
+                <em class="ddp-icon-apply"></em>
+                <!-- input -->
+                <div class="ddp-wrap-input icon-none">
+
+                    <input type="text" value="2018-01-01 13:13">
+                </div>
+                <!-- //input -->
+            </div>
+        </div>
+        <!-- //day -->
+    </div>
+    <!-- //form date -->
+</div>
+
+</body>
+</html>

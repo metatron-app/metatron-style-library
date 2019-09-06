@@ -1,0 +1,242 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>컴포넌트 가이드</title>
+
+    <link rel="stylesheet" href="../css/polaris.v2.css"/>
+
+    <script src="../js/jquery/jquery.1.9.1.min.js"></script>
+
+</head>
+
+<style>
+    h1{font-size:20px; font-weight:normal; padding:30px 0 10px 0; color:#666eb2;}
+    h2 {font-size:15px; padding:10px 0;}
+</style>
+<body >
+
+
+    <div style="width:900px; margin:0 auto;">
+        <h1> Tab (component.button.css)</h1>
+        <!-- tab -->
+        <div class="ddp-wrap-tab">
+            <ul class="ddp-ui-tab ddp-clear">
+                <li class="ddp-selected">
+                    <a href="javascript:">Information</a>
+                </li>
+                <li class="">
+                    <a href="javascript:">Data grid</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- //tab --><br><br>
+
+        <!-- tab -->
+        <div style="overflow:hidden;">
+            <ul class="ddp-ui-tab ddp-type">
+
+                <li class="ddp-selected">
+                    <a href="javascript:">Data grid</a>
+                </li>
+                <li>
+                    <a href="javascript:">Column detail</a>
+                </li>
+                <li>
+                    <em class="ddp-icon-infotab"></em>
+                    <!-- popup -->
+                    <div class="ddp-box-layout4 ddp-information" style="display:none;">
+                        <a href="#" class="ddp-btn-close"></a>
+                        <div class="ddp-data-title">
+                            Dashboard data infomation
+                        </div>
+                        <table class="ddp-table-info">
+                            <colgroup>
+                                <col width="95px">
+                                <col width="">
+                            </colgroup>
+                            <tbody>
+                            <tr>
+                                <th>
+                                    Size
+                                </th>
+                                <td>
+                                    9.74MB
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Summary
+                                </th>
+                                <td>
+                                    10 Columns / 2,300 Rows
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Role
+                                </th>
+                                <td>
+                                    7 Dimensions / 3 Measures
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Column type
+                                </th>
+                                <td>
+                                    <!--
+                                        em.ddp-icon-type-calen
+                                        em.ddp-icon-type-ab
+                                        em.ddp-icon-type-local
+                                        em.ddp-icon-type-sharp
+                                        em.ddp-icon-type-account
+                                        em.ddp-icon-type-tf
+                                        em.ddp-icon-type-maplink
+                                        em.ddp-icon-type-float
+                                        em.ddp-icon-type-int
+                                    -->
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-ab"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-tf"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-calen"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-float"></em>99
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Datasource
+                                </th>
+                                <td>
+                                        <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-latitude"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-longitude"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-calen"></em>99
+                                        </span>
+                                    <span class="ddp-data-type">
+                                            <em class="ddp-icon-type-float"></em>99
+                                        </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    Join
+                                </th>
+                                <td>
+                                    2,625 byte
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <!-- join -->
+                        <div class="ddp-view-join">
+
+
+                            <ul class="ddp-list-join">
+                                <li >
+                                    <div class="ddp-clear">
+                                        <div class="ddp-data-joinname">
+                                            <em class="ddp-icon-join-right"></em>
+                                            <span class="ddp-list-name">data name</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="ddp-clear">
+                                        <div class="ddp-data-joinname">
+                                            <em class="ddp-icon-join-left"></em>
+                                            <span class="ddp-list-name">data name</span>
+                                        </div>
+
+                                        <div class="ddp-data-joinname ddp-2depth">
+                                            <em class="ddp-icon-join-inner"></em>
+                                            <span class="ddp-list-name">data name</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+                                <li>
+                                    <div class="ddp-clear">
+                                        <div class="ddp-data-joinname">
+                                            <em class="ddp-icon-join-outer"></em>
+                                            <span class="ddp-list-name">data name</span>
+                                        </div>
+
+                                        <div class="ddp-data-joinname ddp-2depth">
+                                            <em class="ddp-icon-join-right"></em>
+                                            <span class="ddp-list-name">data name</span>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+                            </ul>
+
+                        </div>
+                        <!-- //join -->
+                    </div>
+                    <!-- //popup -->
+                </li>
+            </ul>
+        </div>
+        <!-- //tab --><br><br>
+
+        <!-- tab -->
+        <div class="ddp-wrap-tab">
+            <ul class="ddp-ui-tab ddp-clear ddp-type2 ddp-tab2">
+                <li class="ddp-selected">
+                    <a href="javascript:">Dimension</a>
+                </li>
+                <li class="">
+                    <a href="javascript:">Measures</a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- //tab --><br>
+
+        <!-- tab -->
+        <ul class="ddp-list-tab2">
+            <li>
+                <a href="javascript:">
+                    DASHBOARD(6)
+                </a>
+            </li>
+            <li class="ddp-selected">
+                <a href="javascript:">
+                    COMMENT(6)
+                    <!-- new 아이콘 -->
+                    <em class="ddp-icon-new-r"></em>
+                </a>
+            </li>
+        </ul>
+        <!-- //tab -->
+        <br><br>
+        <!-- tab -->
+        <div class="ddp-wrap-boxtab">
+            <a href="javascript:" class="ddp-box-tab ddp-selected">Task</a>
+            <a href="javascript:" class="ddp-box-tab">Supervisor</a>
+            <a href="javascript:" class="ddp-box-tab">Remote Worker</a>
+        </div>
+        <!-- //tab -->
+    </div>
+
+
+</body>
+</html>
