@@ -8,17 +8,17 @@ We have two themes. Each is available for download and all sources are open.
 
 ### 1. White Theme ([download](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
 <p float="left">
-<img width="250px" src="/docs/guide/img/white01.png" alt="Dark" title="Dark Thema">
-<img width="250px" src="/docs/guide/img/white02.png" alt="Dark" title="Dark Thema">
-<img width="250px" src="/docs/guide/img/white03.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/white01.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/white02.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/white03.png" alt="Dark" title="Dark Thema">
 </p>
 
 
 ### 2. Black Theme (Comming Soon)
 <p float="left">
-<img width="250px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
-<img width="250px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
-<img width="250px" src="/docs/guide/img/black03.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
+<img width="200px" src="/docs/guide/img/black03.png" alt="Dark" title="Dark Thema">
 </p>
 
 
