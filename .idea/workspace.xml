@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/guide/img/white02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/img/white01.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/img/white01.png" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,7 +54,7 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="300" />
-          <entry key="md" value="1243" />
+          <entry key="md" value="1248" />
           <entry key="rst" value="735" />
         </counts>
       </usages-collector>
@@ -62,7 +62,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="300" />
-          <entry key="Markdown" value="1243" />
+          <entry key="Markdown" value="1248" />
           <entry key="PLAIN_TEXT" value="740" />
         </counts>
       </usages-collector>
@@ -77,8 +77,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <first_editor relative-caret-position="300">
+                <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/docs/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -288,7 +288,7 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567774296116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567774888512" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -369,12 +369,12 @@
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
       <workItem from="1567043897321" duration="10538000" />
-      <workItem from="1567750409793" duration="4355000" />
+      <workItem from="1567750409793" duration="4733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23709000" />
+    <option name="totallyTimeSpent" value="24087000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -710,7 +710,7 @@
     <entry file="file://$PROJECT_DIR$/docs/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -724,8 +724,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <first_editor relative-caret-position="300">
+            <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>

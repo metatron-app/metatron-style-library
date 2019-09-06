@@ -10,6 +10,7 @@ We have two themes. Each is available for download and all sources are open.
 <p float="left">
 <img width="300px" src="/docs/guide/img/white01.png" alt="Dark" title="Dark Thema">
 <img width="300px" src="/docs/guide/img/white02.png" alt="Dark" title="Dark Thema">
+<img width="300px" src="/docs/guide/img/white03.png" alt="Dark" title="Dark Thema">
 </p>
 
 
@@ -17,6 +18,7 @@ We have two themes. Each is available for download and all sources are open.
 <p float="left">
 <img width="300px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
 <img width="300px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
+<img width="300px" src="/docs/guide/img/black03.png" alt="Dark" title="Dark Thema">
 </p>
 
 
