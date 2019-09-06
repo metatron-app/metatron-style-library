@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/guide/img/black01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/guide/img/black02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,23 +31,23 @@
           <entry key="config" value="1" />
           <entry key="css" value="7" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="83" />
+          <entry key="html" value="84" />
           <entry key="iml" value="1" />
           <entry key="md" value="10" />
           <entry key="png" value="5" />
           <entry key="py" value="1" />
           <entry key="rst" value="43" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="HTML" value="83" />
+          <entry key="HTML" value="84" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="5" />
           <entry key="Markdown" value="10" />
-          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,7 +55,7 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="300" />
-          <entry key="md" value="1123" />
+          <entry key="md" value="1133" />
           <entry key="rst" value="735" />
         </counts>
       </usages-collector>
@@ -60,7 +63,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="300" />
-          <entry key="Markdown" value="1123" />
+          <entry key="Markdown" value="1133" />
           <entry key="PLAIN_TEXT" value="740" />
         </counts>
       </usages-collector>
@@ -75,8 +78,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="330">
-                <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
               </first_editor>
               <second_editor />
             </state>
@@ -95,7 +98,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/part00/tonandmanner.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2752" />
+            <state relative-caret-position="239">
+              <caret line="166" column="25" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/guide/_sources/part00/tonandmanner.rst.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            </state>
           </provider>
         </entry>
       </file>
@@ -103,29 +127,6 @@
         <entry file="file://$PROJECT_DIR$/docs/guide/part01/button.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-2006" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/grid.rst">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/button.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/source/part02/overview.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -166,6 +167,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>image</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/docs/guide</dir>
     </dirStrings>
@@ -176,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/overview.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part00/install.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/overview.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/button.rst" />
@@ -226,6 +229,7 @@
         <option value="$PROJECT_DIR$/docs/index.html" />
         <option value="$PROJECT_DIR$/docs/guide/source/part00/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" />
+        <option value="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -237,8 +241,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="268" />
-    <option name="y" value="47" />
+    <option name="x" value="765" />
+    <option name="y" value="49" />
     <option name="width" value="1747" />
     <option name="height" value="892" />
   </component>
@@ -272,14 +276,7 @@
               <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="part00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="part01" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -292,17 +289,17 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567762857959" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567773087209" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/guide/img" />
       <recent name="$PROJECT_DIR$/docs/publishing" />
       <recent name="$PROJECT_DIR$/docs/guide/image" />
       <recent name="$PROJECT_DIR$/docs/guide/static/img" />
       <recent name="$PROJECT_DIR$/docs/guide" />
-      <recent name="$PROJECT_DIR$/docs/guide/metatron-doc-style/_static/img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/docs/guide/source/part00" />
@@ -373,12 +370,12 @@
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
       <workItem from="1567043897321" duration="10538000" />
-      <workItem from="1567750409793" duration="2405000" />
+      <workItem from="1567750409793" duration="3198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21759000" />
+    <option name="totallyTimeSpent" value="22552000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,10 +387,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="268" y="47" width="1747" height="892" extended-state="0" />
+    <frame x="765" y="49" width="1747" height="892" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88206786" visible="true" weight="0.1947214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88206786" visible="true" weight="0.1947214" />
       <window_info id="Structure" order="1" sideWeight="0.11793215" side_tool="true" visible="true" weight="0.1947214" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +407,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32951653" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22625" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22625" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.6012739" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -431,17 +428,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/guide/genindex.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/part02/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -647,13 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/part00/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1082" />
@@ -711,6 +690,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/part01/button.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2006" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/part00/tonandmanner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="166" column="25" selection-start-line="166" selection-start-column="25" selection-end-line="166" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/_sources/part00/tonandmanner.rst.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -718,21 +722,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/part00/tonandmanner.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2752" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/part01/button.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2006" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="330">
-            <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
           </first_editor>
           <second_editor />
         </state>

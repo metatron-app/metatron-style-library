@@ -4,10 +4,11 @@ Welcome to Metatron UI/UX Guide
 UI Publishing
 ---
 - [White Theme](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html)
-<img width="500px" src="/docs/guide/image/white.png" alt="White" title="White Thema">
+<img width="500px" src="/docs/guide/img/white01.png" alt="White" title="White Thema">
 
 - Black Theme (Comming Soon)
-<img width="500px" src="/docs/guide/image/black.png" alt="Dark" title="Dark Thema">
+<img width="300px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
+<img width="300px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
 
 How to contribute to Metatron UI/UX
 ---
