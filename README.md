@@ -1,12 +1,15 @@
 Welcome to Metatron UI/UX Guide
 ==================================
+Welcome to the Metatron Style Guide Page. 
 
 UI Publishing
 ---
-### White Theme ([download](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
+We have two themes. Each is available for download and all sources are open.
+
+### 1. White Theme ([download](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
 <img width="300px" src="/docs/guide/img/white01.png" alt="White" title="White Thema">
 
-### Black Theme (Comming Soon)
+### 2. Black Theme (Comming Soon)
 <img width="300px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
 <img width="300px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
 
