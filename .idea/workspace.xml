@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/guide/img/black01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/guide/img/black02.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -55,7 +53,7 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="300" />
-          <entry key="md" value="1133" />
+          <entry key="md" value="1179" />
           <entry key="rst" value="735" />
         </counts>
       </usages-collector>
@@ -63,7 +61,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="300" />
-          <entry key="Markdown" value="1133" />
+          <entry key="Markdown" value="1179" />
           <entry key="PLAIN_TEXT" value="740" />
         </counts>
       </usages-collector>
@@ -78,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
               </first_editor>
               <second_editor />
             </state>
@@ -241,7 +239,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="765" />
+    <option name="x" value="106" />
     <option name="y" value="49" />
     <option name="width" value="1747" />
     <option name="height" value="892" />
@@ -289,7 +287,7 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567773087209" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567773424658" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -370,12 +368,12 @@
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
       <workItem from="1567043897321" duration="10538000" />
-      <workItem from="1567750409793" duration="3198000" />
+      <workItem from="1567750409793" duration="3581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22552000" />
+    <option name="totallyTimeSpent" value="22935000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -387,10 +385,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="765" y="49" width="1747" height="892" extended-state="0" />
+    <frame x="106" y="49" width="1747" height="892" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.88206786" visible="true" weight="0.1947214" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.88206786" visible="true" weight="0.1947214" />
       <window_info id="Structure" order="1" sideWeight="0.11793215" side_tool="true" visible="true" weight="0.1947214" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -407,7 +405,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3299363" />
       <window_info anchor="bottom" id="Tool Output" order="8" weight="0.32951653" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22625" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22625" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="ANTLR Preview" order="12" weight="0.6012739" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -725,8 +723,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="111" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
           </first_editor>
           <second_editor />
         </state>

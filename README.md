@@ -3,10 +3,10 @@ Welcome to Metatron UI/UX Guide
 
 UI Publishing
 ---
-- [White Theme](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html)
-<img width="500px" src="/docs/guide/img/white01.png" alt="White" title="White Thema">
+### White Theme ([download](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
+<img width="300px" src="/docs/guide/img/white01.png" alt="White" title="White Thema">
 
-- Black Theme (Comming Soon)
+### Black Theme (Comming Soon)
 <img width="300px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
 <img width="300px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
 
@@ -38,7 +38,7 @@ Introduction to Metatron UX Patterns
 
 How to contribute to Metatron UX
 ---
--How to create a new menu
--How to change LNB color
--How to add a button
--How to add Modal Popup
+- How to create a new menu
+- How to change LNB color
+- How to add a button
+- How to add Modal Popup
