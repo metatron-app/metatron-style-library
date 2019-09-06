@@ -22,10 +22,7 @@ We have two themes. Each is available for download and all sources are open.
 </p>
 
 
-
-How to contribute to Metatron UI/UX
----
-- How to change the theme([github issue](https://github.com/metatron-app/metatron-discovery/issues/2388))
+> How to change the theme([github issue](https://github.com/metatron-app/metatron-discovery/issues/2388))
 
 Introduction to Style Guide
 ---
