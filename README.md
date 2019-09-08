@@ -32,12 +32,11 @@ Introduction to Style Guide
 Introduction to Metatron UI Components
 ---
 - [Button](https://metatron-app.github.io/metatron-style-library/guide/part01/button.html)
-- [Popup](https://metatron-app.github.io/metatron-style-library/guide/part01/popup.html)
-- [List](https://metatron-app.github.io/metatron-style-library/guide/part01/list.html)
-- [Widget](https://metatron-app.github.io/metatron-style-library/guide/part01/widget.html)
-- [Icons](https://metatron-app.github.io/metatron-style-library/guide/part01/icons.html)
-- [Loading](https://metatron-app.github.io/metatron-style-library/guide/part01/loading.html)
-- [Grid/Table](/docs/guide/part01/grid.html)
+- [Form](https://metatron-app.github.io/metatron-style-library/guide/part01/form.html)
+- [Calendar & Time](https://metatron-app.github.io/metatron-style-library/guide/part01/calendar.html)
+- [Table](https://metatron-app.github.io/metatron-style-library/guide/part01/table.html)
+- [Selectbox](https://metatron-app.github.io/metatron-style-library/guide/part01/selectbox.html)
+- Loading
 - Form
 - Global Menu
 

@@ -3,14 +3,155 @@
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/button.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/button.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/calendar.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/calendar.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/form.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/form.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/grid.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/icons.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/index.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/loading.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/selectbox.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/guide/source/part01/widget.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part01/table.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button03-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button04-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button05-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button06-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button07-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/button07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/calendar01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/calendar02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list03-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list04-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list05-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list06-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list07-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/list08-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/selectbox01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/selectbox01-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/selectbox02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/selectbox02-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/selectbox03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/selectbox03-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/selectbox04-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/selectbox04-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/table01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/table01-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/table02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/table02-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_images/table03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/static/img/part01/table03-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/basic.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/comment-bright.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/comment-close.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/comment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/css/badge_only.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/css/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/doctools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/down-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/file.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Inconsolata-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Inconsolata.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bolditalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bolditalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bolditalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-bolditalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/Lato/lato-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part00/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button03-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button04-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button05-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button06-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button07-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/button07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/calendar01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/calendar02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/calendar03-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list01-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list02-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list03-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list04-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list05-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list06-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list07-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/list08-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/selectbox01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/selectbox01-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/selectbox02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/selectbox02-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/selectbox03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/selectbox03-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/selectbox04-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/selectbox04-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/table01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/table01-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/table02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/table02-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/img/part01/table03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/images/table03-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/jquery-3.1.0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/js/modernizr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/js/theme.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/minus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/pygments.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/searchtools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/translations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/underscore-1.3.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/underscore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/up-pressed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_static/websupport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/images/button02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/images/button03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/images/button05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/images/list01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/selectbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/selectbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/multilist.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/multilist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/img/part01/button02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/static/img/part01/button03.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +201,7 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="300" />
-          <entry key="md" value="1298" />
+          <entry key="md" value="1363" />
           <entry key="rst" value="1960" />
         </counts>
       </usages-collector>
@@ -68,7 +209,7 @@
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="300" />
-          <entry key="Markdown" value="1298" />
+          <entry key="Markdown" value="1363" />
           <entry key="PLAIN_TEXT" value="1965" />
         </counts>
       </usages-collector>
@@ -79,12 +220,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="345">
-                <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <first_editor relative-caret-position="333">
+                <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
               </first_editor>
               <second_editor />
             </state>
@@ -100,11 +241,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/index.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -230,7 +371,6 @@
         <option value="$PROJECT_DIR$/docs/guide/source/part00/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" />
         <option value="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/list.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/form.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/calendar.rst" />
@@ -238,6 +378,7 @@
         <option value="$PROJECT_DIR$/docs/guide/source/part01/table.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/selectbox.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/index.rst" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -278,29 +419,6 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="part00" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="part01" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -312,7 +430,7 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567923527783" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567923701104" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -393,12 +511,12 @@
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
       <workItem from="1567043897321" duration="10538000" />
-      <workItem from="1567750409793" duration="13138000" />
+      <workItem from="1567750409793" duration="13321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32492000" />
+    <option name="totallyTimeSpent" value="32675000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -413,8 +531,8 @@
     <frame x="489" y="60" width="1825" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9233926" visible="true" weight="0.1452608" />
-      <window_info id="Structure" order="1" sideWeight="0.076607384" side_tool="true" visible="true" weight="0.1452608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9015048" visible="true" weight="0.1452608" />
+      <window_info id="Structure" order="1" sideWeight="0.098495215" side_tool="true" visible="true" weight="0.1452608" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -669,13 +787,6 @@
     <entry file="file://$PROJECT_DIR$/docs/guide/_sources/part00/tonandmanner.rst.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -697,16 +808,6 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="345">
-            <caret line="23" selection-start-line="23" selection-end-line="23" />
-          </first_editor>
           <second_editor />
         </state>
       </provider>
@@ -751,8 +852,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/index.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="333">
+            <caret line="34" column="80" selection-start-line="34" selection-start-column="80" selection-end-line="34" selection-end-column="80" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
