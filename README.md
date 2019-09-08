@@ -26,11 +26,12 @@ We have two themes. Each is available for download and all sources are open.
 
 Introduction to Metatron UI Structure
 ---
-The next page will show you how to use metatron UI resources and associate your own CSS files. Metatron helps you organize your screen using your own CSS.
+Metatron helps you organize your screen using your own CSS. The next page will show you how to use metatron UI resources and associate your own CSS files. 
 ([link](https://metatron-app.github.io/metatron-style-library/guide/part0/overview.html))
 
-Introduction to Style Guide
+Introduction to UI Guide
 ---
+- [Layout](https://metatron-app.github.io/metatron-style-library/guide/part00/layout.html)
 - [Tone & Manner (Color)](https://metatron-app.github.io/metatron-style-library/guide/part00/tonandmanner.html)
 - Font
 

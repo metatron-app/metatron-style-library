@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a878a507-8f7a-45f7-ba43-c7846a3e3efa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docs/guide/source/part00/layout.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_sources/part0/overview.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/_sources/part0/overview.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/_sources/part00/index.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/_sources/part00/tonandmanner.rst.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/_sources/part00/tonandmanner.rst.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/genindex.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/genindex.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/objects.inv" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/objects.inv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part0/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part0/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part0/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part0/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part00/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/button.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/button.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/calendar.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/calendar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/selectbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/selectbox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part01/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part01/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part02/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part02/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/multilist.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/multilist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/part03/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/part03/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/searchindex.js" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/searchindex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/source/_static/img/part00/01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/source/part00/index.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part00/index.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" beforeDir="false" afterPath="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +61,7 @@
           <entry key="md" value="12" />
           <entry key="png" value="6" />
           <entry key="py" value="1" />
-          <entry key="rst" value="58" />
+          <entry key="rst" value="59" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
@@ -44,7 +72,7 @@
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="6" />
           <entry key="Markdown" value="12" />
-          <entry key="PLAIN_TEXT" value="66" />
+          <entry key="PLAIN_TEXT" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -52,41 +80,71 @@
           <entry key="Makefile" value="5" />
           <entry key="css" value="5" />
           <entry key="html" value="316" />
-          <entry key="md" value="1398" />
-          <entry key="rst" value="2375" />
+          <entry key="md" value="1422" />
+          <entry key="rst" value="2413" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5" />
           <entry key="HTML" value="316" />
-          <entry key="Markdown" value="1398" />
-          <entry key="PLAIN_TEXT" value="2380" />
+          <entry key="Markdown" value="1422" />
+          <entry key="PLAIN_TEXT" value="2418" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FavoritesManager">
-    <favorites_list name="metatron-design" />
+    <favorites_list name="metatron-design">
+      <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images" module="metatron-design" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/css.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/color.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/layout.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button01.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button04.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button06.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button07.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list01-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list02-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list03-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list04-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list05-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list06-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list07-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/list08-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/structure.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/table01-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/table02-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/table03-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button01-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button02-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button03-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button04-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button05-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button06-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/button07-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/privatecss.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/privatecss2.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/calendar01-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/calendar02-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/selectbox01-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/selectbox02-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/selectbox03-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/docs/guide/_images/selectbox04-1.png" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="327">
-                <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+              <first_editor relative-caret-position="364">
+                <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
               </first_editor>
               <second_editor />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/guide/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2098" />
           </provider>
         </entry>
       </file>
@@ -125,8 +183,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="45">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -153,7 +211,16 @@
         <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/layout.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -182,7 +249,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/grid.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part02/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part02/overview.rst" />
         <option value="$PROJECT_DIR$/docs/guide/metatron-doc-style/part01/index.rst" />
@@ -218,9 +284,7 @@
         <option value="$PROJECT_DIR$/docs/guide/source/part02/index.rst" />
         <option value="$PROJECT_DIR$/docs/publishing/html2/@index.html" />
         <option value="$PROJECT_DIR$/docs/publishing/html/@index.html" />
-        <option value="$PROJECT_DIR$/docs/guide/source/part00/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/part00/tonandmanner.html" />
-        <option value="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/list.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/form.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part01/calendar.rst" />
@@ -233,6 +297,9 @@
         <option value="$PROJECT_DIR$/docs/guide/source/part0/index.rst" />
         <option value="$PROJECT_DIR$/docs/guide/source/part0/overview.rst" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/docs/guide/source/part00/index.rst" />
+        <option value="$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst" />
+        <option value="$PROJECT_DIR$/docs/guide/source/part00/layout.rst" />
       </list>
     </option>
   </component>
@@ -273,6 +340,21 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="guide" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="metatron-design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="metatron-design" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="part00" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -284,7 +366,7 @@
     <property name="SearchEverywhereHistoryKey" value="black.png&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567927172818" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567928075891" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -297,9 +379,9 @@
       <recent name="$PROJECT_DIR$/docs/guide/image" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/guide/source/part00" />
       <recent name="$PROJECT_DIR$/docs/guide/source" />
       <recent name="$PROJECT_DIR$/docs/guide/source/part01" />
-      <recent name="$PROJECT_DIR$/docs/guide/source/part00" />
       <recent name="$PROJECT_DIR$/docs/guide/source/part03" />
       <recent name="$PROJECT_DIR$/docs/guide/docs/static" />
     </key>
@@ -365,12 +447,12 @@
       <updated>1566547249192</updated>
       <workItem from="1566547251830" duration="8816000" />
       <workItem from="1567043897321" duration="10538000" />
-      <workItem from="1567750409793" duration="16595000" />
+      <workItem from="1567750409793" duration="17373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35949000" />
+    <option name="totallyTimeSpent" value="36727000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -385,8 +467,8 @@
     <frame x="71" y="29" width="1825" height="1018" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8855326" visible="true" weight="0.1452608" />
-      <window_info id="Structure" order="1" sideWeight="0.11446741" side_tool="true" visible="true" weight="0.1452608" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9236884" visible="true" weight="0.1452608" />
+      <window_info id="Structure" order="1" sideWeight="0.0763116" side_tool="true" visible="true" weight="0.1452608" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -423,13 +505,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02AlarmList_Card2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/publishing/html_dark/90_Anomaly_01_02AlarmList_List.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -684,20 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/guide/source/part01/button.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -715,10 +776,31 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="327">
-            <caret line="29" column="82" selection-start-line="29" selection-start-column="82" selection-end-line="29" selection-end-column="82" />
+          <first_editor relative-caret-position="364">
+            <caret line="33" column="84" selection-start-line="33" selection-start-column="84" selection-end-line="33" selection-end-column="84" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/tonandmanner.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/guide/source/part00/layout.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
         </state>
       </provider>
     </entry>

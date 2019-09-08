@@ -83,8 +83,7 @@ This file defines a css with a high dependency on the page.
 
 3. Your Own CSS
 =================================================
-
-``If you want to make your own new css, please register your file at the bottom of 'polaris.metatron.page.css' file.``
+If you want to make your own new css, please register your file at the bottom of 'polaris.metatron.page.css' file.
 
     .. figure:: /_static/img/part0/privatecss2.png
        :align: center
