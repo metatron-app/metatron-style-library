@@ -9,6 +9,7 @@ metatron Discovery UI 사용자 문서
 .. toctree::
    :maxdepth: 2
 
+   /part0/index
    /part00/index
    /part01/index
    /part02/index

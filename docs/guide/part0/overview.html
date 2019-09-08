@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Overview &mdash; advanced apm docs 0.4.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="Style Guide" href="../part00/index.html" />
+    <link rel="prev" title="UI Structure Guide" href="index.html" /> 
+
+  
+  <script src="../static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019-06-18
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">UI Structure Guide</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Overview</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#structure">1. Structure</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#css">2. CSS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-v2-css">polaris.v2.css</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-c2-layout-css">polaris.c2.layout.css</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-c2-component-css">polaris.c2.component.css</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-c2-page-css">polaris.c2.page.css</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-metatron-componet-css-under-metatron-folder">polaris.metatron.componet.css (under &#8216;metatron&#8217; folder)</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#polaris-metatron-page-css-under-metatron-folder">polaris.metatron.page.css (under &#8216;metatron&#8217; folder)</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#your-own-css">3. Your Own CSS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part00/index.html">Style Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part01/index.html">UI Component</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part02/index.html">UI Pattern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part03/index.html">UX Pattern</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">advanced apm docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">UI Structure Guide</a> &raquo;</li>
+        
+      <li>Overview</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/part0/overview.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="overview">
+<h1>Overview<a class="headerlink" href="#overview" title="제목 주소">¶</a></h1>
+<div class="section" id="structure">
+<h2>1. Structure<a class="headerlink" href="#structure" title="제목 주소">¶</a></h2>
+<p>The location of the UI resource is located under the &#8216;discovery-frontend &gt; src &gt; assets&#8217;.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/structure.png" src="../images/structure.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="css">
+<h2>2. CSS<a class="headerlink" href="#css" title="제목 주소">¶</a></h2>
+<p>The location of the UI resource is located under the &#8216;discovery-frontend &gt; src &gt; assets &gt; css&#8217;.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/css.png" src="../images/css.png" />
+</div>
+</div></blockquote>
+<p>We have two css folders. Under the &#8216;lib&#8217; folder, css resources used by external libraries are located, and metas own css are under &#8216;metatron&#8217; folder.</p>
+<div class="section" id="polaris-v2-css">
+<h3>polaris.v2.css<a class="headerlink" href="#polaris-v2-css" title="제목 주소">¶</a></h3>
+<p>It is a root css file.</p>
+</div>
+<div class="section" id="polaris-c2-layout-css">
+<h3>polaris.c2.layout.css<a class="headerlink" href="#polaris-c2-layout-css" title="제목 주소">¶</a></h3>
+<p>This file defines layouts, margins, and padding. We are basically using 12 grids like Bootstrap. However, keep in mind that many UI components can throw exceptions.</p>
+<blockquote>
+<div><div class="highlight-css"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">.</span><span class="nc">ddp-col-12</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mi">100</span><span class="kt">%</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-11</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">91.66666667</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-10</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">83.33333333</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-9</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mi">75</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-8</span>  <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">66.66666667</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-7</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">58.33333333</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-6</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mi">50</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-5</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">41.66666667</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-4</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">33.33333333</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-3</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mi">25</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-2</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">16.66666667</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+ <span class="p">.</span><span class="nc">ddp-col-1</span> <span class="p">{</span><span class="k">width</span><span class="p">:</span><span class="mf">8.33333333</span><span class="kt">%</span> <span class="cp">!important</span><span class="p">;}</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="polaris-c2-component-css">
+<h3>polaris.c2.component.css<a class="headerlink" href="#polaris-c2-component-css" title="제목 주소">¶</a></h3>
+<p>This file defines the UI components that are common to all metatron tools. UI components such as login are defined.</p>
+</div>
+<div class="section" id="polaris-c2-page-css">
+<h3>polaris.c2.page.css<a class="headerlink" href="#polaris-c2-page-css" title="제목 주소">¶</a></h3>
+<p>This file defines the commonly used page units (a set of UI components) in all metatron tools.</p>
+</div>
+<div class="section" id="polaris-metatron-componet-css-under-metatron-folder">
+<h3>polaris.metatron.componet.css (under &#8216;metatron&#8217; folder)<a class="headerlink" href="#polaris-metatron-componet-css-under-metatron-folder" title="제목 주소">¶</a></h3>
+<p>This file defines metatron Discovery&#8217;s common UI components.</p>
+<blockquote>
+<div><div class="highlight-css"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.icons.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* ListFiltering */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.loading.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Loading */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.checkbox.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Checkbox */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.radio.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Radio */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.page.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Page */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.tooltip.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Tooltip */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.input.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Input */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.selectbox.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Selectbox */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.calen.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Calen */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.button.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Button */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.search.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Search */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.table.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Table */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.tag.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Tag */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.form.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* Table */</span>
+ <span class="p">@</span><span class="k">import</span> <span class="nt">url</span><span class="o">(</span><span class="s1">&#39;component/component.filtering.list.css&#39;</span><span class="o">)</span><span class="p">;</span> <span class="c">/* ListFiltering */</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="polaris-metatron-page-css-under-metatron-folder">
+<h3>polaris.metatron.page.css (under &#8216;metatron&#8217; folder)<a class="headerlink" href="#polaris-metatron-page-css-under-metatron-folder" title="제목 주소">¶</a></h3>
+<p>This file defines a css with a high dependency on the page.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/privatecss.png" src="../images/privatecss.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="your-own-css">
+<h2>3. Your Own CSS<a class="headerlink" href="#your-own-css" title="제목 주소">¶</a></h2>
+<p><code class="docutils literal"><span class="pre">If</span> <span class="pre">you</span> <span class="pre">want</span> <span class="pre">to</span> <span class="pre">make</span> <span class="pre">your</span> <span class="pre">own</span> <span class="pre">new</span> <span class="pre">css,</span> <span class="pre">please</span> <span class="pre">register</span> <span class="pre">your</span> <span class="pre">file</span> <span class="pre">at</span> <span class="pre">the</span> <span class="pre">bottom</span> <span class="pre">of</span> <span class="pre">'polaris.metatron.page.css'</span> <span class="pre">file.</span></code></p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/privatecss2.png" src="../images/privatecss2.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../part00/index.html" class="btn btn-neutral float-right" title="Style Guide" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="UI Structure Guide" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SKT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.4.2',
+              LANGUAGE:'ko',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../static/jquery.js"></script>
+        <script type="text/javascript" src="../static/underscore.js"></script>
+        <script type="text/javascript" src="../static/doctools.js"></script>
+        <script type="text/javascript" src="../static/translations.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
