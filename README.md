@@ -24,6 +24,11 @@ We have two themes. Each is available for download and all sources are open.
 
 > How to change the theme([github issue](https://github.com/metatron-app/metatron-discovery/issues/2388))
 
+Introduction to Metatron UI Structure
+---
+The next page will show you how to use metatron UI resources and associate your own CSS files. Metatron helps you organize your screen using your own CSS.
+([link](https://metatron-app.github.io/metatron-style-library/guide/part0/overview.html))
+
 Introduction to Style Guide
 ---
 - [Tone & Manner (Color)](https://metatron-app.github.io/metatron-style-library/guide/part00/tonandmanner.html)
