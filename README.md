@@ -6,7 +6,7 @@ UI Publishing
 ---
 We have two themes. Each is available for download and all sources are open.
 
-### 1. White Theme ([download](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
+### 1. White Theme ([link](https://metatron-app.github.io/metatron-style-library/publishing/html/@index.html))
 <p float="left">
 <img width="240px" src="/docs/guide/img/white01.png" alt="Dark" title="Dark Thema">
 <img width="240px" src="/docs/guide/img/white03.png" alt="Dark" title="Dark Thema">

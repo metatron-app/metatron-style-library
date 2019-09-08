@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Button &mdash; advanced apm docs 0.4.2 documentation</title>
+  <title>Button UIs &mdash; advanced apm docs 0.4.2 documentation</title>
   
 
   
@@ -30,7 +30,7 @@
   <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
     <link rel="index" title="색인" href="../genindex.html" />
     <link rel="search" title="검색" href="../search.html" />
-    <link rel="next" title="Popup" href="popup.html" />
+    <link rel="next" title="Form UIs" href="form.html" />
     <link rel="prev" title="UI Component" href="index.html" /> 
 
   
@@ -90,13 +90,52 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../part00/index.html">Style Guide</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">UI Component</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Button</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#example">Example</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#html">HTML</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Button UIs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#filled-basic-button-medium">1. Filled Basic Button (Medium)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#image">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#markup-code">Markup Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#design-guide">Design Guide</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#filled-basic-buttons-large">2. Filled Basic Buttons (Large)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#icon-buttons-medium">3. Icon Buttons (Medium)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#icon-buttons-large">4. Icon Buttons (Large)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Markup Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Design Guide</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#toggle-buttons-list-buttons">5. Toggle Buttons (List Buttons)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Markup Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Design Guide</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#checkbox-buttons">6. Checkbox Buttons</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Markup Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Design Guide</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#radio-buttons">7. Radio Buttons</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id15">Markup Code</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id16">Design Guide</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="form.html">Form UIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="calendar.html">Calendar &amp; Time UIs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="popup.html">Popup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="list.html">List</a></li>
 <li class="toctree-l2"><a class="reference internal" href="widget.html">Widget</a></li>
 <li class="toctree-l2"><a class="reference internal" href="icons.html">Icons</a></li>
 <li class="toctree-l2"><a class="reference internal" href="loading.html">Loading</a></li>
@@ -152,7 +191,7 @@
         
           <li><a href="index.html">UI Component</a> &raquo;</li>
         
-      <li>Button</li>
+      <li>Button UIs</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -171,21 +210,413 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="button">
-<h1>Button<a class="headerlink" href="#button" title="제목 주소">¶</a></h1>
-<p>Button UI 사용법을 공유합니다.</p>
-<div class="section" id="example">
-<h2>Example<a class="headerlink" href="#example" title="제목 주소">¶</a></h2>
+  <div class="section" id="button-uis">
+<h1>Button UIs<a class="headerlink" href="#button-uis" title="제목 주소">¶</a></h1>
+<p>Share how to use the Button UI.</p>
+<div class="section" id="filled-basic-button-medium">
+<h2>1. Filled Basic Button (Medium)<a class="headerlink" href="#filled-basic-button-medium" title="제목 주소">¶</a></h2>
+<p>This is the default style button form.</p>
+<div class="section" id="image">
+<h3>Image<a class="headerlink" href="#image" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button01-1.png" src="../images/button01-1.png" />
 </div>
-<div class="section" id="html">
-<h2>HTML<a class="headerlink" href="#html" title="제목 주소">¶</a></h2>
-<div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+</div></blockquote>
+</div>
+<div class="section" id="markup-code">
+<h3>Markup Code<a class="headerlink" href="#markup-code" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
 2
-3</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-selection&quot;</span><span class="p">&gt;</span>
-     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-create&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>button
- <span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid ddp-dark&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid ddp-disabled&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
 </pre></div>
 </td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="design-guide">
+<h3>Design Guide<a class="headerlink" href="#design-guide" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button01.png" src="../images/button01.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="filled-basic-buttons-large">
+<h2>2. Filled Basic Buttons (Large)<a class="headerlink" href="#filled-basic-buttons-large" title="제목 주소">¶</a></h2>
+<div class="section" id="id1">
+<h3>Image<a class="headerlink" href="#id1" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button02-1.png" src="../images/button02-1.png" />
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Markup Code<a class="headerlink" href="#id2" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid2&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid2 ddp-dark&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-solid2 ddp-disabled&quot;</span><span class="p">&gt;</span>Solid<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="icon-buttons-medium">
+<h2>3. Icon Buttons (Medium)<a class="headerlink" href="#icon-buttons-medium" title="제목 주소">¶</a></h2>
+<p>Usually used for Popup screens.</p>
+<div class="section" id="id3">
+<h3>Image<a class="headerlink" href="#id3" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button03-1.png" src="../images/button03-1.png" />
+</div>
+</div>
+<div class="section" id="id4">
+<h3>Markup Code<a class="headerlink" href="#id4" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot; ddp-btn-pop&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-reset&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>btn pop<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot; ddp-btn-pop ddp-bg-black&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checked&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>btn pop<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot; ddp-btn-pop ddp-bg-black&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-add2&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>btn pop<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot; ddp-btn-pop ddp-bg-black&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-link-plus&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>btn pop<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="icon-buttons-large">
+<h2>4. Icon Buttons (Large)<a class="headerlink" href="#icon-buttons-large" title="제목 주소">¶</a></h2>
+<div class="section" id="id5">
+<h3>Image<a class="headerlink" href="#id5" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button04-1.png" src="../images/button04-1.png" />
+</div>
+</div>
+<div class="section" id="id6">
+<h3>Markup Code<a class="headerlink" href="#id6" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-buttons2&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-shot&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>SNAPSHOT<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-buttons3&quot;</span><span class="p">&gt;</span>DONE<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="id7">
+<h3>Design Guide<a class="headerlink" href="#id7" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button04.png" src="../images/button04.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="toggle-buttons-list-buttons">
+<h2>5. Toggle Buttons (List Buttons)<a class="headerlink" href="#toggle-buttons-list-buttons" title="제목 주소">¶</a></h2>
+<div class="section" id="id8">
+<h3>Image<a class="headerlink" href="#id8" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button05-1.png" src="../images/button05-1.png" />
+</div>
+</div>
+<div class="section" id="id9">
+<h3>Markup Code<a class="headerlink" href="#id9" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-list-buttons ddp-tab3&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-selected&quot;</span><span class="p">&gt;</span>
+         All time
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span><span class="p">&gt;</span>
+         Relative
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Specific
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-list-buttons ddp-type2&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-selected&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-check&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-radio&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-radio&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-radio&quot;</span><span class="p">&gt;</span>Single<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-check&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>Multiple<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-list-buttons ddp-type3 &quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Mo
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Tu
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         We
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-selected&quot;</span><span class="p">&gt;</span>
+         Th
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Fr
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Sa
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         Su
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">ul</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-list-buttons ddp-dark&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">&gt;</span>
+         개별 설정
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">li</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-selected&quot;</span><span class="p">&gt;</span>
+         일괄 설정
+     <span class="p">&lt;/</span><span class="nt">li</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">ul</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-list-tab-button ddp-type ddp-fleft&quot;</span><span class="p">&gt;</span>
+     <span class="c">&lt;!-- 선택시 ddp-selected 추가 --&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-selected&quot;</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-tool-selectbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+
+     <span class="p">&lt;</span><span class="nt">span</span><span class="p">&gt;&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-tool-list&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="id10">
+<h3>Design Guide<a class="headerlink" href="#id10" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button04.png" src="../images/button04.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="checkbox-buttons">
+<h2>6. Checkbox Buttons<a class="headerlink" href="#checkbox-buttons" title="제목 주소">¶</a></h2>
+<div class="section" id="id11">
+<h3>Image<a class="headerlink" href="#id11" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button06-1.png" src="../images/button06-1.png" />
+</div>
+</div>
+<div class="section" id="id12">
+<h3>Markup Code<a class="headerlink" href="#id12" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox ddp-type&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox ddp-check-disabled&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>checked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox ddp-type2&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-checkbox ddp-type3&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-checkbox&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-checkbox&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="id13">
+<h3>Design Guide<a class="headerlink" href="#id13" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button06.png" src="../images/button06.png" />
+</div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="radio-buttons">
+<h2>7. Radio Buttons<a class="headerlink" href="#radio-buttons" title="제목 주소">¶</a></h2>
+<div class="section" id="id14">
+<h3>Image<a class="headerlink" href="#id14" title="제목 주소">¶</a></h3>
+<div class="figure align-center">
+<img alt="../_images/button07-1.png" src="../images/button07-1.png" />
+</div>
+</div>
+<div class="section" id="id15">
+<h3>Markup Code<a class="headerlink" href="#id15" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-radio&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-radio&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-radio&quot;</span><span class="p">&gt;</span>unchecked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-radio&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">checked</span><span class="o">=</span><span class="s">&quot;checked&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-radio&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-radio&quot;</span><span class="p">&gt;</span>checked<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-radio&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span> <span class="na">disabled</span><span class="o">=</span><span class="s">&quot;disabled&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-radio&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-radio&quot;</span><span class="p">&gt;</span>disabled<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+ <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-radio ddp-radiotype&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;radio&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">i</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-radio&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">i</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-radio&quot;</span><span class="p">&gt;</span>patch<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+<div class="section" id="id16">
+<h3>Design Guide<a class="headerlink" href="#id16" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/button07.png" src="../images/button07.png" />
+</div>
+</div></blockquote>
+</div>
 </div>
 </div>
 
@@ -197,7 +628,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="popup.html" class="btn btn-neutral float-right" title="Popup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="form.html" class="btn btn-neutral float-right" title="Form UIs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="index.html" class="btn btn-neutral" title="UI Component" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

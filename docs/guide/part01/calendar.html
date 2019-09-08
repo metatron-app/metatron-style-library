@@ -1,0 +1,468 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Calendar &amp; Time UIs &mdash; advanced apm docs 0.4.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="Popup" href="popup.html" />
+    <link rel="prev" title="Form UIs" href="form.html" /> 
+
+  
+  <script src="../static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019-06-18
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../part00/index.html">Style Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">UI Component</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="button.html">Button UIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="form.html">Form UIs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Calendar &amp; Time UIs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-time">1. Basic Time</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#image">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#markup-code">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#selected-date-time-picker-inline">2. Selected Date &amp; Time Picker (Inline)</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#selected-date-time-picker">3. Selected Date &amp; Time Picker</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Markup Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="popup.html">Popup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="widget.html">Widget</a></li>
+<li class="toctree-l2"><a class="reference internal" href="icons.html">Icons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loading.html">Loading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grid.html">Grid</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part02/index.html">UI Pattern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part03/index.html">UX Pattern</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">advanced apm docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">UI Component</a> &raquo;</li>
+        
+      <li>Calendar &amp; Time UIs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/part01/calendar.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="calendar-time-uis">
+<h1>Calendar &amp; Time UIs<a class="headerlink" href="#calendar-time-uis" title="제목 주소">¶</a></h1>
+<p>Share how to use the Calendar UI.</p>
+<div class="section" id="basic-time">
+<h2>1. Basic Time<a class="headerlink" href="#basic-time" title="제목 주소">¶</a></h2>
+<div class="section" id="image">
+<h3>Image<a class="headerlink" href="#image" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/calendar01-1.png" src="../images/calendar01-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="markup-code">
+<h3>Markup Code<a class="headerlink" href="#markup-code" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-edit ddp-clear&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">label</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-type&quot;</span><span class="p">&gt;</span>Time<span class="p">&lt;/</span><span class="nt">label</span><span class="p">&gt;</span>
+
+     <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-ui-edit-option&quot;</span><span class="p">&gt;</span>
+
+         <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-toggle ddp-all ddp-selected&quot;</span><span class="p">&gt;</span>All<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-toggle ddp-today&quot;</span><span class="p">&gt;</span>Today<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-toggle ddp-last&quot;</span><span class="p">&gt;</span>Last 7 days<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+
+         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-ui-calen ddp-clear&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;width:320px;&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-calen &quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;calen1&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic ddp-data-calen ddp-top&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2017-30-30&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-bar&quot;</span><span class="p">&gt;</span>~<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-calen&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;calen4 &quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic ddp-data-calen &quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2017-30-30&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;#&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-btn-line-s&quot;</span><span class="p">&gt;</span>적용<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+     <span class="c">&lt;!-- //edit option --&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="selected-date-time-picker-inline">
+<h2>2. Selected Date &amp; Time Picker (Inline)<a class="headerlink" href="#selected-date-time-picker-inline" title="제목 주소">¶</a></h2>
+<div class="section" id="id1">
+<h3>Image<a class="headerlink" href="#id1" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/calendar02-1.png" src="../images/calendar02-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Markup Code<a class="headerlink" href="#id2" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-form-date ddp-inline&quot;</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- day --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-day&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-date&quot;</span><span class="p">&gt;</span>From<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-date ddp-focus ddp-edit&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-input&quot;</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-calen&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2018-01-01 13:13&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- //day --&gt;</span>
+    <span class="c">&lt;!-- day --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-day&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-date&quot;</span><span class="p">&gt;</span>To<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-date&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+            <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-input&quot;</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-calen&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+                <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2018-01-01 13:13&quot;</span><span class="p">&gt;</span>
+            <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+        <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="c">&lt;!-- //day --&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="selected-date-time-picker">
+<h2>3. Selected Date &amp; Time Picker<a class="headerlink" href="#selected-date-time-picker" title="제목 주소">¶</a></h2>
+<div class="section" id="id3">
+<h3>Image<a class="headerlink" href="#id3" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/calendar02-1.png" src="../images/calendar02-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3>Markup Code<a class="headerlink" href="#id4" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-form-date &quot;</span><span class="p">&gt;</span>
+         <span class="c">&lt;!-- day --&gt;</span>
+         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-day&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-date&quot;</span><span class="p">&gt;</span>From<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-date ddp-focus ddp-edit&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-input&quot;</span><span class="p">&gt;</span>
+                     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-calen&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+
+                     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2018-01-01 13:13&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+             <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="c">&lt;!-- //day --&gt;</span>
+         <span class="c">&lt;!-- day --&gt;</span>
+         <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-day&quot;</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-label-date&quot;</span><span class="p">&gt;</span>To<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-date&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-input&quot;</span><span class="p">&gt;</span>
+                     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-calen&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+
+                     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;2018-01-01 13:13&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+             <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+         <span class="c">&lt;!-- //day --&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="popup.html" class="btn btn-neutral float-right" title="Popup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="form.html" class="btn btn-neutral" title="Form UIs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SKT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.4.2',
+              LANGUAGE:'ko',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../static/jquery.js"></script>
+        <script type="text/javascript" src="../static/underscore.js"></script>
+        <script type="text/javascript" src="../static/doctools.js"></script>
+        <script type="text/javascript" src="../static/translations.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

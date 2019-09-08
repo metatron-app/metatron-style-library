@@ -1,0 +1,460 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Form UIs &mdash; advanced apm docs 0.4.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="Calendar &amp; Time UIs" href="calendar.html" />
+    <link rel="prev" title="Button UIs" href="button.html" /> 
+
+  
+  <script src="../static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019-06-18
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../part00/index.html">Style Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">UI Component</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="button.html">Button UIs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Form UIs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#input-line">1. Input Line</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#image">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#markup-code">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-basic">2. Input Basic</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-basic-disabled">3. Input Basic Disabled</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-basic-error">4. Input Basic Error</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id5">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id6">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-apply-edit">5. Input Apply Edit</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id7">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id8">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-apply-loading">6. Input Apply Loading</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id9">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id10">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#input-apply-calendar">7. Input Apply Calendar</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id11">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#textarea">7. Textarea</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id13">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">Markup Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="calendar.html">Calendar &amp; Time UIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="popup.html">Popup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="widget.html">Widget</a></li>
+<li class="toctree-l2"><a class="reference internal" href="icons.html">Icons</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loading.html">Loading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="grid.html">Grid</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part02/index.html">UI Pattern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part03/index.html">UX Pattern</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">advanced apm docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">UI Component</a> &raquo;</li>
+        
+      <li>Form UIs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/part01/form.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="form-uis">
+<h1>Form UIs<a class="headerlink" href="#form-uis" title="제목 주소">¶</a></h1>
+<p>Share how to use the Form UI.</p>
+<div class="section" id="input-line">
+<h2>1. Input Line<a class="headerlink" href="#input-line" title="제목 주소">¶</a></h2>
+<div class="section" id="image">
+<h3>Image<a class="headerlink" href="#image" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list01-1.png" src="../images/list01-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="markup-code">
+<h3>Markup Code<a class="headerlink" href="#markup-code" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-type&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-basic">
+<h2>2. Input Basic<a class="headerlink" href="#input-basic" title="제목 주소">¶</a></h2>
+<div class="section" id="id1">
+<h3>Image<a class="headerlink" href="#id1" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list02-1.png" src="../images/list02-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Markup Code<a class="headerlink" href="#id2" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-basic-disabled">
+<h2>3. Input Basic Disabled<a class="headerlink" href="#input-basic-disabled" title="제목 주소">¶</a></h2>
+<div class="section" id="id3">
+<h3>Image<a class="headerlink" href="#id3" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list03-1.png" src="../images/list03-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3>Markup Code<a class="headerlink" href="#id4" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic ddp-disabled&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-basic-error">
+<h2>4. Input Basic Error<a class="headerlink" href="#input-basic-error" title="제목 주소">¶</a></h2>
+<div class="section" id="id5">
+<h3>Image<a class="headerlink" href="#id5" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list04-1.png" src="../images/list04-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id6">
+<h3>Markup Code<a class="headerlink" href="#id6" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic ddp-error&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;red&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-apply-edit">
+<h2>5. Input Apply Edit<a class="headerlink" href="#input-apply-edit" title="제목 주소">¶</a></h2>
+<div class="section" id="id7">
+<h3>Image<a class="headerlink" href="#id7" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list05-1.png" src="../images/list05-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id8">
+<h3>Markup Code<a class="headerlink" href="#id8" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-apply ddp-edit&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;test&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-txt&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply-loading&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-apply-loading">
+<h2>6. Input Apply Loading<a class="headerlink" href="#input-apply-loading" title="제목 주소">¶</a></h2>
+<div class="section" id="id9">
+<h3>Image<a class="headerlink" href="#id9" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list06-1.png" src="../images/list06-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id10">
+<h3>Markup Code<a class="headerlink" href="#id10" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-apply ddp-loading&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">value</span><span class="o">=</span><span class="s">&quot;test&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-txt&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-apply-loading&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="input-apply-calendar">
+<h2>7. Input Apply Calendar<a class="headerlink" href="#input-apply-calendar" title="제목 주소">¶</a></h2>
+<div class="section" id="id11">
+<h3>Image<a class="headerlink" href="#id11" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list07-1.png" src="../images/list07-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id12">
+<h3>Markup Code<a class="headerlink" href="#id12" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-form-calen&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">input</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-input-typebasic ddp-value ddp-calen&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;변수명 입력&quot;</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="textarea">
+<h2>7. Textarea<a class="headerlink" href="#textarea" title="제목 주소">¶</a></h2>
+<div class="section" id="id13">
+<h3>Image<a class="headerlink" href="#id13" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/list08-1.png" src="../images/list08-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id14">
+<h3>Markup Code<a class="headerlink" href="#id14" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">textarea</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-textarea-auto&quot;</span> <span class="na">placeholder</span><span class="o">=</span><span class="s">&quot;text&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">textarea</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="calendar.html" class="btn btn-neutral float-right" title="Calendar &amp; Time UIs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="button.html" class="btn btn-neutral" title="Button UIs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SKT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.4.2',
+              LANGUAGE:'ko',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../static/jquery.js"></script>
+        <script type="text/javascript" src="../static/underscore.js"></script>
+        <script type="text/javascript" src="../static/doctools.js"></script>
+        <script type="text/javascript" src="../static/translations.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
