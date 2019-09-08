@@ -1,4 +1,4 @@
-Button UIs
+Button
 ---------------------------------------------
 Share how to use the Button UI.
 

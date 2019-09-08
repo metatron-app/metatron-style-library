@@ -7,8 +7,5 @@ UI Component
    /part01/button
    /part01/form
    /part01/calendar
-   /part01/popup
-   /part01/widget
-   /part01/icons
-   /part01/loading
-   /part01/grid
+   /part01/table
+   /part01/selectbox

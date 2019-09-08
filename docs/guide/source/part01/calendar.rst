@@ -1,4 +1,4 @@
-Calendar & Time UIs
+Calendar & Time
 ---------------------------------------------
 Share how to use the Calendar UI.
 

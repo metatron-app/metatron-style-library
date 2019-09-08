@@ -1,0 +1,588 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ko" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="ko" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Table &mdash; advanced apm docs 0.4.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/layout.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/layout.css" type="text/css" />
+    <link rel="index" title="색인" href="../genindex.html" />
+    <link rel="search" title="검색" href="../search.html" />
+    <link rel="next" title="Selectbox" href="selectbox.html" />
+    <link rel="prev" title="Calendar &amp; Time" href="calendar.html" /> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                2019-06-18
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../part00/index.html">Style Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">UI Component</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="button.html">Button</a></li>
+<li class="toctree-l2"><a class="reference internal" href="form.html">Form</a></li>
+<li class="toctree-l2"><a class="reference internal" href="calendar.html">Calendar &amp; Time</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Table</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-table">1. Basic Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#image">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#markup-code">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#basic-table2">2. Basic Table2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Markup Code</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#single-detail-table">3. Single Detail Table</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id3">Image</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id4">Markup Code</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="selectbox.html">Selectbox</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../part02/index.html">UI Pattern</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part03/index.html">UX Pattern</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">advanced apm docs</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">UI Component</a> &raquo;</li>
+        
+      <li>Table</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/part01/table.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="table">
+<h1>Table<a class="headerlink" href="#table" title="제목 주소">¶</a></h1>
+<p>Share how to use the Table UI.</p>
+<div class="section" id="basic-table">
+<h2>1. Basic Table<a class="headerlink" href="#basic-table" title="제목 주소">¶</a></h2>
+<p>The default Table UI is often used in initial list screens and popups. The class name used is &#8216;ddp-table-form&#8217;.</p>
+<div class="section" id="image">
+<h3>Image<a class="headerlink" href="#image" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/table01-1.png" src="../_images/table01-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="markup-code">
+<h3>Markup Code<a class="headerlink" href="#markup-code" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">table</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-table-form ddp-table-type2&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;51px&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;*&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;10%&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;15%&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;15%&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-txt-center&quot;</span><span class="p">&gt;</span>
+             No.
+
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Data
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-default2&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-asc2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-des2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="c">&lt;!-- hover info --&gt;</span>
+             <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-wrap-hover-info&quot;</span><span class="p">&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-info3 &quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+
+                 <span class="c">&lt;!-- popup --&gt;</span>
+                 <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-box-layout4 &quot;</span><span class="p">&gt;</span>
+                     <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-data-title&quot;</span><span class="p">&gt;</span>
+                         What is Ingestion tunning
+                         configuration?
+                     <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                     <span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-data-det&quot;</span><span class="p">&gt;</span>
+                         Ingestion tunning configuration describes effective options when ingestion.Now put it in the corresponding text box in JSON format. Here is an example:<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “maxRowsInMemory” : 75000,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “maxOccupationInMemory” : -1,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “maxShardLength” : -2147483648,  <span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>   “leaveIntermediate” : false,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “cleanupOnFailure” : true,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “overwriteFiles” : false,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “ignoreInvalidRows” : false,<span class="p">&lt;</span><span class="nt">br</span><span class="p">&gt;</span>
+                         “assumeTimeSorted” : false
+                     <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                 <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+                 <span class="c">&lt;!-- //popup --&gt;</span>
+             <span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+             <span class="c">&lt;!-- //hover info --&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Type
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Used in
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-default2&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-asc2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-des2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Updated
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-default2&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-asc2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">em</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-icon-array-des2&quot;</span> <span class="na">style</span><span class="o">=</span><span class="s">&quot;display:none;&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">em</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+
+ <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="basic-table2">
+<h2>2. Basic Table2<a class="headerlink" href="#basic-table2" title="제목 주소">¶</a></h2>
+<div class="section" id="id1">
+<h3>Image<a class="headerlink" href="#id1" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/table02-1.png" src="../_images/table02-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>Markup Code<a class="headerlink" href="#id2" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">table</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-table-form2&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;*&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;28%&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;20%&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;30px&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">thead</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             ID
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             UserName
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Role
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-table-icons&quot;</span><span class="p">&gt;</span>
+
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">thead</span><span class="p">&gt;</span>
+
+ <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="single-detail-table">
+<h2>3. Single Detail Table<a class="headerlink" href="#single-detail-table" title="제목 주소">¶</a></h2>
+<div class="section" id="id3">
+<h3>Image<a class="headerlink" href="#id3" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/table03-1.png" src="../_images/table03-1.png" />
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id4">
+<h3>Markup Code<a class="headerlink" href="#id4" title="제목 주소">¶</a></h3>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">table</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-table-detail&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;160px&quot;</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">col</span> <span class="na">width</span><span class="o">=</span><span class="s">&quot;*&quot;</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">colgroup</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Name
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+             John Smith
+         <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             ID
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+             smith001
+         <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Email
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">a</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;javascript:&quot;</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-link-window&quot;</span><span class="p">&gt;</span>Smith001@email.com<span class="p">&lt;/</span><span class="nt">a</span><span class="p">&gt;</span>
+         <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Permission
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+             Grants access to personal workspace, Shared workspace, Data management <span class="ni">&amp;amp;</span> System setting 길어지면 개행 Grants access to personal workspace, Shared workspace,
+             Data management <span class="ni">&amp;amp;</span> System setting 길어지면 개행
+
+         <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">th</span><span class="p">&gt;</span>
+             Phone
+         <span class="p">&lt;/</span><span class="nt">th</span><span class="p">&gt;</span>
+         <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+             <span class="p">&lt;</span><span class="nt">span</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;ddp-data-none&quot;</span><span class="p">&gt;</span>None<span class="p">&lt;/</span><span class="nt">span</span><span class="p">&gt;</span>
+
+         <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+     <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="selectbox.html" class="btn btn-neutral float-right" title="Selectbox" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="calendar.html" class="btn btn-neutral" title="Calendar &amp; Time" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, SKT
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    
+    
+      <script type="text/javascript">
+          var DOCUMENTATION_OPTIONS = {
+              URL_ROOT:'../',
+              VERSION:'0.4.2',
+              LANGUAGE:'ko',
+              COLLAPSE_INDEX:false,
+              FILE_SUFFIX:'.html',
+              HAS_SOURCE:  true,
+              SOURCELINK_SUFFIX: '.txt'
+          };
+      </script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/translations.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+  
+
+  <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
