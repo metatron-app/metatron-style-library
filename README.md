@@ -50,6 +50,8 @@ Introduction to Metatron UX Patterns
 ---
 - List UX
 - Dashboard UX
+- Tab UX
+- Modal UX
 
 How to contribute to Metatron UX
 ---
