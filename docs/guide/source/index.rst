@@ -3,13 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-metatron Discovery UI 사용자 문서
+Metatron Discovery Style Guide
 ===============================================
 
 .. toctree::
    :maxdepth: 2
 
-   /part0/index
    /part00/index
    /part01/index
    /part02/index

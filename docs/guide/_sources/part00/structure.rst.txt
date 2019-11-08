@@ -1,20 +1,22 @@
-Overview
+Structure
 ---------------------------------------------
+The purpose of this document is to present common development standards that screen developers need when developing mobile web screen UI, and to develop high quality screens that comply with standards in a short time.
+All the items presented in this document are the rules that must be applied when developing the screen. If the standard is difficult to apply, it should be decided by consulting with the UI designer.
 
 
-1. Structure
+1. Basic Structure
 =================================================
 The location of the UI resource is located under the 'discovery-frontend > src > assets'.
 
-    .. figure:: /_static/img/part0/structure.png
+    .. figure:: /_static/img/part00/structure.png
        :align: center
 
 
-2. CSS
+2. Basic CSS
 =================================================
 The location of the UI resource is located under the 'discovery-frontend > src > assets > css'.
 
-    .. figure:: /_static/img/part0/css.png
+    .. figure:: /_static/img/part00/css.png
        :align: center
 
 We have two css folders. Under the 'lib' folder, css resources used by external libraries are located, and metas own css are under 'metatron' folder.
@@ -78,13 +80,13 @@ polaris.metatron.page.css (under 'metatron' folder)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 This file defines a css with a high dependency on the page.
 
-    .. figure:: /_static/img/part0/privatecss.png
+    .. figure:: /_static/img/part00/privatecss.png
        :align: center
 
-3. Your Own CSS
+3. Make Your Own CSS
 =================================================
 If you want to make your own new css, please register your file at the bottom of 'polaris.metatron.page.css' file.
 
-    .. figure:: /_static/img/part0/privatecss2.png
+    .. figure:: /_static/img/part00/privatecss2.png
        :align: center
 
