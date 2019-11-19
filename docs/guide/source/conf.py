@@ -27,7 +27,7 @@ copyright = '2019, SKT'
 author = 'metatron team'
 
 # The short X.Y version
-version = '2019-06-18'
+version = '2019-11-10'
 # The full version, including alpha/beta/rc tags
 release = __version__
 

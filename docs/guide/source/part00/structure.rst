@@ -1,4 +1,4 @@
-Structure
+CSS Structure
 ---------------------------------------------
 The purpose of this document is to present common development standards that screen developers need when developing mobile web screen UI, and to develop high quality screens that comply with standards in a short time.
 All the items presented in this document are the rules that must be applied when developing the screen. If the standard is difficult to apply, it should be decided by consulting with the UI designer.

@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Single List &mdash; advanced apm docs 0.4.2 documentation</title>
+  <title>Make your own theme (tone and manner) &mdash; advanced apm docs 0.4.2 documentation</title>
   
 
   
@@ -30,8 +30,7 @@
   <link rel="stylesheet" href="../static/css/layout.css" type="text/css" />
     <link rel="index" title="색인" href="../genindex.html" />
     <link rel="search" title="검색" href="../search.html" />
-    <link rel="next" title="Multi List" href="multilist.html" />
-    <link rel="prev" title="UX Pattern" href="index.html" /> 
+    <link rel="prev" title="Style Article" href="index.html" /> 
 
   
   <script src="../static/js/modernizr.min.js"></script>
@@ -90,12 +89,11 @@
               <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../part00/index.html">UI Guide</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../part01/index.html">UI Component</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">UX Pattern</a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Single List</a></li>
-<li class="toctree-l2"><a class="reference internal" href="multilist.html">Multi List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../part02/index.html">UX Pattern</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Style Article</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Make your own theme (tone and manner)</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../part03/index.html">Style Article</a></li>
 </ul>
 
             
@@ -141,15 +139,15 @@
     
       <li><a href="../index.html">Docs</a> &raquo;</li>
         
-          <li><a href="index.html">UX Pattern</a> &raquo;</li>
+          <li><a href="index.html">Style Article</a> &raquo;</li>
         
-      <li>Single List</li>
+      <li>Make your own theme (tone and manner)</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
-            <a href="../_sources/part02/overview.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/part03/changetheme.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -162,8 +160,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="single-list">
-<h1>Single List<a class="headerlink" href="#single-list" title="제목 주소">¶</a></h1>
+  <div class="section" id="make-your-own-theme-tone-and-manner">
+<h1>Make your own theme (tone and manner)<a class="headerlink" href="#make-your-own-theme-tone-and-manner" title="제목 주소">¶</a></h1>
+<p>Here&#8217;s how to change Metatron Discovery&#8217;s tone and manner theme. There are currently two themes in Metatron Discovery (white and black).</p>
+<p>You can also follow this article to create your own theme.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/theme01.png" src="../images/theme01.png" />
+</div>
+</div></blockquote>
+<p>In order to change the theme, we manage color-related css by theme. If you click the button to change the theme in UI, change the CSS by putting the theme class in the body tag of html.
+The white theme is our default theme. All theme CSS is managed by wrapping it in a white theme.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/theme02.png" src="../images/theme02.png" />
+</div>
+</div></blockquote>
+<p>The code is shown below.</p>
+<blockquote>
+<div><div class="highlight-html"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span> <span class="p">&lt;</span><span class="nt">body</span> <span class="na">class</span><span class="o">=</span><span class="s">&quot;theme-dark&quot;</span><span class="p">&gt;</span>
+ <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div></blockquote>
+<p>When creating a new theme, create a class called &#8216;theme-xxx&#8217; and paste it in front of all CSS. This will change all colors at once when the theme class is applied to the body. Check out the image below.</p>
+<blockquote>
+<div><div class="figure align-center">
+<img alt="../_images/theme03.png" src="../images/theme03.png" />
+</div>
+</div></blockquote>
 </div>
 
 
@@ -174,10 +200,8 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="multilist.html" class="btn btn-neutral float-right" title="Multi List" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
-      
-        <a href="index.html" class="btn btn-neutral" title="UX Pattern" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="index.html" class="btn btn-neutral" title="Style Article" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

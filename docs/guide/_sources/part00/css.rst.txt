@@ -1,4 +1,4 @@
-CSS
+CSS Standard
 ---------------------------------------------
 The entire screen is made up of several blocks that are assigned an id or class.
 

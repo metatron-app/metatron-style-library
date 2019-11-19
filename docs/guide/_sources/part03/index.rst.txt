@@ -1,8 +1,8 @@
-UX Pattern
+Style Article
 ---------------------------
 
 .. toctree::
    :maxdepth: 4
 
-   /part03/overview
-   /part03/multilist
+   /part03/changetheme
+
