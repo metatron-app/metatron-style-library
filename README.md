@@ -14,15 +14,13 @@ We have two themes. Each is available for download and all sources are open.
 </p>
 
 
-### 2. Black Theme (Comming Soon)
+### 2. Black Theme
 <p float="left">
 <img width="240px" src="/docs/guide/img/black01.png" alt="Dark" title="Dark Thema">
 <img width="240px" src="/docs/guide/img/black02.png" alt="Dark" title="Dark Thema">
 <img width="240px" src="/docs/guide/img/black03.png" alt="Dark" title="Dark Thema">
 </p>
 
-
-> How to change the theme([github issue](https://github.com/metatron-app/metatron-discovery/issues/2388))
 
 Introduction to Metatron UI Structure
 ---
