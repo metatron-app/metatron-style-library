@@ -21,10 +21,17 @@ The code is shown below.
     .. code-block:: html
        :linenos:
 
-        <body class="theme-dark">
+        <body class="theme-xxx">
         </body>
 
 When creating a new theme, create a class called 'theme-xxx' and paste it in front of all CSS. This will change all colors at once when the theme class is applied to the body. Check out the image below.
 
    .. figure:: /_static/img/part03/theme03.png
       :align: center
+
+Below is the css code.
+
+    .. code-block:: css
+       :linenos:
+
+        .theme-xxx .ddp-layout-header {background-color:red;}
