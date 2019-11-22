@@ -54,6 +54,6 @@ Introduction to Metatron UX Patterns
 How to contribute to Metatron UX
 ---
 - How to create a new menu
-- How to change LNB color
+- [How to make Theme](https://metatron-app.github.io/metatron-style-library/guide/part03/changetheme.html)
 - How to add a button
 - How to add Modal Popup
